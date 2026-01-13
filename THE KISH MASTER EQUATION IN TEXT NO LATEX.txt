@@ -1,0 +1,39 @@
+THE KISH MASTER EQUATION IN TEXT No LATEX
+Author Timothy John Kish
+
+(Holographic Resonance Unified Field Theory)
+
+Sum( δ(E - E_n) ) ≈ [ V_Univ / (2π ℏ)³ ] + (1 / πk) * Sum(p) Sum(m) [ (ln p / p^(m/2)) * (e^(-Δτ) / Damping) * cos( (E/E_0) * [16/π] * m ln p ) ]
+
+THE ROSETTA STONE (LEGEND)
+[ V_Univ / (2π ℏ)³ ]: The Stage.
+
+This represents the Vacuum Volume. It is the empty room before the music starts.
+
+[ 16/π ]: The Gear Ratio.
+
+This is the Geometric Stiffness of the Universe. It is the "Tuning Peg" that aligns the vibration to the sphere packing of space.
+
+[ ln p ]: The Metronome.
+
+The Natural Log of Prime Numbers. This sets the rhythm of the universe (2, 3, 5, 7...).
+
+[ e^(-Δτ) / Damping ]: The Friction.
+
+This is the Decay term. It represents Entropy or "Lattice Drag." If this is high, the object falls apart. If it is low, the object is stable (like Gold).
+
+[ cos(...) ]: The String.
+
+The Cosine function creates the Standing Wave (the Song) that we perceive as matter.
+
+Theoretical claims are common, so the Python validation script is on GitHub. The reader can run it themselves to see the curve flatten instantly with Tully-Fisher relation without fitting parameters:
+
+https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe
+
+The full derivation and Monte Carlo analysis of the background noise (P < 10^-14) are permanently archived on Zenodo:
+
+Derivation (Vol 1): https://doi.org/10.5281/zenodo.18209531
+
+Noise Analysis (Vol 2): https://doi.org/10.5281/zenodo.18217120
+
+Atomic Structure (Vol 3): https://doi.org/10.5281/zenodo.18217227
