@@ -1,4 +1,6 @@
 # Holographic-Resonance-The-Geometry-of-a-Quantized-Universe
+Author: Timothy John Kish
+Email: timothyjohnkish@gmail.com
 
 Holographic Resonance The Geometry of a Quantized Universe
 # Holographic Resonance: The Computational Proof
