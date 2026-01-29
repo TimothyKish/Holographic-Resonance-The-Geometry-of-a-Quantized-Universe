@@ -31,3 +31,22 @@ The original derivation volumes are archived below:
 
 ### 💻 Verification
 * **Chapter A (Python):** The Monte Carlo simulation proving the 16/π lattice alignment is available in the `/src` folder.
+
+---
+
+## 🏛️ The Gold Standard: Peer-Indexed Documentation
+
+While this repository contains the raw logic, the formalized proofs and mechanical resolutions are indexed via Zenodo to ensure a permanent, timestamped record of the **Kish Lattice**.
+
+### [The Pioneer-Muon Resolution and Kish Resonance Drive (V2.0)](https://doi.org/10.5281/zenodo.18408650)
+**Author:** Timothy John Kish
+**DOI:** 10.5281/zenodo.18408650
+
+This resolution serves as the bridge between theoretical geometry and empirical aerospace engineering. It provides the following "Old World" corrections:
+
+* [cite_start]**The Newtonian Correction:** Redefines the First Law to include **Lattice Grit ($g$)**, accounting for the non-zero viscosity of the $16/\pi$ vacuum. [cite: 116, 118]
+* [cite_start]**The Pioneer-Muon Link:** Identifies subatomic "wobbles" and deep-space decelerations as consistent measurements of vacuum viscosity against the universal **Carrier Signal**. [cite: 120, 122, 123]
+* [cite_start]**Spherical Slipstream Morphology:** Explains why the universe is a **Mechanical Grinder**, machining jagged matter into spheres to achieve a "Quiet" slipstream state. [cite: 125, 126, 128]
+* [cite_start]**Resonance Drive SOP:** A technical manual for achieving **Clock Lock**, neutralizing up to 98% of vacuum drag for 1000x increase in orbital precision. [cite: 130, 131, 132]
+
+---
