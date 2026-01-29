@@ -50,3 +50,33 @@ This resolution serves as the bridge between theoretical geometry and empirical 
 * [cite_start]**Resonance Drive SOP:** A technical manual for achieving **Clock Lock**, neutralizing up to 98% of vacuum drag for 1000x increase in orbital precision. [cite: 130, 131, 132]
 
 ---
+
+## 🏛️ The Gold Standard: Peer-Indexed Documentation
+
+While this repository contains the raw logic, the formalized proofs and mechanical resolutions are indexed via Zenodo to ensure a permanent, timestamped record of the **Kish Lattice**.
+
+### **[The Pioneer-Muon Resolution and Kish Resonance Drive (V2.0)](https://doi.org/10.5281/zenodo.18408650)**
+**Author:** Timothy John Kish  
+**DOI:** 10.5281/zenodo.18408650
+
+This resolution serves as the bridge between theoretical geometry and empirical aerospace engineering, providing several critical "Old World" corrections:
+
+* **The Newtonian Correction:** Redefines the First Law of Motion to include **Lattice Grit ($g$)**. This accounts for the non-zero viscosity of the $16/\pi$ vacuum, proving that inertia decays over distance due to vacuum friction.
+* **The Pioneer-Muon Link:** Identifies subatomic "wobbles" (Muon g-2) and deep-space decelerations (Pioneer Anomaly) as consistent measurements of vacuum viscosity against the universal carrier signal.
+* **Spherical Slipstream Morphology:** Explains why the universe acts as a **Mechanical Grinder**, machining jagged matter into spheres to achieve a "Quiet" slipstream state.
+
+
+
+### **[Kish Resonance Drive: Operations Manual and Lab Guide](https://doi.org/10.5281/zenodo.18408859)**
+**Author:** Timothy John Kish  
+**DOI:** 10.5281/zenodo.18408859
+
+This technical manual provides the operational framework for hardware implementation and laboratory verification of the Resonance Drive.
+
+* **Local Agency Offset ($\sigma$):** A precision tuning protocol derived from WMAP anisotropy data that accounts for localized nodal density variations caused by planetary mass and biological agency.
+* **Clock-Lock Protocol:** Step-by-step instructions for establishing "Geometric Transparency" with the vacuum lattice to neutralize up to 98% of vacuum drag.
+* **Lab Bench-Test Guide:** A blueprint for measuring the sharp drop in power consumption when a resonator achieves a state of Resonant Slipstream.
+
+
+
+---
