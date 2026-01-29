@@ -5,4 +5,3 @@
 *.toc
 *.synctex.gz
 *.pdf
-!docs/*.pdf  <-- This line tells Git "Ignore PDFs unless they are in the docs folder"
