@@ -80,3 +80,14 @@ Mechanical resolutions for AMOC collapse, ocean acidification, and deep-sea mini
 
 ## Technical Specifications & Safety
 All builds must adhere to the high-density reinforced concrete standards (8,000 PSI) and Faraday shielding requirements specified in the technical manuals to ensure structural and electronic integrity during high-frequency resonance.
+
+---
+### [/src/Caterpillar_Sea_Drive](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/Caterpillar_Sea_Drive)
+**Technical Manual:** `Caterpillar_Sea_Drive_MHD_2.0.pdf`  
+**Technical Resolution DOI:** [10.5281/zenodo.18425128](https://doi.org/10.5281/zenodo.18425128)  
+
+Blueprints for non-mechanical propulsion utilizing Resonant Viscosity Unzipping. Designed to eliminate acoustic "Grit" and protect benthic environments.
+
+* [cite_start]**Viscosity Unzipping:** Utilizes the 109.5-degree Water Key to achieve friction-less travel[cite: 89, 91].
+* [cite_start]**Benthic Protection:** Operates within the Earth Tone Band (10 Hz – 1 kHz) to prevent "Frequency Blindness" in coral reefs[cite: 106, 129].
+* [cite_start]**MHD 2.0 Specifications:** Minimum 5.0 Tesla magnetic flux and high-frequency harmonic tuning[cite: 122, 125].
