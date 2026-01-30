@@ -51,32 +51,32 @@ This resolution serves as the bridge between theoretical geometry and empirical 
 
 ---
 
-## 🏛️ The Gold Standard: Peer-Indexed Documentation
+# The Kish Lattice Project
+**Copyright © 2026 Timothy John Kish** **Primary Theory DOI:** [10.5281/zenodo.18383486](https://doi.org/10.5281/zenodo.18383486)
 
-While this repository contains the raw logic, the formalized proofs and mechanical resolutions are indexed via Zenodo to ensure a permanent, timestamped record of the **Kish Lattice**.
+## Overview
+The Kish Lattice is a mechanical model of a quantized universe based on a fundamental 16/pi vacuum stiffness modulus. This repository provides the technical source code and manuals for building resolutions to planetary "Redline" crises, moving humanity from dissonance back into resonant agency.
 
-### **[The Pioneer-Muon Resolution and Kish Resonance Drive (V2.0)](https://doi.org/10.5281/zenodo.18408650)**
-**Author:** Timothy John Kish  
-**DOI:** 10.5281/zenodo.18408650
+## Current Source Folders
 
-This resolution serves as the bridge between theoretical geometry and empirical aerospace engineering, providing several critical "Old World" corrections:
+### [/src/C60_Energy_Sieve](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/C60_Energy_Sieve)
+**Technical Manual:** `C60_Resonant_Energy_and_Atmospheric_Sieve.pdf`  
+**Technical Resolution DOI:** [10.5281/zenodo.18424590](https://doi.org/10.5281/zenodo.18424590)  
 
-* **The Newtonian Correction:** Redefines the First Law of Motion to include **Lattice Grit ($g$)**. This accounts for the non-zero viscosity of the $16/\pi$ vacuum, proving that inertia decays over distance due to vacuum friction.
-* **The Pioneer-Muon Link:** Identifies subatomic "wobbles" (Muon g-2) and deep-space decelerations (Pioneer Anomaly) as consistent measurements of vacuum viscosity against the universal carrier signal.
-* **Spherical Slipstream Morphology:** Explains why the universe acts as a **Mechanical Grinder**, machining jagged matter into spheres to achieve a "Quiet" slipstream state.
+Blueprints for resonant energy extraction and carbon sequestration using icosahedral C60 harmonic traps.
 
+* **Configuration 1:** Subterranean Limestone Stabilizer (300-400ft depth).
+* **Configuration 2:** 400+ Foot Harmonic Atmospheric Tower.
+* **Laboratory Prototype:** Benchtop Power Generator for "Lattice Snap" verification.
 
+### [/src/Pioneer_Muon_Resolution](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/Pioneer_Muon_Resolution)
+Foundational paper resolving the Pioneer Anomaly and Muon g-2 paradox through 16/pi lattice mechanics.
 
-### **[Kish Resonance Drive: Operations Manual and Lab Guide](https://doi.org/10.5281/zenodo.18408859)**
-**Author:** Timothy John Kish  
-**DOI:** 10.5281/zenodo.18408859
-
-This technical manual provides the operational framework for hardware implementation and laboratory verification of the Resonance Drive.
-
-* **Local Agency Offset ($\sigma$):** A precision tuning protocol derived from WMAP anisotropy data that accounts for localized nodal density variations caused by planetary mass and biological agency.
-* **Clock-Lock Protocol:** Step-by-step instructions for establishing "Geometric Transparency" with the vacuum lattice to neutralize up to 98% of vacuum drag.
-* **Lab Bench-Test Guide:** A blueprint for measuring the sharp drop in power consumption when a resonator achieves a state of Resonant Slipstream.
-
-
+### [/src/Mission_Blue_Trinity](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/Mission_Blue_Trinity)
+**Oceanic Resolution DOI:** [10.5281/zenodo.18417732](https://doi.org/10.5281/zenodo.18417732)  
+Mechanical resolutions for AMOC collapse, ocean acidification, and deep-sea mining node resonance.
 
 ---
+
+## Technical Specifications & Safety
+All builds must adhere to the high-density reinforced concrete standards (8,000 PSI) and Faraday shielding requirements specified in the technical manuals to ensure structural and electronic integrity during high-frequency resonance.
