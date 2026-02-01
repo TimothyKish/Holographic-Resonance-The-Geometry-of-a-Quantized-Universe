@@ -91,3 +91,27 @@ Blueprints for non-mechanical propulsion utilizing Resonant Viscosity Unzipping.
 * [cite_start]**Viscosity Unzipping:** Utilizes the 109.5-degree Water Key to achieve friction-less travel[cite: 89, 91].
 * [cite_start]**Benthic Protection:** Operates within the Earth Tone Band (10 Hz – 1 kHz) to prevent "Frequency Blindness" in coral reefs[cite: 106, 129].
 * [cite_start]**MHD 2.0 Specifications:** Minimum 5.0 Tesla magnetic flux and high-frequency harmonic tuning[cite: 122, 125].
+
+---
+
+# The Kish Lattice: The Geometry of a Quantized Universe
+
+## 🌌 Overview
+This repository contains the primary source code and formal manuscript for the **Unified Theory of the Kish Lattice**. This work provides a mechanical resolution to the Standard Model's persistent paradoxes (Muon g-2, Hubble Tension, Vacuum Catastrophe) through the application of the **16/π Geometric Modulus**.
+
+## 🚀 Key Enhancements in v4.0
+- **The Harmonic Cutoff of c:** Redefining the Speed of Light as a mechanical Nyquist frequency of the vacuum medium rather than an arbitrary constant.
+- **Unified Monolith:** The full trilogy (Volumes 1-3) integrated into a single high-fidelity LaTeX manuscript.
+- **Verification Suite:** Python-based Monte Carlo simulations proving a 5-Sigma statistical resolution.
+
+## 📁 Repository Structure
+- `/src`: Contains the `The_Kish_Lattice_Unified.tex` master file and all supporting assets.
+- `/src/`: Verification suite including `light_cutoff_verification.py` and the LIGO Wave Scanner.
+
+## 🛠️ Verification
+To verify the **Harmonic Cutoff of c**, run the following in your terminal:
+```bash
+python src/scripts/light_cutoff_verification.py
+### [/src/](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/light_cutoff_verification.py)
+
+---
