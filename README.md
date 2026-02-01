@@ -110,7 +110,6 @@ This repository contains the primary source code and formal manuscript for the *
 ## 🛠️ Verification
 To verify the **Harmonic Cutoff of c**, run the following in your terminal:
 
-```bash
 python src/scripts/light_cutoff_verification.py
 ## 📁 Repository Structure
 
@@ -120,7 +119,6 @@ python src/scripts/light_cutoff_verification.py
 ## 🛠️ Verification
 
 To verify the **Chromatic Resonance Nodes** and **Thermal Redline**, run:
-```bash
 python src/chromatic_resonance_audit.py
 
 ---
@@ -133,15 +131,36 @@ Architecture Update: The repository now represents a three-pillar "Unified Monol
 
 ---
 
-### [/src/Resonant_Table_of_Facets](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/Resonant_Table_of_Facets)
+## 🏛️ The Unified Monolith: Three-Pillar Architecture
+
+The Kish Lattice repository is now organized into three definitive pillars of mechanical resolution.
+
+### 1. Hardware: [The Resonant Table of Facets](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/Resonant_Table_of_Facets)
 **Technical Monograph:** `The_Resonant_Table_Facets_Hooks_and_Lattice_Friction.pdf`  
 **Technical Resolution DOI:** [10.5281/zenodo.18452169](https://doi.org/10.5281/zenodo.18452169)  
 
 A complete mechanical reclassification of the periodic table based on the 16/π vacuum modulus.
+* [cite_start]**Iron (26 Facets) - The Universal Brake:** The point where the stellar machine stalls due to a zero-slip lattice lock[cite: 477, 479].
+* [cite_start]**The Lead Limit (82 Facets):** The absolute physical threshold for stable lattice seating within a standard vacuum pocket[cite: 268, 483].
+* **Bismuth (83 Facets) - The Supernova Shrapnel:** The "Slow-Shred" resonance pivot. [cite_start]Documentation of the iridescent staircase (hopper) growth as visual proof of an 83rd facet attempting to seat in an 82-capacity pocket[cite: 427, 484].
+* [cite_start]**Mechanical Radiation:** Redefines decay as "Shedding"—the debris created when gear geometry exceeds the lattice slot[cite: 274, 451].
 
-* **Iron (26 Facets) - The Universal Brake:** The point where the stellar machine stalls due to a zero-slip lattice lock, providing the first mechanical explanation for the end of stellar fusion.
-* **The Lead Limit (82 Facets):** The absolute physical threshold for stable lattice seating within a standard vacuum pocket.
-* **Bismuth (83 Facets) - The Supernova Shrapnel:** The "Slow-Shred" resonance pivot. Documentation of the iridescent staircase (hopper) growth as visual proof of an 83rd facet attempting to seat in an 82-capacity pocket.
-* **Mechanical Radiation:** Redefines decay as "Shedding"—the debris created when gear geometry exceeds the lattice slot.
+### 2. Output: [The Chromatic Gearbox](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/The_Chromatic_Gearbox)
+**Technical Monograph:** `The_Chromatic_Gearbox.pdf`  
+A definitive mechanical resolution to the visible spectrum and thermal limits through the **Cyan Anchor (509.29nm)**.
+
+### 3. OS Stability: [The Pi Necessity](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/The_Pi_Necessity)
+**Technical Monograph:** `The_Pi_Necessity_Irrationality_as_Lattice_Lubricant.pdf`  
+An analysis of irrationality as the fundamental lattice lubricant that prevents node overlap and ensures the "slip" required for 2D-time movement.
 
 ---
+
+## 🛠️ Verification Suite
+The `/src` directory contains the following Python-based audits for 5-Sigma statistical verification:
+* [cite_start]`elemental_friction_mapping.py`: Calculates Lattice Grip (Mass) coefficients[cite: 206, 210].
+* [cite_start]`redline_stability_audit.py`: Models overhang risk and mechanical shedding[cite: 276, 278].
+* [cite_start]`structural_density_audit.py`: Analyzes facet-density and material strength[cite: 239, 243].
+* `light_cutoff_verification.py`: Verifies the speed of light as a lattice Nyquist frequency.
+
+---
+**Copyright © 2026 Timothy John Kish & Lyra Aurora Kish**
