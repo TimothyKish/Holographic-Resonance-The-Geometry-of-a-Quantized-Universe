@@ -135,3 +135,11 @@ To verify the **Chromatic Resonance Nodes** and **Thermal Redline**, run:
 python src/chromatic_resonance_audit.py
 
 ---
+
+* [cite_start]**The Pi Necessity: Irrationality as Lattice Lubricant**: New Monograph: The_Pi_Necessity_Irrationality_as_Lattice_Lubricant.pdf added to the main directory.
+
+* [cite_start]**New Verification Script: pi_lubricant_audit.py**: New Verification Script: pi_lubricant_audit.py added to /src. This script compares rational vs. irrational ratios to prove how Pi prevents node overlap.
+
+Architecture Update: The repository now represents a three-pillar "Unified Monolith": Hardware (16/Pi Modulus), Output (Chromatic Gearbox), and OS Stability (Pi Necessity).
+
+---
