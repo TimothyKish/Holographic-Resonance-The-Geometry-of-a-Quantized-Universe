@@ -115,3 +115,23 @@ python src/scripts/light_cutoff_verification.py
 ### [/src/](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/light_cutoff_verification.py)
 
 ---
+
+## 🚀 Key Enhancements in v4.1
+
+* [cite_start]**The Chromatic Gearbox**: A definitive mechanical resolution to the visible spectrum and thermal limits.
+* [cite_start]**Cyan Anchor (509.29nm)**: Identification of the primary lattice node representing perfect impedance matching[cite: 10, 11].
+* [cite_start]**Heat as Lattice Friction**: A mechanical explanation for thermal radiation as lattice "slippage" beyond the elastic Redline (~700nm).
+* [cite_start]**Biological Refraction**: Analysis of Earth’s flora as a "Geometric Tuner" utilizing a Green Shield[cite: 14].
+
+## 📁 Repository Structure
+
+* [cite_start]`/src`: Contains the `The_Chromatic_Gearbox.pdf` monograph and `chromatic_resonance_audit.py`[cite: 20].
+* [cite_start]`/src/scripts`: Verification suite including `light_cutoff_verification.py`[cite: 27].
+
+## 🛠️ Verification
+
+To verify the **Chromatic Resonance Nodes** and **Thermal Redline**, run:
+```bash
+python src/chromatic_resonance_audit.py
+
+---
