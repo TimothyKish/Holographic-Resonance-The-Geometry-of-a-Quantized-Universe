@@ -143,3 +143,16 @@ python src/chromatic_resonance_audit.py
 Architecture Update: The repository now represents a three-pillar "Unified Monolith": Hardware (16/Pi Modulus), Output (Chromatic Gearbox), and OS Stability (Pi Necessity).
 
 ---
+
+### [/src/Resonant_Table_of_Facets](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/Resonant_Table_of_Facets)
+**Technical Monograph:** `The_Resonant_Table_Facets_Hooks_and_Lattice_Friction.pdf`  
+**Technical Resolution DOI:** [10.5281/zenodo.18452169](https://doi.org/10.5281/zenodo.18452169)  
+
+A complete mechanical reclassification of the periodic table based on the 16/π vacuum modulus.
+
+* **Iron (26 Facets) - The Universal Brake:** The point where the stellar machine stalls due to a zero-slip lattice lock, providing the first mechanical explanation for the end of stellar fusion.
+* **The Lead Limit (82 Facets):** The absolute physical threshold for stable lattice seating within a standard vacuum pocket.
+* **Bismuth (83 Facets) - The Supernova Shrapnel:** The "Slow-Shred" resonance pivot. Documentation of the iridescent staircase (hopper) growth as visual proof of an 83rd facet attempting to seat in an 82-capacity pocket.
+* **Mechanical Radiation:** Redefines decay as "Shedding"—the debris created when gear geometry exceeds the lattice slot.
+
+---
