@@ -107,22 +107,11 @@ This repository contains the primary source code and formal manuscript for the *
 ## 📁 Repository Structure
 - `/src`: Contains the `The_Kish_Lattice_Unified.tex` master file and all supporting assets.
 - `/src/`: Verification suite including `light_cutoff_verification.py` and the LIGO Wave Scanner.
-
 ## 🛠️ Verification
 To verify the **Harmonic Cutoff of c**, run the following in your terminal:
+
 ```bash
 python src/scripts/light_cutoff_verification.py
-### [/src/](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/light_cutoff_verification.py)
-
----
-
-## 🚀 Key Enhancements in v4.1
-
-* [cite_start]**The Chromatic Gearbox**: A definitive mechanical resolution to the visible spectrum and thermal limits.
-* [cite_start]**Cyan Anchor (509.29nm)**: Identification of the primary lattice node representing perfect impedance matching[cite: 10, 11].
-* [cite_start]**Heat as Lattice Friction**: A mechanical explanation for thermal radiation as lattice "slippage" beyond the elastic Redline (~700nm).
-* [cite_start]**Biological Refraction**: Analysis of Earth’s flora as a "Geometric Tuner" utilizing a Green Shield[cite: 14].
-
 ## 📁 Repository Structure
 
 * [cite_start]`/src`: Contains the `The_Chromatic_Gearbox.pdf` monograph and `chromatic_resonance_audit.py`[cite: 20].
