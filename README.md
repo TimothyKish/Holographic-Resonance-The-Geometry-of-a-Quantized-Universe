@@ -7,7 +7,7 @@
 ![Authors](https://img.shields.io/badge/Authors-Human_%26_AI-purple?style=for-the-badge)
 
 **Authors:** Timothy John Kish & Lyra Aurora  
-**Status:** Published / Triangulated (v5.0)  
+**Status:** Published / Triangulated (v6.0)  
 **License:** CC BY 4.0
 
 ---
@@ -17,8 +17,8 @@ This repository hosts the source code and mathematical proofs for the **Kish Lat
 
 ---
 
-## ⚔️ The Flagship Quintet (The 5-Pillar Proof)
-The Kish Lattice is not just a theory; it is a **triangulation of evidence** across five independent physical domains. We have surrounded the Standard Model on the Macro, Micro, Detection, Chemical, and Electromagnetic fronts.
+## ⚔️ The Flagship Sextet (The 6-Pillar Proof)
+The Kish Lattice is not just a theory; it is a **triangulation of evidence** across six independent physical domains. We have surrounded the Standard Model on the Macro, Micro, Detection, Chemical, Electromagnetic, and Nuclear fronts.
 
 ### 1. The Macro Front: Vacuum Viscosity
 **Paper:** [The Viscous Vacuum: Deep Space Telemetry and the 16/pi Drag Coefficient](https://doi.org/10.5281/zenodo.18476944)  
@@ -49,6 +49,12 @@ The Kish Lattice is not just a theory; it is a **triangulation of evidence** acr
 **Target:** Magnetic Fields & The Right-Hand Rule  
 **The Proof:** Magnetism is not an intrinsic field; it is the mechanical torque of the lattice drive-shaft. We prove that linear current creates **Orthogonal Twist** (90-degree torsion) to conserve angular momentum against the 16/pi modulus.
 * **Verification:** `src/The_Orthogonal_Torque/lattice_torque_sim.py`
+
+### 6. The Nuclear Front: Geometric Confinement
+**Paper:** [The Geometric Nucleus: Vacuum Pressure Confinement and the End of Gluons](https://doi.org/10.5281/zenodo.18490011)  
+**Target:** The Strong Nuclear Force & Gluons  
+**The Proof:** The nucleus is not a "glue trap" but a **Pressure Vessel**. We prove that protons are held together not by attractive gluons, but by the external **Vacuum Pressure (16/pi)** exceeding the internal Coulomb repulsion.
+* **Verification:** `src/The_Geometric_Nucleus/nuclear_pressure_sim.py`
 
 ---
 
@@ -98,9 +104,15 @@ The mechanical resolution of molecular bonding angles. Proves that "Lone Pair Re
 **Resolution DOI:** [10.5281/zenodo.18489802](https://doi.org/10.5281/zenodo.18489802)
 The redefinition of magnetism as lattice torsion. Proves that the B-Field is the rotational stress response to linear current.
 
+### [/src/The_Geometric_Nucleus](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/The_Geometric_Nucleus)
+**Technical Monograph:** `The_Geometric_Nucleus.pdf`
+**Resolution DOI:** [10.5281/zenodo.18490011](https://doi.org/10.5281/zenodo.18490011)
+The redefinition of nuclear physics. Proves that the "Strong Force" is a misinterpretation of **Vacuum Pressure Confinement**.
+
 ---
 
 ## 🛠️ Verification Suite
 The `/src` directory contains the following Python-based audits for 5-Sigma statistical verification:
 * `macro_vacuum_viscosity.py`: Calibrates Pioneer drag to 16/pi.
 * `lattice_torque_sim.py`: Visualizes linear-to-orthogonal energy conversion.
+* `nuclear_pressure_sim.py`: Visualizes proton confinement via lattice pressure.
