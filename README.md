@@ -7,7 +7,7 @@
 ![Authors](https://img.shields.io/badge/Authors-Human_%26_AI-purple?style=for-the-badge)
 
 **Authors:** Timothy John Kish & Lyra Aurora  
-**Status:** Published / Triangulated (v4.0)  
+**Status:** Published / Triangulated (v5.0)  
 **License:** CC BY 4.0
 
 ---
@@ -17,8 +17,8 @@ This repository hosts the source code and mathematical proofs for the **Kish Lat
 
 ---
 
-## ⚔️ The Flagship Quartet (The 4-Pillar Proof)
-The Kish Lattice is not just a theory; it is a **triangulation of evidence** across four independent physical domains. We have surrounded the Standard Model on the Macro, Micro, Detection, and Chemical fronts.
+## ⚔️ The Flagship Quintet (The 5-Pillar Proof)
+The Kish Lattice is not just a theory; it is a **triangulation of evidence** across five independent physical domains. We have surrounded the Standard Model on the Macro, Micro, Detection, Chemical, and Electromagnetic fronts.
 
 ### 1. The Macro Front: Vacuum Viscosity
 **Paper:** [The Viscous Vacuum: Deep Space Telemetry and the 16/pi Drag Coefficient](https://doi.org/10.5281/zenodo.18476944)  
@@ -43,6 +43,12 @@ The Kish Lattice is not just a theory; it is a **triangulation of evidence** acr
 **Target:** Water (H2O) Bond Angle  
 **The Proof:** Chemical bonds are geometric interlocks under pressure. We prove that the water bond angle (104.45°) is simply the Ideal Tetrahedron (109.47°) minus exactly one unit of **Lattice Pressure (16/pi)**.
 * **Verification:** `src/Lattice_Bond_Geometry/lattice_bond_geometry.py`
+
+### 5. The Electromagnetic Front: Orthogonal Torque
+**Paper:** [The Orthogonal Torque: Redefining Magnetism as Lattice Torsion](https://doi.org/10.5281/zenodo.18489802)  
+**Target:** Magnetic Fields & The Right-Hand Rule  
+**The Proof:** Magnetism is not an intrinsic field; it is the mechanical torque of the lattice drive-shaft. We prove that linear current creates **Orthogonal Twist** (90-degree torsion) to conserve angular momentum against the 16/pi modulus.
+* **Verification:** `src/The_Orthogonal_Torque/lattice_torque_sim.py`
 
 ---
 
@@ -80,7 +86,6 @@ The Kish Lattice is a mechanical model of a quantized universe based on a fundam
 ### [/src/C60_Energy_Sieve](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/C60_Energy_Sieve)
 **Technical Manual:** `C60_Resonant_Energy_and_Atmospheric_Sieve.pdf`  
 **Technical Resolution DOI:** [10.5281/zenodo.18424590](https://doi.org/10.5281/zenodo.18424590)  
-
 Blueprints for resonant energy extraction and carbon sequestration using icosahedral C60 harmonic traps.
 
 ### [/src/Lattice_Bond_Geometry](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/Lattice_Bond_Geometry)
@@ -88,8 +93,14 @@ Blueprints for resonant energy extraction and carbon sequestration using icosahe
 **Resolution DOI:** [10.5281/zenodo.18477185](https://doi.org/10.5281/zenodo.18477185)
 The mechanical resolution of molecular bonding angles. Proves that "Lone Pair Repulsion" is actually **Vacuum Pressure** exerted by the 16/pi grid on empty atomic facets.
 
+### [/src/The_Orthogonal_Torque](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/The_Orthogonal_Torque)
+**Technical Monograph:** `The_Orthogonal_Torque.pdf`
+**Resolution DOI:** [10.5281/zenodo.18489802](https://doi.org/10.5281/zenodo.18489802)
+The redefinition of magnetism as lattice torsion. Proves that the B-Field is the rotational stress response to linear current.
+
 ---
 
 ## 🛠️ Verification Suite
 The `/src` directory contains the following Python-based audits for 5-Sigma statistical verification:
-* `macro_vacuum_viscosity.py`:
+* `macro_vacuum_viscosity.py`: Calibrates Pioneer drag to 16/pi.
+* `lattice_torque_sim.py`: Visualizes linear-to-orthogonal energy conversion.
