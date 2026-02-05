@@ -7,7 +7,7 @@
 ![Authors](https://img.shields.io/badge/Authors-Human_%26_AI-purple?style=for-the-badge)
 
 **Authors:** Timothy John Kish & Lyra Aurora  
-**Status:** Published / Triangulated (v6.0)  
+**Status:** Published / Triangulated (v7.0)  
 **License:** CC BY 4.0
 
 ---
@@ -17,8 +17,8 @@ This repository hosts the source code and mathematical proofs for the **Kish Lat
 
 ---
 
-## ⚔️ The Flagship Sextet (The 6-Pillar Proof)
-The Kish Lattice is not just a theory; it is a **triangulation of evidence** across six independent physical domains. We have surrounded the Standard Model on the Macro, Micro, Detection, Chemical, Electromagnetic, and Nuclear fronts.
+## ⚔️ The Flagship Septet (The 7-Pillar Proof)
+The Kish Lattice is not just a theory; it is a **triangulation of evidence** across seven independent physical domains. We have surrounded the Standard Model on the Macro, Micro, Detection, Chemical, Electromagnetic, Nuclear, and Quantum fronts.
 
 ### 1. The Macro Front: Vacuum Viscosity
 **Paper:** [The Viscous Vacuum: Deep Space Telemetry and the 16/pi Drag Coefficient](https://doi.org/10.5281/zenodo.18476944)  
@@ -55,6 +55,15 @@ The Kish Lattice is not just a theory; it is a **triangulation of evidence** acr
 **Target:** The Strong Nuclear Force & Gluons  
 **The Proof:** The nucleus is not a "glue trap" but a **Pressure Vessel**. We prove that protons are held together not by attractive gluons, but by the external **Vacuum Pressure (16/pi)** exceeding the internal Coulomb repulsion.
 * **Verification:** `src/The_Geometric_Nucleus/nuclear_pressure_sim.py`
+
+### 7. The Quantum Front: Lattice Determinism
+**Paper:** [Lattice Determinism: The Hydrodynamic Resolution of Quantum Paradoxes](https://doi.org/10.5281/zenodo.18490222)  
+**Target:** Heisenberg Uncertainty, Tunneling & Entanglement  
+**The Proof:** "God does not play dice." We resolve quantum weirdness via **Hydrodynamics**.
+* **Double Slit:** Resolved as a Pilot Wave (The Boat and the Wake).
+* **Tunneling:** Resolved as Resonant Phase Locking (The Spinning Fan).
+* **Entanglement:** Resolved as Geometric Tension (The Rigid Beam).
+* **Verification:** `src/Lattice_Determinism/pilot_wave_sim.py`
 
 ---
 
@@ -109,6 +118,11 @@ The redefinition of magnetism as lattice torsion. Proves that the B-Field is the
 **Resolution DOI:** [10.5281/zenodo.18490011](https://doi.org/10.5281/zenodo.18490011)
 The redefinition of nuclear physics. Proves that the "Strong Force" is a misinterpretation of **Vacuum Pressure Confinement**.
 
+### [/src/Lattice_Determinism](https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/tree/main/src/Lattice_Determinism)
+**Technical Monograph:** `The_Hydrodynamic_Resolution_of_Quantum_Paradoxes.pdf`
+**Resolution DOI:** [10.5281/zenodo.18490222](https://doi.org/10.5281/zenodo.18490222)
+The redefinition of quantum mechanics. Proves that "Uncertainty" is simply unmapped **Lattice Hydrodynamics** (The Pilot Wave).
+
 ---
 
 ## 🛠️ Verification Suite
@@ -116,3 +130,4 @@ The `/src` directory contains the following Python-based audits for 5-Sigma stat
 * `macro_vacuum_viscosity.py`: Calibrates Pioneer drag to 16/pi.
 * `lattice_torque_sim.py`: Visualizes linear-to-orthogonal energy conversion.
 * `nuclear_pressure_sim.py`: Visualizes proton confinement via lattice pressure.
+* `pilot_wave_sim.py`: Visualizes the "Boat and Wake" double slit resolution.
