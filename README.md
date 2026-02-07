@@ -49,9 +49,10 @@ The Kish Lattice is a **triangulation of evidence** across eight independent phy
 * **Verification:** `src/The_Geometric_Atom/rydberg_derivation.py`
 
 ### 3. The Detection Front: Resonant Sensing
-**Paper:** [The Vacuum Seismograph: Resolving the 16/pi Lattice Resonance in LIGO](https://doi.org/10.5281/zenodo.18476792)
+**Active Proposal:** [Project PRIME CHIRP: Proposal for LIGO/Virgo Observation](https://doi.org/10.5281/zenodo.18520882)
+**Theoretical Basis:** [The Vacuum Seismograph: Resolving the 16/pi Lattice Resonance](https://doi.org/10.5281/zenodo.18476792)
 **Target:** Gravitational Wave Detection (LIGO/Virgo)
-**The Proof:** We demonstrate that current detectors filter out the "Prime Chirp" of the vacuum as noise. We provide the frequency key to unlock the **Background Static** of the universe.
+**The Proof:** We posit that the "Quantum Noise" filtered out by current detectors contains a coherent geometric signal. We have formally invited the LIGO/Virgo collaboration to analyze their background data for the "Kish Prime Chirp" (Harmonics 17, 19, 23).
 * **Verification:** `src/The_Resonant_Sensor/prime_chirp_filter.py`
 
 ### 4. The Chemical Front: Covalent Bonding
@@ -63,7 +64,7 @@ The Kish Lattice is a **triangulation of evidence** across eight independent phy
 ### 5. The Electromagnetic Front: Lattice Torsion
 **Paper:** [The Orthogonal Torque: Redefining Magnetism as Lattice Torsion](https://doi.org/10.5281/zenodo.18489802)
 **Target:** Maxwell's Equations & The B-Field
-**The Proof:** The redefinition of magnetism as **Lattice Torsion**. We prove that the Magnetic Field (B) is simply the rotational stress response of the vacuum to linear current flow.
+**The Proof:** The redefinition of magnetism as **Lattice Torsion**. We prove that the Magnetic Field (B) is simply the rotational stress response of the vacuum grid to linear current flow.
 * **Verification:** `src/The_Torsion_Field/b_field_simulation.py`
 
 ### 6. The Nuclear Front: The Geometric Nucleus
