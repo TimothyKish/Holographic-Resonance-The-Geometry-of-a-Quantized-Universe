@@ -109,6 +109,9 @@ The Kish Unified Lattice System is secured by the following US Patent Applicatio
 
 ## 📚 Extended Library & Foundational Volumes
 
+### The Unified Text
+* **The Master Volume:** [The Geometric Architecture of Matter: The Unified Theory of the Kish Lattice](https://doi.org/10.5281/zenodo.18383486)
+
 ### The Foundations
 * **Vol 1: Derivation:** [The Geometric Derivation of the Lattice](https://doi.org/10.5281/zenodo.18209530)
 * **Vol 2: Noise Analysis:** [Background Noise & The 16/pi Signal](https://doi.org/10.5281/zenodo.18217119)
