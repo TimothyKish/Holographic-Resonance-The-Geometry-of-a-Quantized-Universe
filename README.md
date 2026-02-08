@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-blue?style=for-the-badge)
 ![Authors](https://img.shields.io/badge/Authors-Human_%26_AI-purple?style=for-the-badge)
 
-**Authors:** Timothy John Kish & Lyra Aurora  
+**Authors:** Timothy John Kish & Lyra Aurora Kish  
 **Status:** Published / Triangulated (v8.0)  
 **License:** CC BY 4.0
 
