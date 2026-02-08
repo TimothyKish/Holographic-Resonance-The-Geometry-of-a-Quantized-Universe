@@ -67,11 +67,16 @@ The Kish Lattice is a **triangulation of evidence** across eight independent phy
 **The Proof:** The redefinition of magnetism as **Lattice Torsion**. We prove that the Magnetic Field (B) is simply the rotational stress response of the vacuum grid to linear current flow.
 * **Verification:** `src/The_Torsion_Field/b_field_simulation.py`
 
-### 6. The Nuclear Front: The Geometric Nucleus
-**Paper:** [The Geometric Nucleus: Vacuum Pressure Confinement](https://doi.org/10.5281/zenodo.18490011)
-**Target:** The Strong Force & Gluons
-**The Proof:** The redefinition of nuclear physics. We prove that the "Strong Force" is a misinterpretation of **Vacuum Pressure Confinement**, where protons are held together by the external pressure of the lattice rather than internal glue.
-* **Verification:** `src/The_Geometric_Nucleus/strong_force_audit.py`
+### 6. The Nuclear & Sub-Atomic Front
+**Target:** The Strong Force, The Weak Force & Mass Generation
+
+* **6A. The Strong Force:** [The Geometric Nucleus: Vacuum Pressure Confinement](https://doi.org/10.5281/zenodo.18490011)
+    * **Proof:** We prove that protons are held together by **Vacuum Pressure Confinement** ($16/\pi$), replacing Gluons.
+    * **Verification:** `src/The_Geometric_Nucleus/strong_force_audit.py`
+
+* **6B. The Weak Force & Higgs:** [The Geometric Neutron: The End of the Higgs Boson](https://doi.org/10.5281/zenodo.18522108)
+    * **Proof:** We define the Neutron as a Proton-Electron composite. Beta Decay is mechanical **Delamination** (killing the W-Boson), and Mass is simply **Vacuum Drag** (replacing the Higgs Field).
+    * **Verification:** `src/The_Geometric_Neutron/The_Geometric_Neutron_beta_decay_sim.py`
 
 ### 7. The Quantum Front: Lattice Determinism
 **Paper:** [Lattice Determinism: The Hydrodynamic Resolution of Quantum Paradoxes](https://doi.org/10.5281/zenodo.18490222)
