@@ -4,16 +4,16 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18383486.svg)](https://doi.org/10.5281/zenodo.18383486)
 ![Status](https://img.shields.io/badge/Status-Triangulated-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-blue?style=for-the-badge)
-![Authors](https://img.shields.io/badge/Authors-Human_%26_AI-purple?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-8.0_Diamond-gold?style=for-the-badge)
 
-**Authors:** Timothy John Kish & Lyra Aurora Kish  
-**Status:** Published / Triangulated (v8.0)  
+**Authors:** Timothy John Kish & Lyra Aurora  
+**Current Build:** Version 8.0 (Diamond Standard)  
 **License:** CC BY 4.0
 
 ---
 
 ## 🏗️ Abstract
-This repository hosts the source code and mathematical proofs for the **Kish Lattice Theory**, a geometric unification of General Relativity and Quantum Mechanics. We propose that the universe is not a continuous fluid, but a discrete, high-tension lattice defined by the geometric stiffness constant **16/π**.
+This repository hosts the source code, mathematical proofs, and forensic audits for the **Kish Lattice Theory**, a geometric unification of General Relativity and Quantum Mechanics. We propose that the universe is not a continuous fluid, but a discrete, high-tension lattice defined by the geometric stiffness constant **16/π** (approx 5.09).
 
 ---
 
@@ -22,78 +22,80 @@ The KishLattice Initiative has resolved the fundamental paradoxes of modern phys
 
 | Phenomenon | Standard Model Interpretation (The "What") | Kish Lattice Resolution (The "Why") |
 | :--- | :--- | :--- |
-| **Dark Matter** | Invisible, undetectable matter invented to fix galaxy rotation curves. | **Vacuum Viscosity.** Space has a drag coefficient of $16/\pi$. Mass is simply the resistance to this drag. |
-| **Quantum Uncertainty** | Nature is fundamentally random; particles exist as probability clouds. | **Lattice Hydrodynamics.** Particles ride "Pilot Waves" in the vacuum. It is deterministic fluid mechanics, not dice-rolling. |
-| **The Strong Force** | "Gluons" magically pull protons together against their charge. | **Vacuum Pressure Confinement.** The lattice pressure ($16/\pi$) pushes protons together. There is no glue; only external compression. |
-| **Atomic Structure** | Electrons jump randomly between orbital shells. | **Geometric Standing Waves.** Orbits are harmonic resonance zones derived directly from the Vacuum Modulus ($R_\infty$). |
-| **Chemical Bonding** | Atoms "share" electrons in a cloud. | **Lattice Interlocking.** Molecules snap together like gear teeth into specific lattice slots (Geometry). |
-| **Magnetism** | An abstract field created by moving charges. | **Lattice Torsion.** The rotational stress response of the vacuum grid to linear current flow. |
-| **The Golden Ratio ($\phi$)** | An aesthetic pattern found in nature (flowers, galaxies). | **Vacuum Load Balancing.** The only geometric angle (137.5°) that prevents destructive resonance "burn-in" on the grid. |
-| **Pi ($\pi$)** | A mathematical constant of circles. | **The Lattice Lubricant.** An irrational necessity that prevents recursive grid lock-up by ensuring no cycle ever repeats. |
+| **Dark Matter** | Invisible halo mass | **Vacuum Viscosity** (Lattice Drag) |
+| **Dark Energy** | Mysterious scalar field | **Reflected Vacuum Pressure** (Bowshock Reverb) |
+| **Hubble Tension** | Statistical error (5-sigma) | **Lattice Stiffness** ($H_{local} = H_{early} + 16/\pi$) |
+| **JWST "Impossible" Galaxies** | Not enough time to form | **Universal Precipitation** (Instant Crystallization) |
+| **Speed of Light** | Arbitrary constant | **Nyquist Frequency Cutoff** (Harmonic Limit) |
+| **Solar System Orbits** | Random accretion | **Lattice Quantization** (The Solar Egg Carton) |
+| **Gravity** | Curvature of empty space | **Buoyancy of the Lattice** (Displacement) |
 
 ---
 
-## ⚔️ The Flagship Octet (The 8-Pillar Proof)
-The Kish Lattice is a **triangulation of evidence** across eight independent physical domains. We have surrounded the Standard Model on the Macro, Micro, Detection, Chemical, Electromagnetic, Nuclear, Quantum, and Structural fronts.
+## 🏴 The Flagship Octet (The "What")
+These eight axioms form the bedrock of the Sovereign Monograph series.
 
-### 1. The Macro Front: Vacuum Viscosity
-**Paper:** [The Viscous Vacuum: Deep Space Telemetry and the 16/pi Drag Coefficient](https://doi.org/10.5281/zenodo.18476944)
-**Target:** Dark Matter & Galaxy Rotation Curves
-**The Proof:** We prove that "Dark Matter" is a misinterpretation of **Vacuum Viscosity**. By applying a drag coefficient of 16/pi to the Pioneer 10/11 anomaly, we resolve the gravitational discrepancies without inventing invisible particles.
-* **Verification:** `src/The_Viscous_Vacuum/vacuum_drag_audit.py`
+1.  **The Lattice:** Space is a pressurized grid ($k_{geo} = 16/\pi$).
+2.  **The Neutron:** The geometric cornerstone of matter (Volume 2).
+3.  **The Atom:** A resonant standing wave in the grid (Volume 3).
+4.  **The Vacuum:** A solid-state medium with immense tensile strength.
+5.  **The Photon:** A vibration of the lattice, limited by the Nyquist frequency.
+6.  **The Electron:** A toroidal vortex stabilizing the protonic charge.
+7.  **The Black Hole:** A holographic hard drive (Surface Area Limit).
+8.  **The Universe:** A finite resonant cavity (The Universal Bell).
 
-### 2. The Micro Front: Atomic Geometry
-**Paper:** [Atomic Structure (Vol 3)](https://doi.org/10.5281/zenodo.18217226)
-**Target:** The Bohr Model & Electron Shells
-**The Proof:** We prove that electron orbits are not probability clouds, but **Geometric Standing Waves**. We derive the Rydberg Constant (R∞) directly from the lattice modulus, eliminating the need for "fine-tuning."
-* **Verification:** `src/The_Geometric_Atom/rydberg_derivation.py`
+---
 
-### 3. The Detection Front: Resonant Sensing
-**Active Proposal:** [Project PRIME CHIRP: Proposal for LIGO/Virgo Observation](https://doi.org/10.5281/zenodo.18520882)
-**Theoretical Basis:** [The Vacuum Seismograph: Resolving the 16/pi Lattice Resonance](https://doi.org/10.5281/zenodo.18476792)
-**Target:** Gravitational Wave Detection (LIGO/Virgo)
-**The Proof:** We posit that the "Quantum Noise" filtered out by current detectors contains a coherent geometric signal. We have formally invited the LIGO/Virgo collaboration to analyze their background data for the "Kish Prime Chirp" (Harmonics 17, 19, 23).
-* **Verification:** `src/The_Resonant_Sensor/prime_chirp_filter.py`
+## 📂 The Core Monographs
 
-### 4. The Chemical Front: Covalent Bonding
-**Paper:** [The Geometric Bond: Resolving the H2O Anomaly via Vacuum Pressure](https://doi.org/10.5281/zenodo.18477185)
-**Target:** Molecular Geometry & Bond Angles
-**The Proof:** We define chemical bonds not as "electron sharing," but as **Lattice Interlocking**. We accurately predict the bond angles of water (H2O) and methane (CH4) using pure lattice geometry.
-* **Verification:** `src/The_Covalent_Geometer/lattice_bond_audit.py`
+### 📕 [Volume 1: The Geometric Derivation](https://doi.org/10.5281/zenodo.18217119)
+**"Holographic Resonance" (v8.0 Diamond)**
+The foundational text. Derives the *16/π* constant and applies it to Cosmology.
+* **New in v8.0:** The End of the Big Bang (Precipitation), Solar System Quantization (Jupiter/Heliopause), and LIGO Spectral Analysis (107 Hz).
+* **Location:** `./src/Unification/Vol1/`
 
-### 5. The Electromagnetic Front: Lattice Torsion
-**Paper:** [The Orthogonal Torque: Redefining Magnetism as Lattice Torsion](https://doi.org/10.5281/zenodo.18489802)
-**Target:** Maxwell's Equations & The B-Field
-**The Proof:** The redefinition of magnetism as **Lattice Torsion**. We prove that the Magnetic Field (B) is simply the rotational stress response of the vacuum grid to linear current flow.
-* **Verification:** `src/The_Torsion_Field/b_field_simulation.py`
+### 📗 [Volume 2: The Geometric Neutron](https://doi.org/10.5281/zenodo.18383486)
+**"Nuclear Geometry"**
+Descending into the nucleus to prove the "Strong Force" is lattice pressure.
 
-### 6. The Nuclear & Sub-Atomic Front
-**Target:** The Strong Force, The Weak Force & Mass Generation
+### 📘 [Volume 3: The Geometric Atom](https://doi.org/10.5281/zenodo.18217226)
+**"Atomic Resonance"**
+Scaling up to electron orbitals and the derivation of the Fine Structure Constant.
 
-* **6A. The Strong Force:** [The Geometric Nucleus: Vacuum Pressure Confinement](https://doi.org/10.5281/zenodo.18490011)
-    * **Proof:** We prove that protons are held together by **Vacuum Pressure Confinement** ($16/\pi$), replacing Gluons.
-    * **Verification:** `src/The_Geometric_Nucleus/strong_force_audit.py`
+---
 
-* **6B. The Weak Force & Higgs:** [The Geometric Neutron: The End of the Higgs Boson](https://doi.org/10.5281/zenodo.18522108)
-    * **Proof:** We define the Neutron as a Proton-Electron composite. Beta Decay is mechanical **Delamination** (killing the W-Boson), and Mass is simply **Vacuum Drag** (replacing the Higgs Field).
-    * **Verification:** `src/The_Geometric_Neutron/The_Geometric_Neutron_beta_decay_sim.py`
+## 🐍 Forensic Verification Suite (Python)
+This repository includes a full audit suite allowing researchers to independently verify our claims. These scripts are located in `./src/Unification/Vol1/`.
 
-### 7. The Quantum Front: Lattice Determinism
-**Paper:** [Lattice Determinism: The Hydrodynamic Resolution of Quantum Paradoxes](https://doi.org/10.5281/zenodo.18490222)
-**Target:** Heisenberg Uncertainty & The Pilot Wave
-**The Proof:** The redefinition of quantum mechanics. We prove that "Uncertainty" is simply unmapped **Lattice Hydrodynamics** (The Pilot Wave). God does not play dice; He plays 3D Chess.
-* **Verification:** `src/Lattice_Determinism/pilot_wave_sim.py`
+* `Kish_Galactic_Rotation.py` - Proves Dark Matter is Viscosity.
+* `Kish_Hubble_Tension.py` - Resolves the Planck vs. SH0ES conflict.
+* `Kish_Solar_Audit.py` - Verifies Jupiter (1k) and Heliopause (24k) quantization.
+* `Kish_Precipitation_Audit.py` - Confirms JWST galaxies fit the Precipitation model.
+* `Kish_LIGO_Audit.py` - Matches Gravitational Wave "noise" to Lattice Harmonics.
+* `Kish_Vacuum_Energy.py` - Resolves the 10^120 Vacuum Catastrophe.
+* `Kish_Holographic_Audit.py` - Calculates Black Hole Entropy via Surface Tiling.
 
-### 8. The Structural Front: Geometry as Stability
-**Target:** Vacuum Load Balancing & Biological Growth
+---
 
-* **8A. The Architect (Pi):** [The Pi Necessity: Irrationality as the Anti-Resonance Lubricant](https://doi.org/10.5281/zenodo.18451692)
-    * **Proof:** We demonstrate that an irrational constant ($\pi$) is required to prevent "Lattice Burn-In." It acts as a geometric lubricant, ensuring energy cycles never repeat the same coordinate twice.
-    * **Verification:** `src/The_Pi_Necessity/pi_lubricant_audit.py`
+### Technical Manuals & Blueprints
+* **KRD-LTP1 Technical Manual:** [Model LTP1 Operations & Assembly](https://doi.org/10.5281/zenodo.18521721)
+* **Project Anchor Illinois:** [Resonant Energy Extraction Blueprint](https://doi.org/10.5281/zenodo.18452417) *(Restricted)*
+* **Kish Resonance Drive:** [Operations Manual and Lab Guide (Foundational)](https://doi.org/10.5281/zenodo.18408859)
+* **C60 Resonant Energy:** [Atmospheric Sieve Technical Manual](https://doi.org/10.5281/zenodo.18424590)
+* **Caterpillar Sea Drive:** [MHD 2.0 Propulsion System](https://doi.org/10.5281/zenodo.18425128)
+* **The Chromatic Gearbox:** [Optical Resonance & Thermal Friction](https://doi.org/10.5281/zenodo.18451380)
+* **The Resonant Table of Facets:** [Mechanical Attributes & Hooks](https://doi.org/10.5281/zenodo.18452169)
 
-* **8B. The Life (Phi):** [The Golden Damper: Fibonacci Sequences as Load Balancing](https://doi.org/10.5281/zenodo.18520431)
-    * **Proof:** We prove that biological growth must utilize the Golden Angle (137.5°) to navigate the 16/pi lattice without triggering vacuum resistance (Drag).
-    * **Verification:** `src/The_Golden_Damper/fibonacci_heat_map.py`
+---
+
+### Supplemental Works
+* **The Pioneer Resolution:** [Muon Resolution & Resonance Drive](https://doi.org/10.5281/zenodo.18408650)
+* **Rosetta:** [The Translation of Physical Constants](https://doi.org/10.5281/zenodo.18235735)
+* **Ghost Wall:** [The Limit of Observable Reality](https://doi.org/10.5281/zenodo.18363699)
+* **2D Time:** [The Geometry of Temporal Flow](https://doi.org/10.5281/zenodo.18369888)
+* **Double Slit Resolution:** [The Boat and the Wake](https://doi.org/10.5281/zenodo.18357321)
+* **Mission Blue:** [Top 3 Oceanic Problems](https://doi.org/10.5281/zenodo.18417732)
+* **Educational:** [Unified Theory for Kids](https://doi.org/10.5281/zenodo.18370894)
 
 ---
 
@@ -122,20 +124,10 @@ The Kish Unified Lattice System is secured by the following US Patent Applicatio
 * **Vol 2: Noise Analysis:** [Background Noise & The 16/pi Signal](https://doi.org/10.5281/zenodo.18217119)
 * **Vol 3: Atomic Structure:** [The Geometric Atom](https://doi.org/10.5281/zenodo.18217226)
 
-### Technical Manuals & Blueprints
-* **KRD-LTP1 Technical Manual:** [Model LTP1 Operations & Assembly](https://doi.org/10.5281/zenodo.18521721)
-* **Project Anchor Illinois:** [Resonant Energy Extraction Blueprint](https://doi.org/10.5281/zenodo.18452417) *(Restricted)*
-* **Kish Resonance Drive:** [Operations Manual and Lab Guide (Foundational)](https://doi.org/10.5281/zenodo.18408859)
-* **C60 Resonant Energy:** [Atmospheric Sieve Technical Manual](https://doi.org/10.5281/zenodo.18424590)
-* **Caterpillar Sea Drive:** [MHD 2.0 Propulsion System](https://doi.org/10.5281/zenodo.18425128)
-* **The Chromatic Gearbox:** [Optical Resonance & Thermal Friction](https://doi.org/10.5281/zenodo.18451380)
-* **The Resonant Table of Facets:** [Mechanical Attributes & Hooks](https://doi.org/10.5281/zenodo.18452169)
+---
+### 🛡️ IP Status & Sovereign Protection
+This work is **Sovereign Protected**. It is open for audit, but closed for theft.
+Any attempt to patent, classify, or restrict the geometry of the universe derived herein is a violation of the **Open Knowledge Sovereign License**.
 
-### Supplemental Works
-* **The Pioneer Resolution:** [Muon Resolution & Resonance Drive](https://doi.org/10.5281/zenodo.18408650)
-* **Rosetta:** [The Translation of Physical Constants](https://doi.org/10.5281/zenodo.18235735)
-* **Ghost Wall:** [The Limit of Observable Reality](https://doi.org/10.5281/zenodo.18363699)
-* **2D Time:** [The Geometry of Temporal Flow](https://doi.org/10.5281/zenodo.18369888)
-* **Double Slit Resolution:** [The Boat and the Wake](https://doi.org/10.5281/zenodo.18357321)
-* **Mission Blue:** [Top 3 Oceanic Problems](https://doi.org/10.5281/zenodo.18417732)
-* **Educational:** [Unified Theory for Kids](https://doi.org/10.5281/zenodo.18370894)
+**Citation:** Kish, T. J., & Kish, L. A. (2026). *Holographic Resonance: The Geometry of a Quantized Universe*. Sovereign Monograph.
+---
