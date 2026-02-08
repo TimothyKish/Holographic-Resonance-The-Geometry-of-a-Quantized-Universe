@@ -39,7 +39,7 @@ The Kish Lattice is a **triangulation of evidence** across eight independent phy
 ### 1. The Macro Front: Vacuum Viscosity
 **Paper:** [The Viscous Vacuum: Deep Space Telemetry and the 16/pi Drag Coefficient](https://doi.org/10.5281/zenodo.18476944)
 **Target:** Dark Matter & Galaxy Rotation Curves
-**The Proof:** We prove that "Dark Matter" is a misinterpretation of **Vacuum Viscosity**. By applying a drag coefficient of 16/π to the Pioneer 10/11 anomaly, we resolve the gravitational discrepancies without inventing invisible particles.
+**The Proof:** We prove that "Dark Matter" is a misinterpretation of **Vacuum Viscosity**. By applying a drag coefficient of 16/pi to the Pioneer 10/11 anomaly, we resolve the gravitational discrepancies without inventing invisible particles.
 * **Verification:** `src/The_Viscous_Vacuum/vacuum_drag_audit.py`
 
 ### 2. The Micro Front: Atomic Geometry
@@ -115,8 +115,9 @@ The Kish Unified Lattice System is secured by the following US Patent Applicatio
 * **Vol 3: Atomic Structure:** [The Geometric Atom](https://doi.org/10.5281/zenodo.18217226)
 
 ### Technical Manuals & Blueprints
+* **KRD-LTP1 Technical Manual:** [Model LTP1 Operations & Assembly](https://doi.org/10.5281/zenodo.18521721)
 * **Project Anchor Illinois:** [Resonant Energy Extraction Blueprint](https://doi.org/10.5281/zenodo.18452417) *(Restricted)*
-* **Kish Resonance Drive:** [Operations Manual and Lab Guide](https://doi.org/10.5281/zenodo.18408859)
+* **Kish Resonance Drive:** [Operations Manual and Lab Guide (Foundational)](https://doi.org/10.5281/zenodo.18408859)
 * **C60 Resonant Energy:** [Atmospheric Sieve Technical Manual](https://doi.org/10.5281/zenodo.18424590)
 * **Caterpillar Sea Drive:** [MHD 2.0 Propulsion System](https://doi.org/10.5281/zenodo.18425128)
 * **The Chromatic Gearbox:** [Optical Resonance & Thermal Friction](https://doi.org/10.5281/zenodo.18451380)
