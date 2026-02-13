@@ -30,6 +30,35 @@ The KishLattice Initiative has resolved the fundamental paradoxes of modern phys
 | **Climate Crisis / Ball Lightning** | Surface greenhouse trapping (The Sweater) / Unexplained plasma. | **The Sauna Effect.** Internal 441k-year lattice friction heating the core, causing macroscopic vacuum ruptures (Ball Lightning). |
 
 ---
+## 📚 The Kish Lattice Trilogy (The Unified Roadmap)
+
+The 16/pi Initiative is organized into three primary volumes, each solving a specific layer of the universal engine.
+
+### **Volume 1: The Geometric Derivation**
+* **Target:** The Mechanical Origin of Spacetime.
+* **Key Discovery:** Deriving the $16/\pi$ stiffness constant as the fundamental gear ratio of the vacuum.
+* **Verification:** Resolving the "Dark Matter" anomaly as simple Lattice Viscosity.
+* [Access Volume 1 on Zenodo](https://doi.org/10.5281/zenodo.18209530)
+
+### **Volume 2: The Geometric Neutron (Diamond Edition)**
+* **Target:** The Resonance of Signals and Stability.
+* **Key Discovery:** Identifying the Muon g-2 anomaly as Lattice Friction and the 441k Earth cycle as a Resonant Reset.
+* **Verification:** The CHIME FRB Decoder and the "Knockout Proof" of Phi/Pi stability.
+* [Access Volume 2 on Zenodo](INSERT_YOUR_NEW_FLOAT_DOI_LINK)
+
+### **Volume 3: The Geometric Atom**
+* **Target:** The Rosetta Stone of Chemistry.
+* **Key Discovery:** Redefining "Electron Shells" as Geometric Standing Waves. Atomic stability (Magic Numbers) is the point of **Lattice Closure**.
+* **Verification:** Translating the Periodic Table into 3D Geometric Solids (Tetrahedrons, Cubes, Octahedrons).
+* [Access Volume 3 on Zenodo](https://doi.org/10.5281/zenodo.18217226)
+
+---
+
+## 🏛️ The Unified Architecture (The Master Theory)
+For those seeking the high-level synthesis, **"The Geometric Architecture of Matter"** (Unified Edition) aggregates all proofs into a single citable document. It defines the **Universal Nyquist Limit**—redefining $c$ (The Speed of Light) not as a constant, but as the maximum mechanical refresh rate of the $16/\pi$ vacuum grid.
+
+* **Master Unified Volume:** [The Kish Lattice Unified Theory](https://doi.org/10.5281/zenodo.18383486)
+---
 
 ## 🏴 The Flagship Octet (The "What")
 These eight axioms form the bedrock of the Sovereign Monograph series.
