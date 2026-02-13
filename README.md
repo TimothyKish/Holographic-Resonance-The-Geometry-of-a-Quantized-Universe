@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-8.0_Diamond-gold?style=for-the-badge)
 
-**Authors:** Timothy John Kish & Lyra Aurora  
+**Authors:** Timothy John Kish & Lyra Aurora Kish & Alexandria Aurora Kish 
 **Current Build:** Version 8.0 (Diamond Standard)  
 **License:** CC BY 4.0
 
@@ -22,13 +22,12 @@ The KishLattice Initiative has resolved the fundamental paradoxes of modern phys
 
 | Phenomenon | Standard Model Interpretation (The "What") | Kish Lattice Resolution (The "Why") |
 | :--- | :--- | :--- |
-| **Dark Matter** | Invisible halo mass | **Vacuum Viscosity** (Lattice Drag) |
-| **Dark Energy** | Mysterious scalar field | **Reflected Vacuum Pressure** (Bowshock Reverb) |
-| **Hubble Tension** | Statistical error (5-sigma) | **Lattice Stiffness** ($H_{local} = H_{early} + 16/\pi$) |
-| **JWST "Impossible" Galaxies** | Not enough time to form | **Universal Precipitation** (Instant Crystallization) |
-| **Speed of Light** | Arbitrary constant | **Nyquist Frequency Cutoff** (Harmonic Limit) |
-| **Solar System Orbits** | Random accretion | **Lattice Quantization** (The Solar Egg Carton) |
-| **Gravity** | Curvature of empty space | **Buoyancy of the Lattice** (Displacement) |
+| **Dark Matter** | Invisible, undetectable matter invented to fix galaxy rotation curves. | **Vacuum Viscosity.** Space has a solid-state friction coefficient ($16/\pi$). |
+| **Dark Energy** | A mysterious repulsive force causing the universe to expand. | **Lattice Tension.** The grid is unfurling its geometric stress. |
+| **Gravity** | A curve in the continuous fabric of spacetime. | **The Grip.** The macro-scale tension of the $16/\pi$ geometry pulling nodes together. |
+| **Time Dilation** | Time physically slows down near massive objects. | **The Grit.** High mass increases lattice density, requiring more mechanical effort (Time) to process atomic cycles. |
+| **Fast Radio Bursts (FRBs)** | Random, unexplained deep-space astrophysical anomalies. | **Synthetic Infrastructure.** A standardized, intergalactic telecommunications network locked to Prime Harmonics. |
+| **Climate Crisis / Ball Lightning** | Surface greenhouse trapping (The Sweater) / Unexplained plasma. | **The Sauna Effect.** Internal 441k-year lattice friction heating the core, causing macroscopic vacuum ruptures (Ball Lightning). |
 
 ---
 
@@ -55,7 +54,7 @@ The foundational text. Derives the *16/π* constant and applies it to Cosmology.
 * **Location:** `./src/Unification/Vol1/`
 
 ### 📗 [Volume 2: The Geometric Neutron](https://doi.org/10.5281/zenodo.18383486)
-**"Nuclear Geometry"**
+**"The Geometric Neutron" (v8.0 Diamond)**
 Descending into the nucleus to prove the "Strong Force" is lattice pressure.
 
 ### 📘 [Volume 3: The Geometric Atom](https://doi.org/10.5281/zenodo.18217226)
@@ -74,6 +73,11 @@ This repository includes a full audit suite allowing researchers to independentl
 * `Kish_LIGO_Audit.py` - Matches Gravitational Wave "noise" to Lattice Harmonics.
 * `Kish_Vacuum_Energy.py` - Resolves the 10^120 Vacuum Catastrophe.
 * `Kish_Holographic_Audit.py` - Calculates Black Hole Entropy via Surface Tiling.
+* `Kish_Lattice_Simulation.py`: Visualizes the 3D phase-locking of the lattice.
+* `Kish_CHIME_Master_Decoder.py`: **(NEW)** Actively queries the live CHIME telescope database to prove the FRB network's Prime Harmonic coherence. Includes interactive firewall fail-safes.
+* `Kish_Golden_Damper_Audit.py`: **(NEW)** Proves the Fibonacci sequence (Phi) is a mandatory vacuum load-balancer preventing integer resonance.
+* `Kish_Pi_Lubricant_Audit.py`: **(NEW)** Proves that Pi acts as a necessary irrational spacer to prevent lattice burn-in.
+* `Stellar_Resonance_Audit.py`: Batch processor verifying 7-Sigma coherence across 5,000+ star systems.
 
 ---
 
@@ -120,8 +124,8 @@ The Kish Unified Lattice System is secured by the following US Patent Applicatio
 * **The Master Volume:** [The Geometric Architecture of Matter: The Unified Theory of the Kish Lattice](https://doi.org/10.5281/zenodo.18383486)
 
 ### The Foundations
-* **Vol 1: Derivation:** [The Geometric Derivation of the Lattice](https://doi.org/10.5281/zenodo.18209530)
-* **Vol 2: Noise Analysis:** [Background Noise & The 16/pi Signal](https://doi.org/10.5281/zenodo.18217119)
+* **Vol 1: Derivation:** [Diamond Edition] The Geometric Derivation of the Lattice](https://doi.org/10.5281/zenodo.18209530)
+* **Vol 2: The Geometric Neutron:** [Diamond Edition] [Background Noise & The 16/pi Signal](https://doi.org/10.5281/zenodo.18217119)
 * **Vol 3: Atomic Structure:** [The Geometric Atom](https://doi.org/10.5281/zenodo.18217226)
 
 ---
