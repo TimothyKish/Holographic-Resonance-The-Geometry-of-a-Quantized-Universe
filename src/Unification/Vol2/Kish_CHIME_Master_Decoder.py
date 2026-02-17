@@ -51,7 +51,7 @@ def run_chime_audit():
 
     if not user_responded[0]:
         user_responded[0] = True
-        print("\n[*] 15s timeout reached. Defaulting to 'N' (Canned Report).")
+        print("\n\n[*] 15s timeout reached. Defaulting to 'N' (Canned Report).")
 
     # --- DATA INGESTION ---
     ingested_signals = []
@@ -80,10 +80,39 @@ def run_chime_audit():
         except Exception as e:
             print(f"[!] API FETCH FAILED: {e}")
             print("    -> DIAGNOSTIC: Check your OS Firewall, Antivirus, or Proxy settings.")
-            print("    -> DIAGNOSTIC: Ensure python.exe is allowed outbound traffic on Port 443.")
-            print("    -> DIAGNOSTIC: Contact your System Administrator (or Spouse) if restricted.")
-            print("[*] FALLING BACK TO CANNED REPORT...")
-            fetch_live[0] = 'N'
+            
+            # --- TIGER TEAM OFFLINE OVERRIDE ---
+            if os.path.exists("chime_live_data.json") and os.path.getsize("chime_live_data.json") > 0:
+                print("[*] LOCAL 'chime_live_data.json' FOUND. ATTEMPTING TO LOAD MANUAL DATASET...")
+                try:
+                    with open("chime_live_data.json", "r") as f:
+                        data = json.load(f)
+                        
+                    # Extract fitted burst width data and convert seconds to milliseconds
+                    if isinstance(data, list):
+                        ingested_signals = [float(event.get('width_fitb')) * 1000 for event in data if isinstance(event, dict) and event.get('width_fitb') is not None]
+                    elif isinstance(data, dict):
+                        # Some JSON drops wrap the array in a root key
+                        for key, value in data.items():
+                            if isinstance(value, list):
+                                ingested_signals = [float(event.get('width_fitb')) * 1000 for event in value if isinstance(event, dict) and event.get('width_fitb') is not None]
+                                break
+                    
+                    if len(ingested_signals) > 0:
+                        print(f"[*] LOCAL DATA INGESTION SUCCESSFUL. LOADED {len(ingested_signals)} SIGNALS.")
+                        fetch_live[0] = 'LOCAL' # Update status so we don't fall back to canned
+                    else:
+                        print("[!] NO PERIODIC SIGNALS FOUND IN LOCAL FILE.")
+                        print("[*] FALLING BACK TO CANNED REPORT...")
+                        fetch_live[0] = 'N'
+                except Exception as file_e:
+                    print(f"[!] FAILED TO PARSE LOCAL FILE: {file_e}")
+                    print("[*] FALLING BACK TO CANNED REPORT...")
+                    fetch_live[0] = 'N'
+            else:
+                print("[!] NO LOCAL 'chime_live_data.json' FOUND (OR FILE IS EMPTY).")
+                print("[*] FALLING BACK TO CANNED REPORT...")
+                fetch_live[0] = 'N'
 
     if fetch_live[0] == 'N':
         print("\n[*] INGESTING CANNED HISTORICAL DATASET...")
@@ -103,23 +132,34 @@ def run_chime_audit():
         print("[!] CRITICAL ERROR: 0 SIGNALS INGESTED. ABORTING AUDIT.")
         sys.exit()
 
-    print(f"[*] INGESTION COMPLETE. {total_analyzed} FRB SIGNALS DETECTED.")
+    print(f"\n[*] INGESTION COMPLETE. {total_analyzed} FRB SIGNALS DETECTED.")
     print("[*] PROCESSING SIGNALS THROUGH 16/PI MODULUS...\n")
 
     # --- THE KISH MODULUS ---
     for ms in ingested_signals:
-        vacuum_time = ms * local_drag
-        lattice_beat = vacuum_time / k_base
-        nearest_prime = round(lattice_beat)
-        
-        # Strict phase-lock threshold
-        if abs(nearest_prime - lattice_beat) < 0.1:
-            prime_locks += 1
+        try:
+            vacuum_time = float(ms) * local_drag
+            lattice_beat = vacuum_time / k_base
+            nearest_prime = round(lattice_beat)
+            
+            # Strict phase-lock threshold
+            if abs(nearest_prime - lattice_beat) < 0.1:
+                prime_locks += 1
+        except (ValueError, TypeError):
+            continue # Skip invalid data types
 
     # --- CRUSHING THE STATS ---
     match_rate = (prime_locks / total_analyzed) * 100
     print("-" * 50)
-    source_tag = "LIVE CHIME API" if fetch_live[0] == 'Y' else f"AS OF {current_time.split()[0]}"
+    
+    # Source tagging
+    if fetch_live[0] == 'Y':
+        source_tag = "LIVE CHIME API"
+    elif fetch_live[0] == 'LOCAL':
+        source_tag = "LOCAL JSON OVERRIDE"
+    else:
+        source_tag = f"CANNED AS OF {current_time.split()[0]}"
+        
     print(f"TOTAL FRBs ANALYZED:  {total_analyzed} ({source_tag})")
     print(f"KISH PRIME LOCKS:     {prime_locks}")
     print(f"NETWORK COHERENCE:    {match_rate:.1f}%")
