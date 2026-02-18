@@ -44,7 +44,7 @@ The 16/pi Initiative is organized into three primary volumes, each solving a spe
 * **Target:** The Resonance of Signals and Stability.
 * **Key Discovery:** Identifying the Muon g-2 anomaly as Lattice Friction and the 441k Earth cycle as a Resonant Reset.
 * **Verification:** The CHIME FRB Decoder and the "Knockout Proof" of Phi/Pi stability.
-* [Access Volume 2 on Zenodo](INSERT_YOUR_NEW_FLOAT_DOI_LINK)
+* [Access Volume 2 on Zenodo](https://doi.org/10.5281/zenodo.18217119)
 
 ### **Volume 3: The Geometric Atom**
 * **Target:** The Rosetta Stone of Chemistry.
@@ -58,6 +58,7 @@ The 16/pi Initiative is organized into three primary volumes, each solving a spe
 For those seeking the high-level synthesis, **"The Geometric Architecture of Matter"** (Unified Edition) aggregates all proofs into a single citable document. It defines the **Universal Nyquist Limit**—redefining $c$ (The Speed of Light) not as a constant, but as the maximum mechanical refresh rate of the $16/\pi$ vacuum grid.
 
 * **Master Unified Volume:** [The Kish Lattice Unified Theory](https://doi.org/10.5281/zenodo.18383486)
+* * **Location:** `./src/Unification/Unified_Book/`
 ---
 
 ## 🏴 The Flagship Octet (The "What")
@@ -76,19 +77,21 @@ These eight axioms form the bedrock of the Sovereign Monograph series.
 
 ## 📂 The Core Monographs
 
-### 📕 [Volume 1: The Geometric Derivation](https://doi.org/10.5281/zenodo.18217119)
+### 📕 [Volume 1: The Geometric Derivation](https://doi.org/10.5281/zenodo.18209530)
 **"Holographic Resonance" (v8.0 Diamond)**
 The foundational text. Derives the *16/π* constant and applies it to Cosmology.
 * **New in v8.0:** The End of the Big Bang (Precipitation), Solar System Quantization (Jupiter/Heliopause), and LIGO Spectral Analysis (107 Hz).
 * **Location:** `./src/Unification/Vol1/`
 
-### 📗 [Volume 2: The Geometric Neutron](https://doi.org/10.5281/zenodo.18383486)
+### 📗 [Volume 2: The Geometric Neutron](https://doi.org/10.5281/zenodo.18217119)
 **"The Geometric Neutron" (v8.0 Diamond)**
 Descending into the nucleus to prove the "Strong Force" is lattice pressure.
+* **Location:** `./src/Unification/Vol2/`
 
 ### 📘 [Volume 3: The Geometric Atom](https://doi.org/10.5281/zenodo.18217226)
 **"Atomic Resonance"**
 Scaling up to electron orbitals and the derivation of the Fine Structure Constant.
+* **Location:** `./src/Unification/Vol3/`
 
 ---
 
@@ -144,6 +147,9 @@ The Kish Unified Lattice System is secured by the following US Patent Applicatio
 | **KRG** | **The Kish Resonant Gyroscope** | **63/960,103** | Jan 14, 2026 | ✅ Filed |
 | **KLEH** | **The Kish Lattice Energy Harvester** | **63/960,392** | Jan 14, 2026 | ✅ Filed |
 | **KHP** | **The Kish Holographic Processor** | **63/960,234** | Jan 14, 2026 | ✅ Filed |
+| **KFC** | **The Kish Fusion Clock** | **63/983,196** | Feb 14, 2026 | ✅ Filed |
+| **KFCT** | **The Kish Fusion Clock Transceiver** | **63/983,179** | Feb 14, 2026 | ✅ Filed |
+| **KFCR** | **The Kish Fusion Clock Receiver** | **63/983,186** | Feb 14, 2026 | ✅ Filed |
 
 ---
 
