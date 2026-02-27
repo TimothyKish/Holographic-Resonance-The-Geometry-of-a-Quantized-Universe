@@ -1,0 +1,53 @@
+{
+  "dm_width_ratio": {
+    "observed": {
+      "mean": 16265.437993814336,
+      "stdev": 439967.87265743816,
+      "max": 18896874.975736484
+    },
+    "null_summary": {
+      "mean_of_means": 16265.437993814336,
+      "mean_of_stdevs": 439967.87265743816,
+      "mean_of_max": 18896874.975736484
+    },
+    "empirical_fractions": {
+      "mean_ge": 1.0,
+      "stdev_ge": 1.0,
+      "max_ge": 1.0
+    }
+  },
+  "snr_log": {
+    "observed": {
+      "mean": 3.416786300130782,
+      "stdev": 0.7343950904707789,
+      "max": 6.059729397897498
+    },
+    "null_summary": {
+      "mean_of_means": 3.416786300130782,
+      "mean_of_stdevs": 0.7343950904707789,
+      "mean_of_max": 6.059729397897498
+    },
+    "empirical_fractions": {
+      "mean_ge": 1.0,
+      "stdev_ge": 1.0,
+      "max_ge": 1.0
+    }
+  },
+  "composite_cadence": {
+    "observed": {
+      "mean": 48642.37109864387,
+      "stdev": 1232749.7841447222,
+      "max": 52575029.24141708
+    },
+    "null_summary": {
+      "mean_of_means": 48642.37109864387,
+      "mean_of_stdevs": 1232749.7841447222,
+      "mean_of_max": 52575029.24141708
+    },
+    "empirical_fractions": {
+      "mean_ge": 1.0,
+      "stdev_ge": 1.0,
+      "max_ge": 1.0
+    }
+  }
+}
