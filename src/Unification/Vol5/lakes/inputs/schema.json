@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "required_fields": [
+    "entity_id",
+    "domain",
+    "volume",
+    "lake_id",
+    "geometry_payload",
+    "scalar_kls",
+    "scalar_klc",
+    "meta"
+  ],
+  "optional_fields": [
+    "kuu_series"
+  ],
+  "field_types": {
+    "entity_id": "string",
+    "domain": "string",
+    "volume": "integer",
+    "lake_id": "string",
+    "geometry_payload": "object",
+    "scalar_kls": "number",
+    "scalar_klc": "number",
+    "kuu_series": "string",
+    "meta": "object"
+  },
+  "meta_required": [
+    "source",
+    "ingested_at",
+    "schema_version",
+    "units"
+  ]
+}

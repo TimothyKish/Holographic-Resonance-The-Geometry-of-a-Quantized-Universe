@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Canonical schema for Vol3 sovereign lakes (Materials, Chemistry, Clean, UMC7).",
+  "required_fields": [
+    "entity_id",
+    "domain",
+    "volume",
+    "lake_id",
+    "geometry_payload",
+    "scalar_kls",
+    "scalar_klc",
+    "meta"
+  ],
+  "optional_fields": [
+    "kuu_series"
+  ],
+  "field_types": {
+    "entity_id": "string",
+    "domain": "string",
+    "volume": "integer",
+    "lake_id": "string",
+    "geometry_payload": "object",
+    "scalar_kls": "number",
+    "scalar_klc": "number",
+    "kuu_series": "string",
+    "meta": "object"
+  },
+  "meta_required": [
+    "source",
+    "ingested_at",
+    "schema_version",
+    "units"
+  ],
+  "domain_specific_geometry": {
+    "materials": [
+      "lattice_vectors",
+      "atomic_positions",
+      "space_group",
+      "unit_cell_volume",
+      "coordination_numbers"
+    ],
+    "chemistry": [
+      "atom_symbols",
+      "atom_coordinates",
+      "bond_graph",
+      "molecular_volume",
+      "rotational_constants"
+    ]
+  }
+}

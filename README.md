@@ -170,3 +170,128 @@ Any attempt to patent, classify, or restrict the geometry of the universe derive
 
 **Citation:** Kish, T. J., & Kish, L. A. (2026). *Holographic Resonance: The Geometry of a Quantized Universe*. Sovereign Monograph.
 ---
+
+
+## 🚀 What’s New in v8.0 (Diamond Standard)
+
+Version 8.0 marks the first successful unification of two scientific domains — Materials Science and Chemistry — using the Kish Lattice as the geometric backbone. This release introduces:
+
+### **1. The Unified Materials–Chemistry Ladder (UMC1–UMC7)**
+A fully sovereign, API‑free, reproducible pipeline that reveals shared harmonic structure across both domains.  
+UMC1–UMC7 collapse raw scalar lakes, harmonic shelves, resonance curvature, nonlinear cascades, and coupling into a single invariant: **KLC–MC**, the unified coordinate of matter.
+
+### **2. Sovereign Lakes**
+All external dependencies have been removed.  
+The repository now includes:
+- `materials_kish_invariant.jsonl`
+- `zinc_kish_invariant.jsonl`
+
+These are the canonical, geometry‑first lakes used in the unification pipeline.
+
+### **3. The Temporal Pillar**
+A new interpretive framework showing that time is not a dimension, but a *processing cost* of geometric tension.  
+This pillar now anchors:
+- lattice drag  
+- mass  
+- resonance transitions  
+- and the unified scalar itself  
+
+### **4. The Collapse of the Old Chemistry Pipeline**
+The legacy C‑series (C1–C10) has been replaced by the UMC ladder.  
+All obsolete scripts, endpoints, and ZINC API calls have been removed.
+
+### **5. Full Reproducibility**
+Every figure in Volume 3 is now generated from sovereign data using open scripts.  
+No external APIs.  
+No hidden preprocessing.  
+No black boxes.
+
+
+## 🔷 Unified Materials–Chemistry Ladder (UMC1–UMC7)
+
+The UMC ladder is the first empirical bridge between Materials Science and Chemistry.  
+It demonstrates that both fields express the same harmonic architecture of the Kish Lattice.
+
+### **UMC1 — Raw Scalar Distributions**
+Reveals the asymmetric but compatible scalar lakes of both domains.
+
+### **UMC2 — Normalized Overlay**
+Places both lakes on a shared axis, exposing the unified harmonic region.
+
+### **UMC3 — Harmonic Shelves**
+Detects geometric plateaus where the system prefers to stabilize.
+
+### **UMC4 — Resonance Map**
+Shows matched resonance troughs and peaks across domains.
+
+### **UMC5 — Coupling Strength**
+Confirms that the relationship is nonlinear but harmonically stable.
+
+### **UMC6 — Harmonic Cascade**
+The robustness echo: a nonlinear spike‑and‑tail pattern proving cross‑domain coupling.
+
+### **UMC7 — Unified Coordinate (KLC–MC)**
+Collapses the entire ladder into a single scalar invariant.
+
+**KLC–MC = 1.372836523653742**
+
+This is the first unified coordinate of matter.
+
+
+## 🕰️ The Temporal Pillar (New in v8.0)
+
+Time is reframed as the *processing cost* of geometric tension in the lattice.  
+This pillar explains:
+
+- why mass slows time  
+- why resonance transitions are quantized  
+- why stability bands exist  
+- why the unified scalar is invariant  
+
+The Temporal Pillar is now a core interpretive layer across all three volumes.
+
+
+## 🗄️ Sovereign Lakes & Reproducibility
+
+To ensure long‑term scientific durability, all data used in the unification pipeline is now sovereign:
+
+- No APIs  
+- No external servers  
+- No rate limits  
+- No disappearing endpoints  
+
+The repository includes:
+
+- `materials_kish_invariant.jsonl`  
+- `zinc_kish_invariant.jsonl`  
+
+These lakes are geometry‑first, JSON‑native, and fully reproducible.  
+Every figure in Volume 3 can be regenerated from these files alone.
+
+
+### 📘 Volume 3: The Geometric Atom (v8.0 Diamond)
+
+Volume 3 delivers the first empirical unification of Materials Science and Chemistry.  
+It reframes atoms, molecules, and crystals as geometric standing waves of the Kish Lattice.
+
+Key breakthroughs:
+- Electron shells reinterpreted as vertex counts of geometric solids  
+- Molecular geometry derived from harmonic modes  
+- Crystallographic stability explained as frozen resonance  
+- The UMC ladder revealing cross‑domain harmonic structure  
+- The unified coordinate KLC–MC  
+
+Volume 3 is the Rosetta Stone of Chemistry.
+
+
+## 🧭 Roadmap: Next Domains to Unify
+
+With Materials and Chemistry unified, the next targets are:
+
+1. **Biology** — protein folding as harmonic locking  
+2. **Planetary Science** — orbital spacing as lattice resonance  
+3. **Finance** — market cycles as geometric oscillators  
+4. **Solar Audit** — granulation and corona as lattice rupture dynamics  
+5. **Cosmic Structure** — galaxy morphology as standing‑wave modes  
+
+Each new domain will receive its own UMC‑style ladder and sovereign lake.

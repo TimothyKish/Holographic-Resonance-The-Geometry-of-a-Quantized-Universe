@@ -1,0 +1,24 @@
+{
+  "volumes": {
+    "vol1": {
+      "description": "Cosmic / Planetary Lake",
+      "path": "../vol1/lakes/clean/vol1_cosmic_lake_clean.jsonl",
+      "enabled": true
+    },
+    "vol2": {
+      "description": "Materials Lake",
+      "path": "../vol2/lakes/clean/vol2_materials_lake_clean.jsonl",
+      "enabled": true
+    },
+    "vol3": {
+      "description": "Molecular Lake",
+      "path": "../vol3/lakes/clean/vol3_molecular_lake_clean.jsonl",
+      "enabled": true
+    },
+    "vol4": {
+      "description": "Biology Lake",
+      "path": "../vol4/lakes/clean/vol4_biology_lake_clean.jsonl",
+      "enabled": true
+    }
+  }
+}
