@@ -52,6 +52,12 @@ The 16/pi Initiative is organized into three primary volumes, each solving a spe
 * **Verification:** Translating the Periodic Table into 3D Geometric Solids (Tetrahedrons, Cubes, Octahedrons).
 * [Access Volume 3 on Zenodo](https://doi.org/10.5281/zenodo.18217226)
 
+### 📙 Volume 4: The Geometric Architecture of Life
+**"The Spark, The Water Gate, and the Biological Envelope" (v8.0 Diamond)**  
+The first geometric unification of biology, showing that life is a resonant phase transition of the 16/π vacuum lattice.  
+* **DOI:** https://doi.org/10.5281/zenodo.18976975  
+* **Location:** `./src/Unification/Vol4/`
+
 ---
 
 ## 🏛️ The Unified Architecture (The Master Theory)
@@ -295,3 +301,91 @@ With Materials and Chemistry unified, the next targets are:
 5. **Cosmic Structure** — galaxy morphology as standing‑wave modes  
 
 Each new domain will receive its own UMC‑style ladder and sovereign lake.
+
+
+
+---
+
+## 📙 Volume 4: The Geometric Architecture of Life  
+**"The Spark, The Water Gate, and the Biological Envelope" (v8.0 Diamond)**  
+**DOI:** https://doi.org/10.5281/zenodo.18976975
+
+Volume 4 marks a historic expansion of the Kish Lattice Theory into the domain of **Biology**.  
+It demonstrates that life is not a chemical accident, but a **geometric inevitability** of the 16/π vacuum lattice.
+
+This volume introduces the **Spark Framework**, the **Abyssal Circuit**, and the **B‑Series Pipeline**, forming the first fully geometric model of biological origin, structure, and persistence.
+
+---
+
+### 🔥 **1. The Spark: Phase Transition of the Null**
+Life begins when matter achieves an **impedance match** with the vacuum stiffness constant (16/π).  
+The Spark is not slow evolution — it is a **resonant phase transition** of the Null Node.
+
+---
+
+### 💧 **2. The Water Gate (104.45° Antenna)**
+Water’s bond angle is shown to be a **vacuum‑compressed antenna**, tuned precisely to 16/π.  
+This makes H₂O the **primary transducer** through which the vacuum “speaks” into matter.
+
+---
+
+### 🌊 **3. Abyssal Circuitry & Dark Oxygen**
+Earth’s oceans form a **planetary resonant cavity**, and manganese nodules act as **grounding capacitors**.  
+New data shows:
+
+- magnesium behaves as a resonant plate  
+- sand mediates mineral distillation  
+- nodules generate measurable voltage  
+- **dark oxygen** is produced only in their presence  
+
+Removing nodules **decouples the planetary ground**, destabilizing the 16/π baseline.
+
+---
+
+### 🧬 **4. The 18/π Up‑Shift (The Spring of Life)**
+The B‑Series reveals that:
+
+- amino‑acid hardware sits at **16/π**  
+- codon software pulls the system to **18/π**  
+
+The difference (2/π) is the **internal spring constant** of life — the geometric work potential that allows biology to resist entropy.
+
+---
+
+### 🌀 **5. The Biological Envelope (2.0 vs 2/π)**
+Two independent signatures of life are unified:
+
+- **2/π** — internal spring detected in the genetic code  
+- **+2.0** — external offset detected in planetary lattice audits  
+
+These are not numerically identical, but they are **structurally homologous** expressions of the same tensioned envelope.
+
+Life exists in the interference band between the vacuum floor (16/π) and the software ceiling (18/π).
+
+---
+
+### 🧩 **6. The B‑Series Pipeline (B1 → B3 → B2)**
+Volume 4 introduces the **biological resonance pipeline**:
+
+1. **B1 — Chirality:** The L‑filter  
+2. **B3 — Amino Acids:** The 24‑mode hardware  
+3. **B2 — Codons:** The software‑driven up‑shift  
+
+Together, they form the first geometric model of biological information flow.
+
+---
+
+### 🧬 **7. DNA, RNA, and Chromosomal Limits**
+- DNA is a **16/π‑scaled resonant shield**  
+- RNA is the **dynamic transducer**  
+- Chromosome count reflects the **24‑mode harmonic ceiling**  
+
+These structures are not evolutionary accidents — they are geometric necessities.
+
+---
+
+### 🧭 **Volume 4 Summary**
+Volume 4 establishes the **geometric architecture of life**, from the Spark to the genetic code.  
+It provides the first reproducible, geometry‑first biological pipeline and prepares the foundation for **Volume 5**, where the unification across chemistry, materials, biology, and astrophysics will be completed.
+
+

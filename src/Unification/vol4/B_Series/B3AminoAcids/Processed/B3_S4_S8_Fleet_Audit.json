@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Alanine",
+        "dist": 1.4615,
+        "scalar": 0.286968,
+        "shelf": 7,
+        "deviation": 0.112762
+    },
+    {
+        "name": "Arginine",
+        "dist": 5.2062,
+        "scalar": 1.022233,
+        "shelf": 13,
+        "deviation": 11.533596
+    },
+    {
+        "name": "Asparagine",
+        "dist": 4.6887,
+        "scalar": 0.920628,
+        "shelf": 13,
+        "deviation": 9.095068
+    },
+    {
+        "name": "Aspartic_Acid",
+        "dist": 4.3193,
+        "scalar": 0.848096,
+        "shelf": 13,
+        "deviation": 7.354307
+    },
+    {
+        "name": "Cysteine",
+        "dist": 2.9438,
+        "scalar": 0.578012,
+        "shelf": 13,
+        "deviation": 0.872298
+    },
+    {
+        "name": "Glutamic_Acid",
+        "dist": 5.937,
+        "scalar": 1.165719,
+        "shelf": 13,
+        "deviation": 14.977252
+    },
+    {
+        "name": "Glutamine",
+        "dist": 4.9952,
+        "scalar": 0.980812,
+        "shelf": 13,
+        "deviation": 10.539482
+    },
+    {
+        "name": "Glycine",
+        "dist": 1.454,
+        "scalar": 0.285502,
+        "shelf": 7,
+        "deviation": 0.147956
+    },
+    {
+        "name": "Histidine",
+        "dist": 4.799,
+        "scalar": 0.942291,
+        "shelf": 13,
+        "deviation": 9.614973
+    },
+    {
+        "name": "Isoleucine",
+        "dist": 2.5007,
+        "scalar": 0.49102,
+        "shelf": 13,
+        "deviation": 1.21551
+    },
+    {
+        "name": "Leucine",
+        "dist": 3.8869,
+        "scalar": 0.763191,
+        "shelf": 13,
+        "deviation": 5.31659
+    },
+    {
+        "name": "Lysine",
+        "dist": 6.7281,
+        "scalar": 1.321063,
+        "shelf": 13,
+        "deviation": 18.705519
+    },
+    {
+        "name": "Methionine",
+        "dist": 2.757,
+        "scalar": 0.541336,
+        "shelf": 13,
+        "deviation": 0.007927
+    },
+    {
+        "name": "Phenylalanine",
+        "dist": 2.4525,
+        "scalar": 0.481552,
+        "shelf": 13,
+        "deviation": 1.44275
+    },
+    {
+        "name": "Proline",
+        "dist": 1.4627,
+        "scalar": 0.287195,
+        "shelf": 7,
+        "deviation": 0.10733
+    },
+    {
+        "name": "Serine",
+        "dist": 2.7863,
+        "scalar": 0.547092,
+        "shelf": 13,
+        "deviation": 0.130205
+    },
+    {
+        "name": "Threonine",
+        "dist": 2.6802,
+        "scalar": 0.526255,
+        "shelf": 13,
+        "deviation": 0.369889
+    },
+    {
+        "name": "Tryptophan",
+        "dist": 5.8714,
+        "scalar": 1.152839,
+        "shelf": 13,
+        "deviation": 14.668146
+    },
+    {
+        "name": "Tyrosine",
+        "dist": 2.7442,
+        "scalar": 0.53883,
+        "shelf": 13,
+        "deviation": 0.068089
+    },
+    {
+        "name": "Valine",
+        "dist": 2.4795,
+        "scalar": 0.486845,
+        "shelf": 13,
+        "deviation": 1.31572
+    }
+]

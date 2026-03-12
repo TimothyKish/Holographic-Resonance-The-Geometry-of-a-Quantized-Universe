@@ -1,0 +1,20 @@
+[
+    {
+        "modulus": "15/pi",
+        "resonance_position": 13.921261164968518,
+        "deviation_from_node_13": 0.9212611649685183,
+        "integrity": "UNSTABLE"
+    },
+    {
+        "modulus": "16/pi",
+        "resonance_position": 13.051182342157986,
+        "deviation_from_node_13": 0.05118234215798623,
+        "integrity": "STABLE"
+    },
+    {
+        "modulus": "17/pi",
+        "resonance_position": 12.283465733795753,
+        "deviation_from_node_13": 0.7165342662042473,
+        "integrity": "UNSTABLE"
+    }
+]

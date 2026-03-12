@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Alanine",
+        "hardware_dev": 0.112762,
+        "software_freq": 4,
+        "burden": 0.451
+    },
+    {
+        "name": "Arginine",
+        "hardware_dev": 11.533596,
+        "software_freq": 6,
+        "burden": 69.2016
+    },
+    {
+        "name": "Asparagine",
+        "hardware_dev": 9.095068,
+        "software_freq": 2,
+        "burden": 18.1901
+    },
+    {
+        "name": "Aspartic_Acid",
+        "hardware_dev": 7.354307,
+        "software_freq": 2,
+        "burden": 14.7086
+    },
+    {
+        "name": "Cysteine",
+        "hardware_dev": 0.872298,
+        "software_freq": 2,
+        "burden": 1.7446
+    },
+    {
+        "name": "Glutamic_Acid",
+        "hardware_dev": 14.977252,
+        "software_freq": 2,
+        "burden": 29.9545
+    },
+    {
+        "name": "Glutamine",
+        "hardware_dev": 10.539482,
+        "software_freq": 2,
+        "burden": 21.079
+    },
+    {
+        "name": "Glycine",
+        "hardware_dev": 0.147956,
+        "software_freq": 4,
+        "burden": 0.5918
+    },
+    {
+        "name": "Histidine",
+        "hardware_dev": 9.614973,
+        "software_freq": 2,
+        "burden": 19.2299
+    },
+    {
+        "name": "Isoleucine",
+        "hardware_dev": 1.21551,
+        "software_freq": 3,
+        "burden": 3.6465
+    },
+    {
+        "name": "Leucine",
+        "hardware_dev": 5.31659,
+        "software_freq": 6,
+        "burden": 31.8995
+    },
+    {
+        "name": "Lysine",
+        "hardware_dev": 18.705519,
+        "software_freq": 2,
+        "burden": 37.411
+    },
+    {
+        "name": "Methionine",
+        "hardware_dev": 0.007927,
+        "software_freq": 1,
+        "burden": 0.0079
+    },
+    {
+        "name": "Phenylalanine",
+        "hardware_dev": 1.44275,
+        "software_freq": 2,
+        "burden": 2.8855
+    },
+    {
+        "name": "Proline",
+        "hardware_dev": 0.10733,
+        "software_freq": 4,
+        "burden": 0.4293
+    },
+    {
+        "name": "Serine",
+        "hardware_dev": 0.130205,
+        "software_freq": 6,
+        "burden": 0.7812
+    },
+    {
+        "name": "Threonine",
+        "hardware_dev": 0.369889,
+        "software_freq": 4,
+        "burden": 1.4796
+    },
+    {
+        "name": "Tryptophan",
+        "hardware_dev": 14.668146,
+        "software_freq": 1,
+        "burden": 14.6681
+    },
+    {
+        "name": "Tyrosine",
+        "hardware_dev": 0.068089,
+        "software_freq": 2,
+        "burden": 0.1362
+    },
+    {
+        "name": "Valine",
+        "hardware_dev": 1.31572,
+        "software_freq": 4,
+        "burden": 5.2629
+    }
+]

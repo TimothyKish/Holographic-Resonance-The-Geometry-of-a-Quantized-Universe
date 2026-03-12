@@ -1,0 +1,10 @@
+{
+    "step": 8,
+    "name": "Alanine",
+    "kish_scalar": 0.28696826636919065,
+    "biological_container": "24-mode",
+    "resonance_position": 6.887238392860576,
+    "nearest_lattice_node": 7,
+    "harmonic_deviation": 0.11276160713942396,
+    "status": "Off-Modulus"
+}

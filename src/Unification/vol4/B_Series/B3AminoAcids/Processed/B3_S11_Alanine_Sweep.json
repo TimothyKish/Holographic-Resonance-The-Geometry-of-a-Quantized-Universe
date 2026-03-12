@@ -1,0 +1,23 @@
+[
+    {
+        "modulus": "15/pi",
+        "kish_scalar": 0.30609948412713667,
+        "resonance_position": 7.34638761905128,
+        "deviation_from_node_7": 0.34638761905127957,
+        "integrity": "UNSTABLE"
+    },
+    {
+        "modulus": "16/pi",
+        "kish_scalar": 0.28696826636919065,
+        "resonance_position": 6.887238392860576,
+        "deviation_from_node_7": 0.11276160713942396,
+        "integrity": "STABLE"
+    },
+    {
+        "modulus": "17/pi",
+        "kish_scalar": 0.27008778011217943,
+        "resonance_position": 6.482106722692306,
+        "deviation_from_node_7": 0.5178932773076941,
+        "integrity": "UNSTABLE"
+    }
+]

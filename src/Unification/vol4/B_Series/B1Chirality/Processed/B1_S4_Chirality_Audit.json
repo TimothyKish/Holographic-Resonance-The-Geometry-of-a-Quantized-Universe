@@ -1,0 +1,23 @@
+[
+    {
+        "name": "D_Alanine",
+        "dist": 1.461403,
+        "scalar": 0.286946,
+        "shelf": 7,
+        "deviation": 0.113302
+    },
+    {
+        "name": "D_Serine",
+        "dist": 2.786423,
+        "scalar": 0.547113,
+        "shelf": 13,
+        "deviation": 0.130709
+    },
+    {
+        "name": "D_Valine",
+        "dist": 2.488158,
+        "scalar": 0.488549,
+        "shelf": 13,
+        "deviation": 1.274833
+    }
+]

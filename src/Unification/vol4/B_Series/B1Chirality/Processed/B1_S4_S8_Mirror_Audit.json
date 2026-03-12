@@ -1,0 +1,162 @@
+[
+    {
+        "name": "D_Alanine",
+        "dist": 1.461403,
+        "scalar": 0.286946,
+        "shelf": 7,
+        "deviation": 0.113302,
+        "simulated": false
+    },
+    {
+        "name": "D_Arginine",
+        "dist": 5.24397,
+        "scalar": 1.029651,
+        "shelf": 13,
+        "deviation": 11.711625,
+        "simulated": false
+    },
+    {
+        "name": "D_Asparagine",
+        "dist": 4.527723,
+        "scalar": 0.889016,
+        "shelf": 13,
+        "deviation": 8.336394,
+        "simulated": false
+    },
+    {
+        "name": "D_Aspartic_Acid",
+        "dist": 4.032028,
+        "scalar": 0.791687,
+        "shelf": 13,
+        "deviation": 6.000483,
+        "simulated": false
+    },
+    {
+        "name": "D_Cysteine",
+        "dist": 2.943747,
+        "scalar": 0.578003,
+        "shelf": 13,
+        "deviation": 0.872082,
+        "simulated": false
+    },
+    {
+        "name": "D_Glutamic_Acid",
+        "dist": 5.981582,
+        "scalar": 1.174481,
+        "shelf": 13,
+        "deviation": 15.18754,
+        "simulated": false
+    },
+    {
+        "name": "D_Glutamine",
+        "dist": 5.088195,
+        "scalar": 0.999065,
+        "shelf": 13,
+        "deviation": 10.977553,
+        "simulated": false
+    },
+    {
+        "name": "D_Glycine_Simulated",
+        "dist": 1.454049,
+        "scalar": 0.285502,
+        "shelf": 7,
+        "deviation": 0.147956,
+        "simulated": true
+    },
+    {
+        "name": "D_Histidine",
+        "dist": 4.652766,
+        "scalar": 0.913568,
+        "shelf": 13,
+        "deviation": 8.925643,
+        "simulated": false
+    },
+    {
+        "name": "D_Isoleucine",
+        "dist": 2.501561,
+        "scalar": 0.49118,
+        "shelf": 13,
+        "deviation": 1.211671,
+        "simulated": false
+    },
+    {
+        "name": "D_Leucine",
+        "dist": 3.109901,
+        "scalar": 0.610628,
+        "shelf": 13,
+        "deviation": 1.655065,
+        "simulated": false
+    },
+    {
+        "name": "D_Lysine",
+        "dist": 6.753271,
+        "scalar": 1.326002,
+        "shelf": 13,
+        "deviation": 18.824038,
+        "simulated": false
+    },
+    {
+        "name": "D_Methionine",
+        "dist": 2.756919,
+        "scalar": 0.54132,
+        "shelf": 13,
+        "deviation": 0.008327,
+        "simulated": false
+    },
+    {
+        "name": "D_Phenylalanine",
+        "dist": 2.450787,
+        "scalar": 0.481211,
+        "shelf": 13,
+        "deviation": 1.450939,
+        "simulated": false
+    },
+    {
+        "name": "D_Proline",
+        "dist": 1.46273,
+        "scalar": 0.287206,
+        "shelf": 7,
+        "deviation": 0.107048,
+        "simulated": false
+    },
+    {
+        "name": "D_Serine",
+        "dist": 2.786423,
+        "scalar": 0.547113,
+        "shelf": 13,
+        "deviation": 0.130709,
+        "simulated": false
+    },
+    {
+        "name": "D_Threonine",
+        "dist": 2.680125,
+        "scalar": 0.526241,
+        "shelf": 13,
+        "deviation": 0.370209,
+        "simulated": false
+    },
+    {
+        "name": "D_Tryptophan",
+        "dist": 5.870608,
+        "scalar": 1.152691,
+        "shelf": 13,
+        "deviation": 14.664589,
+        "simulated": false
+    },
+    {
+        "name": "D_Tyrosine",
+        "dist": 2.771007,
+        "scalar": 0.544086,
+        "shelf": 13,
+        "deviation": 0.058065,
+        "simulated": false
+    },
+    {
+        "name": "D_Valine",
+        "dist": 2.488158,
+        "scalar": 0.488549,
+        "shelf": 13,
+        "deviation": 1.274833,
+        "simulated": false
+    }
+]

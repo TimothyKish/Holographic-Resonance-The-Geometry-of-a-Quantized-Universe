@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Alanine",
+        "symbol": "A",
+        "frequency": 4
+    },
+    {
+        "name": "Arginine",
+        "symbol": "R",
+        "frequency": 6
+    },
+    {
+        "name": "Asparagine",
+        "symbol": "N",
+        "frequency": 2
+    },
+    {
+        "name": "Aspartic_Acid",
+        "symbol": "D",
+        "frequency": 2
+    },
+    {
+        "name": "Cysteine",
+        "symbol": "C",
+        "frequency": 2
+    },
+    {
+        "name": "Glutamic_Acid",
+        "symbol": "E",
+        "frequency": 2
+    },
+    {
+        "name": "Glutamine",
+        "symbol": "Q",
+        "frequency": 2
+    },
+    {
+        "name": "Glycine",
+        "symbol": "G",
+        "frequency": 4
+    },
+    {
+        "name": "Histidine",
+        "symbol": "H",
+        "frequency": 2
+    },
+    {
+        "name": "Isoleucine",
+        "symbol": "I",
+        "frequency": 3
+    },
+    {
+        "name": "Leucine",
+        "symbol": "L",
+        "frequency": 6
+    },
+    {
+        "name": "Lysine",
+        "symbol": "K",
+        "frequency": 2
+    },
+    {
+        "name": "Methionine",
+        "symbol": "M",
+        "frequency": 1
+    },
+    {
+        "name": "Phenylalanine",
+        "symbol": "F",
+        "frequency": 2
+    },
+    {
+        "name": "Proline",
+        "symbol": "P",
+        "frequency": 4
+    },
+    {
+        "name": "Serine",
+        "symbol": "S",
+        "frequency": 6
+    },
+    {
+        "name": "Threonine",
+        "symbol": "T",
+        "frequency": 4
+    },
+    {
+        "name": "Tryptophan",
+        "symbol": "W",
+        "frequency": 1
+    },
+    {
+        "name": "Tyrosine",
+        "symbol": "Y",
+        "frequency": 2
+    },
+    {
+        "name": "Valine",
+        "symbol": "V",
+        "frequency": 4
+    }
+]
