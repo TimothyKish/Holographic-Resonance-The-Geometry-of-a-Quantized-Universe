@@ -1,0 +1,43 @@
+{
+  "unify": {
+    "klc_mapping": {
+      "mode": "identity",
+      "description": "KLC = KLS for initial unification. Can be changed to 'normalized' or 'anchored' later."
+    },
+
+    "modulus_sweep": {
+      "enabled": true,
+      "values": [
+        4.5,
+        4.75,
+        5.0
+      ],
+      "labels": [
+        "15/pi",
+        "16/pi",
+        "17/pi"
+      ]
+    },
+
+    "cross_domain_pinch": {
+      "enabled": true,
+      "domains": [
+        "biology",
+        "chemistry",
+        "materials",
+        "astrophysics"
+      ]
+    },
+
+    "null_domains": {
+      "enabled": false,
+      "paths": []
+    },
+
+    "output": {
+      "unified_lake": "lakes/unified/unified_master.jsonl",
+      "pinch_table": "lakes/unified/pinch_table.json",
+      "sweep_results": "lakes/unified/sweep_results.json"
+    }
+  }
+}

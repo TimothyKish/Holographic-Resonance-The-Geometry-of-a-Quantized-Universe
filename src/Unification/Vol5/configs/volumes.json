@@ -1,0 +1,45 @@
+{
+  "__comment__": "Volume 5 unified table MUST be ordered by physical scale: biology → chemistry → materials → astrophysics.",
+
+  "volumes": {
+    "b1_chirality": {
+      "path": "lakes/inputs_promoted/b1_chirality_promoted.jsonl",
+      "enabled": true,
+      "domain": "biology",
+      "scale_rank": 1
+    },
+    "b2_codon": {
+      "path": "lakes/inputs_promoted/b2_codon_promoted.jsonl",
+      "enabled": true,
+      "domain": "biology",
+      "scale_rank": 1
+    },
+    "b3_amino": {
+      "path": "lakes/inputs_promoted/b3_amino_promoted.jsonl",
+      "enabled": true,
+      "domain": "biology",
+      "scale_rank": 1
+    },
+
+    "chemistry": {
+      "path": "lakes/inputs_promoted/chemistry_promoted.jsonl",
+      "enabled": true,
+      "domain": "chemistry",
+      "scale_rank": 2
+    },
+
+    "materials": {
+      "path": "lakes/inputs_promoted/materials_promoted.jsonl",
+      "enabled": true,
+      "domain": "materials",
+      "scale_rank": 3
+    },
+
+    "frb_master": {
+      "path": "lakes/inputs_promoted/frb_master_promoted.jsonl",
+      "enabled": true,
+      "domain": "astrophysics",
+      "scale_rank": 4
+    }
+  }
+}

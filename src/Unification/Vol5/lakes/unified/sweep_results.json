@@ -1,0 +1,74 @@
+[
+  {
+    "domain": "biology",
+    "modulus": 4.5,
+    "label": "15/pi",
+    "lock_rate": 0.0
+  },
+  {
+    "domain": "biology",
+    "modulus": 4.75,
+    "label": "16/pi",
+    "lock_rate": 0.0
+  },
+  {
+    "domain": "biology",
+    "modulus": 5.0,
+    "label": "17/pi",
+    "lock_rate": 0.0
+  },
+  {
+    "domain": "chemistry",
+    "modulus": 4.5,
+    "label": "15/pi",
+    "lock_rate": 0.9053502843362015
+  },
+  {
+    "domain": "chemistry",
+    "modulus": 4.75,
+    "label": "16/pi",
+    "lock_rate": 0.9324441003959866
+  },
+  {
+    "domain": "chemistry",
+    "modulus": 5.0,
+    "label": "17/pi",
+    "lock_rate": 0.95422336022866
+  },
+  {
+    "domain": "materials",
+    "modulus": 4.5,
+    "label": "15/pi",
+    "lock_rate": 0.13375327465928827
+  },
+  {
+    "domain": "materials",
+    "modulus": 4.75,
+    "label": "16/pi",
+    "lock_rate": 0.14379065728666882
+  },
+  {
+    "domain": "materials",
+    "modulus": 5.0,
+    "label": "17/pi",
+    "lock_rate": 0.12033085096988785
+  },
+  {
+    "domain": "astrophysics",
+    "modulus": 4.5,
+    "label": "15/pi",
+    "lock_rate": 0.0
+  },
+  {
+    "domain": "astrophysics",
+    "modulus": 4.75,
+    "label": "16/pi",
+    "lock_rate": 0.4418604651162791
+  },
+  {
+    "domain": "astrophysics",
+    "modulus": 5.0,
+    "label": "17/pi",
+    "lock_rate": 0.4418604651162791
+  }
+]
