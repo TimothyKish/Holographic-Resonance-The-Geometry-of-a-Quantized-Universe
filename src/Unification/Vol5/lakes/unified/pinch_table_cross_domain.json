@@ -3,60 +3,60 @@
         "Biology": null,
         "Chemistry": {
             "15pi": {
-                "lock_score": 0.6578,
-                "rms_residual": 0.5202
+                "lock_score": 0.7761,
+                "rms_residual": 0.2884
             },
             "16pi": {
-                "lock_score": 0.6722,
-                "rms_residual": 0.4877
+                "lock_score": 0.7871,
+                "rms_residual": 0.2704
             },
             "17pi": {
-                "lock_score": 0.6854,
-                "rms_residual": 0.459
+                "lock_score": 0.7971,
+                "rms_residual": 0.2545
             }
         },
         "Materials": {
             "15pi": {
-                "lock_score": 0.864,
-                "rms_residual": 0.1574
+                "lock_score": 0.5724,
+                "rms_residual": 0.747
             },
             "16pi": {
-                "lock_score": 0.8729,
-                "rms_residual": 0.1456
+                "lock_score": 0.5753,
+                "rms_residual": 0.7381
             },
             "17pi": {
-                "lock_score": 0.8711,
-                "rms_residual": 0.1479
+                "lock_score": 0.5731,
+                "rms_residual": 0.745
             }
         },
         "FRBs": {
             "15pi": {
-                "lock_score": 0.7278,
-                "rms_residual": 0.374
+                "lock_score": 1.0,
+                "rms_residual": 0.0
             },
             "16pi": {
-                "lock_score": 0.7395,
-                "rms_residual": 0.3522
+                "lock_score": 1.0,
+                "rms_residual": 0.0
             },
             "17pi": {
-                "lock_score": 0.751,
-                "rms_residual": 0.3315
+                "lock_score": 1.0,
+                "rms_residual": 0.0
             }
         }
     },
     "Chemistry": {
         "Biology": {
             "15pi": {
-                "lock_score": 0.6578,
-                "rms_residual": 0.5202
+                "lock_score": 0.7761,
+                "rms_residual": 0.2884
             },
             "16pi": {
-                "lock_score": 0.6722,
-                "rms_residual": 0.4877
+                "lock_score": 0.7871,
+                "rms_residual": 0.2704
             },
             "17pi": {
-                "lock_score": 0.6854,
-                "rms_residual": 0.459
+                "lock_score": 0.7971,
+                "rms_residual": 0.2545
             }
         },
         "Chemistry": null,
@@ -76,32 +76,32 @@
         },
         "FRBs": {
             "15pi": {
-                "lock_score": 0.8721,
-                "rms_residual": 0.1467
+                "lock_score": 0.7761,
+                "rms_residual": 0.2884
             },
             "16pi": {
-                "lock_score": 0.8801,
-                "rms_residual": 0.1363
+                "lock_score": 0.7871,
+                "rms_residual": 0.2704
             },
             "17pi": {
-                "lock_score": 0.8863,
-                "rms_residual": 0.1282
+                "lock_score": 0.7971,
+                "rms_residual": 0.2545
             }
         }
     },
     "Materials": {
         "Biology": {
             "15pi": {
-                "lock_score": 0.864,
-                "rms_residual": 0.1574
+                "lock_score": 0.5724,
+                "rms_residual": 0.747
             },
             "16pi": {
-                "lock_score": 0.8729,
-                "rms_residual": 0.1456
+                "lock_score": 0.5753,
+                "rms_residual": 0.7381
             },
             "17pi": {
-                "lock_score": 0.8711,
-                "rms_residual": 0.1479
+                "lock_score": 0.5731,
+                "rms_residual": 0.745
             }
         },
         "Chemistry": {
@@ -121,60 +121,60 @@
         "Materials": null,
         "FRBs": {
             "15pi": {
-                "lock_score": 0.75,
-                "rms_residual": 0.3333
+                "lock_score": 0.5724,
+                "rms_residual": 0.747
             },
             "16pi": {
-                "lock_score": 0.74,
-                "rms_residual": 0.3513
+                "lock_score": 0.5753,
+                "rms_residual": 0.7381
             },
             "17pi": {
-                "lock_score": 0.7244,
-                "rms_residual": 0.3805
+                "lock_score": 0.5731,
+                "rms_residual": 0.745
             }
         }
     },
     "FRBs": {
         "Biology": {
             "15pi": {
-                "lock_score": 0.7278,
-                "rms_residual": 0.374
+                "lock_score": 1.0,
+                "rms_residual": 0.0
             },
             "16pi": {
-                "lock_score": 0.7395,
-                "rms_residual": 0.3522
+                "lock_score": 1.0,
+                "rms_residual": 0.0
             },
             "17pi": {
-                "lock_score": 0.751,
-                "rms_residual": 0.3315
+                "lock_score": 1.0,
+                "rms_residual": 0.0
             }
         },
         "Chemistry": {
             "15pi": {
-                "lock_score": 0.8721,
-                "rms_residual": 0.1467
+                "lock_score": 0.7761,
+                "rms_residual": 0.2884
             },
             "16pi": {
-                "lock_score": 0.8801,
-                "rms_residual": 0.1363
+                "lock_score": 0.7871,
+                "rms_residual": 0.2704
             },
             "17pi": {
-                "lock_score": 0.8863,
-                "rms_residual": 0.1282
+                "lock_score": 0.7971,
+                "rms_residual": 0.2545
             }
         },
         "Materials": {
             "15pi": {
-                "lock_score": 0.75,
-                "rms_residual": 0.3333
+                "lock_score": 0.5724,
+                "rms_residual": 0.747
             },
             "16pi": {
-                "lock_score": 0.74,
-                "rms_residual": 0.3513
+                "lock_score": 0.5753,
+                "rms_residual": 0.7381
             },
             "17pi": {
-                "lock_score": 0.7244,
-                "rms_residual": 0.3805
+                "lock_score": 0.5731,
+                "rms_residual": 0.745
             }
         },
         "FRBs": null

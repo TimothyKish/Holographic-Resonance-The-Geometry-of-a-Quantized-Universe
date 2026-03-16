@@ -1,19 +1,85 @@
 {
-  "__comment__": "Volume 5 unified table MUST be ordered by physical scale: biology → chemistry → materials → astrophysics.",
+  "__comment__": "Volume 5 unified table ordered by physical scale: planck → biology → chemistry → materials → astrophysics → universal.",
 
   "volumes": {
+
+    "planck_null": {
+      "path": "lakes/synthetic/planck_null.jsonl",
+      "enabled": true,
+      "domain": "planck",
+      "scale_rank": 0
+    },
+
+    "t1_biological": {
+      "path": "lakes/inputs_promoted/t1_biological_promoted.jsonl",
+      "enabled": true,
+      "domain": "biology",
+      "scale_rank": 1
+    },
+
+    "t2_planetary": {
+      "path": "lakes/inputs_promoted/t2_planetary_promoted.jsonl",
+      "enabled": true,
+      "domain": "planetary",
+      "scale_rank": 2
+    },
+
+    "t3_stellar": {
+      "path": "lakes/inputs_promoted/t3_stellar_promoted.jsonl",
+      "enabled": true,
+      "domain": "stellar",
+      "scale_rank": 3
+    },
+
+    "t4_cosmological": {
+      "path": "lakes/inputs_promoted/t4_cosmological_promoted.jsonl",
+      "enabled": true,
+      "domain": "cosmology",
+      "scale_rank": 4
+    },
+
+    "n1_mechanical": {
+      "path": "lakes/inputs_promoted/n1_mechanical_promoted.jsonl",
+      "enabled": true,
+      "domain": "mechanics",
+      "scale_rank": 0
+    },
+
+    "n2_behavioral": {
+      "path": "lakes/inputs_promoted/n2_behavioral_promoted.jsonl",
+      "enabled": true,
+      "domain": "behavior",
+      "scale_rank": 0
+    },
+
+    "n3_mathematical": {
+      "path": "lakes/inputs_promoted/n3_mathematical_promoted.jsonl",
+      "enabled": true,
+      "domain": "mathematics",
+      "scale_rank": 0
+    },
+
+    "n4_cosmological": {
+      "path": "lakes/inputs_promoted/n4_cosmological_promoted.jsonl",
+      "enabled": true,
+      "domain": "cosmology",
+      "scale_rank": 0
+    },
+
     "b1_chirality": {
       "path": "lakes/inputs_promoted/b1_chirality_promoted.jsonl",
       "enabled": true,
       "domain": "biology",
       "scale_rank": 1
     },
+
     "b2_codon": {
       "path": "lakes/inputs_promoted/b2_codon_promoted.jsonl",
       "enabled": true,
       "domain": "biology",
       "scale_rank": 1
     },
+
     "b3_amino": {
       "path": "lakes/inputs_promoted/b3_amino_promoted.jsonl",
       "enabled": true,
@@ -40,6 +106,13 @@
       "enabled": true,
       "domain": "astrophysics",
       "scale_rank": 4
+    },
+
+    "universal_closure": {
+      "path": "lakes/synthetic/universal_closure.jsonl",
+      "enabled": true,
+      "domain": "universal",
+      "scale_rank": 5
     }
   }
 }

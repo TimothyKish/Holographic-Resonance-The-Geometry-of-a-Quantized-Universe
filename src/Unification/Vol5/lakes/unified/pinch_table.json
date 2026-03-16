@@ -1,27 +1,75 @@
 [
   {
+    "domain": "mechanical",
+    "volume_name": "n1_mechanical",
+    "scale_rank": 0,
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
+  },
+  {
+    "domain": "behavioral",
+    "volume_name": "n2_behavioral",
+    "scale_rank": 0,
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
+  },
+  {
+    "domain": "mathematical",
+    "volume_name": "n3_mathematical",
+    "scale_rank": 0,
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
+  },
+  {
+    "domain": "cosmology",
+    "volume_name": "n4_cosmological",
+    "scale_rank": 0,
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
+  },
+  {
+    "domain": "biology",
+    "volume_name": "t1_biological",
+    "scale_rank": 1,
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
+  },
+  {
     "domain": "biology",
     "volume_name": "b1_chirality",
     "scale_rank": 1,
-    "lock_15/pi": 0.0,
-    "lock_16/pi": 0.0,
-    "lock_17/pi": 0.0
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
   },
   {
     "domain": "biology",
     "volume_name": "b2_codon",
     "scale_rank": 1,
-    "lock_15/pi": 0.0,
-    "lock_16/pi": 0.0,
-    "lock_17/pi": 0.0
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
   },
   {
     "domain": "biology",
     "volume_name": "b3_amino",
     "scale_rank": 1,
-    "lock_15/pi": 0.0,
-    "lock_16/pi": 0.0,
-    "lock_17/pi": 0.0
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
+  },
+  {
+    "domain": "planetary",
+    "volume_name": "t2_planetary",
+    "scale_rank": 2,
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
   },
   {
     "domain": "chemistry",
@@ -32,6 +80,14 @@
     "lock_17/pi": 0.95422336022866
   },
   {
+    "domain": "stellar",
+    "volume_name": "t3_stellar",
+    "scale_rank": 3,
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
+  },
+  {
     "domain": "materials",
     "volume_name": "materials",
     "scale_rank": 3,
@@ -40,11 +96,19 @@
     "lock_17/pi": 0.12033085096988785
   },
   {
+    "domain": "cosmology",
+    "volume_name": "t4_cosmological",
+    "scale_rank": 4,
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
+  },
+  {
     "domain": "astrophysics",
     "volume_name": "frb_master",
     "scale_rank": 4,
-    "lock_15/pi": 0.0,
-    "lock_16/pi": 0.4418604651162791,
-    "lock_17/pi": 0.4418604651162791
+    "lock_15/pi": 1.0,
+    "lock_16/pi": 1.0,
+    "lock_17/pi": 1.0
   }
 ]

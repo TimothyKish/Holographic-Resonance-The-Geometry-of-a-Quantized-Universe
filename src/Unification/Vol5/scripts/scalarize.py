@@ -13,24 +13,26 @@ from typing import Dict, Any, Iterable, Tuple
 # Configuration
 # --------------------------------------------------------------------
 
-LAKES: Tuple[str, ...] = (
-    "b1_chirality",
-    "b2_codon",
-    "b3_amino",
-    "chemistry",
-    "materials",
-    "frb_master",
-)
-
-MODE = "geometry"
-
 ROOT = Path(__file__).resolve().parents[1]
+CONFIG_DIR = ROOT / "configs"
 INPUT_DIR = ROOT / "lakes" / "inputs_promoted"
 OUTPUT_DIR = ROOT / "lakes" / "unified"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+
+def load_enabled_lakes():
+    """Load all enabled lakes from volumes.json."""
+    cfg = json.load(open(CONFIG_DIR / "volumes.json", "r", encoding="utf-8"))
+    volumes = cfg.get("volumes", {})
+    return tuple(name for name, meta in volumes.items() if meta.get("enabled", False))
+
+
+LAKES = load_enabled_lakes()
+MODE = "geometry"
+
+
 # --------------------------------------------------------------------
-# Geometry-first scalarization (Biology only)
+# Geometry-first scalarization (placeholder)
 # --------------------------------------------------------------------
 
 def compute_geometry_payload(raw: Dict[str, Any]) -> Dict[str, Any]:
@@ -41,59 +43,37 @@ def compute_geometry_payload(raw: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
-def compute_kish_scalars_from_coords(raw: Dict[str, Any]) -> Tuple[float, float]:
-    coords = raw.get("coords", [])
-    if not coords:
-        return 0.0, 0.0
-
-    # Placeholder geometry-first scalarization
-    n_atoms = len(coords)
-    scalar = float(n_atoms - 10)
-    return scalar, scalar
-
 # --------------------------------------------------------------------
-# Domain-specific scalarization (REAL invariants)
+# Domain-specific scalarization
 # --------------------------------------------------------------------
 
 def scalarize_biology(record):
-    inv = record["_raw_payload"].get("scalar_invariant")
-    if inv is None:
-        return 0.0, 0.0
-    return float(inv), float(inv)
-
-
-
-def scalarize_chemistry(record: Dict[str, Any]) -> Tuple[float, float]:
-    """
-    Chemistry sovereign invariant:
-    _raw_payload.scalar_invariant
-    """
-    payload = record.get("_raw_payload", {})
+    payload = record.get("_raw_payload", {}) or {}
     inv = payload.get("scalar_invariant")
-    if inv is None:
-        return 0.0, 0.0
-    return float(inv), float(inv)
+    return (float(inv), float(inv)) if inv is not None else (0.0, 0.0)
 
 
-def scalarize_materials(record: Dict[str, Any]) -> Tuple[float, float]:
-    """
-    Materials sovereign invariant:
-    _raw_payload.lattice_deviation (preferred)
-    or _raw_payload.scalar_invariant
-    """
-    payload = record.get("_raw_payload", {})
+def scalarize_chemistry(record):
+    payload = record.get("_raw_payload", {}) or {}
+    inv = payload.get("scalar_invariant")
+    return (float(inv), float(inv)) if inv is not None else (0.0, 0.0)
+
+
+def scalarize_materials(record):
+    payload = record.get("_raw_payload", {}) or {}
     inv = payload.get("lattice_deviation") or payload.get("scalar_invariant")
-    if inv is None:
-        return 0.0, 0.0
-    return float(inv), float(inv)
+    return (float(inv), float(inv)) if inv is not None else (0.0, 0.0)
 
 
-def scalarize_frb(record: Dict[str, Any]) -> Tuple[float, float]:
-    payload = record.get("_raw_payload", {})
+def scalarize_frb(record):
+    payload = record.get("_raw_payload", {}) or {}
     inv = payload.get("scalar_invariant")
-    if inv is None:
-        return 0.0, 0.0
-    return float(inv), float(inv)
+    return (float(inv), float(inv)) if inv is not None else (0.0, 0.0)
+
+
+def scalarize_null(record):
+    """Null lakes always scalarize to zero."""
+    return 0.0, 0.0
 
 
 # --------------------------------------------------------------------
@@ -102,40 +82,42 @@ def scalarize_frb(record: Dict[str, Any]) -> Tuple[float, float]:
 
 def scalarize_record(record: Dict[str, Any], lake_id: str) -> Dict[str, Any]:
     entity_id = record.get("entity_id")
-    domain = record.get("domain", "").lower()
+    domain = (record.get("domain") or "").lower()
     volume = record.get("volume")
-    raw = record.get("_raw_payload", {})
+    raw = record.get("_raw_payload", {}) or {}
+
+    # --- Domain normalization ---
+    if domain in ("mechanical", "behavioral", "mathematical", "cosmological_null"):
+        domain_group = "null"
+    else:
+        domain_group = domain
 
     # --- Domain-specific scalarization ---
-    if domain == "biology":
+    if domain_group == "biology":
         scalar_kls, scalar_klc = scalarize_biology(record)
 
-    elif domain == "chemistry":
+    elif domain_group == "chemistry":
         scalar_kls, scalar_klc = scalarize_chemistry(record)
 
-    elif domain == "materials":
+    elif domain_group == "materials":
         scalar_kls, scalar_klc = scalarize_materials(record)
 
-    elif domain in ("astrophysics", "frb"):
+    elif domain_group in ("astrophysics", "frb", "stellar", "planetary", "cosmology"):
         scalar_kls, scalar_klc = scalarize_frb(record)
+
+    elif domain_group == "null":
+        scalar_kls, scalar_klc = scalarize_null(record)
 
     else:
         scalar_kls, scalar_klc = (0.0, 0.0)
 
-    # --- Geometry payload (kept minimal & honest) ---
-    if lake_id == "b2_codon":
-        geometry_payload = {
-            "coordinates": [],
-            "dimensionality": 0,
-            "geometry_type": "none",
-        }
-    else:
-        geometry_payload = compute_geometry_payload(raw)
+    # --- Geometry payload ---
+    geometry_payload = compute_geometry_payload(raw)
 
     # --- Meta handling ---
     meta = dict(record.get("meta", {}))
-    meta.setdefault("source", record.get("meta", {}).get("source", "vol5_promotion_raw_lake"))
-    meta.setdefault("ingest_timestamp", record.get("meta", {}).get("ingest_timestamp", "2026-03-13T00:00:00Z"))
+    meta.setdefault("source", "vol5_promotion_raw_lake")
+    meta.setdefault("ingest_timestamp", "2026-03-13T00:00:00Z")
     meta.setdefault("sovereign", False)
 
     return {
@@ -149,6 +131,7 @@ def scalarize_record(record: Dict[str, Any], lake_id: str) -> Dict[str, Any]:
         "meta": meta,
         "_raw_payload": raw,
     }
+
 
 # --------------------------------------------------------------------
 # JSONL helpers
@@ -167,6 +150,7 @@ def write_jsonl(path: Path, records: Iterable[Dict[str, Any]]) -> None:
         for rec in records:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
+
 # --------------------------------------------------------------------
 # Lake driver
 # --------------------------------------------------------------------
@@ -183,6 +167,7 @@ def scalarize_lake(lake_id: str, mode: str = MODE) -> None:
 
     records = [scalarize_record(rec, lake_id) for rec in iter_jsonl(in_path)]
     write_jsonl(out_path, records)
+
 
 # --------------------------------------------------------------------
 # Main
