@@ -1,0 +1,10 @@
+{"entity_id": "CAL_S1_000", "v_dispersion_kms": 160.0, "magnitude_r": -21.2, "redshift_z": -0.001, "meta": {"name": "M31"}}
+{"entity_id": "CAL_S1_001", "v_dispersion_kms": 75.0, "magnitude_r": -16.5, "redshift_z": -0.0007, "meta": {"name": "M32"}}
+{"entity_id": "CAL_S1_002", "v_dispersion_kms": 375.0, "magnitude_r": -22.7, "redshift_z": 0.004, "meta": {"name": "NGC4486"}}
+{"entity_id": "CAL_S1_003", "v_dispersion_kms": 206.0, "magnitude_r": -20.9, "redshift_z": 0.003, "meta": {"name": "NGC3379"}}
+{"entity_id": "CAL_S1_004", "v_dispersion_kms": 335.0, "magnitude_r": -22.3, "redshift_z": 0.0037, "meta": {"name": "NGC4649"}}
+{"entity_id": "CAL_S1_005", "v_dispersion_kms": 300.0, "magnitude_r": -22.9, "redshift_z": 0.0033, "meta": {"name": "NGC4472"}}
+{"entity_id": "CAL_S1_006", "v_dispersion_kms": 250.0, "magnitude_r": -21.5, "redshift_z": 0.005, "meta": {"name": "NGC5846"}}
+{"entity_id": "CAL_S1_007", "v_dispersion_kms": 290.0, "magnitude_r": -21.8, "redshift_z": 0.0059, "meta": {"name": "NGC1407"}}
+{"entity_id": "CAL_S1_008", "v_dispersion_kms": 280.0, "magnitude_r": -22.1, "redshift_z": 0.0033, "meta": {"name": "NGC4374"}}
+{"entity_id": "CAL_S1_009", "v_dispersion_kms": 225.0, "magnitude_r": -21.4, "redshift_z": 0.016, "meta": {"name": "NGC708"}}

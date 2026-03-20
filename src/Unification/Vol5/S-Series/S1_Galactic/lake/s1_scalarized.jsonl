@@ -1,0 +1,10 @@
+{"entity_id": "CAL_S1_000", "domain": "S1_Galactic", "primary_value": 2.1701009177483067e-10, "meta": {"sigma": 160.0, "mag": -21.2}, "lattice_metrics": {"klc_resonance": -0.6799017901425439}}
+{"entity_id": "CAL_S1_001", "domain": "S1_Galactic", "primary_value": 7.947765662198255e-10, "meta": {"sigma": 75.0, "mag": -16.5}, "lattice_metrics": {"klc_resonance": 0.7538217889026472}}
+{"entity_id": "CAL_S1_002", "domain": "S1_Galactic", "primary_value": 1.6448453481278338e-09, "meta": {"sigma": 375.0, "mag": -22.7}, "lattice_metrics": {"klc_resonance": 0.9837749875045492}}
+{"entity_id": "CAL_S1_003", "domain": "S1_Galactic", "primary_value": 7.860838638252631e-10, "meta": {"sigma": 206.0, "mag": -20.9}, "lattice_metrics": {"klc_resonance": 0.7448376481543235}}
+{"entity_id": "CAL_S1_004", "domain": "S1_Galactic", "primary_value": 1.5141860059982612e-09, "meta": {"sigma": 335.0, "mag": -22.3}, "lattice_metrics": {"klc_resonance": 0.9969383115608664}}
+{"entity_id": "CAL_S1_005", "domain": "S1_Galactic", "primary_value": 5.603830864443384e-10, "meta": {"sigma": 300.0, "mag": -22.9}, "lattice_metrics": {"klc_resonance": 0.41027387901690043}}
+{"entity_id": "CAL_S1_006", "domain": "S1_Galactic", "primary_value": 9.812056373084264e-10, "meta": {"sigma": 250.0, "mag": -21.5}, "lattice_metrics": {"klc_resonance": 0.8973933205892162}}
+{"entity_id": "CAL_S1_007", "domain": "S1_Galactic", "primary_value": 1.347696162061767e-09, "meta": {"sigma": 290.0, "mag": -21.8}, "lattice_metrics": {"klc_resonance": 0.9978601426247325}}
+{"entity_id": "CAL_S1_008", "domain": "S1_Galactic", "primary_value": 8.884482277276091e-10, "meta": {"sigma": 280.0, "mag": -22.1}, "lattice_metrics": {"klc_resonance": 0.8367453288188755}}
+{"entity_id": "CAL_S1_009", "domain": "S1_Galactic", "primary_value": 7.058786922891314e-10, "meta": {"sigma": 225.0, "mag": -21.4}, "lattice_metrics": {"klc_resonance": 0.6499514365216885}}
