@@ -466,4 +466,22 @@ These structures are not evolutionary accidents — they are geometric necessiti
 Volume 4 establishes the **geometric architecture of life**, from the Spark to the genetic code.  
 It provides the first reproducible, geometry‑first biological pipeline and prepares the foundation for **Volume 5**, where the unification across chemistry, materials, biology, and astrophysics will be completed.
 
+---
+
+🛰️ Volume 5: Temporal Pocket Observation — FRB 180916 (16.35‑Day Cadence)
+
+A well‑studied repeating fast radio burst, FRB 20180916B (FRB 180916.J0158+65), located in a star‑forming region of a nearby spiral galaxy approximately 480 million light‑years away, exhibits a stable 16.35‑day activity cycle. This is currently the cleanest and most precisely measured temporal cadence in the FRB population.
+
+Key Observations
+- Periodicity: 16.35 days (machine‑grade stability across multiple observing campaigns)  
+- Localization: Star‑forming region in a nearby spiral galaxy  
+- Uniqueness: To date, this is the only FRB with a well‑characterized activity cycle in this temporal range  
+- Relevance: The 16.35‑day cadence falls within the temporal resonance band identified in the T‑Series temporal drag audits, making it the first astrophysical candidate for a temporal pocket analogous to the spatial pockets observed in the P‑Series
+
+Interpretation
+While the mechanism behind the 16.35‑day cycle remains under investigation, its stability and placement within the predicted temporal band make it a valuable external reference point for the emerging temporal architecture of the lattice. No known stellar, planetary, or binary system within the FRB’s immediate environment has been identified with a matching orbital or rotational period, leaving the cadence as an independent temporal signature.
+
+This FRB provides the first observational anchor for the temporal side of the lattice, complementing the spatial resonance structure established in the planetary and galactic audits.
+
+---
 
