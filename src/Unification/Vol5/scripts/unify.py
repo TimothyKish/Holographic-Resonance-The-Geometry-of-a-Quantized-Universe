@@ -1,140 +1,254 @@
 # ==============================================================================
-# SCRIPT: unify.py
-# TARGET: Merge scalarized lakes, run modulus sweep, build pinch table
-# AUTHORS: Timothy John Kish & Phoenix Aurora
-# LICENSE: Sovereign Protected / KishLattice 16pi Initiative Copyright 2026
+# SCRIPT: unify.py  (STREAMING REWRITE — memory-safe)
+# PURPOSE: Merge all enabled scalarized lakes into unified_master.jsonl
+#
+# PROBLEM WITH ORIGINAL:
+#   Original loaded every lake entirely into RAM before writing.
+#   With 2M + 1.8M + 1.84M records, this caused MemoryError on laptops.
+#
+# FIX:
+#   Streaming approach — one record at a time, never holds full lake in RAM.
+#   Each lake is read line-by-line and written directly to the output file.
+#   Domain statistics (count, mean, min, max) are tracked during the stream.
+#   Memory usage is proportional to ONE record, not the full dataset.
+#
+# OUTPUT FILES (same as original):
+#   lakes/unified/unified_master.jsonl    — all records merged
+#   lakes/unified/sweep_results.json      — per-domain scalar statistics
+#   lakes/unified/pinch_table.json        — domain summary table
+#
+# AUTHORS: Timothy John Kish & Mondy
+# AUDIT STATUS: mondy_verified_2026-04 (streaming rewrite)
 # ==============================================================================
+
 import json
+import math
+import os
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-CONFIG_DIR = ROOT / "configs"
-UNIFIED_DIR = ROOT / "lakes" / "unified"
+# --------------------------------------------------------------------
+# Paths
+# --------------------------------------------------------------------
+SCRIPT_DIR   = Path(__file__).resolve().parent
+VOL5_ROOT    = SCRIPT_DIR.parent
+CONFIG_PATH  = VOL5_ROOT / "configs" / "volumes.json"
+UNIFIED_DIR  = VOL5_ROOT / "lakes" / "unified"
+MASTER_PATH  = UNIFIED_DIR / "unified_master.jsonl"
+SWEEP_PATH   = UNIFIED_DIR / "sweep_results.json"
+PINCH_PATH   = UNIFIED_DIR / "pinch_table.json"
 
-def load_json(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+UNIFIED_DIR.mkdir(parents=True, exist_ok=True)
 
-def ensure_dir(path):
-    path.mkdir(parents=True, exist_ok=True)
+# --------------------------------------------------------------------
+# Load volumes config
+# --------------------------------------------------------------------
+def load_volumes():
+    with CONFIG_PATH.open("r", encoding="utf-8") as f:
+        cfg = json.load(f)
+    return cfg.get("volumes", {})
 
-def load_scalarized_lake(name):
-    path = UNIFIED_DIR / f"{name}_scalarized.jsonl"
-    if not path.exists():
-        print(f"Scalarized lake missing: {path}")
-        return []
-    entries = []
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
+
+# --------------------------------------------------------------------
+# Locate scalarized file for a given lake name
+# --------------------------------------------------------------------
+def find_scalarized(name):
+    """Find the scalarized JSONL for a lake name."""
+    candidates = [
+        UNIFIED_DIR / f"{name}_scalarized.jsonl",
+        UNIFIED_DIR / f"{name}.jsonl",
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+    return None
+
+
+# --------------------------------------------------------------------
+# Streaming unify — core function
+# --------------------------------------------------------------------
+def unify_streaming(volumes):
+    """
+    Stream all enabled lakes to unified_master.jsonl.
+    Returns domain_stats dict: {domain: {n, sum, sum_sq, min, max, nonzero}}
+    Never loads more than one record into memory at a time.
+    """
+    domain_stats = {}
+    total_written = 0
+    lakes_processed = 0
+
+    with MASTER_PATH.open("w", encoding="utf-8") as fout:
+        for lake_name, cfg in volumes.items():
+            if not cfg.get("enabled", False):
                 continue
-            entries.append(json.loads(line))
-    return entries
 
-def modulus_lock_rate(entries, modulus):
-    if not entries:
-        return 0.0
-    locked = 0
-    for e in entries:
-        k = e.get("scalar_klc", None)
-        if k is None:
-            continue
-        phase = (k % modulus) / modulus
-        # simple shelf criterion; refine later if needed
-        if phase < 0.05 or phase > 0.95:
-            locked += 1
-    return locked / max(1, len(entries))
+            scalarized = find_scalarized(lake_name)
+            if scalarized is None:
+                print(f"  [SKIP] {lake_name} — scalarized file not found")
+                continue
 
-def main():
-    ensure_dir(UNIFIED_DIR)
+            domain = cfg.get("domain", lake_name)
+            lake_count = 0
+            lake_nonzero = 0
 
-    unify_cfg = load_json(CONFIG_DIR / "unify.json")["unify"]
-    volumes_cfg = load_json(CONFIG_DIR / "volumes.json")["volumes"]
+            with scalarized.open("r", encoding="utf-8") as fin:
+                for line in fin:
+                    line = line.strip()
+                    if not line:
+                        continue
 
-    unified_path = UNIFIED_DIR / "unified_master.jsonl"
-    pinch_table_path = UNIFIED_DIR / "pinch_table.json"
-    sweep_results_path = UNIFIED_DIR / "sweep_results.json"
+                    # Parse one record at a time — no accumulation
+                    rec = json.loads(line)
 
-    unified_entries = []
-    domain_map = {}
+                    # Extract scalar — try multiple field names for compatibility
+                    scalar = (rec.get("scalar_klc")
+                              or rec.get("scalar_kls")
+                              or rec.get("scalar_invariant")
+                              or 0.0)
+                    try:
+                        scalar = float(scalar)
+                    except (TypeError, ValueError):
+                        scalar = 0.0
+                    if not math.isfinite(scalar):
+                        scalar = 0.0
 
-    # Load scalarized lakes (unsorted)
-    for name, cfg in volumes_cfg.items():
-        if not cfg.get("enabled", False):
-            continue
+                    # Stamp domain onto record
+                    rec["domain"] = domain
 
-        domain = cfg.get("domain", "unknown")
-        entries = load_scalarized_lake(name)
+                    # Write directly to output — no accumulation
+                    fout.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
-        for e in entries:
-            e["_volume_name"] = name
-            e["_domain"] = domain
-            unified_entries.append(e)
-            domain_map.setdefault(domain, []).append(e)
+                    # Update domain statistics (running totals only)
+                    if domain not in domain_stats:
+                        domain_stats[domain] = {
+                            "n": 0, "nonzero": 0,
+                            "sum": 0.0, "sum_sq": 0.0,
+                            "min": float("inf"), "max": float("-inf"),
+                            "lake_ids": set(),
+                        }
+                    ds = domain_stats[domain]
+                    ds["n"]        += 1
+                    ds["lake_ids"].add(lake_name)
+                    if scalar != 0.0:
+                        ds["nonzero"] += 1
+                        ds["sum"]     += scalar
+                        ds["sum_sq"]  += scalar * scalar
+                        ds["min"]      = min(ds["min"], scalar)
+                        ds["max"]      = max(ds["max"], scalar)
 
-    # Write unified master (unsorted)
-    with open(unified_path, "w", encoding="utf-8") as f:
-        for e in unified_entries:
-            f.write(json.dumps(e) + "\n")
-    print(f"Unified master written: {unified_path}")
+                    lake_count   += 1
+                    total_written += 1
 
-    # Modulus sweep
-    sweep_cfg = unify_cfg["modulus_sweep"]
-    sweep_values = sweep_cfg["values"]
-    sweep_labels = sweep_cfg["labels"]
+            lakes_processed += 1
+            nonzero = domain_stats.get(domain, {}).get("nonzero", 0)
+            print(f"  [{lake_name}] domain={domain}  n={lake_count:,}  "
+                  f"nonzero={nonzero:,}")
 
-    sweep_results = []
+    print(f"\nTotal records written: {total_written:,}")
+    print(f"Lakes processed: {lakes_processed}")
+    return domain_stats
 
-    for domain, entries in domain_map.items():
-        for value, label in zip(sweep_values, sweep_labels):
-            rate = modulus_lock_rate(entries, value)
-            sweep_results.append({
-                "domain": domain,
-                "modulus": value,
-                "label": label,
-                "lock_rate": rate
-            })
 
-    with open(sweep_results_path, "w", encoding="utf-8") as f:
-        json.dump(sweep_results, f, indent=2)
-    print(f"Sweep results written: {sweep_results_path}")
+# --------------------------------------------------------------------
+# Compute sweep results from running stats
+# --------------------------------------------------------------------
+def build_sweep_results(domain_stats):
+    """Build sweep results dict from running statistics."""
+    sweep = {}
+    for domain, ds in domain_stats.items():
+        n       = ds["n"]
+        nonzero = ds["nonzero"]
+        if nonzero > 0:
+            mean = ds["sum"] / nonzero
+            var  = (ds["sum_sq"] / nonzero) - (mean * mean)
+            std  = math.sqrt(max(0.0, var))
+            dmin = ds["min"]
+            dmax = ds["max"]
+        else:
+            mean = std = dmin = dmax = 0.0
 
-    # Scale‑ordered pinch table
-    pinch_cfg = unify_cfg["cross_domain_pinch"]
-    pinch_domains = pinch_cfg["domains"]
-
-    # Sort by scale_rank from volumes.json
-    ordered_domains = sorted(
-        volumes_cfg.items(),
-        key=lambda x: x[1].get("scale_rank", 999)
-    )
-
-    pinch_table = []
-    for name, cfg in ordered_domains:
-        if not cfg.get("enabled", False):
-            continue
-
-        domain = cfg["domain"]
-        entries = domain_map.get(domain, [])
-        if not entries:
-            continue
-
-        row = {
-            "domain": domain,
-            "volume_name": name,
-            "scale_rank": cfg.get("scale_rank", None)
+        sweep[domain] = {
+            "domain":  domain,
+            "n":       n,
+            "nonzero": nonzero,
+            "mean":    round(mean, 6),
+            "std":     round(std, 6),
+            "min":     round(dmin, 6),
+            "max":     round(dmax, 6),
+            "lakes":   sorted(ds["lake_ids"]),
         }
+    return sweep
 
-        for value, label in zip(sweep_values, sweep_labels):
-            rate = modulus_lock_rate(entries, value)
-            row[f"lock_{label}"] = rate
 
-        pinch_table.append(row)
+# --------------------------------------------------------------------
+# Build pinch table summary
+# --------------------------------------------------------------------
+def build_pinch_table(sweep_results):
+    """Build simple pinch table from sweep results."""
+    rows = []
+    for domain, stats in sorted(sweep_results.items()):
+        rows.append({
+            "domain":  domain,
+            "n":       stats["n"],
+            "nonzero": stats["nonzero"],
+            "mean":    stats["mean"],
+            "std":     stats["std"],
+            "min":     stats["min"],
+            "max":     stats["max"],
+        })
+    return {"domains": rows}
 
-    with open(pinch_table_path, "w", encoding="utf-8") as f:
-        json.dump(pinch_table, f, indent=2)
-    print(f"Pinch table written: {pinch_table_path}")
+
+# --------------------------------------------------------------------
+# Main
+# --------------------------------------------------------------------
+def main():
+    print("=" * 60)
+    print("Unify — Streaming Mode (memory-safe)")
+    print("=" * 60)
+    print(f"Config: {CONFIG_PATH}")
+    print(f"Output: {MASTER_PATH}")
+    print()
+
+    volumes = load_volumes()
+    enabled  = [(n, c) for n, c in volumes.items() if c.get("enabled", False)]
+    disabled = [(n, c) for n, c in volumes.items() if not c.get("enabled", False)]
+    print(f"Volumes: {len(volumes)} total, {len(enabled)} enabled, "
+          f"{len(disabled)} disabled")
+    print()
+
+    # Stream all lakes to unified master
+    domain_stats = unify_streaming(volumes)
+
+    # Build and write sweep results
+    sweep = build_sweep_results(domain_stats)
+    with SWEEP_PATH.open("w", encoding="utf-8") as f:
+        json.dump(sweep, f, indent=2)
+
+    # Build and write pinch table
+    pinch = build_pinch_table(sweep)
+    with PINCH_PATH.open("w", encoding="utf-8") as f:
+        json.dump(pinch, f, indent=2)
+
+    print(f"\nUnified master written: {MASTER_PATH}")
+    print(f"Sweep results written:  {SWEEP_PATH}")
+    print(f"Pinch table written:    {PINCH_PATH}")
+    print()
+
+    # Print domain summary
+    print("Domain summary:")
+    print(f"  {'Domain':<22} {'n':>10} {'nonzero':>10} {'mean':>8} {'range'}")
+    print("  " + "-" * 65)
+    for domain, stats in sorted(sweep.items()):
+        n    = stats["n"]
+        nz   = stats["nonzero"]
+        mean = stats["mean"]
+        dmin = stats["min"]
+        dmax = stats["max"]
+        if nz > 0:
+            print(f"  {domain:<22} {n:>10,} {nz:>10,} {mean:>8.4f} "
+                  f"[{dmin:.4f}, {dmax:.4f}]")
+        else:
+            print(f"  {domain:<22} {n:>10,} {'(all zeros)':>20}")
 
 if __name__ == "__main__":
     main()

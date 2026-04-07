@@ -1,0 +1,4 @@
+{"name": "Earth Atmosphere", "ar_40_36": 298.56, "status": "OPEN", "klc_resonance": 0.5570678878783137}
+{"name": "Mars Atmosphere", "ar_40_36": 1900.0, "status": "SEALED", "klc_resonance": 0.264425631542355}
+{"name": "Chondrite Meteorite", "ar_40_36": 0.0001, "status": "PRIMORDIAL", "klc_resonance": 0.8658172053123315}
+{"name": "Titan Atmosphere", "ar_40_36": 1.4, "status": "OPEN_COLD", "klc_resonance": 0.255455356457248}

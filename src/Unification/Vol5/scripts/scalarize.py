@@ -1,7 +1,11 @@
 # ==============================================================================
 # SCRIPT: scalarize.py
 # TARGET: Apply domain-native scalarization to all promoted lakes
-# AUTHORS: Timothy John Kish & Phoenix Aurora
+# AUTHORS: Timothy John Kish
+# AUDIT STATUS: Mondy-verified 2026-04
+# CHANGE: Added fallback to preserve existing scalar_kls when domain
+#         scalarization returns zero (e.g. chemistry, materials, frb_chime
+#         which embed scalar_kls directly in the promoted record).
 # LICENSE: Sovereign Protected / KishLattice 16pi Initiative Copyright 2026
 # ==============================================================================
 #!/usr/bin/env python
@@ -110,6 +114,16 @@ def scalarize_record(record: Dict[str, Any], lake_id: str) -> Dict[str, Any]:
 
     else:
         scalar_kls, scalar_klc = (0.0, 0.0)
+
+    # --- Fallback: preserve existing scalar_kls when scalarization returns zero ---
+    # Some lakes (chemistry, materials, frb_chime) compute their scalar upstream
+    # and embed it directly as scalar_kls in the promoted record.
+    # Without this fallback, re-running scalarize.py overwrites them with zeros.
+    if scalar_kls == 0.0 and scalar_klc == 0.0:
+        existing_kls = record.get("scalar_kls", 0.0)
+        if existing_kls != 0.0:
+            scalar_kls = existing_kls
+            scalar_klc = record.get("scalar_klc", existing_kls)
 
     # --- Geometry payload ---
     geometry_payload = compute_geometry_payload(raw)
