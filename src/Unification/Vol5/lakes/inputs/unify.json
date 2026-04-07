@@ -1,0 +1,23 @@
+{
+  "unify_settings": {
+    "klc_assignment": {
+      "mode": "identity",
+      "description": "KLC = KLS unless a future transformation is defined."
+    },
+    "schema_validation": {
+      "strict": true,
+      "log_failures": true,
+      "log_path": "lakes/logs/schema_validation.log"
+    },
+    "exclusions": {
+      "drop_missing_geometry": true,
+      "drop_missing_scalars": true,
+      "log_path": "lakes/logs/exclusions.log"
+    },
+    "output": {
+      "unified_lake_path": "lakes/unified/vol5_unified_kish_lake.jsonl",
+      "summary_report": "reports/summary.md",
+      "diagnostics_report": "reports/diagnostics.md"
+    }
+  }
+}

@@ -1,0 +1,4247 @@
+{
+  "biology_amino": {
+    "biology_amino": null,
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0897,
+        "dist_rms": 10.1468,
+        "chaos_lock": 0.1431,
+        "chaos_delta": -0.0534
+      },
+      "16/pi": {
+        "dist_lock": 0.0932,
+        "dist_rms": 9.7243,
+        "chaos_lock": 0.148,
+        "chaos_delta": -0.0548
+      },
+      "17/pi": {
+        "dist_lock": 0.0988,
+        "dist_rms": 9.1226,
+        "chaos_lock": 0.1563,
+        "chaos_delta": -0.0576
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.9242,
+        "dist_rms": 0.082,
+        "chaos_lock": 0.8672,
+        "chaos_delta": 0.057
+      },
+      "16/pi": {
+        "dist_lock": 0.9239,
+        "dist_rms": 0.0824,
+        "chaos_lock": 0.8933,
+        "chaos_delta": 0.0306
+      },
+      "17/pi": {
+        "dist_lock": 0.9568,
+        "dist_rms": 0.0451,
+        "chaos_lock": 0.9003,
+        "chaos_delta": 0.0566
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.8335,
+        "dist_rms": 0.1998,
+        "chaos_lock": 0.8638,
+        "chaos_delta": -0.0303
+      },
+      "16/pi": {
+        "dist_lock": 0.9545,
+        "dist_rms": 0.0477,
+        "chaos_lock": 0.9157,
+        "chaos_delta": 0.0388
+      },
+      "17/pi": {
+        "dist_lock": 0.9417,
+        "dist_rms": 0.0619,
+        "chaos_lock": 0.9197,
+        "chaos_delta": 0.022
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.8381,
+        "dist_rms": 0.1931,
+        "chaos_lock": 0.8464,
+        "chaos_delta": -0.0083
+      },
+      "16/pi": {
+        "dist_lock": 0.9375,
+        "dist_rms": 0.0666,
+        "chaos_lock": 0.9257,
+        "chaos_delta": 0.0119
+      },
+      "17/pi": {
+        "dist_lock": 0.9179,
+        "dist_rms": 0.0894,
+        "chaos_lock": 0.9207,
+        "chaos_delta": -0.0028
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.8664,
+        "dist_rms": 0.1542,
+        "chaos_lock": 0.8687,
+        "chaos_delta": -0.0022
+      },
+      "16/pi": {
+        "dist_lock": 0.9181,
+        "dist_rms": 0.0892,
+        "chaos_lock": 0.9181,
+        "chaos_delta": 0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.9224,
+        "dist_rms": 0.0841,
+        "chaos_lock": 0.9196,
+        "chaos_delta": 0.0028
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.8698,
+        "dist_rms": 0.1497,
+        "chaos_lock": 0.8734,
+        "chaos_delta": -0.0036
+      },
+      "16/pi": {
+        "dist_lock": 0.9154,
+        "dist_rms": 0.0924,
+        "chaos_lock": 0.913,
+        "chaos_delta": 0.0024
+      },
+      "17/pi": {
+        "dist_lock": 0.9199,
+        "dist_rms": 0.087,
+        "chaos_lock": 0.9197,
+        "chaos_delta": 0.0002
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.8665,
+        "dist_rms": 0.1541,
+        "chaos_lock": 0.8663,
+        "chaos_delta": 0.0002
+      },
+      "16/pi": {
+        "dist_lock": 0.9014,
+        "dist_rms": 0.1093,
+        "chaos_lock": 0.9039,
+        "chaos_delta": -0.0025
+      },
+      "17/pi": {
+        "dist_lock": 0.9053,
+        "dist_rms": 0.1046,
+        "chaos_lock": 0.9079,
+        "chaos_delta": -0.0026
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.8476,
+        "dist_rms": 0.1798,
+        "chaos_lock": 0.8493,
+        "chaos_delta": -0.0016
+      },
+      "16/pi": {
+        "dist_lock": 0.9294,
+        "dist_rms": 0.076,
+        "chaos_lock": 0.9256,
+        "chaos_delta": 0.0038
+      },
+      "17/pi": {
+        "dist_lock": 0.9203,
+        "dist_rms": 0.0866,
+        "chaos_lock": 0.9211,
+        "chaos_delta": -0.0008
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.8643,
+        "dist_rms": 0.1569,
+        "chaos_lock": 0.8703,
+        "chaos_delta": -0.006
+      },
+      "16/pi": {
+        "dist_lock": 0.9163,
+        "dist_rms": 0.0914,
+        "chaos_lock": 0.9137,
+        "chaos_delta": 0.0025
+      },
+      "17/pi": {
+        "dist_lock": 0.9307,
+        "dist_rms": 0.0745,
+        "chaos_lock": 0.9178,
+        "chaos_delta": 0.0128
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.878,
+        "dist_rms": 0.1389,
+        "chaos_lock": 0.8818,
+        "chaos_delta": -0.0038
+      },
+      "16/pi": {
+        "dist_lock": 0.9293,
+        "dist_rms": 0.0761,
+        "chaos_lock": 0.9209,
+        "chaos_delta": 0.0084
+      },
+      "17/pi": {
+        "dist_lock": 0.9349,
+        "dist_rms": 0.0696,
+        "chaos_lock": 0.9128,
+        "chaos_delta": 0.0222
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.9319,
+        "dist_rms": 0.0731,
+        "chaos_lock": 0.8688,
+        "chaos_delta": 0.0631
+      },
+      "16/pi": {
+        "dist_lock": 0.897,
+        "dist_rms": 0.1148,
+        "chaos_lock": 0.9146,
+        "chaos_delta": -0.0176
+      },
+      "17/pi": {
+        "dist_lock": 0.9423,
+        "dist_rms": 0.0613,
+        "chaos_lock": 0.9195,
+        "chaos_delta": 0.0228
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.8687,
+        "dist_rms": 0.1512,
+        "chaos_lock": 0.8688,
+        "chaos_delta": -0.0002
+      },
+      "16/pi": {
+        "dist_lock": 0.9163,
+        "dist_rms": 0.0914,
+        "chaos_lock": 0.9163,
+        "chaos_delta": -0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.9199,
+        "dist_rms": 0.0871,
+        "chaos_lock": 0.9192,
+        "chaos_delta": 0.0006
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6843,
+        "dist_rms": 0.4613,
+        "chaos_lock": 0.7953,
+        "chaos_delta": -0.111
+      },
+      "16/pi": {
+        "dist_lock": 0.6705,
+        "dist_rms": 0.4914,
+        "chaos_lock": 0.7974,
+        "chaos_delta": -0.1269
+      },
+      "17/pi": {
+        "dist_lock": 0.6858,
+        "dist_rms": 0.4582,
+        "chaos_lock": 0.8049,
+        "chaos_delta": -0.1191
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.869,
+        "dist_rms": 0.1507,
+        "chaos_lock": 0.8683,
+        "chaos_delta": 0.0007
+      },
+      "16/pi": {
+        "dist_lock": 0.9174,
+        "dist_rms": 0.0901,
+        "chaos_lock": 0.9166,
+        "chaos_delta": 0.0007
+      },
+      "17/pi": {
+        "dist_lock": 0.9195,
+        "dist_rms": 0.0876,
+        "chaos_lock": 0.92,
+        "chaos_delta": -0.0005
+      }
+    }
+  },
+  "biology_chirality": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.0897,
+        "dist_rms": 10.1468,
+        "chaos_lock": 0.0888,
+        "chaos_delta": 0.0009
+      },
+      "16/pi": {
+        "dist_lock": 0.0932,
+        "dist_rms": 9.7243,
+        "chaos_lock": 0.0943,
+        "chaos_delta": -0.001
+      },
+      "17/pi": {
+        "dist_lock": 0.0988,
+        "dist_rms": 9.1226,
+        "chaos_lock": 0.0979,
+        "chaos_delta": 0.0009
+      }
+    },
+    "biology_chirality": null,
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.0894,
+        "dist_rms": 10.1916,
+        "chaos_lock": 0.0888,
+        "chaos_delta": 0.0005
+      },
+      "16/pi": {
+        "dist_lock": 0.0927,
+        "dist_rms": 9.7882,
+        "chaos_lock": 0.0942,
+        "chaos_delta": -0.0015
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.1397,
+        "chaos_lock": 0.0979,
+        "chaos_delta": 0.0007
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.0882,
+        "dist_rms": 10.3316,
+        "chaos_lock": 0.0887,
+        "chaos_delta": -0.0005
+      },
+      "16/pi": {
+        "dist_lock": 0.0934,
+        "dist_rms": 9.7038,
+        "chaos_lock": 0.0938,
+        "chaos_delta": -0.0003
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.142,
+        "chaos_lock": 0.0987,
+        "chaos_delta": -0.0001
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.0884,
+        "dist_rms": 10.3086,
+        "chaos_lock": 0.0885,
+        "chaos_delta": -0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.0933,
+        "dist_rms": 9.718,
+        "chaos_lock": 0.0935,
+        "chaos_delta": -0.0002
+      },
+      "17/pi": {
+        "dist_lock": 0.099,
+        "dist_rms": 9.0964,
+        "chaos_lock": 0.0989,
+        "chaos_delta": 0.0001
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.0888,
+        "dist_rms": 10.267,
+        "chaos_lock": 0.0888,
+        "chaos_delta": -0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.6688,
+        "chaos_lock": 0.0937,
+        "chaos_delta": 0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.0987,
+        "dist_rms": 9.128,
+        "chaos_lock": 0.0986,
+        "chaos_delta": 0.0001
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.0888,
+        "dist_rms": 10.2626,
+        "chaos_lock": 0.0888,
+        "chaos_delta": -0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.6667,
+        "chaos_lock": 0.0938,
+        "chaos_delta": -0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.1423,
+        "chaos_lock": 0.0986,
+        "chaos_delta": 0.0
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.0889,
+        "dist_rms": 10.251,
+        "chaos_lock": 0.0889,
+        "chaos_delta": 0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.0939,
+        "dist_rms": 9.6541,
+        "chaos_lock": 0.0939,
+        "chaos_delta": 0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.0988,
+        "dist_rms": 9.1242,
+        "chaos_lock": 0.0988,
+        "chaos_delta": 0.0
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.0885,
+        "dist_rms": 10.2958,
+        "chaos_lock": 0.0885,
+        "chaos_delta": -0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.0934,
+        "dist_rms": 9.703,
+        "chaos_lock": 0.0935,
+        "chaos_delta": -0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.0989,
+        "dist_rms": 9.1098,
+        "chaos_lock": 0.0989,
+        "chaos_delta": -0.0
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.0887,
+        "dist_rms": 10.2684,
+        "chaos_lock": 0.0888,
+        "chaos_delta": -0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.6751,
+        "chaos_lock": 0.0938,
+        "chaos_delta": -0.0001
+      },
+      "17/pi": {
+        "dist_lock": 0.0988,
+        "dist_rms": 9.1181,
+        "chaos_lock": 0.0987,
+        "chaos_delta": 0.0002
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.0889,
+        "dist_rms": 10.2469,
+        "chaos_lock": 0.0889,
+        "chaos_delta": 0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.0933,
+        "dist_rms": 9.717,
+        "chaos_lock": 0.0936,
+        "chaos_delta": -0.0003
+      },
+      "17/pi": {
+        "dist_lock": 0.0991,
+        "dist_rms": 9.0876,
+        "chaos_lock": 0.0984,
+        "chaos_delta": 0.0007
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.0893,
+        "dist_rms": 10.1952,
+        "chaos_lock": 0.0888,
+        "chaos_delta": 0.0005
+      },
+      "16/pi": {
+        "dist_lock": 0.0942,
+        "dist_rms": 9.6191,
+        "chaos_lock": 0.0937,
+        "chaos_delta": 0.0004
+      },
+      "17/pi": {
+        "dist_lock": 0.0985,
+        "dist_rms": 9.155,
+        "chaos_lock": 0.0986,
+        "chaos_delta": -0.0002
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.0888,
+        "dist_rms": 10.2644,
+        "chaos_lock": 0.0888,
+        "chaos_delta": -0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.6679,
+        "chaos_lock": 0.0937,
+        "chaos_delta": -0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.1393,
+        "chaos_lock": 0.0986,
+        "chaos_delta": 0.0
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.0906,
+        "dist_rms": 10.0385,
+        "chaos_lock": 0.0894,
+        "chaos_delta": 0.0012
+      },
+      "16/pi": {
+        "dist_lock": 0.0957,
+        "dist_rms": 9.4485,
+        "chaos_lock": 0.0944,
+        "chaos_delta": 0.0013
+      },
+      "17/pi": {
+        "dist_lock": 0.1008,
+        "dist_rms": 8.9234,
+        "chaos_lock": 0.0994,
+        "chaos_delta": 0.0014
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.0888,
+        "dist_rms": 10.2639,
+        "chaos_lock": 0.0888,
+        "chaos_delta": 0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.669,
+        "chaos_lock": 0.0937,
+        "chaos_delta": -0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.1403,
+        "chaos_lock": 0.0986,
+        "chaos_delta": -0.0
+      }
+    }
+  },
+  "biology_other": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.9242,
+        "dist_rms": 0.082,
+        "chaos_lock": 0.8866,
+        "chaos_delta": 0.0376
+      },
+      "16/pi": {
+        "dist_lock": 0.9239,
+        "dist_rms": 0.0824,
+        "chaos_lock": 0.8333,
+        "chaos_delta": 0.0906
+      },
+      "17/pi": {
+        "dist_lock": 0.9568,
+        "dist_rms": 0.0451,
+        "chaos_lock": 0.8939,
+        "chaos_delta": 0.063
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0894,
+        "dist_rms": 10.1916,
+        "chaos_lock": 0.1409,
+        "chaos_delta": -0.0515
+      },
+      "16/pi": {
+        "dist_lock": 0.0927,
+        "dist_rms": 9.7882,
+        "chaos_lock": 0.1448,
+        "chaos_delta": -0.0521
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.1397,
+        "chaos_lock": 0.1546,
+        "chaos_delta": -0.0559
+      }
+    },
+    "biology_other": null,
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.8533,
+        "dist_rms": 0.1719,
+        "chaos_lock": 0.8832,
+        "chaos_delta": -0.0299
+      },
+      "16/pi": {
+        "dist_lock": 0.893,
+        "dist_rms": 0.1198,
+        "chaos_lock": 0.858,
+        "chaos_delta": 0.035
+      },
+      "17/pi": {
+        "dist_lock": 0.9297,
+        "dist_rms": 0.0756,
+        "chaos_lock": 0.9146,
+        "chaos_delta": 0.0151
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.8575,
+        "dist_rms": 0.1662,
+        "chaos_lock": 0.8658,
+        "chaos_delta": -0.0083
+      },
+      "16/pi": {
+        "dist_lock": 0.8834,
+        "dist_rms": 0.132,
+        "chaos_lock": 0.8698,
+        "chaos_delta": 0.0137
+      },
+      "17/pi": {
+        "dist_lock": 0.9079,
+        "dist_rms": 0.1015,
+        "chaos_lock": 0.9111,
+        "chaos_delta": -0.0033
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.8858,
+        "dist_rms": 0.1289,
+        "chaos_lock": 0.8886,
+        "chaos_delta": -0.0028
+      },
+      "16/pi": {
+        "dist_lock": 0.8603,
+        "dist_rms": 0.1623,
+        "chaos_lock": 0.8604,
+        "chaos_delta": -0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.9159,
+        "dist_rms": 0.0918,
+        "chaos_lock": 0.9151,
+        "chaos_delta": 0.0008
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.8897,
+        "dist_rms": 0.1239,
+        "chaos_lock": 0.8929,
+        "chaos_delta": -0.0032
+      },
+      "16/pi": {
+        "dist_lock": 0.8579,
+        "dist_rms": 0.1657,
+        "chaos_lock": 0.8556,
+        "chaos_delta": 0.0022
+      },
+      "17/pi": {
+        "dist_lock": 0.916,
+        "dist_rms": 0.0917,
+        "chaos_lock": 0.9158,
+        "chaos_delta": 0.0002
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.8829,
+        "dist_rms": 0.1326,
+        "chaos_lock": 0.8833,
+        "chaos_delta": -0.0003
+      },
+      "16/pi": {
+        "dist_lock": 0.8428,
+        "dist_rms": 0.1865,
+        "chaos_lock": 0.8453,
+        "chaos_delta": -0.0025
+      },
+      "17/pi": {
+        "dist_lock": 0.9002,
+        "dist_rms": 0.1109,
+        "chaos_lock": 0.9025,
+        "chaos_delta": -0.0023
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.8667,
+        "dist_rms": 0.1538,
+        "chaos_lock": 0.8689,
+        "chaos_delta": -0.0022
+      },
+      "16/pi": {
+        "dist_lock": 0.8739,
+        "dist_rms": 0.1444,
+        "chaos_lock": 0.8706,
+        "chaos_delta": 0.0033
+      },
+      "17/pi": {
+        "dist_lock": 0.9116,
+        "dist_rms": 0.097,
+        "chaos_lock": 0.9119,
+        "chaos_delta": -0.0003
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.8853,
+        "dist_rms": 0.1295,
+        "chaos_lock": 0.8897,
+        "chaos_delta": -0.0044
+      },
+      "16/pi": {
+        "dist_lock": 0.8596,
+        "dist_rms": 0.1634,
+        "chaos_lock": 0.8557,
+        "chaos_delta": 0.0039
+      },
+      "17/pi": {
+        "dist_lock": 0.9199,
+        "dist_rms": 0.0871,
+        "chaos_lock": 0.913,
+        "chaos_delta": 0.007
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.8996,
+        "dist_rms": 0.1116,
+        "chaos_lock": 0.9002,
+        "chaos_delta": -0.0006
+      },
+      "16/pi": {
+        "dist_lock": 0.8775,
+        "dist_rms": 0.1396,
+        "chaos_lock": 0.8631,
+        "chaos_delta": 0.0144
+      },
+      "17/pi": {
+        "dist_lock": 0.9181,
+        "dist_rms": 0.0892,
+        "chaos_lock": 0.9111,
+        "chaos_delta": 0.0069
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.9243,
+        "dist_rms": 0.0819,
+        "chaos_lock": 0.8893,
+        "chaos_delta": 0.035
+      },
+      "16/pi": {
+        "dist_lock": 0.8552,
+        "dist_rms": 0.1693,
+        "chaos_lock": 0.8571,
+        "chaos_delta": -0.0019
+      },
+      "17/pi": {
+        "dist_lock": 0.9312,
+        "dist_rms": 0.0739,
+        "chaos_lock": 0.9146,
+        "chaos_delta": 0.0166
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.8886,
+        "dist_rms": 0.1254,
+        "chaos_lock": 0.8887,
+        "chaos_delta": -0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.8586,
+        "dist_rms": 0.1647,
+        "chaos_lock": 0.8586,
+        "chaos_delta": -0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.9155,
+        "dist_rms": 0.0923,
+        "chaos_lock": 0.9152,
+        "chaos_delta": 0.0003
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6775,
+        "dist_rms": 0.4761,
+        "chaos_lock": 0.7952,
+        "chaos_delta": -0.1177
+      },
+      "16/pi": {
+        "dist_lock": 0.6411,
+        "dist_rms": 0.5598,
+        "chaos_lock": 0.7549,
+        "chaos_delta": -0.1137
+      },
+      "17/pi": {
+        "dist_lock": 0.6841,
+        "dist_rms": 0.4617,
+        "chaos_lock": 0.8012,
+        "chaos_delta": -0.117
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.889,
+        "dist_rms": 0.1249,
+        "chaos_lock": 0.8882,
+        "chaos_delta": 0.0008
+      },
+      "16/pi": {
+        "dist_lock": 0.8596,
+        "dist_rms": 0.1634,
+        "chaos_lock": 0.859,
+        "chaos_delta": 0.0006
+      },
+      "17/pi": {
+        "dist_lock": 0.9154,
+        "dist_rms": 0.0924,
+        "chaos_lock": 0.9156,
+        "chaos_delta": -0.0001
+      }
+    }
+  },
+  "chemistry": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.8335,
+        "dist_rms": 0.1998,
+        "chaos_lock": 0.9227,
+        "chaos_delta": -0.0892
+      },
+      "16/pi": {
+        "dist_lock": 0.9545,
+        "dist_rms": 0.0477,
+        "chaos_lock": 0.9087,
+        "chaos_delta": 0.0458
+      },
+      "17/pi": {
+        "dist_lock": 0.9417,
+        "dist_rms": 0.0619,
+        "chaos_lock": 0.9237,
+        "chaos_delta": 0.018
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0882,
+        "dist_rms": 10.3316,
+        "chaos_lock": 0.1415,
+        "chaos_delta": -0.0533
+      },
+      "16/pi": {
+        "dist_lock": 0.0934,
+        "dist_rms": 9.7038,
+        "chaos_lock": 0.1494,
+        "chaos_delta": -0.056
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.142,
+        "chaos_lock": 0.1572,
+        "chaos_delta": -0.0586
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8533,
+        "dist_rms": 0.1719,
+        "chaos_lock": 0.9111,
+        "chaos_delta": -0.0578
+      },
+      "16/pi": {
+        "dist_lock": 0.893,
+        "dist_rms": 0.1198,
+        "chaos_lock": 0.9146,
+        "chaos_delta": -0.0216
+      },
+      "17/pi": {
+        "dist_lock": 0.9297,
+        "dist_rms": 0.0756,
+        "chaos_lock": 0.9304,
+        "chaos_delta": -0.0007
+      }
+    },
+    "chemistry": null,
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9534,
+        "dist_rms": 0.0489,
+        "chaos_lock": 0.9534,
+        "chaos_delta": 0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.9644,
+        "dist_rms": 0.0369,
+        "chaos_lock": 0.9621,
+        "chaos_delta": 0.0024
+      },
+      "17/pi": {
+        "dist_lock": 0.9457,
+        "dist_rms": 0.0574,
+        "chaos_lock": 0.9539,
+        "chaos_delta": -0.0082
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9306,
+        "dist_rms": 0.0746,
+        "chaos_lock": 0.9285,
+        "chaos_delta": 0.0021
+      },
+      "16/pi": {
+        "dist_lock": 0.9555,
+        "dist_rms": 0.0466,
+        "chaos_lock": 0.9559,
+        "chaos_delta": -0.0004
+      },
+      "17/pi": {
+        "dist_lock": 0.9663,
+        "dist_rms": 0.0348,
+        "chaos_lock": 0.9666,
+        "chaos_delta": -0.0003
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9279,
+        "dist_rms": 0.0777,
+        "chaos_lock": 0.9258,
+        "chaos_delta": 0.0021
+      },
+      "16/pi": {
+        "dist_lock": 0.9524,
+        "dist_rms": 0.0499,
+        "chaos_lock": 0.9494,
+        "chaos_delta": 0.0031
+      },
+      "17/pi": {
+        "dist_lock": 0.9668,
+        "dist_rms": 0.0343,
+        "chaos_lock": 0.9674,
+        "chaos_delta": -0.0006
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.9132,
+        "dist_rms": 0.095,
+        "chaos_lock": 0.917,
+        "chaos_delta": -0.0038
+      },
+      "16/pi": {
+        "dist_lock": 0.9314,
+        "dist_rms": 0.0736,
+        "chaos_lock": 0.9349,
+        "chaos_delta": -0.0035
+      },
+      "17/pi": {
+        "dist_lock": 0.9421,
+        "dist_rms": 0.0614,
+        "chaos_lock": 0.9458,
+        "chaos_delta": -0.0036
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.9506,
+        "dist_rms": 0.052,
+        "chaos_lock": 0.9517,
+        "chaos_delta": -0.0011
+      },
+      "16/pi": {
+        "dist_lock": 0.9638,
+        "dist_rms": 0.0376,
+        "chaos_lock": 0.9607,
+        "chaos_delta": 0.0031
+      },
+      "17/pi": {
+        "dist_lock": 0.9553,
+        "dist_rms": 0.0468,
+        "chaos_lock": 0.9559,
+        "chaos_delta": -0.0005
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9304,
+        "dist_rms": 0.0748,
+        "chaos_lock": 0.926,
+        "chaos_delta": 0.0044
+      },
+      "16/pi": {
+        "dist_lock": 0.9535,
+        "dist_rms": 0.0487,
+        "chaos_lock": 0.9501,
+        "chaos_delta": 0.0034
+      },
+      "17/pi": {
+        "dist_lock": 0.969,
+        "dist_rms": 0.032,
+        "chaos_lock": 0.963,
+        "chaos_delta": 0.006
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.914,
+        "dist_rms": 0.0941,
+        "chaos_lock": 0.9196,
+        "chaos_delta": -0.0056
+      },
+      "16/pi": {
+        "dist_lock": 0.958,
+        "dist_rms": 0.0439,
+        "chaos_lock": 0.959,
+        "chaos_delta": -0.001
+      },
+      "17/pi": {
+        "dist_lock": 0.9469,
+        "dist_rms": 0.0561,
+        "chaos_lock": 0.9594,
+        "chaos_delta": -0.0125
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8672,
+        "dist_rms": 0.1531,
+        "chaos_lock": 0.9287,
+        "chaos_delta": -0.0614
+      },
+      "16/pi": {
+        "dist_lock": 0.9013,
+        "dist_rms": 0.1095,
+        "chaos_lock": 0.9518,
+        "chaos_delta": -0.0505
+      },
+      "17/pi": {
+        "dist_lock": 0.9371,
+        "dist_rms": 0.0671,
+        "chaos_lock": 0.9663,
+        "chaos_delta": -0.0291
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.9294,
+        "dist_rms": 0.076,
+        "chaos_lock": 0.929,
+        "chaos_delta": 0.0003
+      },
+      "16/pi": {
+        "dist_lock": 0.9535,
+        "dist_rms": 0.0488,
+        "chaos_lock": 0.9535,
+        "chaos_delta": 0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.9665,
+        "dist_rms": 0.0347,
+        "chaos_lock": 0.9657,
+        "chaos_delta": 0.0008
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6702,
+        "dist_rms": 0.4921,
+        "chaos_lock": 0.8008,
+        "chaos_delta": -0.1306
+      },
+      "16/pi": {
+        "dist_lock": 0.6833,
+        "dist_rms": 0.4636,
+        "chaos_lock": 0.8113,
+        "chaos_delta": -0.1281
+      },
+      "17/pi": {
+        "dist_lock": 0.6961,
+        "dist_rms": 0.4365,
+        "chaos_lock": 0.8215,
+        "chaos_delta": -0.1253
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9289,
+        "dist_rms": 0.0765,
+        "chaos_lock": 0.93,
+        "chaos_delta": -0.001
+      },
+      "16/pi": {
+        "dist_lock": 0.9547,
+        "dist_rms": 0.0475,
+        "chaos_lock": 0.9539,
+        "chaos_delta": 0.0007
+      },
+      "17/pi": {
+        "dist_lock": 0.9661,
+        "dist_rms": 0.0351,
+        "chaos_lock": 0.9663,
+        "chaos_delta": -0.0002
+      }
+    }
+  },
+  "cosmology": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.8381,
+        "dist_rms": 0.1931,
+        "chaos_lock": 0.9505,
+        "chaos_delta": -0.1124
+      },
+      "16/pi": {
+        "dist_lock": 0.9375,
+        "dist_rms": 0.0666,
+        "chaos_lock": 0.8927,
+        "chaos_delta": 0.0449
+      },
+      "17/pi": {
+        "dist_lock": 0.9179,
+        "dist_rms": 0.0894,
+        "chaos_lock": 0.8884,
+        "chaos_delta": 0.0295
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0884,
+        "dist_rms": 10.3086,
+        "chaos_lock": 0.1424,
+        "chaos_delta": -0.054
+      },
+      "16/pi": {
+        "dist_lock": 0.0933,
+        "dist_rms": 9.718,
+        "chaos_lock": 0.1496,
+        "chaos_delta": -0.0563
+      },
+      "17/pi": {
+        "dist_lock": 0.099,
+        "dist_rms": 9.0964,
+        "chaos_lock": 0.1584,
+        "chaos_delta": -0.0594
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8575,
+        "dist_rms": 0.1662,
+        "chaos_lock": 0.9384,
+        "chaos_delta": -0.0809
+      },
+      "16/pi": {
+        "dist_lock": 0.8834,
+        "dist_rms": 0.132,
+        "chaos_lock": 0.8983,
+        "chaos_delta": -0.0148
+      },
+      "17/pi": {
+        "dist_lock": 0.9079,
+        "dist_rms": 0.1015,
+        "chaos_lock": 0.8901,
+        "chaos_delta": 0.0177
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.9534,
+        "dist_rms": 0.0489,
+        "chaos_lock": 0.9611,
+        "chaos_delta": -0.0077
+      },
+      "16/pi": {
+        "dist_lock": 0.9644,
+        "dist_rms": 0.0369,
+        "chaos_lock": 0.9443,
+        "chaos_delta": 0.0201
+      },
+      "17/pi": {
+        "dist_lock": 0.9457,
+        "dist_rms": 0.0574,
+        "chaos_lock": 0.9618,
+        "chaos_delta": -0.0161
+      }
+    },
+    "cosmology": null,
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9569,
+        "dist_rms": 0.045,
+        "chaos_lock": 0.9526,
+        "chaos_delta": 0.0043
+      },
+      "16/pi": {
+        "dist_lock": 0.9488,
+        "dist_rms": 0.054,
+        "chaos_lock": 0.9512,
+        "chaos_delta": -0.0024
+      },
+      "17/pi": {
+        "dist_lock": 0.966,
+        "dist_rms": 0.0352,
+        "chaos_lock": 0.9543,
+        "chaos_delta": 0.0117
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9515,
+        "dist_rms": 0.051,
+        "chaos_lock": 0.9474,
+        "chaos_delta": 0.0041
+      },
+      "16/pi": {
+        "dist_lock": 0.9455,
+        "dist_rms": 0.0577,
+        "chaos_lock": 0.9412,
+        "chaos_delta": 0.0043
+      },
+      "17/pi": {
+        "dist_lock": 0.951,
+        "dist_rms": 0.0515,
+        "chaos_lock": 0.9491,
+        "chaos_delta": 0.002
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.9353,
+        "dist_rms": 0.0692,
+        "chaos_lock": 0.9391,
+        "chaos_delta": -0.0039
+      },
+      "16/pi": {
+        "dist_lock": 0.9289,
+        "dist_rms": 0.0765,
+        "chaos_lock": 0.9312,
+        "chaos_delta": -0.0023
+      },
+      "17/pi": {
+        "dist_lock": 0.9425,
+        "dist_rms": 0.061,
+        "chaos_lock": 0.9458,
+        "chaos_delta": -0.0034
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.9855,
+        "dist_rms": 0.0147,
+        "chaos_lock": 0.9824,
+        "chaos_delta": 0.0031
+      },
+      "16/pi": {
+        "dist_lock": 0.9812,
+        "dist_rms": 0.0192,
+        "chaos_lock": 0.9764,
+        "chaos_delta": 0.0048
+      },
+      "17/pi": {
+        "dist_lock": 0.9851,
+        "dist_rms": 0.0151,
+        "chaos_lock": 0.9856,
+        "chaos_delta": -0.0005
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9566,
+        "dist_rms": 0.0454,
+        "chaos_lock": 0.9492,
+        "chaos_delta": 0.0074
+      },
+      "16/pi": {
+        "dist_lock": 0.9523,
+        "dist_rms": 0.0501,
+        "chaos_lock": 0.9443,
+        "chaos_delta": 0.008
+      },
+      "17/pi": {
+        "dist_lock": 0.9734,
+        "dist_rms": 0.0273,
+        "chaos_lock": 0.9551,
+        "chaos_delta": 0.0183
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9354,
+        "dist_rms": 0.0691,
+        "chaos_lock": 0.938,
+        "chaos_delta": -0.0026
+      },
+      "16/pi": {
+        "dist_lock": 0.9864,
+        "dist_rms": 0.0138,
+        "chaos_lock": 0.9564,
+        "chaos_delta": 0.03
+      },
+      "17/pi": {
+        "dist_lock": 0.9714,
+        "dist_rms": 0.0294,
+        "chaos_lock": 0.9356,
+        "chaos_delta": 0.0358
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8645,
+        "dist_rms": 0.1567,
+        "chaos_lock": 0.9525,
+        "chaos_delta": -0.088
+      },
+      "16/pi": {
+        "dist_lock": 0.8849,
+        "dist_rms": 0.13,
+        "chaos_lock": 0.9457,
+        "chaos_delta": -0.0608
+      },
+      "17/pi": {
+        "dist_lock": 0.8997,
+        "dist_rms": 0.1114,
+        "chaos_lock": 0.956,
+        "chaos_delta": -0.0562
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.9532,
+        "dist_rms": 0.0491,
+        "chaos_lock": 0.9529,
+        "chaos_delta": 0.0003
+      },
+      "16/pi": {
+        "dist_lock": 0.9468,
+        "dist_rms": 0.0562,
+        "chaos_lock": 0.9466,
+        "chaos_delta": 0.0002
+      },
+      "17/pi": {
+        "dist_lock": 0.9542,
+        "dist_rms": 0.048,
+        "chaos_lock": 0.9536,
+        "chaos_delta": 0.0006
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6868,
+        "dist_rms": 0.456,
+        "chaos_lock": 0.8158,
+        "chaos_delta": -0.129
+      },
+      "16/pi": {
+        "dist_lock": 0.691,
+        "dist_rms": 0.4472,
+        "chaos_lock": 0.817,
+        "chaos_delta": -0.126
+      },
+      "17/pi": {
+        "dist_lock": 0.7088,
+        "dist_rms": 0.4109,
+        "chaos_lock": 0.8301,
+        "chaos_delta": -0.1213
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9526,
+        "dist_rms": 0.0497,
+        "chaos_lock": 0.9538,
+        "chaos_delta": -0.0012
+      },
+      "16/pi": {
+        "dist_lock": 0.948,
+        "dist_rms": 0.0548,
+        "chaos_lock": 0.9476,
+        "chaos_delta": 0.0004
+      },
+      "17/pi": {
+        "dist_lock": 0.9531,
+        "dist_rms": 0.0492,
+        "chaos_lock": 0.9556,
+        "chaos_delta": -0.0025
+      }
+    }
+  },
+  "frb": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.8664,
+        "dist_rms": 0.1542,
+        "chaos_lock": 0.9879,
+        "chaos_delta": -0.1215
+      },
+      "16/pi": {
+        "dist_lock": 0.9181,
+        "dist_rms": 0.0892,
+        "chaos_lock": 0.9356,
+        "chaos_delta": -0.0175
+      },
+      "17/pi": {
+        "dist_lock": 0.9224,
+        "dist_rms": 0.0841,
+        "chaos_lock": 0.9163,
+        "chaos_delta": 0.0062
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0888,
+        "dist_rms": 10.267,
+        "chaos_lock": 0.1429,
+        "chaos_delta": -0.0542
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.6688,
+        "chaos_lock": 0.1504,
+        "chaos_delta": -0.0567
+      },
+      "17/pi": {
+        "dist_lock": 0.0987,
+        "dist_rms": 9.128,
+        "chaos_lock": 0.1579,
+        "chaos_delta": -0.0592
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8858,
+        "dist_rms": 0.1289,
+        "chaos_lock": 0.9675,
+        "chaos_delta": -0.0817
+      },
+      "16/pi": {
+        "dist_lock": 0.8603,
+        "dist_rms": 0.1623,
+        "chaos_lock": 0.9377,
+        "chaos_delta": -0.0773
+      },
+      "17/pi": {
+        "dist_lock": 0.9159,
+        "dist_rms": 0.0918,
+        "chaos_lock": 0.9168,
+        "chaos_delta": -0.0009
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.9306,
+        "dist_rms": 0.0746,
+        "chaos_lock": 0.9938,
+        "chaos_delta": -0.0632
+      },
+      "16/pi": {
+        "dist_lock": 0.9555,
+        "dist_rms": 0.0466,
+        "chaos_lock": 0.9925,
+        "chaos_delta": -0.037
+      },
+      "17/pi": {
+        "dist_lock": 0.9663,
+        "dist_rms": 0.0348,
+        "chaos_lock": 0.9937,
+        "chaos_delta": -0.0273
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9569,
+        "dist_rms": 0.045,
+        "chaos_lock": 0.9672,
+        "chaos_delta": -0.0103
+      },
+      "16/pi": {
+        "dist_lock": 0.9488,
+        "dist_rms": 0.054,
+        "chaos_lock": 0.9699,
+        "chaos_delta": -0.0212
+      },
+      "17/pi": {
+        "dist_lock": 0.966,
+        "dist_rms": 0.0352,
+        "chaos_lock": 0.9761,
+        "chaos_delta": -0.01
+      }
+    },
+    "frb": null,
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9928,
+        "dist_rms": 0.0072,
+        "chaos_lock": 0.9884,
+        "chaos_delta": 0.0044
+      },
+      "16/pi": {
+        "dist_lock": 0.9925,
+        "dist_rms": 0.0076,
+        "chaos_lock": 0.9894,
+        "chaos_delta": 0.0031
+      },
+      "17/pi": {
+        "dist_lock": 0.9837,
+        "dist_rms": 0.0165,
+        "chaos_lock": 0.9817,
+        "chaos_delta": 0.002
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.9586,
+        "dist_rms": 0.0432,
+        "chaos_lock": 0.9629,
+        "chaos_delta": -0.0043
+      },
+      "16/pi": {
+        "dist_lock": 0.9569,
+        "dist_rms": 0.045,
+        "chaos_lock": 0.9611,
+        "chaos_delta": -0.0042
+      },
+      "17/pi": {
+        "dist_lock": 0.9564,
+        "dist_rms": 0.0456,
+        "chaos_lock": 0.9605,
+        "chaos_delta": -0.0042
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.9697,
+        "dist_rms": 0.0313,
+        "chaos_lock": 0.9714,
+        "chaos_delta": -0.0018
+      },
+      "16/pi": {
+        "dist_lock": 0.9637,
+        "dist_rms": 0.0377,
+        "chaos_lock": 0.9657,
+        "chaos_delta": -0.002
+      },
+      "17/pi": {
+        "dist_lock": 0.9801,
+        "dist_rms": 0.0203,
+        "chaos_lock": 0.9792,
+        "chaos_delta": 0.0009
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9923,
+        "dist_rms": 0.0078,
+        "chaos_lock": 0.9866,
+        "chaos_delta": 0.0057
+      },
+      "16/pi": {
+        "dist_lock": 0.9862,
+        "dist_rms": 0.014,
+        "chaos_lock": 0.9861,
+        "chaos_delta": 0.0001
+      },
+      "17/pi": {
+        "dist_lock": 0.983,
+        "dist_rms": 0.0172,
+        "chaos_lock": 0.9831,
+        "chaos_delta": -0.0
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9754,
+        "dist_rms": 0.0252,
+        "chaos_lock": 0.9779,
+        "chaos_delta": -0.0025
+      },
+      "16/pi": {
+        "dist_lock": 0.9499,
+        "dist_rms": 0.0527,
+        "chaos_lock": 0.9874,
+        "chaos_delta": -0.0375
+      },
+      "17/pi": {
+        "dist_lock": 0.9525,
+        "dist_rms": 0.0499,
+        "chaos_lock": 0.9671,
+        "chaos_delta": -0.0146
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8922,
+        "dist_rms": 0.1208,
+        "chaos_lock": 0.9931,
+        "chaos_delta": -0.1009
+      },
+      "16/pi": {
+        "dist_lock": 0.9066,
+        "dist_rms": 0.103,
+        "chaos_lock": 0.9917,
+        "chaos_delta": -0.0851
+      },
+      "17/pi": {
+        "dist_lock": 0.9169,
+        "dist_rms": 0.0907,
+        "chaos_lock": 0.9885,
+        "chaos_delta": -0.0717
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.9942,
+        "dist_rms": 0.0059,
+        "chaos_lock": 0.994,
+        "chaos_delta": 0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.9933,
+        "dist_rms": 0.0067,
+        "chaos_lock": 0.9935,
+        "chaos_delta": -0.0002
+      },
+      "17/pi": {
+        "dist_lock": 0.9871,
+        "dist_rms": 0.0131,
+        "chaos_lock": 0.9863,
+        "chaos_delta": 0.0008
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6922,
+        "dist_rms": 0.4446,
+        "chaos_lock": 0.8225,
+        "chaos_delta": -0.1303
+      },
+      "16/pi": {
+        "dist_lock": 0.699,
+        "dist_rms": 0.4306,
+        "chaos_lock": 0.8262,
+        "chaos_delta": -0.1272
+      },
+      "17/pi": {
+        "dist_lock": 0.7065,
+        "dist_rms": 0.4155,
+        "chaos_lock": 0.8307,
+        "chaos_delta": -0.1242
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9937,
+        "dist_rms": 0.0063,
+        "chaos_lock": 0.9946,
+        "chaos_delta": -0.0008
+      },
+      "16/pi": {
+        "dist_lock": 0.9943,
+        "dist_rms": 0.0058,
+        "chaos_lock": 0.9933,
+        "chaos_delta": 0.0009
+      },
+      "17/pi": {
+        "dist_lock": 0.9859,
+        "dist_rms": 0.0143,
+        "chaos_lock": 0.9885,
+        "chaos_delta": -0.0027
+      }
+    }
+  },
+  "galactic": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.8698,
+        "dist_rms": 0.1497,
+        "chaos_lock": 0.9879,
+        "chaos_delta": -0.1181
+      },
+      "16/pi": {
+        "dist_lock": 0.9154,
+        "dist_rms": 0.0924,
+        "chaos_lock": 0.9381,
+        "chaos_delta": -0.0227
+      },
+      "17/pi": {
+        "dist_lock": 0.9199,
+        "dist_rms": 0.087,
+        "chaos_lock": 0.9294,
+        "chaos_delta": -0.0095
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0888,
+        "dist_rms": 10.2626,
+        "chaos_lock": 0.1429,
+        "chaos_delta": -0.0542
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.6667,
+        "chaos_lock": 0.1505,
+        "chaos_delta": -0.0567
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.1423,
+        "chaos_lock": 0.1578,
+        "chaos_delta": -0.0592
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8897,
+        "dist_rms": 0.1239,
+        "chaos_lock": 0.9684,
+        "chaos_delta": -0.0787
+      },
+      "16/pi": {
+        "dist_lock": 0.8579,
+        "dist_rms": 0.1657,
+        "chaos_lock": 0.9381,
+        "chaos_delta": -0.0803
+      },
+      "17/pi": {
+        "dist_lock": 0.916,
+        "dist_rms": 0.0917,
+        "chaos_lock": 0.9285,
+        "chaos_delta": -0.0125
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.9279,
+        "dist_rms": 0.0777,
+        "chaos_lock": 0.9894,
+        "chaos_delta": -0.0614
+      },
+      "16/pi": {
+        "dist_lock": 0.9524,
+        "dist_rms": 0.0499,
+        "chaos_lock": 0.997,
+        "chaos_delta": -0.0445
+      },
+      "17/pi": {
+        "dist_lock": 0.9668,
+        "dist_rms": 0.0343,
+        "chaos_lock": 0.9877,
+        "chaos_delta": -0.0209
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9515,
+        "dist_rms": 0.051,
+        "chaos_lock": 0.962,
+        "chaos_delta": -0.0105
+      },
+      "16/pi": {
+        "dist_lock": 0.9455,
+        "dist_rms": 0.0577,
+        "chaos_lock": 0.9674,
+        "chaos_delta": -0.0219
+      },
+      "17/pi": {
+        "dist_lock": 0.951,
+        "dist_rms": 0.0515,
+        "chaos_lock": 0.9608,
+        "chaos_delta": -0.0098
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9928,
+        "dist_rms": 0.0072,
+        "chaos_lock": 0.9982,
+        "chaos_delta": -0.0053
+      },
+      "16/pi": {
+        "dist_lock": 0.9925,
+        "dist_rms": 0.0076,
+        "chaos_lock": 0.9931,
+        "chaos_delta": -0.0006
+      },
+      "17/pi": {
+        "dist_lock": 0.9837,
+        "dist_rms": 0.0165,
+        "chaos_lock": 0.9958,
+        "chaos_delta": -0.012
+      }
+    },
+    "galactic": null,
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.9592,
+        "dist_rms": 0.0425,
+        "chaos_lock": 0.9635,
+        "chaos_delta": -0.0042
+      },
+      "16/pi": {
+        "dist_lock": 0.958,
+        "dist_rms": 0.0439,
+        "chaos_lock": 0.962,
+        "chaos_delta": -0.0041
+      },
+      "17/pi": {
+        "dist_lock": 0.9558,
+        "dist_rms": 0.0462,
+        "chaos_lock": 0.9596,
+        "chaos_delta": -0.0038
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.9642,
+        "dist_rms": 0.0371,
+        "chaos_lock": 0.9664,
+        "chaos_delta": -0.0022
+      },
+      "16/pi": {
+        "dist_lock": 0.9607,
+        "dist_rms": 0.0409,
+        "chaos_lock": 0.9632,
+        "chaos_delta": -0.0025
+      },
+      "17/pi": {
+        "dist_lock": 0.9647,
+        "dist_rms": 0.0366,
+        "chaos_lock": 0.9639,
+        "chaos_delta": 0.0008
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9913,
+        "dist_rms": 0.0087,
+        "chaos_lock": 0.9893,
+        "chaos_delta": 0.002
+      },
+      "16/pi": {
+        "dist_lock": 0.9875,
+        "dist_rms": 0.0127,
+        "chaos_lock": 0.9878,
+        "chaos_delta": -0.0004
+      },
+      "17/pi": {
+        "dist_lock": 0.9698,
+        "dist_rms": 0.0312,
+        "chaos_lock": 0.9849,
+        "chaos_delta": -0.0151
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9814,
+        "dist_rms": 0.019,
+        "chaos_lock": 0.9837,
+        "chaos_delta": -0.0023
+      },
+      "16/pi": {
+        "dist_lock": 0.9474,
+        "dist_rms": 0.0555,
+        "chaos_lock": 0.9872,
+        "chaos_delta": -0.0398
+      },
+      "17/pi": {
+        "dist_lock": 0.9396,
+        "dist_rms": 0.0643,
+        "chaos_lock": 0.9826,
+        "chaos_delta": -0.043
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8965,
+        "dist_rms": 0.1155,
+        "chaos_lock": 0.9974,
+        "chaos_delta": -0.1009
+      },
+      "16/pi": {
+        "dist_lock": 0.9046,
+        "dist_rms": 0.1055,
+        "chaos_lock": 0.9977,
+        "chaos_delta": -0.0931
+      },
+      "17/pi": {
+        "dist_lock": 0.9221,
+        "dist_rms": 0.0845,
+        "chaos_lock": 0.9934,
+        "chaos_delta": -0.0713
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.9981,
+        "dist_rms": 0.0019,
+        "chaos_lock": 0.9984,
+        "chaos_delta": -0.0004
+      },
+      "16/pi": {
+        "dist_lock": 0.9985,
+        "dist_rms": 0.0015,
+        "chaos_lock": 0.9986,
+        "chaos_delta": -0.0001
+      },
+      "17/pi": {
+        "dist_lock": 0.9963,
+        "dist_rms": 0.0037,
+        "chaos_lock": 0.9967,
+        "chaos_delta": -0.0003
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6917,
+        "dist_rms": 0.4458,
+        "chaos_lock": 0.8224,
+        "chaos_delta": -0.1307
+      },
+      "16/pi": {
+        "dist_lock": 0.6991,
+        "dist_rms": 0.4303,
+        "chaos_lock": 0.8266,
+        "chaos_delta": -0.1274
+      },
+      "17/pi": {
+        "dist_lock": 0.7054,
+        "dist_rms": 0.4176,
+        "chaos_lock": 0.8299,
+        "chaos_delta": -0.1245
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9986,
+        "dist_rms": 0.0014,
+        "chaos_lock": 0.9974,
+        "chaos_delta": 0.0013
+      },
+      "16/pi": {
+        "dist_lock": 0.997,
+        "dist_rms": 0.0031,
+        "chaos_lock": 0.9976,
+        "chaos_delta": -0.0006
+      },
+      "17/pi": {
+        "dist_lock": 0.9972,
+        "dist_rms": 0.0028,
+        "chaos_lock": 0.9948,
+        "chaos_delta": 0.0025
+      }
+    }
+  },
+  "materials": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.8665,
+        "dist_rms": 0.1541,
+        "chaos_lock": 0.9586,
+        "chaos_delta": -0.0922
+      },
+      "16/pi": {
+        "dist_lock": 0.9014,
+        "dist_rms": 0.1093,
+        "chaos_lock": 0.929,
+        "chaos_delta": -0.0275
+      },
+      "17/pi": {
+        "dist_lock": 0.9053,
+        "dist_rms": 0.1046,
+        "chaos_lock": 0.9069,
+        "chaos_delta": -0.0016
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0889,
+        "dist_rms": 10.251,
+        "chaos_lock": 0.1433,
+        "chaos_delta": -0.0544
+      },
+      "16/pi": {
+        "dist_lock": 0.0939,
+        "dist_rms": 9.6541,
+        "chaos_lock": 0.1509,
+        "chaos_delta": -0.057
+      },
+      "17/pi": {
+        "dist_lock": 0.0988,
+        "dist_rms": 9.1242,
+        "chaos_lock": 0.1583,
+        "chaos_delta": -0.0595
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8829,
+        "dist_rms": 0.1326,
+        "chaos_lock": 0.9494,
+        "chaos_delta": -0.0664
+      },
+      "16/pi": {
+        "dist_lock": 0.8428,
+        "dist_rms": 0.1865,
+        "chaos_lock": 0.9281,
+        "chaos_delta": -0.0853
+      },
+      "17/pi": {
+        "dist_lock": 0.9002,
+        "dist_rms": 0.1109,
+        "chaos_lock": 0.9082,
+        "chaos_delta": -0.0081
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.9132,
+        "dist_rms": 0.095,
+        "chaos_lock": 0.957,
+        "chaos_delta": -0.0438
+      },
+      "16/pi": {
+        "dist_lock": 0.9314,
+        "dist_rms": 0.0736,
+        "chaos_lock": 0.958,
+        "chaos_delta": -0.0266
+      },
+      "17/pi": {
+        "dist_lock": 0.9421,
+        "dist_rms": 0.0614,
+        "chaos_lock": 0.9586,
+        "chaos_delta": -0.0165
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9353,
+        "dist_rms": 0.0692,
+        "chaos_lock": 0.9426,
+        "chaos_delta": -0.0073
+      },
+      "16/pi": {
+        "dist_lock": 0.9289,
+        "dist_rms": 0.0765,
+        "chaos_lock": 0.9451,
+        "chaos_delta": -0.0162
+      },
+      "17/pi": {
+        "dist_lock": 0.9425,
+        "dist_rms": 0.061,
+        "chaos_lock": 0.9483,
+        "chaos_delta": -0.0058
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9586,
+        "dist_rms": 0.0432,
+        "chaos_lock": 0.9592,
+        "chaos_delta": -0.0006
+      },
+      "16/pi": {
+        "dist_lock": 0.9569,
+        "dist_rms": 0.045,
+        "chaos_lock": 0.9568,
+        "chaos_delta": 0.0001
+      },
+      "17/pi": {
+        "dist_lock": 0.9564,
+        "dist_rms": 0.0456,
+        "chaos_lock": 0.9563,
+        "chaos_delta": 0.0001
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9592,
+        "dist_rms": 0.0425,
+        "chaos_lock": 0.9591,
+        "chaos_delta": 0.0002
+      },
+      "16/pi": {
+        "dist_lock": 0.958,
+        "dist_rms": 0.0439,
+        "chaos_lock": 0.9582,
+        "chaos_delta": -0.0002
+      },
+      "17/pi": {
+        "dist_lock": 0.9558,
+        "dist_rms": 0.0462,
+        "chaos_lock": 0.9552,
+        "chaos_delta": 0.0006
+      }
+    },
+    "materials": null,
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.9443,
+        "dist_rms": 0.059,
+        "chaos_lock": 0.9455,
+        "chaos_delta": -0.0012
+      },
+      "16/pi": {
+        "dist_lock": 0.9406,
+        "dist_rms": 0.0632,
+        "chaos_lock": 0.9425,
+        "chaos_delta": -0.0019
+      },
+      "17/pi": {
+        "dist_lock": 0.9505,
+        "dist_rms": 0.052,
+        "chaos_lock": 0.95,
+        "chaos_delta": 0.0006
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9584,
+        "dist_rms": 0.0434,
+        "chaos_lock": 0.9659,
+        "chaos_delta": -0.0075
+      },
+      "16/pi": {
+        "dist_lock": 0.9561,
+        "dist_rms": 0.0459,
+        "chaos_lock": 0.9657,
+        "chaos_delta": -0.0096
+      },
+      "17/pi": {
+        "dist_lock": 0.9511,
+        "dist_rms": 0.0514,
+        "chaos_lock": 0.9658,
+        "chaos_delta": -0.0147
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9571,
+        "dist_rms": 0.0448,
+        "chaos_lock": 0.9569,
+        "chaos_delta": 0.0002
+      },
+      "16/pi": {
+        "dist_lock": 0.9307,
+        "dist_rms": 0.0744,
+        "chaos_lock": 0.955,
+        "chaos_delta": -0.0243
+      },
+      "17/pi": {
+        "dist_lock": 0.9324,
+        "dist_rms": 0.0725,
+        "chaos_lock": 0.9498,
+        "chaos_delta": -0.0174
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8895,
+        "dist_rms": 0.1243,
+        "chaos_lock": 0.959,
+        "chaos_delta": -0.0695
+      },
+      "16/pi": {
+        "dist_lock": 0.8973,
+        "dist_rms": 0.1144,
+        "chaos_lock": 0.958,
+        "chaos_delta": -0.0607
+      },
+      "17/pi": {
+        "dist_lock": 0.9079,
+        "dist_rms": 0.1015,
+        "chaos_lock": 0.9565,
+        "chaos_delta": -0.0486
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.959,
+        "dist_rms": 0.0427,
+        "chaos_lock": 0.9591,
+        "chaos_delta": -0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.9578,
+        "dist_rms": 0.0441,
+        "chaos_lock": 0.9578,
+        "chaos_delta": -0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.9565,
+        "dist_rms": 0.0455,
+        "chaos_lock": 0.9564,
+        "chaos_delta": 0.0001
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.701,
+        "dist_rms": 0.4266,
+        "chaos_lock": 0.8445,
+        "chaos_delta": -0.1435
+      },
+      "16/pi": {
+        "dist_lock": 0.7091,
+        "dist_rms": 0.4102,
+        "chaos_lock": 0.85,
+        "chaos_delta": -0.1409
+      },
+      "17/pi": {
+        "dist_lock": 0.7165,
+        "dist_rms": 0.3956,
+        "chaos_lock": 0.8551,
+        "chaos_delta": -0.1385
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9591,
+        "dist_rms": 0.0427,
+        "chaos_lock": 0.9589,
+        "chaos_delta": 0.0002
+      },
+      "16/pi": {
+        "dist_lock": 0.9575,
+        "dist_rms": 0.0444,
+        "chaos_lock": 0.9576,
+        "chaos_delta": -0.0001
+      },
+      "17/pi": {
+        "dist_lock": 0.9563,
+        "dist_rms": 0.0457,
+        "chaos_lock": 0.9566,
+        "chaos_delta": -0.0004
+      }
+    }
+  },
+  "null_cosmological": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.8476,
+        "dist_rms": 0.1798,
+        "chaos_lock": 0.962,
+        "chaos_delta": -0.1144
+      },
+      "16/pi": {
+        "dist_lock": 0.9294,
+        "dist_rms": 0.076,
+        "chaos_lock": 0.9049,
+        "chaos_delta": 0.0245
+      },
+      "17/pi": {
+        "dist_lock": 0.9203,
+        "dist_rms": 0.0866,
+        "chaos_lock": 0.9001,
+        "chaos_delta": 0.0202
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0885,
+        "dist_rms": 10.2958,
+        "chaos_lock": 0.1425,
+        "chaos_delta": -0.054
+      },
+      "16/pi": {
+        "dist_lock": 0.0934,
+        "dist_rms": 9.703,
+        "chaos_lock": 0.1499,
+        "chaos_delta": -0.0565
+      },
+      "17/pi": {
+        "dist_lock": 0.0989,
+        "dist_rms": 9.1098,
+        "chaos_lock": 0.1582,
+        "chaos_delta": -0.0593
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8667,
+        "dist_rms": 0.1538,
+        "chaos_lock": 0.9473,
+        "chaos_delta": -0.0806
+      },
+      "16/pi": {
+        "dist_lock": 0.8739,
+        "dist_rms": 0.1444,
+        "chaos_lock": 0.9095,
+        "chaos_delta": -0.0357
+      },
+      "17/pi": {
+        "dist_lock": 0.9116,
+        "dist_rms": 0.097,
+        "chaos_lock": 0.9012,
+        "chaos_delta": 0.0104
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.9506,
+        "dist_rms": 0.052,
+        "chaos_lock": 0.9741,
+        "chaos_delta": -0.0236
+      },
+      "16/pi": {
+        "dist_lock": 0.9638,
+        "dist_rms": 0.0376,
+        "chaos_lock": 0.9593,
+        "chaos_delta": 0.0045
+      },
+      "17/pi": {
+        "dist_lock": 0.9553,
+        "dist_rms": 0.0468,
+        "chaos_lock": 0.9758,
+        "chaos_delta": -0.0205
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9855,
+        "dist_rms": 0.0147,
+        "chaos_lock": 0.9964,
+        "chaos_delta": -0.0109
+      },
+      "16/pi": {
+        "dist_lock": 0.9812,
+        "dist_rms": 0.0192,
+        "chaos_lock": 0.9919,
+        "chaos_delta": -0.0107
+      },
+      "17/pi": {
+        "dist_lock": 0.9851,
+        "dist_rms": 0.0151,
+        "chaos_lock": 0.9947,
+        "chaos_delta": -0.0095
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9697,
+        "dist_rms": 0.0313,
+        "chaos_lock": 0.9653,
+        "chaos_delta": 0.0043
+      },
+      "16/pi": {
+        "dist_lock": 0.9637,
+        "dist_rms": 0.0377,
+        "chaos_lock": 0.9667,
+        "chaos_delta": -0.003
+      },
+      "17/pi": {
+        "dist_lock": 0.9801,
+        "dist_rms": 0.0203,
+        "chaos_lock": 0.9681,
+        "chaos_delta": 0.012
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9642,
+        "dist_rms": 0.0371,
+        "chaos_lock": 0.9602,
+        "chaos_delta": 0.004
+      },
+      "16/pi": {
+        "dist_lock": 0.9607,
+        "dist_rms": 0.0409,
+        "chaos_lock": 0.9562,
+        "chaos_delta": 0.0046
+      },
+      "17/pi": {
+        "dist_lock": 0.9647,
+        "dist_rms": 0.0366,
+        "chaos_lock": 0.9627,
+        "chaos_delta": 0.002
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.9443,
+        "dist_rms": 0.059,
+        "chaos_lock": 0.9485,
+        "chaos_delta": -0.0042
+      },
+      "16/pi": {
+        "dist_lock": 0.9406,
+        "dist_rms": 0.0632,
+        "chaos_lock": 0.9433,
+        "chaos_delta": -0.0027
+      },
+      "17/pi": {
+        "dist_lock": 0.9505,
+        "dist_rms": 0.052,
+        "chaos_lock": 0.9544,
+        "chaos_delta": -0.0038
+      }
+    },
+    "null_cosmological": null,
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9688,
+        "dist_rms": 0.0322,
+        "chaos_lock": 0.9615,
+        "chaos_delta": 0.0073
+      },
+      "16/pi": {
+        "dist_lock": 0.9689,
+        "dist_rms": 0.0322,
+        "chaos_lock": 0.9592,
+        "chaos_delta": 0.0097
+      },
+      "17/pi": {
+        "dist_lock": 0.9832,
+        "dist_rms": 0.0171,
+        "chaos_lock": 0.9681,
+        "chaos_delta": 0.0152
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9474,
+        "dist_rms": 0.0555,
+        "chaos_lock": 0.9507,
+        "chaos_delta": -0.0033
+      },
+      "16/pi": {
+        "dist_lock": 0.9846,
+        "dist_rms": 0.0156,
+        "chaos_lock": 0.9724,
+        "chaos_delta": 0.0122
+      },
+      "17/pi": {
+        "dist_lock": 0.9649,
+        "dist_rms": 0.0364,
+        "chaos_lock": 0.9489,
+        "chaos_delta": 0.016
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8747,
+        "dist_rms": 0.1432,
+        "chaos_lock": 0.9652,
+        "chaos_delta": -0.0904
+      },
+      "16/pi": {
+        "dist_lock": 0.8899,
+        "dist_rms": 0.1238,
+        "chaos_lock": 0.9611,
+        "chaos_delta": -0.0713
+      },
+      "17/pi": {
+        "dist_lock": 0.9072,
+        "dist_rms": 0.1023,
+        "chaos_lock": 0.9698,
+        "chaos_delta": -0.0626
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.966,
+        "dist_rms": 0.0352,
+        "chaos_lock": 0.9656,
+        "chaos_delta": 0.0003
+      },
+      "16/pi": {
+        "dist_lock": 0.9621,
+        "dist_rms": 0.0394,
+        "chaos_lock": 0.9618,
+        "chaos_delta": 0.0002
+      },
+      "17/pi": {
+        "dist_lock": 0.968,
+        "dist_rms": 0.033,
+        "chaos_lock": 0.9674,
+        "chaos_delta": 0.0006
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6885,
+        "dist_rms": 0.4525,
+        "chaos_lock": 0.8183,
+        "chaos_delta": -0.1298
+      },
+      "16/pi": {
+        "dist_lock": 0.6948,
+        "dist_rms": 0.4393,
+        "chaos_lock": 0.8212,
+        "chaos_delta": -0.1264
+      },
+      "17/pi": {
+        "dist_lock": 0.7083,
+        "dist_rms": 0.4118,
+        "chaos_lock": 0.8311,
+        "chaos_delta": -0.1228
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9654,
+        "dist_rms": 0.0358,
+        "chaos_lock": 0.9666,
+        "chaos_delta": -0.0012
+      },
+      "16/pi": {
+        "dist_lock": 0.9632,
+        "dist_rms": 0.0382,
+        "chaos_lock": 0.9629,
+        "chaos_delta": 0.0003
+      },
+      "17/pi": {
+        "dist_lock": 0.9669,
+        "dist_rms": 0.0343,
+        "chaos_lock": 0.9695,
+        "chaos_delta": -0.0026
+      }
+    }
+  },
+  "orbital": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.8643,
+        "dist_rms": 0.1569,
+        "chaos_lock": 0.9881,
+        "chaos_delta": -0.1237
+      },
+      "16/pi": {
+        "dist_lock": 0.9163,
+        "dist_rms": 0.0914,
+        "chaos_lock": 0.9291,
+        "chaos_delta": -0.0128
+      },
+      "17/pi": {
+        "dist_lock": 0.9307,
+        "dist_rms": 0.0745,
+        "chaos_lock": 0.9068,
+        "chaos_delta": 0.0238
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0887,
+        "dist_rms": 10.2684,
+        "chaos_lock": 0.1429,
+        "chaos_delta": -0.0542
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.6751,
+        "chaos_lock": 0.1505,
+        "chaos_delta": -0.0568
+      },
+      "17/pi": {
+        "dist_lock": 0.0988,
+        "dist_rms": 9.1181,
+        "chaos_lock": 0.1579,
+        "chaos_delta": -0.0591
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8853,
+        "dist_rms": 0.1295,
+        "chaos_lock": 0.969,
+        "chaos_delta": -0.0837
+      },
+      "16/pi": {
+        "dist_lock": 0.8596,
+        "dist_rms": 0.1634,
+        "chaos_lock": 0.9305,
+        "chaos_delta": -0.0709
+      },
+      "17/pi": {
+        "dist_lock": 0.9199,
+        "dist_rms": 0.0871,
+        "chaos_lock": 0.9101,
+        "chaos_delta": 0.0098
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.9304,
+        "dist_rms": 0.0748,
+        "chaos_lock": 0.9909,
+        "chaos_delta": -0.0605
+      },
+      "16/pi": {
+        "dist_lock": 0.9535,
+        "dist_rms": 0.0487,
+        "chaos_lock": 0.9856,
+        "chaos_delta": -0.032
+      },
+      "17/pi": {
+        "dist_lock": 0.969,
+        "dist_rms": 0.032,
+        "chaos_lock": 0.9775,
+        "chaos_delta": -0.0086
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9566,
+        "dist_rms": 0.0454,
+        "chaos_lock": 0.9665,
+        "chaos_delta": -0.0099
+      },
+      "16/pi": {
+        "dist_lock": 0.9523,
+        "dist_rms": 0.0501,
+        "chaos_lock": 0.9759,
+        "chaos_delta": -0.0236
+      },
+      "17/pi": {
+        "dist_lock": 0.9734,
+        "dist_rms": 0.0273,
+        "chaos_lock": 0.9818,
+        "chaos_delta": -0.0084
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9923,
+        "dist_rms": 0.0078,
+        "chaos_lock": 0.9924,
+        "chaos_delta": -0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.9862,
+        "dist_rms": 0.014,
+        "chaos_lock": 0.9901,
+        "chaos_delta": -0.004
+      },
+      "17/pi": {
+        "dist_lock": 0.983,
+        "dist_rms": 0.0172,
+        "chaos_lock": 0.9725,
+        "chaos_delta": 0.0106
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9913,
+        "dist_rms": 0.0087,
+        "chaos_lock": 0.9867,
+        "chaos_delta": 0.0046
+      },
+      "16/pi": {
+        "dist_lock": 0.9875,
+        "dist_rms": 0.0127,
+        "chaos_lock": 0.9833,
+        "chaos_delta": 0.0042
+      },
+      "17/pi": {
+        "dist_lock": 0.9698,
+        "dist_rms": 0.0312,
+        "chaos_lock": 0.9683,
+        "chaos_delta": 0.0015
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.9584,
+        "dist_rms": 0.0434,
+        "chaos_lock": 0.9628,
+        "chaos_delta": -0.0044
+      },
+      "16/pi": {
+        "dist_lock": 0.9561,
+        "dist_rms": 0.0459,
+        "chaos_lock": 0.9597,
+        "chaos_delta": -0.0036
+      },
+      "17/pi": {
+        "dist_lock": 0.9511,
+        "dist_rms": 0.0514,
+        "chaos_lock": 0.9551,
+        "chaos_delta": -0.004
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.9688,
+        "dist_rms": 0.0322,
+        "chaos_lock": 0.9707,
+        "chaos_delta": -0.0019
+      },
+      "16/pi": {
+        "dist_lock": 0.9689,
+        "dist_rms": 0.0322,
+        "chaos_lock": 0.9721,
+        "chaos_delta": -0.0032
+      },
+      "17/pi": {
+        "dist_lock": 0.9832,
+        "dist_rms": 0.0171,
+        "chaos_lock": 0.9835,
+        "chaos_delta": -0.0003
+      }
+    },
+    "orbital": null,
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9764,
+        "dist_rms": 0.0242,
+        "chaos_lock": 0.976,
+        "chaos_delta": 0.0003
+      },
+      "16/pi": {
+        "dist_lock": 0.9561,
+        "dist_rms": 0.0459,
+        "chaos_lock": 0.9919,
+        "chaos_delta": -0.0358
+      },
+      "17/pi": {
+        "dist_lock": 0.9662,
+        "dist_rms": 0.035,
+        "chaos_lock": 0.9542,
+        "chaos_delta": 0.012
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8906,
+        "dist_rms": 0.1229,
+        "chaos_lock": 0.9929,
+        "chaos_delta": -0.1023
+      },
+      "16/pi": {
+        "dist_lock": 0.8991,
+        "dist_rms": 0.1122,
+        "chaos_lock": 0.988,
+        "chaos_delta": -0.0889
+      },
+      "17/pi": {
+        "dist_lock": 0.9182,
+        "dist_rms": 0.0891,
+        "chaos_lock": 0.9736,
+        "chaos_delta": -0.0554
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.9924,
+        "dist_rms": 0.0076,
+        "chaos_lock": 0.9923,
+        "chaos_delta": 0.0002
+      },
+      "16/pi": {
+        "dist_lock": 0.9884,
+        "dist_rms": 0.0118,
+        "chaos_lock": 0.988,
+        "chaos_delta": 0.0004
+      },
+      "17/pi": {
+        "dist_lock": 0.9723,
+        "dist_rms": 0.0284,
+        "chaos_lock": 0.9714,
+        "chaos_delta": 0.0009
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6913,
+        "dist_rms": 0.4466,
+        "chaos_lock": 0.822,
+        "chaos_delta": -0.1307
+      },
+      "16/pi": {
+        "dist_lock": 0.6993,
+        "dist_rms": 0.4301,
+        "chaos_lock": 0.8263,
+        "chaos_delta": -0.127
+      },
+      "17/pi": {
+        "dist_lock": 0.7047,
+        "dist_rms": 0.419,
+        "chaos_lock": 0.8294,
+        "chaos_delta": -0.1247
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9922,
+        "dist_rms": 0.0079,
+        "chaos_lock": 0.9926,
+        "chaos_delta": -0.0005
+      },
+      "16/pi": {
+        "dist_lock": 0.9887,
+        "dist_rms": 0.0114,
+        "chaos_lock": 0.9891,
+        "chaos_delta": -0.0004
+      },
+      "17/pi": {
+        "dist_lock": 0.9713,
+        "dist_rms": 0.0295,
+        "chaos_lock": 0.9735,
+        "chaos_delta": -0.0022
+      }
+    }
+  },
+  "planetary": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.878,
+        "dist_rms": 0.1389,
+        "chaos_lock": 0.9795,
+        "chaos_delta": -0.1015
+      },
+      "16/pi": {
+        "dist_lock": 0.9293,
+        "dist_rms": 0.0761,
+        "chaos_lock": 0.8932,
+        "chaos_delta": 0.0361
+      },
+      "17/pi": {
+        "dist_lock": 0.9349,
+        "dist_rms": 0.0696,
+        "chaos_lock": 0.8815,
+        "chaos_delta": 0.0534
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0889,
+        "dist_rms": 10.2469,
+        "chaos_lock": 0.1432,
+        "chaos_delta": -0.0542
+      },
+      "16/pi": {
+        "dist_lock": 0.0933,
+        "dist_rms": 9.717,
+        "chaos_lock": 0.1498,
+        "chaos_delta": -0.0565
+      },
+      "17/pi": {
+        "dist_lock": 0.0991,
+        "dist_rms": 9.0876,
+        "chaos_lock": 0.1582,
+        "chaos_delta": -0.0591
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8996,
+        "dist_rms": 0.1116,
+        "chaos_lock": 0.969,
+        "chaos_delta": -0.0693
+      },
+      "16/pi": {
+        "dist_lock": 0.8775,
+        "dist_rms": 0.1396,
+        "chaos_lock": 0.8982,
+        "chaos_delta": -0.0207
+      },
+      "17/pi": {
+        "dist_lock": 0.9181,
+        "dist_rms": 0.0892,
+        "chaos_lock": 0.8861,
+        "chaos_delta": 0.032
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.914,
+        "dist_rms": 0.0941,
+        "chaos_lock": 0.9713,
+        "chaos_delta": -0.0573
+      },
+      "16/pi": {
+        "dist_lock": 0.958,
+        "dist_rms": 0.0439,
+        "chaos_lock": 0.9459,
+        "chaos_delta": 0.0121
+      },
+      "17/pi": {
+        "dist_lock": 0.9469,
+        "dist_rms": 0.0561,
+        "chaos_lock": 0.9476,
+        "chaos_delta": -0.0007
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9354,
+        "dist_rms": 0.0691,
+        "chaos_lock": 0.9453,
+        "chaos_delta": -0.0099
+      },
+      "16/pi": {
+        "dist_lock": 0.9864,
+        "dist_rms": 0.0138,
+        "chaos_lock": 0.978,
+        "chaos_delta": 0.0084
+      },
+      "17/pi": {
+        "dist_lock": 0.9714,
+        "dist_rms": 0.0294,
+        "chaos_lock": 0.9679,
+        "chaos_delta": 0.0035
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9754,
+        "dist_rms": 0.0252,
+        "chaos_lock": 0.9804,
+        "chaos_delta": -0.005
+      },
+      "16/pi": {
+        "dist_lock": 0.9499,
+        "dist_rms": 0.0527,
+        "chaos_lock": 0.953,
+        "chaos_delta": -0.0031
+      },
+      "17/pi": {
+        "dist_lock": 0.9525,
+        "dist_rms": 0.0499,
+        "chaos_lock": 0.9419,
+        "chaos_delta": 0.0106
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9814,
+        "dist_rms": 0.019,
+        "chaos_lock": 0.9842,
+        "chaos_delta": -0.0028
+      },
+      "16/pi": {
+        "dist_lock": 0.9474,
+        "dist_rms": 0.0555,
+        "chaos_lock": 0.9429,
+        "chaos_delta": 0.0045
+      },
+      "17/pi": {
+        "dist_lock": 0.9396,
+        "dist_rms": 0.0643,
+        "chaos_lock": 0.938,
+        "chaos_delta": 0.0016
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.9571,
+        "dist_rms": 0.0448,
+        "chaos_lock": 0.9601,
+        "chaos_delta": -0.003
+      },
+      "16/pi": {
+        "dist_lock": 0.9307,
+        "dist_rms": 0.0744,
+        "chaos_lock": 0.9329,
+        "chaos_delta": -0.0022
+      },
+      "17/pi": {
+        "dist_lock": 0.9324,
+        "dist_rms": 0.0725,
+        "chaos_lock": 0.9354,
+        "chaos_delta": -0.003
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.9474,
+        "dist_rms": 0.0555,
+        "chaos_lock": 0.9495,
+        "chaos_delta": -0.0021
+      },
+      "16/pi": {
+        "dist_lock": 0.9846,
+        "dist_rms": 0.0156,
+        "chaos_lock": 0.9821,
+        "chaos_delta": 0.0025
+      },
+      "17/pi": {
+        "dist_lock": 0.9649,
+        "dist_rms": 0.0364,
+        "chaos_lock": 0.9659,
+        "chaos_delta": -0.001
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9764,
+        "dist_rms": 0.0242,
+        "chaos_lock": 0.9798,
+        "chaos_delta": -0.0034
+      },
+      "16/pi": {
+        "dist_lock": 0.9561,
+        "dist_rms": 0.0459,
+        "chaos_lock": 0.9463,
+        "chaos_delta": 0.0098
+      },
+      "17/pi": {
+        "dist_lock": 0.9662,
+        "dist_rms": 0.035,
+        "chaos_lock": 0.9426,
+        "chaos_delta": 0.0236
+      }
+    },
+    "planetary": null,
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.9032,
+        "dist_rms": 0.1072,
+        "chaos_lock": 0.9807,
+        "chaos_delta": -0.0775
+      },
+      "16/pi": {
+        "dist_lock": 0.8809,
+        "dist_rms": 0.1351,
+        "chaos_lock": 0.9478,
+        "chaos_delta": -0.0669
+      },
+      "17/pi": {
+        "dist_lock": 0.9099,
+        "dist_rms": 0.0991,
+        "chaos_lock": 0.943,
+        "chaos_delta": -0.0331
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.9796,
+        "dist_rms": 0.0208,
+        "chaos_lock": 0.98,
+        "chaos_delta": -0.0003
+      },
+      "16/pi": {
+        "dist_lock": 0.9487,
+        "dist_rms": 0.0541,
+        "chaos_lock": 0.9484,
+        "chaos_delta": 0.0003
+      },
+      "17/pi": {
+        "dist_lock": 0.9419,
+        "dist_rms": 0.0616,
+        "chaos_lock": 0.9411,
+        "chaos_delta": 0.0008
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.693,
+        "dist_rms": 0.4431,
+        "chaos_lock": 0.8229,
+        "chaos_delta": -0.1299
+      },
+      "16/pi": {
+        "dist_lock": 0.6924,
+        "dist_rms": 0.4442,
+        "chaos_lock": 0.8179,
+        "chaos_delta": -0.1255
+      },
+      "17/pi": {
+        "dist_lock": 0.706,
+        "dist_rms": 0.4165,
+        "chaos_lock": 0.827,
+        "chaos_delta": -0.1211
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9802,
+        "dist_rms": 0.0202,
+        "chaos_lock": 0.9789,
+        "chaos_delta": 0.0013
+      },
+      "16/pi": {
+        "dist_lock": 0.9498,
+        "dist_rms": 0.0529,
+        "chaos_lock": 0.9495,
+        "chaos_delta": 0.0002
+      },
+      "17/pi": {
+        "dist_lock": 0.941,
+        "dist_rms": 0.0627,
+        "chaos_lock": 0.9431,
+        "chaos_delta": -0.0021
+      }
+    }
+  },
+  "quantum": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.9319,
+        "dist_rms": 0.0731,
+        "chaos_lock": 0.8908,
+        "chaos_delta": 0.0411
+      },
+      "16/pi": {
+        "dist_lock": 0.897,
+        "dist_rms": 0.1148,
+        "chaos_lock": 0.921,
+        "chaos_delta": -0.0239
+      },
+      "17/pi": {
+        "dist_lock": 0.9423,
+        "dist_rms": 0.0613,
+        "chaos_lock": 0.9129,
+        "chaos_delta": 0.0294
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0893,
+        "dist_rms": 10.1952,
+        "chaos_lock": 0.1427,
+        "chaos_delta": -0.0534
+      },
+      "16/pi": {
+        "dist_lock": 0.0942,
+        "dist_rms": 9.6191,
+        "chaos_lock": 0.1502,
+        "chaos_delta": -0.056
+      },
+      "17/pi": {
+        "dist_lock": 0.0985,
+        "dist_rms": 9.155,
+        "chaos_lock": 0.1566,
+        "chaos_delta": -0.0581
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.9243,
+        "dist_rms": 0.0819,
+        "chaos_lock": 0.8859,
+        "chaos_delta": 0.0383
+      },
+      "16/pi": {
+        "dist_lock": 0.8552,
+        "dist_rms": 0.1693,
+        "chaos_lock": 0.9395,
+        "chaos_delta": -0.0843
+      },
+      "17/pi": {
+        "dist_lock": 0.9312,
+        "dist_rms": 0.0739,
+        "chaos_lock": 0.9197,
+        "chaos_delta": 0.0115
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.8672,
+        "dist_rms": 0.1531,
+        "chaos_lock": 0.8909,
+        "chaos_delta": -0.0236
+      },
+      "16/pi": {
+        "dist_lock": 0.9013,
+        "dist_rms": 0.1095,
+        "chaos_lock": 0.9069,
+        "chaos_delta": -0.0056
+      },
+      "17/pi": {
+        "dist_lock": 0.9371,
+        "dist_rms": 0.0671,
+        "chaos_lock": 0.9165,
+        "chaos_delta": 0.0206
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.8645,
+        "dist_rms": 0.1567,
+        "chaos_lock": 0.874,
+        "chaos_delta": -0.0095
+      },
+      "16/pi": {
+        "dist_lock": 0.8849,
+        "dist_rms": 0.13,
+        "chaos_lock": 0.8912,
+        "chaos_delta": -0.0062
+      },
+      "17/pi": {
+        "dist_lock": 0.8997,
+        "dist_rms": 0.1114,
+        "chaos_lock": 0.906,
+        "chaos_delta": -0.0062
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.8922,
+        "dist_rms": 0.1208,
+        "chaos_lock": 0.8954,
+        "chaos_delta": -0.0032
+      },
+      "16/pi": {
+        "dist_lock": 0.9066,
+        "dist_rms": 0.103,
+        "chaos_lock": 0.9031,
+        "chaos_delta": 0.0035
+      },
+      "17/pi": {
+        "dist_lock": 0.9169,
+        "dist_rms": 0.0907,
+        "chaos_lock": 0.9201,
+        "chaos_delta": -0.0032
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.8965,
+        "dist_rms": 0.1155,
+        "chaos_lock": 0.9005,
+        "chaos_delta": -0.004
+      },
+      "16/pi": {
+        "dist_lock": 0.9046,
+        "dist_rms": 0.1055,
+        "chaos_lock": 0.9059,
+        "chaos_delta": -0.0014
+      },
+      "17/pi": {
+        "dist_lock": 0.9221,
+        "dist_rms": 0.0845,
+        "chaos_lock": 0.9228,
+        "chaos_delta": -0.0007
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.8895,
+        "dist_rms": 0.1243,
+        "chaos_lock": 0.89,
+        "chaos_delta": -0.0006
+      },
+      "16/pi": {
+        "dist_lock": 0.8973,
+        "dist_rms": 0.1144,
+        "chaos_lock": 0.8997,
+        "chaos_delta": -0.0024
+      },
+      "17/pi": {
+        "dist_lock": 0.9079,
+        "dist_rms": 0.1015,
+        "chaos_lock": 0.9096,
+        "chaos_delta": -0.0017
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.8747,
+        "dist_rms": 0.1432,
+        "chaos_lock": 0.8773,
+        "chaos_delta": -0.0026
+      },
+      "16/pi": {
+        "dist_lock": 0.8899,
+        "dist_rms": 0.1238,
+        "chaos_lock": 0.8887,
+        "chaos_delta": 0.0012
+      },
+      "17/pi": {
+        "dist_lock": 0.9072,
+        "dist_rms": 0.1023,
+        "chaos_lock": 0.9076,
+        "chaos_delta": -0.0004
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.8906,
+        "dist_rms": 0.1229,
+        "chaos_lock": 0.8966,
+        "chaos_delta": -0.0061
+      },
+      "16/pi": {
+        "dist_lock": 0.8991,
+        "dist_rms": 0.1122,
+        "chaos_lock": 0.9039,
+        "chaos_delta": -0.0048
+      },
+      "17/pi": {
+        "dist_lock": 0.9182,
+        "dist_rms": 0.0891,
+        "chaos_lock": 0.918,
+        "chaos_delta": 0.0002
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9032,
+        "dist_rms": 0.1072,
+        "chaos_lock": 0.909,
+        "chaos_delta": -0.0058
+      },
+      "16/pi": {
+        "dist_lock": 0.8809,
+        "dist_rms": 0.1351,
+        "chaos_lock": 0.8996,
+        "chaos_delta": -0.0186
+      },
+      "17/pi": {
+        "dist_lock": 0.9099,
+        "dist_rms": 0.0991,
+        "chaos_lock": 0.9228,
+        "chaos_delta": -0.0129
+      }
+    },
+    "quantum": null,
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.8955,
+        "dist_rms": 0.1167,
+        "chaos_lock": 0.8956,
+        "chaos_delta": -0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.9045,
+        "dist_rms": 0.1056,
+        "chaos_lock": 0.9048,
+        "chaos_delta": -0.0003
+      },
+      "17/pi": {
+        "dist_lock": 0.9203,
+        "dist_rms": 0.0866,
+        "chaos_lock": 0.92,
+        "chaos_delta": 0.0003
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6774,
+        "dist_rms": 0.4761,
+        "chaos_lock": 0.8004,
+        "chaos_delta": -0.123
+      },
+      "16/pi": {
+        "dist_lock": 0.6921,
+        "dist_rms": 0.4448,
+        "chaos_lock": 0.8103,
+        "chaos_delta": -0.1182
+      },
+      "17/pi": {
+        "dist_lock": 0.6939,
+        "dist_rms": 0.4412,
+        "chaos_lock": 0.8135,
+        "chaos_delta": -0.1196
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.8958,
+        "dist_rms": 0.1163,
+        "chaos_lock": 0.8952,
+        "chaos_delta": 0.0006
+      },
+      "16/pi": {
+        "dist_lock": 0.9047,
+        "dist_rms": 0.1054,
+        "chaos_lock": 0.904,
+        "chaos_delta": 0.0007
+      },
+      "17/pi": {
+        "dist_lock": 0.9206,
+        "dist_rms": 0.0863,
+        "chaos_lock": 0.9197,
+        "chaos_delta": 0.0008
+      }
+    }
+  },
+  "stellar": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.8687,
+        "dist_rms": 0.1512,
+        "chaos_lock": 0.9876,
+        "chaos_delta": -0.119
+      },
+      "16/pi": {
+        "dist_lock": 0.9163,
+        "dist_rms": 0.0914,
+        "chaos_lock": 0.937,
+        "chaos_delta": -0.0207
+      },
+      "17/pi": {
+        "dist_lock": 0.9199,
+        "dist_rms": 0.0871,
+        "chaos_lock": 0.9266,
+        "chaos_delta": -0.0067
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0888,
+        "dist_rms": 10.2644,
+        "chaos_lock": 0.1429,
+        "chaos_delta": -0.0541
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.6679,
+        "chaos_lock": 0.1505,
+        "chaos_delta": -0.0567
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.1393,
+        "chaos_lock": 0.1578,
+        "chaos_delta": -0.0592
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.8886,
+        "dist_rms": 0.1254,
+        "chaos_lock": 0.9677,
+        "chaos_delta": -0.0792
+      },
+      "16/pi": {
+        "dist_lock": 0.8586,
+        "dist_rms": 0.1647,
+        "chaos_lock": 0.9374,
+        "chaos_delta": -0.0788
+      },
+      "17/pi": {
+        "dist_lock": 0.9155,
+        "dist_rms": 0.0923,
+        "chaos_lock": 0.9258,
+        "chaos_delta": -0.0103
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.9294,
+        "dist_rms": 0.076,
+        "chaos_lock": 0.9912,
+        "chaos_delta": -0.0618
+      },
+      "16/pi": {
+        "dist_lock": 0.9535,
+        "dist_rms": 0.0488,
+        "chaos_lock": 0.9963,
+        "chaos_delta": -0.0428
+      },
+      "17/pi": {
+        "dist_lock": 0.9665,
+        "dist_rms": 0.0347,
+        "chaos_lock": 0.9911,
+        "chaos_delta": -0.0247
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9532,
+        "dist_rms": 0.0491,
+        "chaos_lock": 0.9638,
+        "chaos_delta": -0.0106
+      },
+      "16/pi": {
+        "dist_lock": 0.9468,
+        "dist_rms": 0.0562,
+        "chaos_lock": 0.9687,
+        "chaos_delta": -0.0219
+      },
+      "17/pi": {
+        "dist_lock": 0.9542,
+        "dist_rms": 0.048,
+        "chaos_lock": 0.964,
+        "chaos_delta": -0.0099
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9942,
+        "dist_rms": 0.0059,
+        "chaos_lock": 0.9985,
+        "chaos_delta": -0.0044
+      },
+      "16/pi": {
+        "dist_lock": 0.9933,
+        "dist_rms": 0.0067,
+        "chaos_lock": 0.9944,
+        "chaos_delta": -0.0011
+      },
+      "17/pi": {
+        "dist_lock": 0.9871,
+        "dist_rms": 0.0131,
+        "chaos_lock": 0.9984,
+        "chaos_delta": -0.0113
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9981,
+        "dist_rms": 0.0019,
+        "chaos_lock": 0.9932,
+        "chaos_delta": 0.0048
+      },
+      "16/pi": {
+        "dist_lock": 0.9985,
+        "dist_rms": 0.0015,
+        "chaos_lock": 0.9936,
+        "chaos_delta": 0.0049
+      },
+      "17/pi": {
+        "dist_lock": 0.9963,
+        "dist_rms": 0.0037,
+        "chaos_lock": 0.994,
+        "chaos_delta": 0.0023
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.959,
+        "dist_rms": 0.0427,
+        "chaos_lock": 0.9633,
+        "chaos_delta": -0.0043
+      },
+      "16/pi": {
+        "dist_lock": 0.9578,
+        "dist_rms": 0.0441,
+        "chaos_lock": 0.9619,
+        "chaos_delta": -0.0041
+      },
+      "17/pi": {
+        "dist_lock": 0.9565,
+        "dist_rms": 0.0455,
+        "chaos_lock": 0.9604,
+        "chaos_delta": -0.0039
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.966,
+        "dist_rms": 0.0352,
+        "chaos_lock": 0.9682,
+        "chaos_delta": -0.0022
+      },
+      "16/pi": {
+        "dist_lock": 0.9621,
+        "dist_rms": 0.0394,
+        "chaos_lock": 0.9645,
+        "chaos_delta": -0.0024
+      },
+      "17/pi": {
+        "dist_lock": 0.968,
+        "dist_rms": 0.033,
+        "chaos_lock": 0.9672,
+        "chaos_delta": 0.0008
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9924,
+        "dist_rms": 0.0076,
+        "chaos_lock": 0.9889,
+        "chaos_delta": 0.0035
+      },
+      "16/pi": {
+        "dist_lock": 0.9884,
+        "dist_rms": 0.0118,
+        "chaos_lock": 0.9878,
+        "chaos_delta": 0.0006
+      },
+      "17/pi": {
+        "dist_lock": 0.9723,
+        "dist_rms": 0.0284,
+        "chaos_lock": 0.9861,
+        "chaos_delta": -0.0137
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9796,
+        "dist_rms": 0.0208,
+        "chaos_lock": 0.9821,
+        "chaos_delta": -0.0024
+      },
+      "16/pi": {
+        "dist_lock": 0.9487,
+        "dist_rms": 0.0541,
+        "chaos_lock": 0.9885,
+        "chaos_delta": -0.0399
+      },
+      "17/pi": {
+        "dist_lock": 0.9419,
+        "dist_rms": 0.0616,
+        "chaos_lock": 0.9794,
+        "chaos_delta": -0.0375
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8955,
+        "dist_rms": 0.1167,
+        "chaos_lock": 0.9975,
+        "chaos_delta": -0.102
+      },
+      "16/pi": {
+        "dist_lock": 0.9045,
+        "dist_rms": 0.1056,
+        "chaos_lock": 0.9973,
+        "chaos_delta": -0.0929
+      },
+      "17/pi": {
+        "dist_lock": 0.9203,
+        "dist_rms": 0.0866,
+        "chaos_lock": 0.9964,
+        "chaos_delta": -0.0761
+      }
+    },
+    "stellar": null,
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6915,
+        "dist_rms": 0.4462,
+        "chaos_lock": 0.8222,
+        "chaos_delta": -0.1308
+      },
+      "16/pi": {
+        "dist_lock": 0.699,
+        "dist_rms": 0.4306,
+        "chaos_lock": 0.8265,
+        "chaos_delta": -0.1275
+      },
+      "17/pi": {
+        "dist_lock": 0.7058,
+        "dist_rms": 0.4169,
+        "chaos_lock": 0.8302,
+        "chaos_delta": -0.1244
+      }
+    },
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.9992,
+        "dist_rms": 0.0008,
+        "chaos_lock": 0.9992,
+        "chaos_delta": 0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.9984,
+        "dist_rms": 0.0016,
+        "chaos_lock": 0.999,
+        "chaos_delta": -0.0006
+      },
+      "17/pi": {
+        "dist_lock": 0.9982,
+        "dist_rms": 0.0018,
+        "chaos_lock": 0.9983,
+        "chaos_delta": -0.0001
+      }
+    }
+  },
+  "stellar_kinematic": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.6843,
+        "dist_rms": 0.4613,
+        "chaos_lock": 0.6935,
+        "chaos_delta": -0.0092
+      },
+      "16/pi": {
+        "dist_lock": 0.6705,
+        "dist_rms": 0.4914,
+        "chaos_lock": 0.6997,
+        "chaos_delta": -0.0292
+      },
+      "17/pi": {
+        "dist_lock": 0.6858,
+        "dist_rms": 0.4582,
+        "chaos_lock": 0.6854,
+        "chaos_delta": 0.0004
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0906,
+        "dist_rms": 10.0385,
+        "chaos_lock": 0.15,
+        "chaos_delta": -0.0594
+      },
+      "16/pi": {
+        "dist_lock": 0.0957,
+        "dist_rms": 9.4485,
+        "chaos_lock": 0.1581,
+        "chaos_delta": -0.0624
+      },
+      "17/pi": {
+        "dist_lock": 0.1008,
+        "dist_rms": 8.9234,
+        "chaos_lock": 0.166,
+        "chaos_delta": -0.0652
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.6775,
+        "dist_rms": 0.4761,
+        "chaos_lock": 0.6923,
+        "chaos_delta": -0.0148
+      },
+      "16/pi": {
+        "dist_lock": 0.6411,
+        "dist_rms": 0.5598,
+        "chaos_lock": 0.6989,
+        "chaos_delta": -0.0578
+      },
+      "17/pi": {
+        "dist_lock": 0.6841,
+        "dist_rms": 0.4617,
+        "chaos_lock": 0.6805,
+        "chaos_delta": 0.0037
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.6702,
+        "dist_rms": 0.4921,
+        "chaos_lock": 0.6906,
+        "chaos_delta": -0.0204
+      },
+      "16/pi": {
+        "dist_lock": 0.6833,
+        "dist_rms": 0.4636,
+        "chaos_lock": 0.6992,
+        "chaos_delta": -0.016
+      },
+      "17/pi": {
+        "dist_lock": 0.6961,
+        "dist_rms": 0.4365,
+        "chaos_lock": 0.7073,
+        "chaos_delta": -0.0112
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.6868,
+        "dist_rms": 0.456,
+        "chaos_lock": 0.6875,
+        "chaos_delta": -0.0007
+      },
+      "16/pi": {
+        "dist_lock": 0.691,
+        "dist_rms": 0.4472,
+        "chaos_lock": 0.696,
+        "chaos_delta": -0.0051
+      },
+      "17/pi": {
+        "dist_lock": 0.7088,
+        "dist_rms": 0.4109,
+        "chaos_lock": 0.708,
+        "chaos_delta": 0.0008
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.6922,
+        "dist_rms": 0.4446,
+        "chaos_lock": 0.6917,
+        "chaos_delta": 0.0005
+      },
+      "16/pi": {
+        "dist_lock": 0.699,
+        "dist_rms": 0.4306,
+        "chaos_lock": 0.6988,
+        "chaos_delta": 0.0002
+      },
+      "17/pi": {
+        "dist_lock": 0.7065,
+        "dist_rms": 0.4155,
+        "chaos_lock": 0.7056,
+        "chaos_delta": 0.0009
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.6917,
+        "dist_rms": 0.4458,
+        "chaos_lock": 0.6917,
+        "chaos_delta": -0.0
+      },
+      "16/pi": {
+        "dist_lock": 0.6991,
+        "dist_rms": 0.4303,
+        "chaos_lock": 0.6997,
+        "chaos_delta": -0.0005
+      },
+      "17/pi": {
+        "dist_lock": 0.7054,
+        "dist_rms": 0.4176,
+        "chaos_lock": 0.7048,
+        "chaos_delta": 0.0006
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.701,
+        "dist_rms": 0.4266,
+        "chaos_lock": 0.6992,
+        "chaos_delta": 0.0017
+      },
+      "16/pi": {
+        "dist_lock": 0.7091,
+        "dist_rms": 0.4102,
+        "chaos_lock": 0.7074,
+        "chaos_delta": 0.0017
+      },
+      "17/pi": {
+        "dist_lock": 0.7165,
+        "dist_rms": 0.3956,
+        "chaos_lock": 0.7151,
+        "chaos_delta": 0.0014
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.6885,
+        "dist_rms": 0.4525,
+        "chaos_lock": 0.6878,
+        "chaos_delta": 0.0007
+      },
+      "16/pi": {
+        "dist_lock": 0.6948,
+        "dist_rms": 0.4393,
+        "chaos_lock": 0.6958,
+        "chaos_delta": -0.001
+      },
+      "17/pi": {
+        "dist_lock": 0.7083,
+        "dist_rms": 0.4118,
+        "chaos_lock": 0.708,
+        "chaos_delta": 0.0003
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.6913,
+        "dist_rms": 0.4466,
+        "chaos_lock": 0.6932,
+        "chaos_delta": -0.0019
+      },
+      "16/pi": {
+        "dist_lock": 0.6993,
+        "dist_rms": 0.4301,
+        "chaos_lock": 0.7011,
+        "chaos_delta": -0.0018
+      },
+      "17/pi": {
+        "dist_lock": 0.7047,
+        "dist_rms": 0.419,
+        "chaos_lock": 0.7083,
+        "chaos_delta": -0.0035
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.693,
+        "dist_rms": 0.4431,
+        "chaos_lock": 0.692,
+        "chaos_delta": 0.001
+      },
+      "16/pi": {
+        "dist_lock": 0.6924,
+        "dist_rms": 0.4442,
+        "chaos_lock": 0.6976,
+        "chaos_delta": -0.0052
+      },
+      "17/pi": {
+        "dist_lock": 0.706,
+        "dist_rms": 0.4165,
+        "chaos_lock": 0.7038,
+        "chaos_delta": 0.0022
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.6774,
+        "dist_rms": 0.4761,
+        "chaos_lock": 0.6915,
+        "chaos_delta": -0.014
+      },
+      "16/pi": {
+        "dist_lock": 0.6921,
+        "dist_rms": 0.4448,
+        "chaos_lock": 0.6996,
+        "chaos_delta": -0.0074
+      },
+      "17/pi": {
+        "dist_lock": 0.6939,
+        "dist_rms": 0.4412,
+        "chaos_lock": 0.7058,
+        "chaos_delta": -0.012
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.6915,
+        "dist_rms": 0.4462,
+        "chaos_lock": 0.6916,
+        "chaos_delta": -0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.699,
+        "dist_rms": 0.4306,
+        "chaos_lock": 0.699,
+        "chaos_delta": 0.0
+      },
+      "17/pi": {
+        "dist_lock": 0.7058,
+        "dist_rms": 0.4169,
+        "chaos_lock": 0.7058,
+        "chaos_delta": -0.0001
+      }
+    },
+    "stellar_kinematic": null,
+    "stellar_rotation": {
+      "15/pi": {
+        "dist_lock": 0.6915,
+        "dist_rms": 0.4462,
+        "chaos_lock": 0.6914,
+        "chaos_delta": 0.0001
+      },
+      "16/pi": {
+        "dist_lock": 0.6988,
+        "dist_rms": 0.431,
+        "chaos_lock": 0.6989,
+        "chaos_delta": -0.0001
+      },
+      "17/pi": {
+        "dist_lock": 0.7058,
+        "dist_rms": 0.4169,
+        "chaos_lock": 0.7059,
+        "chaos_delta": -0.0002
+      }
+    }
+  },
+  "stellar_rotation": {
+    "biology_amino": {
+      "15/pi": {
+        "dist_lock": 0.869,
+        "dist_rms": 0.1507,
+        "chaos_lock": 0.9877,
+        "chaos_delta": -0.1187
+      },
+      "16/pi": {
+        "dist_lock": 0.9174,
+        "dist_rms": 0.0901,
+        "chaos_lock": 0.9361,
+        "chaos_delta": -0.0187
+      },
+      "17/pi": {
+        "dist_lock": 0.9195,
+        "dist_rms": 0.0876,
+        "chaos_lock": 0.9274,
+        "chaos_delta": -0.0079
+      }
+    },
+    "biology_chirality": {
+      "15/pi": {
+        "dist_lock": 0.0888,
+        "dist_rms": 10.2639,
+        "chaos_lock": 0.1429,
+        "chaos_delta": -0.0541
+      },
+      "16/pi": {
+        "dist_lock": 0.0937,
+        "dist_rms": 9.669,
+        "chaos_lock": 0.1504,
+        "chaos_delta": -0.0567
+      },
+      "17/pi": {
+        "dist_lock": 0.0986,
+        "dist_rms": 9.1403,
+        "chaos_lock": 0.1578,
+        "chaos_delta": -0.0592
+      }
+    },
+    "biology_other": {
+      "15/pi": {
+        "dist_lock": 0.889,
+        "dist_rms": 0.1249,
+        "chaos_lock": 0.9681,
+        "chaos_delta": -0.0791
+      },
+      "16/pi": {
+        "dist_lock": 0.8596,
+        "dist_rms": 0.1634,
+        "chaos_lock": 0.9369,
+        "chaos_delta": -0.0774
+      },
+      "17/pi": {
+        "dist_lock": 0.9154,
+        "dist_rms": 0.0924,
+        "chaos_lock": 0.9265,
+        "chaos_delta": -0.0111
+      }
+    },
+    "chemistry": {
+      "15/pi": {
+        "dist_lock": 0.9289,
+        "dist_rms": 0.0765,
+        "chaos_lock": 0.9906,
+        "chaos_delta": -0.0617
+      },
+      "16/pi": {
+        "dist_lock": 0.9547,
+        "dist_rms": 0.0475,
+        "chaos_lock": 0.9955,
+        "chaos_delta": -0.0408
+      },
+      "17/pi": {
+        "dist_lock": 0.9661,
+        "dist_rms": 0.0351,
+        "chaos_lock": 0.99,
+        "chaos_delta": -0.0239
+      }
+    },
+    "cosmology": {
+      "15/pi": {
+        "dist_lock": 0.9526,
+        "dist_rms": 0.0497,
+        "chaos_lock": 0.9632,
+        "chaos_delta": -0.0106
+      },
+      "16/pi": {
+        "dist_lock": 0.948,
+        "dist_rms": 0.0548,
+        "chaos_lock": 0.9698,
+        "chaos_delta": -0.0218
+      },
+      "17/pi": {
+        "dist_lock": 0.9531,
+        "dist_rms": 0.0492,
+        "chaos_lock": 0.9629,
+        "chaos_delta": -0.0098
+      }
+    },
+    "frb": {
+      "15/pi": {
+        "dist_lock": 0.9937,
+        "dist_rms": 0.0063,
+        "chaos_lock": 0.9985,
+        "chaos_delta": -0.0048
+      },
+      "16/pi": {
+        "dist_lock": 0.9943,
+        "dist_rms": 0.0058,
+        "chaos_lock": 0.9954,
+        "chaos_delta": -0.0012
+      },
+      "17/pi": {
+        "dist_lock": 0.9859,
+        "dist_rms": 0.0143,
+        "chaos_lock": 0.9975,
+        "chaos_delta": -0.0117
+      }
+    },
+    "galactic": {
+      "15/pi": {
+        "dist_lock": 0.9986,
+        "dist_rms": 0.0014,
+        "chaos_lock": 0.9937,
+        "chaos_delta": 0.0049
+      },
+      "16/pi": {
+        "dist_lock": 0.997,
+        "dist_rms": 0.0031,
+        "chaos_lock": 0.9923,
+        "chaos_delta": 0.0047
+      },
+      "17/pi": {
+        "dist_lock": 0.9972,
+        "dist_rms": 0.0028,
+        "chaos_lock": 0.9947,
+        "chaos_delta": 0.0025
+      }
+    },
+    "materials": {
+      "15/pi": {
+        "dist_lock": 0.9591,
+        "dist_rms": 0.0427,
+        "chaos_lock": 0.9633,
+        "chaos_delta": -0.0043
+      },
+      "16/pi": {
+        "dist_lock": 0.9575,
+        "dist_rms": 0.0444,
+        "chaos_lock": 0.9616,
+        "chaos_delta": -0.0041
+      },
+      "17/pi": {
+        "dist_lock": 0.9563,
+        "dist_rms": 0.0457,
+        "chaos_lock": 0.9601,
+        "chaos_delta": -0.0039
+      }
+    },
+    "null_cosmological": {
+      "15/pi": {
+        "dist_lock": 0.9654,
+        "dist_rms": 0.0358,
+        "chaos_lock": 0.9676,
+        "chaos_delta": -0.0022
+      },
+      "16/pi": {
+        "dist_lock": 0.9632,
+        "dist_rms": 0.0382,
+        "chaos_lock": 0.9656,
+        "chaos_delta": -0.0023
+      },
+      "17/pi": {
+        "dist_lock": 0.9669,
+        "dist_rms": 0.0343,
+        "chaos_lock": 0.966,
+        "chaos_delta": 0.0009
+      }
+    },
+    "orbital": {
+      "15/pi": {
+        "dist_lock": 0.9922,
+        "dist_rms": 0.0079,
+        "chaos_lock": 0.989,
+        "chaos_delta": 0.0031
+      },
+      "16/pi": {
+        "dist_lock": 0.9887,
+        "dist_rms": 0.0114,
+        "chaos_lock": 0.9875,
+        "chaos_delta": 0.0013
+      },
+      "17/pi": {
+        "dist_lock": 0.9713,
+        "dist_rms": 0.0295,
+        "chaos_lock": 0.9857,
+        "chaos_delta": -0.0144
+      }
+    },
+    "planetary": {
+      "15/pi": {
+        "dist_lock": 0.9802,
+        "dist_rms": 0.0202,
+        "chaos_lock": 0.9826,
+        "chaos_delta": -0.0023
+      },
+      "16/pi": {
+        "dist_lock": 0.9498,
+        "dist_rms": 0.0529,
+        "chaos_lock": 0.9895,
+        "chaos_delta": -0.0397
+      },
+      "17/pi": {
+        "dist_lock": 0.941,
+        "dist_rms": 0.0627,
+        "chaos_lock": 0.9805,
+        "chaos_delta": -0.0395
+      }
+    },
+    "quantum": {
+      "15/pi": {
+        "dist_lock": 0.8958,
+        "dist_rms": 0.1163,
+        "chaos_lock": 0.9979,
+        "chaos_delta": -0.1021
+      },
+      "16/pi": {
+        "dist_lock": 0.9047,
+        "dist_rms": 0.1054,
+        "chaos_lock": 0.9961,
+        "chaos_delta": -0.0914
+      },
+      "17/pi": {
+        "dist_lock": 0.9206,
+        "dist_rms": 0.0863,
+        "chaos_lock": 0.995,
+        "chaos_delta": -0.0744
+      }
+    },
+    "stellar": {
+      "15/pi": {
+        "dist_lock": 0.9992,
+        "dist_rms": 0.0008,
+        "chaos_lock": 0.9994,
+        "chaos_delta": -0.0002
+      },
+      "16/pi": {
+        "dist_lock": 0.9984,
+        "dist_rms": 0.0016,
+        "chaos_lock": 0.9983,
+        "chaos_delta": 0.0001
+      },
+      "17/pi": {
+        "dist_lock": 0.9982,
+        "dist_rms": 0.0018,
+        "chaos_lock": 0.9985,
+        "chaos_delta": -0.0002
+      }
+    },
+    "stellar_kinematic": {
+      "15/pi": {
+        "dist_lock": 0.6915,
+        "dist_rms": 0.4462,
+        "chaos_lock": 0.8222,
+        "chaos_delta": -0.1307
+      },
+      "16/pi": {
+        "dist_lock": 0.6988,
+        "dist_rms": 0.431,
+        "chaos_lock": 0.8263,
+        "chaos_delta": -0.1275
+      },
+      "17/pi": {
+        "dist_lock": 0.7058,
+        "dist_rms": 0.4169,
+        "chaos_lock": 0.8301,
+        "chaos_delta": -0.1244
+      }
+    },
+    "stellar_rotation": null
+  }
+}

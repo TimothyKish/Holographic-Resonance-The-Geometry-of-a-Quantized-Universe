@@ -1,0 +1,189 @@
+{
+  "quantum": {
+    "domain": "quantum",
+    "n": 3086,
+    "nonzero": 3086,
+    "mean": 7.300231,
+    "std": 0.816703,
+    "min": 0.412765,
+    "max": 8.081392,
+    "lakes": [
+      "q1_atomic_spectra",
+      "q2_molecular_geometry",
+      "q3_molecular_vibration"
+    ]
+  },
+  "biology": {
+    "domain": "biology",
+    "n": 226,
+    "nonzero": 216,
+    "mean": 1.588607,
+    "std": 1.102697,
+    "min": -2.771667,
+    "max": 2.302585,
+    "lakes": [
+      "b1_chirality",
+      "b3_amino",
+      "t1_biological"
+    ]
+  },
+  "planetary": {
+    "domain": "planetary",
+    "n": 14116,
+    "nonzero": 14116,
+    "mean": 1.208354,
+    "std": 0.081421,
+    "min": 0.822785,
+    "max": 1.3732,
+    "lakes": [
+      "t2_planetary"
+    ]
+  },
+  "cosmology": {
+    "domain": "cosmology",
+    "n": 10000,
+    "nonzero": 10000,
+    "mean": 2.482929,
+    "std": 0.081255,
+    "min": 2.322236,
+    "max": 2.604236,
+    "lakes": [
+      "n4_cosmological",
+      "t4_cosmological"
+    ]
+  },
+  "mechanics": {
+    "domain": "mechanics",
+    "n": 2484,
+    "nonzero": 0,
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "lakes": [
+      "n1_mechanical"
+    ]
+  },
+  "behavior": {
+    "domain": "behavior",
+    "n": 2515,
+    "nonzero": 0,
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "lakes": [
+      "n2_behavioral"
+    ]
+  },
+  "mathematics": {
+    "domain": "mathematics",
+    "n": 1000,
+    "nonzero": 0,
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "lakes": [
+      "n3_mathematical"
+    ]
+  },
+  "chemistry": {
+    "domain": "chemistry",
+    "n": 67174,
+    "nonzero": 67174,
+    "mean": 0.175967,
+    "std": 0.039351,
+    "min": 0.10472,
+    "max": 1.047198,
+    "lakes": [
+      "chemistry"
+    ]
+  },
+  "materials": {
+    "domain": "materials",
+    "n": 33973,
+    "nonzero": 33973,
+    "mean": 2.569706,
+    "std": 1.473631,
+    "min": 1.6e-05,
+    "max": 5.092954,
+    "lakes": [
+      "materials"
+    ]
+  },
+  "stellar": {
+    "domain": "stellar",
+    "n": 2000000,
+    "nonzero": 2000000,
+    "mean": 4.03179,
+    "std": 0.44104,
+    "min": 0.994075,
+    "max": 5.676213,
+    "lakes": [
+      "s1_gaia_parallax"
+    ]
+  },
+  "stellar_kinematic": {
+    "domain": "stellar_kinematic",
+    "n": 1808145,
+    "nonzero": 1808145,
+    "mean": 1.092971,
+    "std": 1.16821,
+    "min": -0.193529,
+    "max": 4.444616,
+    "lakes": [
+      "s2_stellar_kinematics"
+    ]
+  },
+  "galactic": {
+    "domain": "galactic",
+    "n": 1843110,
+    "nonzero": 1843110,
+    "mean": 3.253137,
+    "std": 0.26281,
+    "min": 2.606946,
+    "max": 4.148774,
+    "lakes": [
+      "g1_galaxy_kinematics"
+    ]
+  },
+  "astrophysics": {
+    "domain": "astrophysics",
+    "n": 4636,
+    "nonzero": 4636,
+    "mean": 3.6598,
+    "std": 0.503483,
+    "min": 1.674417,
+    "max": 5.581322,
+    "lakes": [
+      "frb_chime"
+    ]
+  },
+  "orbital": {
+    "domain": "orbital",
+    "n": 27042,
+    "nonzero": 27028,
+    "mean": 3.878427,
+    "std": 1.294076,
+    "min": 0.053337,
+    "max": 6.912795,
+    "lakes": [
+      "np1_orbital_periods",
+      "p1_orbital_periods"
+    ]
+  },
+  "stellar_rotation": {
+    "domain": "stellar_rotation",
+    "n": 67311,
+    "nonzero": 67311,
+    "mean": 1.84644,
+    "std": 0.656043,
+    "min": 0.112513,
+    "max": 5.759102,
+    "lakes": [
+      "k1_kepler_rotation",
+      "k2_pulsar_periods"
+    ]
+  }
+}
