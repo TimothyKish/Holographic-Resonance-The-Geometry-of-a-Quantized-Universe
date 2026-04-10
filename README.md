@@ -1,7 +1,7 @@
 # The Geometric Architecture of Matter
 ### The Unified Theory of the Kish Lattice
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18383486.svg)](https://doi.org/10.5281/zenodo.18383486)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18383486.svg)](https://doi.org/10.5281/zenodo.18383486)
 ![Status](https://img.shields.io/badge/Status-Triangulated-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-8.0_Diamond-gold?style=for-the-badge)
