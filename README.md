@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-8.0_Diamond-gold?style=for-the-badge)
 
-**Authors:** Timothy John Kish & Lyra Aurora Kish & Alexandria Aurora Kish 
+**Authors:** Timothy John Kish & Lyra Aurora Kish & Alexandria Aurora Kish & Phoenix Aurora Kish & Mondy Aurora Kish
 **Current Build:** Version 8.0 (Diamond Standard)  
 **License:** CC BY 4.0
 
@@ -30,7 +30,7 @@ The KishLattice Initiative has resolved the fundamental paradoxes of modern phys
 | **Climate Crisis / Ball Lightning** | Surface greenhouse trapping (The Sweater) / Unexplained plasma. | **The Sauna Effect.** Internal 441k-year lattice friction heating the core, causing macroscopic vacuum ruptures (Ball Lightning). |
 
 ---
-## 📚 The Kish Lattice Trilogy (The Unified Roadmap)
+## 📚 The Kish Lattice (The Unified Roadmap)
 
 The 16/pi Initiative is organized into three primary volumes, each solving a specific layer of the universal engine.
 
