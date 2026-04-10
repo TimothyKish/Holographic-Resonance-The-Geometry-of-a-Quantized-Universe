@@ -1,0 +1,54 @@
+[
+  {
+    "domain_id": "ASTRO_001",
+    "volume_ref": 1,
+    "phenomenon": "FRB Dispersion / Vacuum Stiffness",
+    "old_world_value": 0.0,
+    "lattice_coordinate": {
+      "modulus_k": 5.092958, 
+      "harmonic_mode_m": 1.0,
+      "agency_offset_delta": 0.0
+    },
+    "scalar_multiplier": 10e42,
+    "resolved_paradox": true
+  },
+  {
+    "domain_id": "CHEM_003",
+    "volume_ref": 3,
+    "phenomenon": "Water Bond Angle Collapse",
+    "old_world_value": 104.45,
+    "lattice_coordinate": {
+      "modulus_k": -1.0, 
+      "harmonic_mode_m": 109.5, 
+      "agency_offset_delta": 0.0
+    },
+    "scalar_multiplier": 10e-10,
+    "resolved_paradox": true
+  },
+  {
+    "domain_id": "BIO_004_MICRO",
+    "volume_ref": 4,
+    "phenomenon": "Codon Folding / L-Isomer Dominance",
+    "old_world_value": 20.0,
+    "lattice_coordinate": {
+      "modulus_k": 5.729577, 
+      "harmonic_mode_m": 24.0,
+      "agency_offset_delta": 2.0
+    },
+    "scalar_multiplier": 10e-9,
+    "resolved_paradox": true
+  },
+  {
+    "domain_id": "BIO_004_MACRO",
+    "volume_ref": 4,
+    "phenomenon": "Gray's Paradox / Hydrodynamic Slipstream",
+    "old_world_value": 10000.0,
+    "lattice_coordinate": {
+      "modulus_k": 0.196349, 
+      "harmonic_mode_m": 24.0,
+      "agency_offset_delta": 2.0
+    },
+    "scalar_multiplier": 1.0,
+    "resolved_paradox": true
+  }
+]

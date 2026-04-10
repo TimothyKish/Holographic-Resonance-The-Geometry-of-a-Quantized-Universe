@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kish Lattice Unified Domain Schema",
+  "type": "object",
+  "properties": {
+    "domain_id": { "type": "string" },
+    "volume_ref": { "type": "integer" },
+    "phenomenon": { "type": "string" },
+    "old_world_value": { "type": "number" },
+    "lattice_coordinate": {
+      "type": "object",
+      "properties": {
+        "modulus_k": { "type": "number" },
+        "harmonic_mode_m": { "type": "number" },
+        "agency_offset_delta": { "type": "number" }
+      },
+      "required": ["modulus_k", "harmonic_mode_m", "agency_offset_delta"]
+    },
+    "scalar_multiplier": { "type": "number", "description": "Scale translation from Planck to Macro" },
+    "resolved_paradox": { "type": "boolean" }
+  },
+  "required": ["domain_id", "volume_ref", "phenomenon", "lattice_coordinate"]
+}
