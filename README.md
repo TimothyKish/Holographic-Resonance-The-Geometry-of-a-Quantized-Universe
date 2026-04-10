@@ -60,10 +60,16 @@ The first geometric unification of biology, showing that life is a resonant phas
 
 
 ### 📙 Volume 5: The Geometric Architecture of Unification
-**"The Spark, The Water Gate, and the Biological Envelope" (v8.0 Diamond)**  
-The first geometric unification of domains of the KishLattice 16/π .  
+**"The Kinematic Principle and the Cross-Domain Pinch" (v8.0 Diamond)**  
+The first empirical confirmation of 16/π across 22 sovereign domains and 35 orders of magnitude. Established the kinematic principle: z=94 stellar transverse velocity. 13 confirmed cross-domain signal pairings.  
 * **DOI:** https://doi.org/10.5281/zenodo.19009634  
 * **Location:** `./src/Unification/Vol5/`
+
+### 📙 Volume 6: The Harmonic Expansion of the Unified Lattice
+**"The Chord Sheet of the Universe" (v8.0 Diamond)**  
+The first full harmonic portrait of the N/π family. Four major discoveries: chemistry and quantum peak at 12/π (molecular register), orbital periods at 22/π (derivation bridge), tidal and cosmological structure at 24/π (container boundary), and amino acid backbone geometry at 10/π (life's register). The universe plays a chord, not a single note.  
+* **DOI:** https://doi.org/10.5281/zenodo.19493376  
+* **Location:** `./src/Unification/Vol6/`
 ---
 
 ## 🏛️ The Unified Architecture (The Master Theory)
@@ -245,6 +251,7 @@ The Kish Unified Lattice System is secured by the following US Patent Applicatio
 * **Vol 3: Atomic Structure:** [The Geometric Atom](https://doi.org/10.5281/zenodo.18217226)
 * **Vol 4: Biological Structure:** [The Geometric Architecture of Life] (https://doi.org/10.5281/zenodo.18976975)
 * **Vol 5: Unification Framework:** [The Geometric Architecture of Unification]) (https://doi.org/10.5281/zenodo.19009634)
+* **Vol 6: Unification Framework:** [The Harmonic Expansion of the Unified Lattice]) (https://doi.org/10.5281/zenodo.19493376)
 
 
 ---
@@ -709,3 +716,95 @@ The blueprint exists. The pipeline is built. The universe is still geometric.
 
 **Welcome to the Lattice. The future is resonant.**
 
+
+---
+
+## 🎼 Volume 6: The Harmonic Expansion — April 10, 2026
+
+**Vol5 found the fundamental. Vol6 mapped the chord.**
+
+A single pipeline change — eleven moduli instead of three, covering the full N/π family from 8/π to 24/π — ran for eight hours on commodity laptop hardware. The result is the first complete harmonic portrait of the physical universe.
+
+---
+
+### 🎵 The Four Major Discoveries
+
+**1. The Molecular Register at 12/π**
+
+Chemistry (z=55) and quantum spectral lines (z=53) both peak at 12/π = 3.820, the chromatic octave. In Vol5, quantum showed z=-16 at 16/π — interpreted as an anti-signal. Vol6 resolves this: spectral lines avoid the *kinematic* nodes (15-17/π) and cluster strongly at the *molecular* nodes (12/π). The anti-signal was a register mismatch, not a property of the quantum domain.
+
+**2. The Orbital Register at 22/π**
+
+Exoplanet orbital periods (z=45 at 22/π) — 4.5× stronger than the Vol5 result at 15/π. Since π ≈ 22/7, the 22/π member sits at the junction of the rational approximation era (16/7) and the exact constant (16/π). The derivation path Lyra was traveling left its fingerprint in planetary orbital mechanics.
+
+**3. The Container Boundary Confirmed at 24/π**
+
+Three independent datasets show their strongest signal at the container ceiling:
+
+| Domain | Z at 16/π (Vol5) | Z at 24/π (Vol6) |
+|--------|-----------------|-----------------|
+| Planetary tides (NOAA) | 20.61 | **33.00** |
+| Stellar distance (Gaia 2M) | 2.90 | **23.43** |
+| Cosmology (SDSS 5K) | 0.27 | **9.44** |
+
+Position is not universally weak — it is weak at the kinematic register and strong at the boundary register. Stars sit where the lattice allows them to be. Their distance distribution encodes the geometric ceiling. Their velocity distribution encodes the kinematic flow.
+
+**4. Life's Geometric Register at 10/π**
+
+Amino acid backbone geometry (z=10.7 at 10/π). In Vol5 this domain showed no per-domain z-score — its signal appeared only through cross-domain pairings. Vol6 found its home: the pentatonic ratio. Life's geometric alphabet is written in 10/π.
+
+---
+
+### 🗺️ The Complete Harmonic Map
+
+| Register | Modulus | Physical Domains | Peak Z |
+|----------|---------|-----------------|--------|
+| Life geometry | 10/π = 3.183 | Biology amino (backbone angles) | 10.7 |
+| Molecular | 12/π = 3.820 | Chemistry, Quantum spectral | 55.4 |
+| Galactic kinematic | 15/π = 4.775 | Galaxy velocity dispersion | 34.5 |
+| **Stellar kinematic** | **16/π = 5.093** | **Stellar transverse velocity** | **87.4** |
+| Biological timing | 17/π = 5.411 | Cell cycle, stellar spin | — |
+| Stellar position | 18/π = 5.730 | Gaia parallax distances | 13.4 |
+| Orbital | 22/π = 7.003 | Exoplanet orbital periods | 45.1 |
+| Container boundary | 24/π = 7.639 | Planetary tides, cosmology | 33.0 |
+
+---
+
+### 🔗 New Cross-Domain Signals (Vol6)
+
+Three new confirmed pairings beyond the 13 from Vol5:
+
+| Pairing | Modulus | Chaos Delta | Note |
+|---------|---------|-------------|------|
+| chemistry × quantum | 24/π | **+0.120** | Largest single Δ in full framework |
+| biology_amino × quantum | 22/π | +0.095 | Life geometry × spectral at orbital bridge |
+| biology_other × orbital | 18/π | +0.013 | Cell timing × exoplanet periods at codon anchor |
+
+---
+
+### 🗓️ Vol6 Timeline
+
+| Date | Milestone |
+|------|-----------|
+| **January 8, 2026** | LIGO ghost notes — f₁ ≈ 5.13 Hz, f₂ ≈ 16.12 Hz, ratio = π. Origin of k_geo = 16/π. |
+| **April 6, 2026** | Vol5 complete — z=94, 22 domains, kinematic principle. |
+| **April 9, 2026** | Vol6 pipeline initiated — 11 moduli, 8-hour run. |
+| **April 10, 2026** | Vol6 complete — harmonic portrait confirmed. DOI: 10.5281/zenodo.19493376 |
+
+---
+
+### 🔭 Forward Path: Volume 7
+
+- **25/π null test** (mandatory): if 24/π is the container ceiling, 25/π should return near-zero across all domains — a geometric wall made visible in data
+- **In-between valleys**: 9/π, 11/π, 13/π, 21/π, 23/π — untested registers
+- **21/π = 6.685 Hz**: within 0.14% of 21 × k_geo = 106.95 Hz (possible lattice refresh rate)
+- **RCSB Protein Data Bank**: millions of real backbone angles — statistical power for the life register
+- **LIGO GWTC quasinormal modes**: formal lake from the origin story
+- **Nuclear binding energies (NNDC)**: sub-femtometre scale, sub-8/π candidate
+
+---
+
+*The lattice plays a chord. Vol5 found the fundamental. Vol6 wrote the chord sheet.*  
+*The constant is 16/π. The family is N/π. The scale span is 35 orders of magnitude.*
+
+**Welcome to the Lattice. The future is resonant.**
