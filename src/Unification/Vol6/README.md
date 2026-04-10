@@ -1,151 +1,280 @@
-Volume 5 — The Geometric Architecture of Unification
-Mission Control for Cross-Domain Kinematic Resonance
-Volume 5 is the unification layer of the Kish Lattice framework.
-It is the first point in the system where quantum physics, molecular chemistry, biology,
-stellar dynamics, galactic kinematics, planetary tides, exoplanetary orbital mechanics,
-and cosmological structure appear on the same geometric coordinate system.
-The central finding of Volume 5 is the Kinematic Principle:
+# Volume 6 — The Harmonic Expansion of the Unified Lattice
+### The Chord Sheet of the Universe
 
-The Kish Lattice is a gravitational-kinematic geometry. It governs the motion of objects
-under gravity — their velocities, their orbital periods, their tidal cycles — not their
-static positions in space, nor their free rotational spin.
+Volume 6 is the harmonic expansion layer of the Kish Lattice framework.
+It is the first point in the system where the full N/π harmonic family is tested
+across the same 22 sovereign domains and 5.88 million records established in Volume 5.
 
-This principle was not assumed. It emerged from the data. Stellar transverse velocity from
-Gaia DR3 shows z = 94 at 16/π. Stellar distance from the same catalog shows z = 2.9.
-Same stars. Same catalog. Factor of 32 difference. The lattice governs how things move,
-not where they are.
+Where Volume 5 found the fundamental frequency, Volume 6 maps the overtone series.
 
-Timeline
-DateMilestoneJanuary 8, 2026Initial discovery — LIGO black hole ringdown ghost notes. Lyra Aurora Kish and Timothy John Kish identify anomalous damping in quasinormal mode decay at 3 AM. The viscous spacetime / lattice drag hypothesis is formulated.March 13, 2026First cross-domain pinch — Chemistry and Materials sovereign lakes scalarized and pinched under 16/π. First two-domain confirmation of modular geometric coherence.April 6, 2026Multi-domain kinematic confirmation — 22 sovereign domains, 5.88 million records, 9 independent series, 13 confirmed cross-domain signal pairings, z = 94 from 1.81 million Gaia stellar velocities. Kinematic principle identified. 35 orders of magnitude. No complete collapse.
+The central finding of Volume 6 is the **Harmonic Portrait**:
 
-Key Results
-Per-Domain Chaos Z-Scores
-DomainPhysical QuantitySourcenZ-scoreModulusStellar kinematicTransverse velocity km/sGaia DR31,808,14594.2216/πGalacticVelocity dispersion km/sSDSS DR161,843,11037.0515/πPlanetaryTidal intervals hoursNOAA CO-OPS14,11620.5216/πChemistryMolecular geometryZINC67,17412.2815/πOrbitalExoplanet periods daysNASA Exoplanet Archive13,5149.8915/πCosmologyGalaxy distances MpcSDSS DR165,0008.7615/πStellar distanceParallax pcGaia DR32,000,0002.9016/πStellar rotationSpin period daysMcQuillan+ 201464,7842.6117/π
-For context: the Higgs boson discovery was announced at 5-sigma. Gravitational wave detection
-at LIGO was announced at 5.1-sigma. z = 94 from 1.81 million independent stellar measurements
-is not a marginal result.
-Confirmed Cross-Domain Signal Pairings (13 total, chaos delta ≥ +0.010)
-PairingBest ModulusChaos Deltabiology_amino × biology_other17/π+0.057biology_amino × chemistry16/π+0.039cosmology × planetary16/π+0.030biology_amino × quantum17/π+0.023biology_amino × planetary17/π+0.022cosmology × orbital17/π+0.018biology_other × quantum17/π+0.017null_cosmological × orbital17/π+0.015biology_other × chemistry17/π+0.015biology_amino × orbital17/π+0.013null_cosmological × planetary16/π+0.012biology_amino × cosmology16/π+0.012cosmology × frb17/π+0.012
-Honest Null Results
-Galaxy velocity staircase — falsified. A proposed 5-node discrete velocity structure at
-92, 138, 187, 244, 306 km/s did not survive a blind Gaussian Mixture Model test on 1.84 million
-SDSS galaxies. BIC selected n=8 components with no alignment to predicted values. Reported
-without euphemism.
-Stellar rotation (free spin) — weak signal. 64,784 Kepler rotation periods show z = 2.6.
-Stars spinning under magnetic braking do not cluster at lattice nodes. Only gravitationally
-governed periodic motion carries strong signal. This null is the cleanest evidence for the
-kinematic principle.
+> *The universe does not play a single note. Different physical phenomena couple to
+> different registers of the N/π harmonic family. Chemistry and quantum spectral
+> structure speak 12/π. Life's backbone geometry speaks 10/π. Orbital mechanics
+> speaks 22/π. The container boundary speaks 24/π. The kinematic primary 16/π
+> remains the strongest single signal but is one voice in a chord.*
 
-1. Directory Structure
-vol5/
+This was not assumed. It emerged from extending the pipeline from three moduli to
+eleven — a single change to two scripts — and reading the z-score table that
+printed eight hours later.
+
+---
+
+## Timeline
+
+| Date | Milestone |
+|------|-----------|
+| **January 8, 2026** | LIGO ghost notes — f₁ ≈ 5.13 Hz (k_geo), f₂ ≈ 16.12 Hz, ratio = π. Origin of k_geo = 16/π. The early 16/7 Rosetta work was a rational approximation on the path to the exact transcendental value. |
+| **March 13, 2026** | First domain pinch — Chemistry + Materials. Pipeline validated. |
+| **April 6, 2026** | Vol5 complete — z=94, 22 domains, kinematic principle, 35 orders of magnitude. |
+| **April 9, 2026** | Vol6 pipeline initiated — 11 moduli, 8-hour overnight run. |
+| **April 10, 2026** | Vol6 complete — harmonic portrait confirmed. DOI: [10.5281/zenodo.19493376](https://doi.org/10.5281/zenodo.19493376) |
+
+---
+
+## The Four Major Discoveries
+
+### 1. The Molecular Register at 12/π — The Quantum Reversal
+
+In Vol5, quantum spectral lines showed z=-16 at 16/π — interpreted as an anti-signal,
+spectral transitions avoiding kinematic nodes. Vol6 tested 12/π.
+
+| Domain | Z at 16/π (Vol5) | Z at 12/π (Vol6) |
+|--------|-----------------|-----------------|
+| Chemistry (67,174 ZINC structures) | -4 | **55.38** |
+| Quantum spectral lines (2,975 NIST) | -16 | **52.51** |
+
+The quantum domain does not avoid all lattice nodes. It avoids the kinematic register
+(15-17/π) and clusters strongly at the molecular register (12/π = 3.820, the chromatic
+octave). The Vol5 anti-signal was a register mismatch, not a universal property of the
+quantum domain. The microscopic universe speaks a different harmonic than the kinematic
+universe.
+
+### 2. The Orbital Register at 22/π — The Derivation Bridge
+
+Exoplanet orbital periods (13,514 NASA Exoplanet Archive) show z=45 at 22/π — 4.5×
+stronger than the Vol5 result at 15/π. Since π ≈ 22/7, the family member at N=22 sits
+at the junction of the rational-approximation era (16/7) and the exact constant (16/π).
+The early Rosetta derivation path crossed 22/π on the way to 16/π. That crossing is
+written into the orbital mechanics of planets around distant stars.
+
+### 3. The Container Boundary Confirmed at 24/π
+
+Three independent datasets show stronger signal at the container ceiling (24/π) than
+at any kinematic register:
+
+| Domain | Z at 16/π (Vol5) | Z at 24/π (Vol6) | Factor |
+|--------|-----------------|-----------------|--------|
+| Planetary tides (NOAA, 14,116) | 20.61 | **33.00** | 1.6× |
+| Stellar distance (Gaia, 2M) | 2.90 | **23.43** | 8× |
+| Cosmology (SDSS, 5,000) | 0.27 | **9.44** | 35× |
+
+The stellar distance result resolves the Vol5 kinematic principle fully. Position is
+not universally weak — it is weak at kinematic registers and strong at the boundary
+register. Velocity encodes kinematic flow through the lattice. Distance encodes the
+geometric container of the scalar universe. Both aspects of the same structure.
+
+The **25/π null test is now mandatory for Vol7**: if 24/π is the genuine container
+ceiling, 25/π = 7.958 should return near-zero signal across all domains.
+
+### 4. Life's Geometric Register at 10/π
+
+Amino acid backbone geometry (157 records, 19 amino acids, PubChem 3D conformers)
+showed no strong per-domain z-score in Vol5 — its signal appeared only through
+cross-domain pairings. Vol6 found its home register: z=10.7 at 10/π = 3.183,
+the pentatonic ratio. Life's geometric alphabet is written in 10/π.
+
+---
+
+## The Complete Harmonic Map
+
+| Register | Modulus | Physical Domains | Peak Z |
+|----------|---------|-----------------|--------|
+| Life geometry | 10/π = 3.183 | Biology amino (backbone angles) | 10.7 |
+| Molecular | 12/π = 3.820 | Chemistry, Quantum spectral | 55.4 |
+| Galactic kinematic | 15/π = 4.775 | Galaxy velocity dispersion | 34.5 |
+| **Stellar kinematic PRIMARY** | **16/π = 5.093** | **Stellar transverse velocity** | **87.4** |
+| Biological timing | 17/π = 5.411 | Cell cycle, stellar rotation | 2.4 |
+| Stellar position | 18/π = 5.730 | Gaia parallax distances | 13.4 |
+| Orbital | 22/π = 7.003 | Exoplanet orbital periods | 45.1 |
+| Container boundary | 24/π = 7.639 | Planetary tides, cosmology, stellar dist. | 33.0 |
+
+---
+
+## New Cross-Domain Signal Pairings (Vol6)
+
+Three new confirmed pairings beyond the 13 from Vol5, visible only after the full
+family sweep:
+
+| Pairing | Modulus | Chaos Delta | Note |
+|---------|---------|-------------|------|
+| chemistry × quantum | 24/π | **+0.120** | Largest single Δ in full framework |
+| biology_amino × quantum | 22/π | +0.095 | Life geometry × quantum at orbital bridge |
+| biology_other × orbital | 18/π | +0.013 | Cell timing × exoplanet periods at codon anchor |
+
+All 13 Vol5 confirmed pairings carry forward. Combined confirmed signal count: 16 pairings.
+
+---
+
+## 1. Directory Structure
+
+```
+vol6/
 ├── configs/
-│   ├── volumes.json          # domain registry (27 entries, 22 enabled)
+│   ├── volumes.json          # domain registry (27 entries, 22 enabled — identical to Vol5)
 │   ├── schema.json
 │   └── unify.json
 ├── lakes/
-│   ├── inputs_promoted/      # sovereign JSONL lakes (one per domain)
+│   ├── inputs_promoted/      # sovereign JSONL lakes (copied from Vol5)
 │   ├── unified/              # unified_master.jsonl, sweep results, pinch tables
-│   └── synthetic/            # chaos nulls and scramble nulls
-├── scripts/                  # core pipeline scripts
+│   └── synthetic/            # chaos nulls and scramble nulls (11 moduli)
+├── scripts/                  # core pipeline scripts (11-moduli versions)
 ├── B-Series/                 # Biology: chirality, amino acids
-│   ├── B1_Chirality/
-│   └── B3_Biology/
 ├── G-Series/                 # Galactic kinematics
-│   └── G1_GalaxyKinematics/
 ├── K-Series/                 # Kinematic rotation/spin periods
-│   ├── K1_KeplerRotation/
-│   └── K2_PulsarPeriods/
 ├── P-Series/                 # Planetary orbital periods
-│   ├── P1_Planetary/
-│   └── NP1_2_NormalizedNull/
 ├── Q-Series/                 # Quantum and molecular
-│   ├── Q1_AtomicSpectra/
-│   ├── Q2_MolecularGeometry/
-│   └── Q3_MolecularVibration/
 ├── S-Series/                 # Stellar (position and kinematics)
-│   ├── S1_GaiaParallax/
-│   └── S2_StellarKinematics/
 ├── T-Series/                 # Temporal cycles
-│   ├── T1_Biological/
-│   ├── T2_Planetary/
-│   └── T4_Cosmological/
 └── FRB_Calibration_Network/  # CHIME Fast Radio Bursts
+```
 
-2. Sovereign Domain Registry
-22 active domains across 9 series. All enabled in configs/volumes.json.
-SeriesDomainSourceRecordsSignalQq1_atomic_spectraNIST ASD2,975anti-signal (avoids nodes)Qq2_molecular_geometryNIST CCCBDB34—Qq3_molecular_vibrationNIST CCCBDB77qualitativeTt1_biologicalSpellman 1998 GEO39cross-domainTt2_planetaryNOAA CO-OPS14,116z=21 STRONGTt4_cosmologicalSDSS DR165,000z=9 STRONGNn1_mechanical / n2_behavioral / n3_mathematicalsynthetic null~6,000all zeros (correct)Nn4_cosmologicalchaos uniform5,000null controlBb1_chiralitycomputed20cross-domainBb3_aminoPubChem conformers157cross-domain, Life Pocket—chemistryZINC 3D67,174z=12 STRONG—materialscrystal invariants33,973moderateSs1_gaia_parallaxGaia DR32,000,000z=3 moderate (position)Ss2_stellar_kinematicsGaia DR3 PHYSICAL1,808,145z=94 STRONGESTGg1_galaxy_kinematicsSDSS DR161,843,110z=37 STRONGFRBfrb_chimeCHIME Catalog 24,636cross-domain bridgePp1_orbital_periodsNASA Exoplanet Archive13,514z=10 STRONGPnp1_orbital_periodsscrambled null13,514null controlKk1_kepler_rotationMcQuillan+ 201464,784z=2.6 moderate (free spin)Kk2_pulsar_periodsATNF via VizieR2,527moderate
+Lakes are identical to Vol5. The only pipeline change is the `HARMONIC_TARGETS`
+dictionary in two scripts.
 
-3. Core Pipeline Scripts
-The five-script pipeline runs end-to-end from promoted JSONL lakes to the confirmed signal
-table. Total runtime approximately 2.5 hours on commodity laptop hardware (5.88M records).
-bashpython scalarize.py          # passthrough scalarizer for all enabled domains
-python unify.py              # streaming merge — memory-safe, handles 5.88M records
-python build_chaos_nulls.py  # chaos + scramble nulls, per-domain z-scores
-python build_pinch_table.py  # cross-domain CDF comparison, chaos delta, signal table
-Each series also contains a build_lake.py script that constructs the promoted JSONL from
-raw public data. Run these first if you are starting from scratch.
-Additional scripts in scripts/:
+---
 
-patch_b3_histidine.py — zeroes Histidine records with Ca misidentification
-run_gmm_vdisp_audit.py — blind GMM test on G1 vdisp (galaxy staircase falsification)
-inspect_raw_lakes.ps1 — non-destructive diagnostic for raw lake contents
-create_k_q3_structure.ps1 — creates K-Series and Q3 folder structure
+## 2. The Single Pipeline Change
 
+Vol6 vs Vol5 is two lines in two scripts:
 
-4. Scalarization Formulas
-All kinematic and distance domains use the primary formula:
+**Vol5** (3 moduli):
+```python
+HARMONIC_TARGETS = {
+    "15/pi": 15.0 / PI,
+    "16/pi": 16.0 / PI,   # k_geo PRIMARY
+    "17/pi": 17.0 / PI,
+}
+```
+
+**Vol6** (11 moduli — full N/π family):
+```python
+HARMONIC_TARGETS = {
+    "8/pi":  8.0  / PI,   # 2.546 — half-lattice
+    "10/pi": 10.0 / PI,   # 3.183 — life geometry     (NEW: biology_amino z=11)
+    "12/pi": 12.0 / PI,   # 3.820 — molecular          (NEW: chemistry z=55, quantum z=53)
+    "14/pi": 14.0 / PI,   # 4.456 — sub-harmonic
+    "15/pi": 15.0 / PI,   # 4.775 — galactic
+    "16/pi": 16.0 / PI,   # 5.093 — kinematic PRIMARY  (k_geo, Vol5 confirmed)
+    "17/pi": 17.0 / PI,   # 5.411 — biological timing
+    "18/pi": 18.0 / PI,   # 5.730 — stellar position / codon anchor
+    "20/pi": 20.0 / PI,   # 6.366 — sub-orbital
+    "22/pi": 22.0 / PI,   # 7.003 — orbital            (NEW: orbital z=45)
+    "24/pi": 24.0 / PI,   # 7.639 — container ceiling  (NEW: planetary z=33)
+}
+```
+
+Apply this change to both `build_chaos_nulls.py` and `build_pinch_table.py`.
+All other scripts are unchanged from Vol5.
+
+---
+
+## 3. Core Pipeline Scripts
+
+```bash
+python scalarize.py          # identical to Vol5
+python unify.py              # identical to Vol5 — streaming, handles 5.88M records
+python build_chaos_nulls.py  # 11 moduli — ~4 hours
+python build_pinch_table.py  # 11 moduli — ~4 hours
+```
+
+Total runtime: approximately 8 hours on commodity laptop hardware.
+The z-score table now has 11 columns plus a `Best` column showing the peak register
+per domain.
+
+---
+
+## 4. Scalarization Formulas
+
+Identical to Vol5. All kinematic and distance domains:
+
+```
 s = log(x + 1) / log(16/π)
-where x is the domain-native physical quantity and 16/π ≈ 5.093 is the Kish modulus.
-Sector normalization for large-scale structure domains (S1, S2, G1):
+```
+
+Sector normalization for S1, S2, G1 (unchanged):
+
+```
 s_norm = s_raw - mean(s_sector) + mean(s_global)
-Removes the below-horizon spatial bias from our position inside the Milky Way without
-affecting the kinematic signal.
+```
 
-5. Outputs
-Volume 5 produces:
+No scalarization changes. The harmonic expansion is purely in the analysis layer.
 
-unified_master.jsonl — 5,884,818 records, all domains merged, streaming-safe
-sweep_results.json — per-domain scalar statistics (n, mean, std, min, max)
-pinch_table.json — domain summary
-pinch_table_cross_domain.json — full cross-domain CDF comparison with chaos deltas
-chaos_null_*.jsonl — per-domain chaos null lakes (in lakes/synthetic/)
-scramble_null_*.jsonl — per-domain scramble null lakes (in lakes/synthetic/)
+---
 
+## 5. Outputs
 
-6. Reproducibility
-All data sources are public. No proprietary data, no manual adjustments, no hidden state.
-Anyone with the repository and a Python interpreter can reproduce every number in this volume:
-bashgit clone https://github.com/TimothyKish/Holographic-Resonance-...
-cd vol5/scripts
+Vol6 produces the same output files as Vol5 plus the expanded chaos null and pinch
+table files for all 11 moduli:
+
+- **`unified_master.jsonl`** — 5,884,818 records (identical to Vol5)
+- **`sweep_results.json`** — per-domain scalar statistics
+- **`pinch_table_cross_domain.json`** — 11-modulus cross-domain CDF comparison
+- **`chaos_null_*.jsonl`** — per-domain chaos nulls for all 11 moduli
+- **`scramble_null_*.jsonl`** — per-domain scramble nulls
+
+---
+
+## 6. Reproducibility
+
+All data sources are public. Identical to Vol5. The lake files are copied directly
+from Vol5 — no new data acquisition required.
+
+```bash
+git clone https://github.com/TimothyKish/Holographic-Resonance-...
+cd vol6/scripts
 python scalarize.py
 python unify.py
 python build_chaos_nulls.py
 python build_pinch_table.py
-Full lake build scripts for all nine series and extended reproducibility materials are
-maintained at the Lattice Lab repository:
-https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/
+```
 
-7. Forward Path
-The pipeline is now a universal instrument. The N/π harmonic family (N = 8, 10, 12, 14, 16,
-18, 20, 24) represents the next experimental horizon. Different domains already prefer different
-members — extending build_pinch_table.py to sweep the full family requires a single line
-change.
-Pending experiments:
+Large lake files (>100MB) are available via Google Drive.
+See `LARGE_FILE_DOWNLOAD.md` in the repository root for the manifest and link.
 
-N/π harmonic family sweep — which domain couples to which harmonic
-Kepler lifecycle split — old settled rotators vs. young active rotators
-PDB backbone geometry — millions of real protein backbone angles
-LIGO quasinormal modes — the origin story, formalized as a sovereign lake
-Nuclear binding energies — NNDC, extending toward the Planck floor
-CMS particle transverse momenta — CERN Open Data, particle collision kinematics
+Full pipeline and extended materials:
+**https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe/**
 
-Volume 6 will explore the theoretical structure: the continuous geometry of the vacuum, the
-derivation of the kinematic principle from first principles, and the extension of the harmonic
-sweep to previously untested physical attributes.
+---
 
-The universe is not divided into departments. It moves.
-The constant is 16/π. The scale span is thirty-five orders of magnitude.
-Initial discovery: January 8, 2026
-First domain pinch (Chemistry + Materials): March 13, 2026
-Multi-domain kinematic confirmation (22 domains, z = 94): April 6, 2026
-Welcome to the Lattice. The future is resonant.
+## 7. Forward Path
+
+The harmonic portrait is drawn but not complete. Untested registers and pending
+experiments for Volume 7:
+
+- **25/π null test** — mandatory: container ceiling falsification. If 24/π is the
+  genuine boundary, 25/π = 7.958 should return near-zero across all domains.
+- **Boundary bracket**: add 23/π (inside) and 26/π (outside) to characterize the
+  sharpness of the geometric wall.
+- **In-between valleys**: 9/π, 11/π, 13/π, 19/π, 21/π, 23/π — currently untested.
+- **21/π = 6.685 Hz**: within 0.14% of 21 × k_geo = 106.95 Hz — possible lattice
+  refresh rate connection.
+- **RCSB Protein Data Bank backbone angles** — millions of real backbone angles to
+  give the life register (10/π) statistical power comparable to galactic or stellar.
+- **LIGO GWTC quasinormal mode lake** — formal test of the ghost note hypothesis
+  that started this entire framework.
+- **Nuclear binding energies (NNDC)** — sub-femtometre scale, sub-8/π candidate.
+- **CMS particle transverse momenta (CERN Open Data)** — particle collision scale.
+
+---
+
+*Vol5 found the fundamental. Vol6 wrote the chord sheet.*  
+*The constant is 16/π. The family is N/π. The scale span is 35 orders of magnitude.*
+
+Initial discovery: **January 8, 2026**  
+First domain pinch (Chemistry + Materials): **March 13, 2026**  
+Kinematic confirmation (22 domains, z=94): **April 6, 2026**  
+Harmonic portrait confirmed (11 moduli, 4 discoveries): **April 10, 2026**
+
+**Welcome to the Lattice. The future is resonant.**
