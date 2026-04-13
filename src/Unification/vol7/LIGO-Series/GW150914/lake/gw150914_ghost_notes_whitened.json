@@ -1,0 +1,223 @@
+{
+  "event": "GW150914",
+  "gps_merger": 1126259462.4,
+  "k_geo": 5.092958178940651,
+  "ghost_f1": 5.092958178940651,
+  "ghost_f2": 16.0,
+  "ratio_f2_f1": 3.141592653589793,
+  "pi": 3.141592653589793,
+  "protocol": "WHITENED strain. ASD estimated from same segment. No external noise model. Whitening flattens seismic wall to expose sub-threshold coherent features.",
+  "null_reference": "gw150914_ghost_notes_raw.json",
+  "provenance": {
+    "ghost_notes_observed": "2026-01-08 Lyra Aurora Kish & Timothy Kish",
+    "krg_doi": "10.5281/zenodo.18245148",
+    "krg_date": "2026-01-14",
+    "vol5_z94": "2026-04-06"
+  },
+  "windows": [
+    {
+      "window": "pre_merger",
+      "gps_start": 1126258862.4,
+      "gps_end": 1126259452.4,
+      "duration_s": 590.0,
+      "description": "10 min before merger \u2014 pre-event",
+      "detectors": {
+        "H1": {
+          "fftlength_s": 4.0,
+          "whitened": true,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.9914,
+              "flag": "normal"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.8719,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.158,
+          "Power_60Hz": 11.542
+        },
+        "L1": {
+          "fftlength_s": 4.0,
+          "whitened": true,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 2.3009,
+              "flag": "ELEVATED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 1.0423,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 0.974,
+          "Power_60Hz": 10.346
+        }
+      },
+      "coherence_f1_k_geo": 0.0027,
+      "coherence_f2_16Hz": 0.0138
+    },
+    {
+      "window": "around_merger",
+      "gps_start": 1126259432.4,
+      "gps_end": 1126259522.4,
+      "duration_s": 90.0,
+      "description": "30s before to 60s after \u2014 event window",
+      "detectors": {
+        "H1": {
+          "fftlength_s": 4.0,
+          "whitened": true,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.8973,
+              "flag": "normal"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 1.0522,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.38,
+          "Power_60Hz": 11.598
+        },
+        "L1": {
+          "fftlength_s": 4.0,
+          "whitened": true,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 2.6364,
+              "flag": "ELEVATED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 1.029,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.181,
+          "Power_60Hz": 11.204
+        }
+      },
+      "coherence_f1_k_geo": 0.0139,
+      "coherence_f2_16Hz": 0.0059
+    },
+    {
+      "window": "post_ringdown",
+      "gps_start": 1126259462.4,
+      "gps_end": 1126259762.4,
+      "duration_s": 300.0,
+      "description": "0 to 300s after merger \u2014 echo territory",
+      "detectors": {
+        "H1": {
+          "fftlength_s": 4.0,
+          "whitened": true,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.9274,
+              "flag": "normal"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.8207,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.184,
+          "Power_60Hz": 11.511
+        },
+        "L1": {
+          "fftlength_s": 4.0,
+          "whitened": true,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 2.0717,
+              "flag": "ELEVATED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.9586,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.0,
+          "Power_60Hz": 10.837
+        }
+      },
+      "coherence_f1_k_geo": 0.0026,
+      "coherence_f2_16Hz": 0.0106
+    },
+    {
+      "window": "baseline_near",
+      "gps_start": 1126258262.4,
+      "gps_end": 1126258862.4,
+      "duration_s": 600.0,
+      "description": "20-10 min before \u2014 close baseline",
+      "detectors": {
+        "H1": {
+          "fftlength_s": 4.0,
+          "whitened": true,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 1.1212,
+              "flag": "normal"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.8993,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.184,
+          "Power_60Hz": 11.465
+        },
+        "L1": {
+          "fftlength_s": 4.0,
+          "whitened": true,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 2.5751,
+              "flag": "ELEVATED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 1.0124,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.178,
+          "Power_60Hz": 10.342
+        }
+      },
+      "coherence_f1_k_geo": 0.0063,
+      "coherence_f2_16Hz": 0.0014
+    }
+  ]
+}

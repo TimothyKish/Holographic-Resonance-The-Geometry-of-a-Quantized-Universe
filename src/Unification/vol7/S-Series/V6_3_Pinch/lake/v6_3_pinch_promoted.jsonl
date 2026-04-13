@@ -1,0 +1,3 @@
+{"name": "Mars_Regolith_Composite", "ar_ratio": 1900.0, "perchlorate_gl": 10.0, "uv_stiffness": 50.0, "klc_resonance": 0.9974590568836329}
+{"name": "Earth_Deep_Brine", "ar_ratio": 298.0, "salinity_gl": 300.0, "uv_stiffness": 0.0, "klc_resonance": 0.6545772140541285}
+{"name": "Europa_Subsurface", "ar_ratio": 100.0, "salinity_gl": 50.0, "uv_stiffness": 0.0, "klc_resonance": -0.9834802574391945}

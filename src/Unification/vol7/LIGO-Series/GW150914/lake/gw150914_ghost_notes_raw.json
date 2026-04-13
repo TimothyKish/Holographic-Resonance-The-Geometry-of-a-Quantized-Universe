@@ -1,0 +1,214 @@
+{
+  "event": "GW150914",
+  "gps_merger": 1126259462.4,
+  "k_geo": 5.092958178940651,
+  "ghost_f1": 5.092958178940651,
+  "ghost_f2": 16.0,
+  "ratio_f2_f1": 3.141592653589793,
+  "pi": 3.141592653589793,
+  "protocol": "NO FILTERS. Raw strain. Raw Welch PSD. No whitening.",
+  "provenance": {
+    "ghost_notes_observed": "2026-01-08 Lyra Aurora Kish & Timothy Kish",
+    "krg_doi": "10.5281/zenodo.18245148",
+    "krg_date": "2026-01-14",
+    "vol5_z94": "2026-04-06"
+  },
+  "windows": [
+    {
+      "window": "pre_merger",
+      "gps_start": 1126258862.4,
+      "gps_end": 1126259452.4,
+      "duration_s": 590.0,
+      "description": "10 min before merger, ending 10s prior",
+      "detectors": {
+        "H1": {
+          "fftlength_s": 4.0,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.2218,
+              "flag": "DEPRESSED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.6047,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.194,
+          "Power_60Hz": 11.851
+        },
+        "L1": {
+          "fftlength_s": 4.0,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.0491,
+              "flag": "DEPRESSED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.6497,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 0.669,
+          "Power_60Hz": 11.391
+        }
+      },
+      "coherence_f1_k_geo": 0.0012,
+      "coherence_f2_16Hz": 0.0158
+    },
+    {
+      "window": "around_merger",
+      "gps_start": 1126259432.4,
+      "gps_end": 1126259522.4,
+      "duration_s": 90.0,
+      "description": "30s before to 60s after \u2014 catches event + early ringdown",
+      "detectors": {
+        "H1": {
+          "fftlength_s": 4.0,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.1632,
+              "flag": "DEPRESSED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.8068,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.351,
+          "Power_60Hz": 11.902
+        },
+        "L1": {
+          "fftlength_s": 4.0,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.0657,
+              "flag": "DEPRESSED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.5387,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 0.89,
+          "Power_60Hz": 11.848
+        }
+      },
+      "coherence_f1_k_geo": 0.0318,
+      "coherence_f2_16Hz": 0.0043
+    },
+    {
+      "window": "post_ringdown",
+      "gps_start": 1126259462.4,
+      "gps_end": 1126259762.4,
+      "duration_s": 300.0,
+      "description": "0 to 300s after merger \u2014 Abedi echo territory",
+      "detectors": {
+        "H1": {
+          "fftlength_s": 4.0,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.1836,
+              "flag": "DEPRESSED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.5385,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.43,
+          "Power_60Hz": 11.835
+        },
+        "L1": {
+          "fftlength_s": 4.0,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.0433,
+              "flag": "DEPRESSED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.5907,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 0.676,
+          "Power_60Hz": 11.542
+        }
+      },
+      "coherence_f1_k_geo": 0.0078,
+      "coherence_f2_16Hz": 0.0099
+    },
+    {
+      "window": "baseline_near",
+      "gps_start": 1126258262.4,
+      "gps_end": 1126258862.4,
+      "duration_s": 600.0,
+      "description": "20-10 min before \u2014 close baseline",
+      "detectors": {
+        "H1": {
+          "fftlength_s": 4.0,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.2603,
+              "flag": "DEPRESSED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.6311,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 1.145,
+          "Power_60Hz": 11.726
+        },
+        "L1": {
+          "fftlength_s": 4.0,
+          "ghost_notes": {
+            "f1_k_geo": {
+              "target_hz": 5.093,
+              "actual_hz": 5.0,
+              "excess_ratio": 0.0612,
+              "flag": "DEPRESSED"
+            },
+            "f2_16Hz": {
+              "target_hz": 16.0,
+              "actual_hz": 16.0,
+              "excess_ratio": 0.6302,
+              "flag": "normal"
+            }
+          },
+          "Schumann_7.83": 0.862,
+          "Power_60Hz": 11.38
+        }
+      },
+      "coherence_f1_k_geo": 0.0019,
+      "coherence_f2_16Hz": 0.0021
+    }
+  ]
+}

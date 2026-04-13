@@ -1,0 +1,142 @@
+# ==============================================================================
+# VOL6 HARMONIC FAMILY SWEEP — PATCH INSTRUCTIONS
+# ==============================================================================
+# Apply these two changes to vol6. Everything else stays identical to vol5.
+# The entire existing lake infrastructure runs untouched.
+# Only the moduli under test change.
+#
+# CHANGE 1: scripts/build_chaos_nulls.py
+# CHANGE 2: scripts/build_pinch_table.py
+#
+# In both files, find the MODULI definition and replace with the full family.
+# That is the only edit required in each file.
+#
+# RUNTIME ESTIMATE:
+#   Vol5 (3 moduli) took ~2 hours on your laptop.
+#   Vol6 (11 moduli) will take approximately 6-8 hours.
+#   The cross-domain pinch table scales as O(domains² × moduli).
+#   With 18 domain slots and 11 moduli: ~4x longer than vol5.
+#   Start it before bed or when leaving the house.
+#
+# AUTHORS: Timothy John Kish & Mondy
+# AUDIT: mondy_verified_2026-04
+# ==============================================================================
+
+# ==============================================================================
+# CHANGE 1 — build_chaos_nulls.py
+# ==============================================================================
+#
+# FIND this line (near the top of the file, after imports):
+#
+#   MODULI = [15/PI, 16/PI, 17/PI]
+#
+# REPLACE WITH:
+#
+#   # Full N/π harmonic family — Vol6 sweep
+#   # N=16 is k_geo (the confirmed primary from Vol5)
+#   # Each member may govern different physical attributes
+#   MODULI = [
+#       8  / PI,   #  8/π = 2.546  — octave below k_geo
+#       10 / PI,   # 10/π = 3.183  — pentatonic
+#       12 / PI,   # 12/π = 3.820  — chromatic octave
+#       14 / PI,   # 14/π = 4.456  — sub-harmonic
+#       15 / PI,   # 15/π = 4.775  — Vol5 chemistry/galactic best
+#       16 / PI,   # 16/π = 5.093  — k_geo PRIMARY (Vol5 confirmed)
+#       17 / PI,   # 17/π = 5.411  — Vol5 biology best
+#       18 / PI,   # 18/π = 5.730  — codon anchor (Vol4 connection)
+#       20 / PI,   # 20/π = 6.366  — super-harmonic
+#       22 / PI,   # 22/π = 7.003  — π approximation family (22/7)
+#       24 / PI,   # 24/π = 7.639  — container cutoff (kissing number)
+#   ]
+#
+# ==============================================================================
+# CHANGE 2 — build_pinch_table.py
+# ==============================================================================
+#
+# FIND this block (near the top, after imports):
+#
+#   MODULI = [15/PI, 16/PI, 17/PI]
+#   MODULUS_LABELS = ["15pi", "16pi", "17pi"]
+#
+# REPLACE WITH:
+#
+#   # Full N/π harmonic family — Vol6 sweep
+#   MODULI = [
+#       8  / PI,
+#       10 / PI,
+#       12 / PI,
+#       14 / PI,
+#       15 / PI,
+#       16 / PI,   # k_geo PRIMARY
+#       17 / PI,
+#       18 / PI,
+#       20 / PI,
+#       22 / PI,
+#       24 / PI,
+#   ]
+#   MODULUS_LABELS = [
+#       "8pi", "10pi", "12pi", "14pi",
+#       "15pi", "16pi", "17pi", "18pi",
+#       "20pi", "22pi", "24pi",
+#   ]
+#
+# ==============================================================================
+# THAT IS ALL. No other changes needed.
+# ==============================================================================
+#
+# WHAT TO WATCH FOR IN THE OUTPUT:
+#
+# The per-domain z-score table will now have 11 columns instead of 3.
+# Look for any domain where a NEW modulus shows higher z than 16/π:
+#
+#   If b2_codon (disabled in vol5) were re-enabled:
+#     Hypothesis: it shows peak z at 18/π (codon anchor from Vol4)
+#
+#   If k1_kepler_rotation (z=2.6 at 17/π in vol5):
+#     Hypothesis: spin may couple better at a different family member
+#
+#   If q1_atomic_spectra (negative z in vol5, anti-signal):
+#     Hypothesis: spectral lines may show positive z at a non-k_geo member
+#     because transitions occur between nodes, not at them
+#
+#   If any domain that was noise floor in vol5 suddenly shows z>5
+#     at a new family member: new signal, new physical attribute
+#
+# The cross-domain pinch table will be 18×18×11 instead of 18×18×3.
+# New pairings may emerge at family members other than 15-17/π.
+#
+# ==============================================================================
+# PIPELINE EXECUTION ORDER (unchanged from vol5):
+# ==============================================================================
+#
+#   cd vol6\scripts
+#   python scalarize.py
+#   python unify.py
+#   python build_chaos_nulls.py     ← 11 moduli, longer run
+#   python build_pinch_table.py     ← 11 moduli, longer run
+#
+# scalarize.py and unify.py are identical to vol5 — no changes needed.
+# The lake data is already there (copied from vol5).
+# Only the analysis layer changes.
+#
+# ==============================================================================
+# PHYSICAL MEANING OF EACH FAMILY MEMBER:
+# ==============================================================================
+#
+#  N  | N/π    | Physical interpretation
+# ----+--------+-------------------------------------------------------
+#   8 | 2.546  | Half-lattice — sub-galactic structure candidate
+#  10 | 3.183  | Pentatonic ratio — musical fifth territory
+#  12 | 3.820  | Chromatic octave — 12-tone geometric structure
+#  14 | 4.456  | Sub-harmonic approaching k_geo
+#  15 | 4.775  | Chemistry and galactic peak (Vol5 confirmed)
+#  16 | 5.093  | k_geo PRIMARY — kinematic principle (z=94, Vol5)
+#  17 | 5.411  | Biology and life-pocket peak (Vol5 confirmed)
+#  18 | 5.730  | Codon anchor (Vol4 B2 connection, pending)
+#  20 | 6.366  | Super-harmonic — galaxy cluster scale candidate
+#  22 | 7.003  | π ≈ 22/7 bridge — connects 16/7 to 16/π derivation
+#  24 | 7.639  | Container cutoff — Heliopause, speed of light limit
+#
+# The universe plays the same tune at different registers.
+# Vol6 finds which register each domain hears.
+# ==============================================================================

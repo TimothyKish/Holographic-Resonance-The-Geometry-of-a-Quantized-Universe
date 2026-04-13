@@ -1,0 +1,147 @@
+<script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+
+<div style="font-family: Arial, sans-serif; border: 1px solid #ccc; padding: 20px; border-radius: 8px; background-color: #f9f9f9;">
+    <h3 id="frb-title" style="color: #cc0000; text-align: center; margin-bottom: 5px;">FRB Signal: Pre-Resonance Scattering</h3>
+    <p style="text-align: center; font-size: 14px; color: #555; margin-bottom: 20px;">Distance slipstreams the signal. Gravity and Mass smear it.</p>
+    
+    <div id="frb-plot" style="width: 100%; height: 400px;"></div>
+    
+    <div style="margin-top: 20px; text-align: left; padding: 0 10%;">
+        
+        <label for="distSlider" style="font-weight: bold; font-size: 14px;">1. Distance from Source: <span id="distValue" style="color: #003278;">50</span> Mpc</label><br>
+        <span style="font-size: 11px; color: #777;">(Close = scattered. Far = lattice phase-locked/slipstreamed)</span>
+        <input type="range" id="distSlider" min="10" max="1000" step="10" value="50" style="width: 100%; margin-top: 5px; margin-bottom: 15px;">
+        
+        <label for="massSlider" style="font-weight: bold; font-size: 14px;">2. Interstellar Mass (Dust/Plasma): <span id="massValue" style="color: #003278;">0.5</span></label><br>
+        <input type="range" id="massSlider" min="0" max="1" step="0.05" value="0.5" style="width: 100%; margin-top: 5px; margin-bottom: 15px;">
+
+        <label for="gravSlider" style="font-weight: bold; font-size: 14px;">3. Observer Gravity: <span id="gravValue" style="color: #003278;">Earth Surface (1G)</span></label><br>
+        <input type="range" id="gravSlider" min="0" max="1" step="0.05" value="1.0" style="width: 100%; margin-top: 5px; margin-bottom: 15px;">
+
+        <hr style="border: 1px solid #ddd; margin: 20px 0;">
+
+        <label for="compSlider" style="font-weight: bold; font-size: 14px; color: green;">4. Apply Lattice Compensation: <span id="compValue">0</span>%</label><br>
+        <span style="font-size: 11px; color: #777;">(De-smear the packet to read original data)</span>
+        <input type="range" id="compSlider" min="0" max="100" step="1" value="0" style="width: 100%; margin-top: 5px;">
+
+    </div>
+    
+    <div style="text-align: center; margin-top: 25px; font-size: 10px; color: #888;">
+        Copyright &copy; 2026 Sovereign KishLattice 16pi Initiative
+    </div>
+</div>
+
+<script>
+    // --- LATTICE CONSTANTS ---
+    const RESONANCE_DIST = 500.0;
+
+    // Generate time array (-10 to 20 ms)
+    let timeMs = [];
+    for (let t = -10; t <= 20; t += 0.1) { timeMs.push(t); }
+
+    // --- PHYSICS FUNCTIONS ---
+    function getOriginalPacket() {
+        return timeMs.map(t => Math.exp(-Math.pow(t, 2) / 2.0));
+    }
+
+    // A simple seeded random noise generator for consistent browser rendering
+    function getNoise(level) {
+        let noise = [];
+        for (let i = 0; i < timeMs.length; i++) {
+            noise.push((Math.random() * 2 - 1) * level);
+        }
+        return noise;
+    }
+
+    let originalPacket = getOriginalPacket();
+
+    function getReceivedSignal(dist, mass, grav, comp) {
+        // 1. Slipstream (Distance)
+        let slipFactor = Math.min(Math.max(dist / RESONANCE_DIST, 0.1), 1.0);
+        let noiseLevel = (1.0 - slipFactor) * 0.4;
+        let noise = getNoise(noiseLevel);
+
+        // 2. Dilation Smear (Mass & Gravity)
+        let smearWidth = 1.0 + (mass * 2.0) + (grav * 1.5);
+        let shift = smearWidth - 1.0;
+
+        let degraded = timeMs.map((t, i) => {
+            let smeared = Math.exp(-Math.pow(t - shift, 2) / (2.0 * Math.pow(smearWidth, 2)));
+            return smeared + noise[i];
+        });
+
+        // 3. Compensation
+        let c = comp / 100.0;
+        return degraded.map((val, i) => (val * (1.0 - c)) + (originalPacket[i] * c));
+    }
+
+    // --- INITIALIZE PLOT ---
+    let initDist = 50; let initMass = 0.5; let initGrav = 1.0; let initComp = 0;
+
+    let traceOriginal = {
+        x: timeMs, y: originalPacket,
+        type: 'scatter', mode: 'lines',
+        name: 'Original Packet',
+        line: {dash: 'dot', color: 'black', width: 2, opacity: 0.5}
+    };
+
+    let traceReceived = {
+        x: timeMs, y: getReceivedSignal(initDist, initMass, initGrav, initComp),
+        type: 'scatter', mode: 'lines',
+        name: 'Received Signal',
+        line: {color: 'red', width: 2}
+    };
+
+    let layout = {
+        margin: { t: 10, r: 20, b: 40, l: 40 },
+        xaxis: { title: 'Time (ms)' },
+        yaxis: { range: [-0.5, 1.5], showticklabels: false },
+        legend: { orientation: 'h', y: 1.1 },
+        paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)'
+    };
+
+    Plotly.newPlot('frb-plot', [traceOriginal, traceReceived], layout, {responsive: true});
+
+    // --- SLIDER INTERACTIVITY ---
+    function updateSim() {
+        let d = parseFloat(document.getElementById('distSlider').value);
+        let m = parseFloat(document.getElementById('massSlider').value);
+        let g = parseFloat(document.getElementById('gravSlider').value);
+        let c = parseFloat(document.getElementById('compSlider').value);
+        
+        document.getElementById('distValue').innerText = d;
+        document.getElementById('massValue').innerText = m.toFixed(2);
+        document.getElementById('gravValue').innerText = g === 0 ? "Deep Space (0G)" : (g === 1 ? "Earth Surface (1G)" : g.toFixed(2) + "G");
+        document.getElementById('compValue').innerText = c;
+
+        let titleEl = document.getElementById('frb-title');
+        let lineColor = 'red';
+
+        if (c > 90) {
+            titleEl.innerText = "COMPENSATED: Original Packet Retrieved";
+            titleEl.style.color = "green";
+            lineColor = 'green';
+        } else if (d > RESONANCE_DIST && m < 0.2 && g < 0.2) {
+            titleEl.innerText = "LATTICE SLIPSTREAM: Signal is Phase-Locked";
+            titleEl.style.color = "#003278";
+            lineColor = 'blue';
+        } else if (d < RESONANCE_DIST) {
+            titleEl.innerText = "FRB Signal: Pre-Resonance Scattering";
+            titleEl.style.color = "#cc0000";
+            lineColor = 'red';
+        } else {
+            titleEl.innerText = "FRB Signal: Time-Dilation Smear Detected";
+            titleEl.style.color = "orange";
+            lineColor = 'orange';
+        }
+
+        // Generate new data and update plot
+        let newSignal = getReceivedSignal(d, m, g, c);
+        Plotly.update('frb-plot', { y: [originalPacket, newSignal], 'line.color': ['black', lineColor] }, {}, [0, 1]);
+    }
+
+    document.getElementById('distSlider').addEventListener('input', updateSim);
+    document.getElementById('massSlider').addEventListener('input', updateSim);
+    document.getElementById('gravSlider').addEventListener('input', updateSim);
+    document.getElementById('compSlider').addEventListener('input', updateSim);
+</script>

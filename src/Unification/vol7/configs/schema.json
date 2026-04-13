@@ -1,0 +1,62 @@
+{
+  "schema_version": "5.0",
+
+  "required_fields": {
+    "entity_id": "string",
+    "domain": "string",
+    "volume": "integer",
+    "lake_id": "string",
+
+    "geometry_payload": {
+      "type": "object",
+      "required": [
+        "coordinates",
+        "dimensionality",
+        "geometry_type"
+      ]
+    },
+
+    "scalar_kls": {
+      "type": "number",
+      "description": "Kish Lattice Scalar (raw domain scalar)"
+    },
+
+    "scalar_klc": {
+      "type": "number",
+      "description": "Kish Lattice Coordinate (mapped scalar)"
+    },
+
+    "meta": {
+      "type": "object",
+      "required": [
+        "source",
+        "ingest_timestamp",
+        "sovereign"
+      ]
+    }
+  },
+
+  "allowed_domains": [
+    "biology",
+    "chemistry",
+    "materials",
+    "astrophysics"
+  ],
+
+  "geometry_payload": {
+    "coordinates": "array",
+    "dimensionality": "integer",
+    "geometry_type": "string"
+  },
+
+  "meta": {
+    "required": [
+      "source",
+      "ingest_timestamp",
+      "sovereign"
+    ],
+    "source": "string",
+    "ingest_timestamp": "string",
+    "sovereign": "boolean"
+  }
+}
