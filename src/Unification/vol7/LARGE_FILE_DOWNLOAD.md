@@ -1,13 +1,13 @@
 # 📦 LARGE_FILE_DOWNLOAD.md  
 ### Required Sovereign Lakes for Full Reproducibility of Volume 7
 
-Volume 5 includes several sovereign lakes larger than GitHub’s 100 MB file limit.  
+Volume 7 includes several sovereign lakes larger than GitHub’s 100 MB file limit.  
 These files are required to fully reproduce:
 
 - the unified master lake  
 - chaos & scramble nulls  
 - the cross‑domain pinch table  
-- all figures and results published in Volume 5  
+- all figures and results published in Volume 7  
 
 Because GitHub cannot store these files directly, they are hosted in a **public Google Drive folder**.
 
@@ -33,14 +33,14 @@ The folder is permissioned so that **future files added by the authors will auto
 
 # 📁 Where to Place the Files
 
-Download each file and place it into the **exact relative path** shown below, starting from the `vol5/` directory.
+Download each file and place it into the **exact relative path** shown below, starting from the `vol7/` directory.
 
 If a folder does not exist, create it.
 
 Example:
 
 ```
-vol5/lakes/unified/s1_gaia_parallax_scalarized.jsonl
+vol7/lakes/unified/s1_gaia_parallax_scalarized.jsonl
 ```
 
 ---
