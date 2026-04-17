@@ -1,0 +1,77 @@
+{"molecule": "Water", "formula": "H2O", "mode": "nu1_symmetric_stretch", "frequency_cm1": 3657.05}
+{"molecule": "Water", "formula": "H2O", "mode": "nu2_bending", "frequency_cm1": 1594.75}
+{"molecule": "Water", "formula": "H2O", "mode": "nu3_antisymm_stretch", "frequency_cm1": 3755.97}
+{"molecule": "Carbon dioxide", "formula": "CO2", "mode": "nu1_symmetric_stretch", "frequency_cm1": 1388.17}
+{"molecule": "Carbon dioxide", "formula": "CO2", "mode": "nu2_bending", "frequency_cm1": 667.4}
+{"molecule": "Carbon dioxide", "formula": "CO2", "mode": "nu3_antisymm_stretch", "frequency_cm1": 2349.14}
+{"molecule": "Ammonia", "formula": "NH3", "mode": "nu1_symmetric_stretch", "frequency_cm1": 3337.0}
+{"molecule": "Ammonia", "formula": "NH3", "mode": "nu2_umbrella", "frequency_cm1": 950.0}
+{"molecule": "Ammonia", "formula": "NH3", "mode": "nu3_antisymm_stretch", "frequency_cm1": 3444.0}
+{"molecule": "Ammonia", "formula": "NH3", "mode": "nu4_bending", "frequency_cm1": 1627.0}
+{"molecule": "Methane", "formula": "CH4", "mode": "nu1_symmetric_stretch", "frequency_cm1": 2917.0}
+{"molecule": "Methane", "formula": "CH4", "mode": "nu2_degenerate_def", "frequency_cm1": 1534.0}
+{"molecule": "Methane", "formula": "CH4", "mode": "nu3_antisymm_stretch", "frequency_cm1": 3019.0}
+{"molecule": "Methane", "formula": "CH4", "mode": "nu4_degenerate_def", "frequency_cm1": 1306.0}
+{"molecule": "Nitrogen", "formula": "N2", "mode": "nu1_stretch", "frequency_cm1": 2358.57}
+{"molecule": "Oxygen", "formula": "O2", "mode": "nu1_stretch", "frequency_cm1": 1556.0}
+{"molecule": "Hydrogen fluoride", "formula": "HF", "mode": "nu1_stretch", "frequency_cm1": 3961.42}
+{"molecule": "Carbon monoxide", "formula": "CO", "mode": "nu1_stretch", "frequency_cm1": 2143.27}
+{"molecule": "Hydrogen cyanide", "formula": "HCN", "mode": "nu1_CH_stretch", "frequency_cm1": 3311.47}
+{"molecule": "Hydrogen cyanide", "formula": "HCN", "mode": "nu2_bending", "frequency_cm1": 712.0}
+{"molecule": "Hydrogen cyanide", "formula": "HCN", "mode": "nu3_CN_stretch", "frequency_cm1": 2096.85}
+{"molecule": "Formaldehyde", "formula": "H2CO", "mode": "nu1_CH_stretch", "frequency_cm1": 2782.49}
+{"molecule": "Formaldehyde", "formula": "H2CO", "mode": "nu2_CO_stretch", "frequency_cm1": 1746.0}
+{"molecule": "Formaldehyde", "formula": "H2CO", "mode": "nu3_CH2_scissors", "frequency_cm1": 1500.11}
+{"molecule": "Formaldehyde", "formula": "H2CO", "mode": "nu4_out_of_plane", "frequency_cm1": 1167.3}
+{"molecule": "Formaldehyde", "formula": "H2CO", "mode": "nu5_CH2_rock", "frequency_cm1": 2843.3}
+{"molecule": "Formaldehyde", "formula": "H2CO", "mode": "nu6_CH2_wag", "frequency_cm1": 1249.0}
+{"molecule": "Acetylene", "formula": "C2H2", "mode": "nu1_symm_CH_stretch", "frequency_cm1": 3372.86}
+{"molecule": "Acetylene", "formula": "C2H2", "mode": "nu2_CC_stretch", "frequency_cm1": 1974.32}
+{"molecule": "Acetylene", "formula": "C2H2", "mode": "nu3_antisymm_stretch", "frequency_cm1": 3288.68}
+{"molecule": "Acetylene", "formula": "C2H2", "mode": "nu4_antisymm_bend", "frequency_cm1": 612.87}
+{"molecule": "Acetylene", "formula": "C2H2", "mode": "nu5_symm_bend", "frequency_cm1": 730.33}
+{"molecule": "Nitrous oxide", "formula": "N2O", "mode": "nu1_NN_stretch", "frequency_cm1": 1284.91}
+{"molecule": "Nitrous oxide", "formula": "N2O", "mode": "nu2_bending", "frequency_cm1": 589.17}
+{"molecule": "Nitrous oxide", "formula": "N2O", "mode": "nu3_NO_stretch", "frequency_cm1": 2223.76}
+{"molecule": "Sulfur dioxide", "formula": "SO2", "mode": "nu1_symm_stretch", "frequency_cm1": 1151.38}
+{"molecule": "Sulfur dioxide", "formula": "SO2", "mode": "nu2_bending", "frequency_cm1": 517.69}
+{"molecule": "Sulfur dioxide", "formula": "SO2", "mode": "nu3_antisymm_stretch", "frequency_cm1": 1362.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu1_CH_symm_stretch", "frequency_cm1": 3026.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu2_CC_stretch", "frequency_cm1": 1623.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu3_CH2_scissors", "frequency_cm1": 1342.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu4_CH2_twist", "frequency_cm1": 1023.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu5_CH_antisymm", "frequency_cm1": 3103.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu6_CH2_rock", "frequency_cm1": 826.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu7_CH_stretch", "frequency_cm1": 3106.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu8_CH2_wag", "frequency_cm1": 943.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu9_CH2_rock", "frequency_cm1": 1220.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu10_CH2_scissors", "frequency_cm1": 1444.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu11_CH_stretch", "frequency_cm1": 2989.0}
+{"molecule": "Ethylene", "formula": "C2H4", "mode": "nu12_torsion", "frequency_cm1": 810.0}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu1_CH_stretch", "frequency_cm1": 3073.94}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu2_CC_stretch", "frequency_cm1": 1350.0}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu3_CH_in_plane", "frequency_cm1": 1483.99}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu4_CH_out_of_plane", "frequency_cm1": 707.07}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu5_CCC_bending", "frequency_cm1": 994.0}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu6_ring_breathing", "frequency_cm1": 992.1}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu7_CH_stretch", "frequency_cm1": 3073.94}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu8_CC_stretch", "frequency_cm1": 1595.0}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu9_CH_in_plane", "frequency_cm1": 1178.0}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu10_CH_out_of_plane", "frequency_cm1": 849.0}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu11_CCC_bending", "frequency_cm1": 673.97}
+{"molecule": "Benzene", "formula": "C6H6", "mode": "nu12_CH_stretch", "frequency_cm1": 3057.0}
+{"molecule": "Hydrogen chloride", "formula": "HCl", "mode": "nu1_stretch", "frequency_cm1": 2885.9}
+{"molecule": "Ozone", "formula": "O3", "mode": "nu1_symm_stretch", "frequency_cm1": 1103.14}
+{"molecule": "Ozone", "formula": "O3", "mode": "nu2_bending", "frequency_cm1": 700.93}
+{"molecule": "Ozone", "formula": "O3", "mode": "nu3_antisymm_stretch", "frequency_cm1": 1042.09}
+{"molecule": "Phosphine", "formula": "PH3", "mode": "nu1_symm_stretch", "frequency_cm1": 2323.0}
+{"molecule": "Phosphine", "formula": "PH3", "mode": "nu2_umbrella", "frequency_cm1": 990.0}
+{"molecule": "Phosphine", "formula": "PH3", "mode": "nu3_antisymm_stretch", "frequency_cm1": 2328.0}
+{"molecule": "Phosphine", "formula": "PH3", "mode": "nu4_bending", "frequency_cm1": 1118.0}
+{"molecule": "Hydrogen sulfide", "formula": "H2S", "mode": "nu1_symm_stretch", "frequency_cm1": 2615.0}
+{"molecule": "Hydrogen sulfide", "formula": "H2S", "mode": "nu2_bending", "frequency_cm1": 1183.0}
+{"molecule": "Hydrogen sulfide", "formula": "H2S", "mode": "nu3_antisymm_stretch", "frequency_cm1": 2626.0}
+{"molecule": "Silicon tetrafluoride", "formula": "SiF4", "mode": "nu1_symm_stretch", "frequency_cm1": 800.0}
+{"molecule": "Silicon tetrafluoride", "formula": "SiF4", "mode": "nu2_degenerate_def", "frequency_cm1": 268.0}
+{"molecule": "Silicon tetrafluoride", "formula": "SiF4", "mode": "nu3_antisymm_stretch", "frequency_cm1": 1031.0}
+{"molecule": "Silicon tetrafluoride", "formula": "SiF4", "mode": "nu4_degenerate_def", "frequency_cm1": 389.0}

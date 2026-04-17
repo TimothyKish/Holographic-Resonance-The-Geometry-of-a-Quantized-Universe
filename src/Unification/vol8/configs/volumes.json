@@ -1,0 +1,267 @@
+{
+  "__comment__": "Volume 8 unified table ordered by physical scale: planck -> quantum -> biology -> chemistry -> materials -> stellar -> galactic -> astrophysics -> universal.",
+  "__audit_note__": "Run 2 2026-04-15: Domain splits applied for same-object science. s3->stellar_luminosity, s4->stellar_colour, p2->orbital_radius, p3->orbital_mass. parents[2] path bug fixed in validate.py. All four new lakes now sovereign domains.",
+  "volumes": {
+    "planck_null": {
+      "path": "lakes/synthetic/planck_null.jsonl",
+      "enabled": false,
+      "domain": "planck",
+      "scale_rank": 0,
+      "__note__": "Synthetic floor marker. File exists but contains no real data."
+    },
+    "q1_atomic_spectra": {
+      "path": "lakes/inputs_promoted/q1_atomic_spectra_promoted.jsonl",
+      "enabled": true,
+      "domain": "quantum",
+      "scale_rank": 0,
+      "__scalar__": "log(upper_energy_cm1 + 1) / log(k_geo)",
+      "__source__": "NIST Atomic Spectra Database - empirical spectral lines",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "q2_molecular_geometry": {
+      "path": "lakes/inputs_promoted/q2_molecular_geometry_promoted.jsonl",
+      "enabled": true,
+      "domain": "quantum",
+      "scale_rank": 0,
+      "__scalar__": "log(value + 1) / log(k_geo) - bond lengths (Ang) and angles (deg)",
+      "__source__": "NIST CCCBDB - experimental molecular geometry",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "q3_molecular_vibration": {
+      "path": "lakes/inputs_promoted/q3_molecular_vibration_promoted.jsonl",
+      "enabled": true,
+      "domain": "quantum",
+      "scale_rank": 0,
+      "__scalar__": "log(frequency_cm1 + 1) / log(k_geo)",
+      "__source__": "NIST CCCBDB experimental vibrational frequencies - 19 molecules 77 modes",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "t1_biological": {
+      "path": "lakes/inputs_promoted/t1_biological_promoted.jsonl",
+      "enabled": true,
+      "domain": "biology",
+      "scale_rank": 1,
+      "__scalar__": "log_dt - ln(cell cycle interval in minutes)",
+      "__source__": "Spellman 1998 yeast cell cycle GEO data"
+    },
+    "t2_planetary": {
+      "path": "lakes/inputs_promoted/t2_planetary_promoted.jsonl",
+      "enabled": true,
+      "domain": "planetary",
+      "scale_rank": 2,
+      "__scalar__": "log(interval_hours + 1) / log(k_geo)",
+      "__source__": "NOAA CO-OPS tide predictions, San Francisco"
+    },
+    "t3_stellar": {
+      "path": "lakes/inputs_promoted/t3_stellar_promoted.jsonl",
+      "enabled": false,
+      "domain": "stellar",
+      "scale_rank": 3,
+      "__note__": "HELD - mislabeled as stellar, source is CHIME FRB temporal. period_days=0 suspicious."
+    },
+    "t4_cosmological": {
+      "path": "lakes/inputs_promoted/t4_cosmological_promoted.jsonl",
+      "enabled": true,
+      "domain": "cosmology",
+      "scale_rank": 4,
+      "__scalar__": "log(d_proxy + 1) / log(k_geo) - SDSS DR16 comoving distance (Mpc)"
+    },
+    "n1_mechanical": {
+      "path": "lakes/inputs_promoted/n1_mechanical_promoted.jsonl",
+      "enabled": true,
+      "domain": "mechanics",
+      "scale_rank": 0
+    },
+    "n2_behavioral": {
+      "path": "lakes/inputs_promoted/n2_behavioral_promoted.jsonl",
+      "enabled": true,
+      "domain": "behavior",
+      "scale_rank": 0
+    },
+    "n3_mathematical": {
+      "path": "lakes/inputs_promoted/n3_mathematical_promoted.jsonl",
+      "enabled": true,
+      "domain": "mathematics",
+      "scale_rank": 0
+    },
+    "n4_cosmological": {
+      "path": "lakes/inputs_promoted/n4_cosmological_promoted.jsonl",
+      "enabled": true,
+      "domain": "cosmology",
+      "scale_rank": 0,
+      "__note__": "Chaos null for T4."
+    },
+    "b1_chirality": {
+      "path": "lakes/inputs_promoted/b1_chirality_promoted.jsonl",
+      "enabled": true,
+      "domain": "biology",
+      "scale_rank": 1,
+      "__pinch_slot__": "biology_chirality",
+      "__scalar__": "sign(N-Ca-C-O dihedral) * bond_angle (rad)"
+    },
+    "b2_codon": {
+      "path": "lakes/inputs_promoted/b2_codon_promoted.jsonl",
+      "enabled": false,
+      "domain": "biology",
+      "scale_rank": 1,
+      "__note__": "Disabled - scalar design pending"
+    },
+    "b3_amino": {
+      "path": "lakes/inputs_promoted/b3_amino_promoted.jsonl",
+      "enabled": true,
+      "domain": "biology",
+      "scale_rank": 1,
+      "__pinch_slot__": "biology_amino",
+      "__scalar__": "N-Ca-C backbone bond angle (rad, unsigned)",
+      "__source__": "PubChem 3D Conformer Database - 20 canonical L-amino acids, 157 conformers",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "chemistry": {
+      "path": "lakes/inputs_promoted/chemistry_promoted.jsonl",
+      "enabled": true,
+      "domain": "chemistry",
+      "scale_rank": 2,
+      "__source__": "ZINC 3D molecular geometry, 67174 records"
+    },
+    "materials": {
+      "path": "lakes/inputs_promoted/materials_promoted.jsonl",
+      "enabled": true,
+      "domain": "materials",
+      "scale_rank": 3,
+      "__scalar__": "bond_length = (volume/nsites)^(1/3); scalar = log(1 + bond_length) / log(k_geo)",
+      "__source__": "Crystal and amorphous structure invariants, 33973 records",
+      "__note__": "Vol8 fix applied. Broken lake preserved on main branch for RCA documentation.",
+      "__audit__": "mondy_verified_vol8"
+    },
+    "s1_gaia_parallax": {
+      "path": "lakes/inputs_promoted/s1_gaia_parallax_promoted.jsonl",
+      "enabled": true,
+      "domain": "stellar",
+      "scale_rank": 3,
+      "__scalar__": "log(dist_pc + 1) / log(k_geo) - Gaia stellar distances",
+      "__source__": "Gaia DR3 parallax, 2M stars, 4 sky quadrants, sector-normalized",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "s2_stellar_kinematics": {
+      "path": "lakes/inputs_promoted/s2_stellar_kinematics_promoted.jsonl",
+      "enabled": true,
+      "domain": "stellar_kinematic",
+      "scale_rank": 3,
+      "__scalar__": "log(v_perp + 1) / log(k_geo) - Gaia transverse velocity km/s",
+      "__source__": "Gaia DR3 PHYSICAL lake, v_perp derived from proper motion + parallax, 1.8M stars",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "s3_gaia_luminosity": {
+      "path": "lakes/inputs_promoted/s3_gaia_luminosity_promoted.jsonl",
+      "enabled": true,
+      "domain": "stellar_luminosity",
+      "scale_rank": 3,
+      "__scalar__": "M_G = g_app - 5*log10(1000/parallax_mas) + 5; scalar = log(1 + abs(M_G - M_G_median)) / log(k_geo)",
+      "__source__": "Gaia DR3 phot_g_mean_mag + parallax, 2,000,000 stars, same objects as S1/S2",
+      "__same_object__": ["s1_gaia_parallax", "s2_stellar_kinematics"],
+      "__litmus__": "stdev/span=0.201 BORDERLINE - main sequence clustering confirmed",
+      "__audit__": "mondy_verified_vol8"
+    },
+    "s4_gaia_colour": {
+      "path": "lakes/inputs_promoted/s4_gaia_colour_promoted.jsonl",
+      "enabled": true,
+      "domain": "stellar_colour",
+      "scale_rank": 3,
+      "__scalar__": "log(1 + max(bp_rp, 0.01)) / log(k_geo) - Gaia BP-RP colour index",
+      "__source__": "Gaia DR3 bp_rp, 1,979,697 stars (20,303 skipped - missing BP/RP), same objects as S1/S2/S3",
+      "__same_object__": ["s1_gaia_parallax", "s2_stellar_kinematics", "s3_gaia_luminosity"],
+      "__litmus__": "stdev/span=0.106 PASS",
+      "__audit__": "mondy_verified_vol8"
+    },
+    "g1_galaxy_kinematics": {
+      "path": "lakes/inputs_promoted/g1_galaxy_kinematics_promoted.jsonl",
+      "enabled": true,
+      "domain": "galactic",
+      "scale_rank": 4,
+      "__scalar__": "log(vdisp + 1) / log(k_geo) - SDSS galaxy velocity dispersions",
+      "__source__": "SDSS DR16 galaxies, 1.843M records, 4 sky quadrants, sector-normalized",
+      "__filter__": "70 <= vdisp < 850 km/s",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "frb_master": {
+      "path": "lakes/inputs_promoted/frb_master_promoted.jsonl",
+      "enabled": false,
+      "domain": "astrophysics",
+      "scale_rank": 4,
+      "__disabled_reason__": "Phoenix-fabricated. known_signatures field does not exist in real CHIME catalog."
+    },
+    "frb_chime": {
+      "path": "lakes/inputs_promoted/frb_chime_promoted.jsonl",
+      "enabled": true,
+      "domain": "astrophysics",
+      "scale_rank": 4,
+      "__scalar__": "log(dm_exc_ne2001 + 1) / log(k_geo)",
+      "__source__": "CHIME FRB Catalog 2, 4636 events after exclusion filter",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "universal_closure": {
+      "path": "lakes/synthetic/universal_closure.jsonl",
+      "enabled": false,
+      "domain": "universal",
+      "scale_rank": 5,
+      "__note__": "Synthetic ceiling marker. File exists but contains no real data."
+    },
+    "p1_orbital_periods": {
+      "path": "lakes/inputs_promoted/p1_orbital_periods_promoted.jsonl",
+      "enabled": true,
+      "domain": "orbital",
+      "scale_rank": 2,
+      "__scalar__": "log(period_days + 1) / log(k_geo)",
+      "__source__": "NASA Exoplanet Archive, 13521 confirmed exoplanets",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "np1_orbital_periods": {
+      "path": "lakes/inputs_promoted/np1_orbital_periods_promoted.jsonl",
+      "enabled": true,
+      "domain": "orbital",
+      "scale_rank": 0,
+      "__note__": "Null mirror for P1 - scrambled period assignments.",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "p2_orbital_radius": {
+      "path": "lakes/inputs_promoted/p2_orbital_radius_promoted.jsonl",
+      "enabled": true,
+      "domain": "orbital_radius",
+      "scale_rank": 2,
+      "__scalar__": "log(1 + pl_orbsmax_AU) / log(k_geo) - semi-major axis",
+      "__source__": "NASA Exoplanet Archive pscomppars, 5,843 planets, same objects as P1",
+      "__same_object__": ["p1_orbital_periods"],
+      "__litmus__": "stdev/span=0.082 PASS",
+      "__audit__": "mondy_verified_vol8"
+    },
+    "p3_planet_mass": {
+      "path": "lakes/inputs_promoted/p3_planet_mass_promoted.jsonl",
+      "enabled": true,
+      "domain": "orbital_mass",
+      "scale_rank": 2,
+      "__scalar__": "log(1 + pl_bmassj_Mj) / log(k_geo) - planet mass in Jupiter masses",
+      "__source__": "NASA Exoplanet Archive pscomppars, 6,127 planets, same objects as P1/P2",
+      "__same_object__": ["p1_orbital_periods", "p2_orbital_radius"],
+      "__litmus__": "stdev/span=0.209 BORDERLINE - hot Jupiter detection bias toward high mass",
+      "__audit__": "mondy_verified_vol8"
+    },
+    "k1_kepler_rotation": {
+      "path": "lakes/inputs_promoted/k1_kepler_rotation_promoted.jsonl",
+      "enabled": true,
+      "domain": "stellar_rotation",
+      "scale_rank": 3,
+      "__scalar__": "log(Prot_days + 1) / log(k_geo)",
+      "__source__": "McQuillan+ 2014 ApJS 211 24 -- 64784 Kepler stellar rotation periods",
+      "__audit__": "mondy_verified_2026-04"
+    },
+    "k2_pulsar_periods": {
+      "path": "lakes/inputs_promoted/k2_pulsar_periods_promoted.jsonl",
+      "enabled": true,
+      "domain": "stellar_rotation",
+      "scale_rank": 3,
+      "__scalar__": "log(P0_ms + 1) / log(k_geo)",
+      "__source__": "ATNF Pulsar Catalogue via VizieR (B/psr) -- 2527 pulsars",
+      "__audit__": "mondy_verified_2026-04"
+    }
+  }
+}

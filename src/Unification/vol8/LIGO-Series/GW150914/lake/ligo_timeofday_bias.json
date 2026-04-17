@@ -1,0 +1,15 @@
+{
+  "test": "timeofday_bias",
+  "lake_source": "ligo_sidereal_rotation_test.json",
+  "n_valid": 151,
+  "n_none": 137,
+  "coverage_pct": 52.43055555555556,
+  "r_utc_linear": -0.248,
+  "p_utc_linear": 0.0021,
+  "r_sin_utc": 0.4124,
+  "p_sin_utc": 0.0,
+  "r_cos_utc": -0.2194,
+  "p_cos_utc": 0.0068,
+  "coverage_std": 3.6,
+  "peak_hour_utc": 7,
+  "bias_detected": 

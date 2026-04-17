@@ -1,0 +1,24 @@
+{
+  "analysis": "sidereal_rotation",
+  "lake_source": "ligo_sidereal_rotation_test.json",
+  "n_valid_segments": 151,
+  "l1_excess_mean": 2.5144364238410595,
+  "l1_excess_std": 1.0025912304764444,
+  "lomb_scargle": {
+    "86164.09": 0.168723469298161,
+    "86400.0": 0.17082246380763713,
+    "43082.045": 0.04612097591597218,
+    "72000.0": 0.03621272375950159,
+    "64800.0": 0.03125796613539837,
+    "57600.0": 0.043484910396334744,
+    "43200.0": 0.0455621696974214
+  },
+  "sidereal_power": 0.168723469298161,
+  "solar_power": 0.17082246380763713,
+  "sidereal_solar_ratio": 0.9877124210558174,
+  "verdict_ls": "INCONCLUSIVE \u2014 sidereal/solar ratio 0.99",
+  "pearson_r": -0.3745707872338633,
+  "pearson_p": 2.1561191058801576e-06,
+  "spearman_r": -0.3661301603938003,
+  "spearman_p": 3.7775630425403283e-06
+}

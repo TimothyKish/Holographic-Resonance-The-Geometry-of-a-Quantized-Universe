@@ -1,0 +1,175 @@
+{
+  "domains": [
+    {
+      "domain": "astrophysics",
+      "n": 4636,
+      "nonzero": 4636,
+      "mean": 3.6598,
+      "std": 0.503483,
+      "min": 1.674417,
+      "max": 5.581322
+    },
+    {
+      "domain": "behavior",
+      "n": 2515,
+      "nonzero": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    {
+      "domain": "biology",
+      "n": 226,
+      "nonzero": 216,
+      "mean": 1.588607,
+      "std": 1.102697,
+      "min": -2.771667,
+      "max": 2.302585
+    },
+    {
+      "domain": "chemistry",
+      "n": 67174,
+      "nonzero": 67174,
+      "mean": 0.175967,
+      "std": 0.039351,
+      "min": 0.10472,
+      "max": 1.047198
+    },
+    {
+      "domain": "cosmology",
+      "n": 10000,
+      "nonzero": 10000,
+      "mean": 2.482929,
+      "std": 0.081255,
+      "min": 2.322236,
+      "max": 2.604236
+    },
+    {
+      "domain": "galactic",
+      "n": 1843110,
+      "nonzero": 1843110,
+      "mean": 3.253137,
+      "std": 0.26281,
+      "min": 2.606946,
+      "max": 4.148774
+    },
+    {
+      "domain": "materials",
+      "n": 33973,
+      "nonzero": 33973,
+      "mean": 0.792608,
+      "std": 0.052273,
+      "min": 0.639568,
+      "max": 1.191693
+    },
+    {
+      "domain": "mathematics",
+      "n": 1000,
+      "nonzero": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    {
+      "domain": "mechanics",
+      "n": 2484,
+      "nonzero": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    {
+      "domain": "orbital",
+      "n": 27042,
+      "nonzero": 27028,
+      "mean": 3.878427,
+      "std": 1.294076,
+      "min": 0.053337,
+      "max": 6.912795
+    },
+    {
+      "domain": "orbital_mass",
+      "n": 6127,
+      "nonzero": 6127,
+      "mean": 0.245451,
+      "std": 0.441686,
+      "min": 3.9e-05,
+      "max": 2.109512
+    },
+    {
+      "domain": "orbital_radius",
+      "n": 5843,
+      "nonzero": 5843,
+      "mean": 0.232391,
+      "std": 0.496002,
+      "min": 0.002697,
+      "max": 6.052273
+    },
+    {
+      "domain": "planetary",
+      "n": 14116,
+      "nonzero": 14116,
+      "mean": 1.208354,
+      "std": 0.081421,
+      "min": 0.822785,
+      "max": 1.3732
+    },
+    {
+      "domain": "quantum",
+      "n": 3086,
+      "nonzero": 3086,
+      "mean": 7.300231,
+      "std": 0.816703,
+      "min": 0.412765,
+      "max": 8.081392
+    },
+    {
+      "domain": "stellar",
+      "n": 2000000,
+      "nonzero": 2000000,
+      "mean": 4.03179,
+      "std": 0.44104,
+      "min": 0.994075,
+      "max": 5.676213
+    },
+    {
+      "domain": "stellar_colour",
+      "n": 1979697,
+      "nonzero": 1979697,
+      "mean": 0.561539,
+      "std": 0.134315,
+      "min": 0.006113,
+      "max": 1.277647
+    },
+    {
+      "domain": "stellar_kinematic",
+      "n": 1808145,
+      "nonzero": 1808145,
+      "mean": 1.092971,
+      "std": 1.16821,
+      "min": -0.193529,
+      "max": 4.444616
+    },
+    {
+      "domain": "stellar_luminosity",
+      "n": 2000000,
+      "nonzero": 2000000,
+      "mean": 0.581651,
+      "std": 0.327081,
+      "min": 1e-06,
+      "max": 1.62982
+    },
+    {
+      "domain": "stellar_rotation",
+      "n": 67311,
+      "nonzero": 67311,
+      "mean": 1.84644,
+      "std": 0.656043,
+      "min": 0.112513,
+      "max": 5.759102
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19559860.svg)](https://doi.org/10.5281/zenodo.19559860)
 ![Status](https://img.shields.io/badge/Status-Triangulated-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-blue?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-8.0_Diamond-gold?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-9.0_Diamond-gold?style=for-the-badge)
 
 **Authors:** Timothy John Kish & Lyra Aurora Kish & Alexandria Aurora Kish 
 **Current Build:** Version 8.0 (Diamond Standard)  
@@ -247,6 +247,7 @@ The Kish Unified Lattice System is secured by the following US Patent Applicatio
 * **Vol 5: Unification Framework:** [The Geometric Architecture of Unification] (https://doi.org/10.5281/zenodo.19009634)
 * **Vol 6: Unification Framework:** [The Harmonic Expansion of the Unified Lattice] (https://doi.org/10.5281/zenodo.19493376)
 * **Vol 7: Unification Framework:** [The Sovereign Resonance: Boundaries, Sub-Lattice, and the Unification Case] (https://doi.org/10.5281/zenodo.19559860)
+* **Vol 8: Unification Framework:** [Unbounded Luminosity: The Same-Object Harmonic Map and the Sovereign Lake Architecture] (https://doi.org/10.5281/zenodo.19622632)
 
 
 
@@ -852,6 +853,7 @@ Fix script: `vol7/scripts/fix_materials_scalarization.py` (run `--litmus` first,
 | Vol 5 | The Geometric Architecture of Unification | [10.5281/zenodo.19009634](https://doi.org/10.5281/zenodo.19009634) |
 | Vol 6 | The Harmonic Expansion of the Unified Lattice | [10.5281/zenodo.19493376](https://doi.org/10.5281/zenodo.19493376) |
 | Vol 7 | The Sovereign Resonance | [10.5281/zenodo.19559860](https://doi.org/10.5281/zenodo.19559860) |
+| Vol 8 | Unbounded Luminosity: The Same-Object Harmonic Map | [10.5281/zenodo.19622632](https://doi.org/10.5281/zenodo.19622632) |
 
 ---
 
@@ -871,6 +873,206 @@ Fix script: `vol7/scripts/fix_materials_scalarization.py` (run `--litmus` first,
 *The constant is 16/π. The family is N/π. The floor is 7/π. The ceiling is 24/π.*  
 *The 107.1 Hz prediction was published January 10, 2026. The confirmation printed April 12, 2026.*  
 *35 orders of magnitude. 15 hours. A commodity laptop. Public data. One researcher.*
+
+> *"The universe is under no obligation to make sense to you. But it is under an obligation to be measurable, so long as the human does their part."* — Timothy John Kish, April 2026
+
+**Welcome to the Lattice. The geometry was always there.**
+
+
+---
+
+## 🌟 Volume 8: Unbounded Luminosity — April 15, 2026
+
+**The Same-Object Harmonic Map and the Sovereign Lake Architecture**
+
+Vol 8 asks the question that no prior volume could answer: when the same physical
+objects are measured in four different ways, do they lock to four different harmonic
+registers of the same N/π family?
+
+The answer is yes.
+
+**DOI:** https://doi.org/10.5281/zenodo.19622632 
+**Location:** `./src/Unification/vol8/`
+
+---
+
+### 🏆 The Four Major Discoveries (Vol8)
+
+**1. Stellar Colour at 20/π — z = 123.83 — Strongest Signal in the Framework**
+
+BP−RP colour (stellar surface temperature proxy) from 1,979,697 Gaia DR3 stars
+locks to 20/π at z = 123.83. This surpasses stellar velocity (z = 107) and every
+other signal measured across 9.8 million records in this framework.
+
+The 20/π and 21/π registers (stellar temperature and galactic velocity dispersion)
+are harmonic neighbours. Both are expressions of gravitational energy in the lattice.
+The thermal state of a single star and the collective motion of a galaxy speak
+adjacent registers of the same harmonic family.
+
+**2. Stellar Luminosity Breaks the Kinematic Ceiling — z = 40.65 at 25/π**
+
+Vol 7 showed stellar velocity returns z = −91 at 25/π — geometric repulsion above
+the kinematic ceiling at 24/π. Stellar luminosity (absolute G magnitude) returns
+z = +40.65 at 25/π. The ceiling is not universal.
+
+The container ceiling at 24/π is a **kinematic ceiling**. It bounds motion. It does
+not bound the count of photons produced by nuclear fusion in a stellar core. Luminosity
+is a nuclear-layer quantity. Its information originates below the quantum floor. The
+ceiling that confines motion does not confine the light that motion produces.
+
+This establishes a **three-layer model** of the physical universe:
+
+```
+ELECTROMAGNETIC LAYER  — luminosity, colour, temperature    20/π and above
+───────────────────────────────────────────────────────     24/π kinematic ceiling
+KINEMATIC LAYER        — velocity, period, tidal interval   7/π to 24/π
+───────────────────────────────────────────────────────     7/π sub-lattice floor
+NUCLEAR/QUANTUM LAYER  — binding energy, spectra, vibration below 12/π
+```
+
+The speed of light c is the kinematic ceiling speed — the lattice refresh rate.
+Photons travel at the ceiling. Their production rate is set by the nuclear layer.
+Brightness is not kinematic. The ceiling does not apply.
+
+**3. The Exoplanet Silence — The Kinematic Principle at Planetary Scale**
+
+Three measurements of the same 6,000+ confirmed exoplanets:
+
+| Attribute | Domain | Peak Z | Register |
+|-----------|--------|--------|----------|
+| Orbital period (P1) | orbital | **+42.65** | 22/π |
+| Semi-major axis (P2) | orbital_radius | **−6.87** | None |
+| Planet mass (P3) | orbital_mass | **−14.13** | None |
+
+The lattice sees the timing of gravitational motion. It is blind to the size of
+the orbit and the mass of the planet. Period: z = 42. Radius: noise. Mass: noise.
+
+**The Kish Kinematic Principle at planetary scale: the lattice governs when, not
+how big or how heavy.**
+
+**4. The Materials Vindication — Three Volumes of Silence Answered**
+
+The materials formula bug (uniform distribution from modulo operation) is fixed.
+The corrected bond-length formula yields z = 72.12 at 19/π — the sub-orbital
+register, shared with tidal intervals. Crystal bond geometry and ocean tidal dynamics
+share a harmonic address. Materials born in stellar furnaces carry the geometric
+fingerprint of those nuclear processes in their bond lengths.
+
+---
+
+### 📐 The Same-Object Harmonic Map (Gaia DR3)
+
+The same 1.81 million Gaia DR3 stars, four different physical questions, four
+different harmonic registers:
+
+| Measurement | Attribute | Register | Z |
+|-------------|-----------|----------|---|
+| S1 — Where is the star? | Parallax distance | 24/π | 21.23 |
+| S2 — How fast is it moving? | Transverse velocity | 16/π | 106.74 |
+| S3 — How bright is it? | Absolute magnitude | 25/π | 40.65 |
+| S4 — What colour is it? | BP−RP temperature | 20/π | **123.83** |
+
+Same objects. Same catalog. Same instruments. Four sovereign domain labels.
+Four z-scores. Four harmonic addresses. One lattice.
+
+---
+
+### 🏛️ The Sovereign Lake Architecture (Formalised in Vol8)
+
+**One measurement. One lake. One domain.** This is not convention. It is methodology.
+
+The domain label is the statistical grouping key. Two physically distinct attributes
+pooled into one domain blend their signals. The chaos null is built against the
+combined scalar range. Both z-scores are weaker than either individual signal.
+
+The S2 split (stellar → stellar_kinematic) in Vol 5 is the proof of concept:
+that split raised the z-score from z ≈ 3 to z = 94. Vol 8 applies the same rule
+to every new same-object lake.
+
+**The four-script standard:**
+
+```
+build_lake.py  →  promote.py  →  scalarize.py  →  validate.py
+```
+
+| Script | Responsibility |
+|--------|----------------|
+| `build_lake.py` | Sovereign pull from original source. Assumes nothing else exists. |
+| `promote.py` | Applies schema. Preserves full source in `_raw_payload`. |
+| `scalarize.py` | The formula — the hypothesis. One file, one responsibility. |
+| `validate.py` | Litmus gate. stdev/span < 0.28 or reject. Copy on PASS only. |
+
+---
+
+### 🌌 The Complete Harmonic Portrait (Vol8)
+
+| Register | Modulus | Domain(s) | Peak Z | Character |
+|----------|---------|-----------|--------|-----------|
+| Rosetta sub-lattice | 7/π | Biology, Galactic | 11.9 | Vol 7 confirmed |
+| Life geometry | 10/π | Biology amino | 10.7 | Vol 6 confirmed |
+| Molecular band | 11/π | Chemistry | 70.3 | Vol 7 confirmed |
+| Molecular/Quantum | 12/π | Chemistry, Quantum | 53.3 | Vol 7 confirmed |
+| **Kinematic PRIMARY** | **16/π** | **Stellar velocity** | **106.7** | Vol 5 confirmed |
+| Sub-orbital/Materials | 19/π | Materials, Planetary | 72.1 | Vol 8 — materials fixed |
+| **Photospheric** | **20/π** | **Stellar colour (NEW)** | **123.8** | **Vol 8 — STRONGEST** |
+| 107.1 Hz register | 21/π | Galactic | 59.0 | Vol 7 pre-registered |
+| Orbital bridge | 22/π | Exoplanet periods | 42.7 | Vol 5 confirmed |
+| Container boundary | 24/π | Stellar distance | 21.2 | Vol 7 confirmed |
+| **EM above ceiling** | **25/π** | **Stellar luminosity (NEW)** | **40.7** | **Vol 8 — above ceiling** |
+| *NULL* | — | orbital_radius, orbital_mass | −14 | *Kinematic principle confirmed* |
+
+---
+
+### 🔗 New Cross-Domain Signal Pairings (Vol8)
+
+| Pairing | Modulus | Chaos Δ | Note |
+|---------|---------|---------|------|
+| orbital_mass × orbital_radius | 26/π | **+0.265** | Strongest new pairing |
+| chemistry × quantum | 23/π | +0.110 | Confirmed Vol 7 |
+| biology_amino × quantum | 22/π | +0.094 | Life geometry × quantum |
+| biology_other × quantum | 9/π | +0.071 | Cell timing × quantum |
+| galactic × stellar_colour | 5/π | +0.024 | Galaxy velocity × stellar temperature |
+| materials × stellar_colour | 5/π | +0.022 | Crystal geometry × photosphere |
+
+Total confirmed cross-domain pairings: **22+**
+
+---
+
+### 🗓️ Vol8 Timeline
+
+| Date | Milestone |
+|------|-----------|
+| **April 13, 2026** | Vol 7 published — 22 moduli, ceiling confirmed, 107.1 Hz confirmed |
+| **April 14, 2026** | Vol 8 new lakes built — S3, S4, P2, P3 promoted and validated |
+| **April 15, 2026** | Vol 8 pipeline complete — 9,876,485 records, same-object map confirmed |
+| **April 15, 2026** | Vol 8 published — DOI pending |
+
+---
+
+### 📚 The Complete Published Series (Vol8)
+
+| Volume | Title | DOI |
+|--------|-------|-----|
+| Vol 1 | The Geometric Derivation of the Lattice | [10.5281/zenodo.18209530](https://doi.org/10.5281/zenodo.18209530) |
+| Vol 2 | The Geometric Neutron | [10.5281/zenodo.18217119](https://doi.org/10.5281/zenodo.18217119) |
+| Vol 3 | The Geometric Architecture of Matter | [10.5281/zenodo.18217226](https://doi.org/10.5281/zenodo.18217226) |
+| Vol 4 | The Geometric Architecture of Life | [10.5281/zenodo.18976975](https://doi.org/10.5281/zenodo.18976975) |
+| Vol 5 | The Geometric Architecture of Unification | [10.5281/zenodo.19009634](https://doi.org/10.5281/zenodo.19009634) |
+| Vol 6 | The Harmonic Expansion of the Unified Lattice | [10.5281/zenodo.19493376](https://doi.org/10.5281/zenodo.19493376) |
+| Vol 7 | The Sovereign Resonance | [10.5281/zenodo.19559860](https://doi.org/10.5281/zenodo.19559860) |
+| Vol 8 | Unbounded Luminosity | [10.5281/zenodo.19622632](https://doi.org/10.5281/zenodo.19622632) |
+
+---
+
+*Vol 7 found the walls of the concert hall.*  
+*Vol 8 found that one instrument plays outside them.*
+
+*The constant is 16/π. The kinematic ceiling is 24/π. The photospheric register is 20/π.*  
+*Luminosity reaches 25/π — above the ceiling that confines stellar velocity to z = −91.*  
+*The ceiling bounds motion. It does not bound the light that motion produces.*
+
+*9,876,485 records. 22 domains. 15 hours. One laptop. Public data.*  
+*Same objects. Different questions. Different registers. One lattice.*
 
 > *"The universe is under no obligation to make sense to you. But it is under an obligation to be measurable, so long as the human does their part."* — Timothy John Kish, April 2026
 
