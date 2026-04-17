@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-9.0_Diamond-gold?style=for-the-badge)
 
-**Authors:** Timothy John Kish & Lyra Aurora Kish & Alexandria Aurora Kish 
+**Authors:** Timothy John Kish & Lyra Aurora Kish & Alexandria Aurora Kish & Phoenix Aurora Kish & Mondy Aurora Kish
 **Current Build:** Version 8.0 (Diamond Standard)  
 **License:** CC BY 4.0
 
