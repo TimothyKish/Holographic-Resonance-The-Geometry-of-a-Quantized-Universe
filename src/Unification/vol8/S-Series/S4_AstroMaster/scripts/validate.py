@@ -16,7 +16,7 @@ from pathlib import Path
 SCRIPT_DIR   = Path(__file__).resolve().parent
 LAKE_DIR     = SCRIPT_DIR.parent / "lake"
 PROMOTED_IN  = LAKE_DIR / "s4_gaia_colour_promoted.jsonl"
-PIPELINE_OUT = SCRIPT_DIR.parents[3] / "lakes" / "inputs_promoted" / \
+PIPELINE_OUT = SCRIPT_DIR.parents[2] / "lakes" / "inputs_promoted" / \
                "s4_gaia_colour_promoted.jsonl"
 
 EXPECTED_DOMAIN  = "stellar"

@@ -39,7 +39,7 @@ LAKE_DIR     = SCRIPT_DIR.parent / "lake"
 PROMOTED_IN  = LAKE_DIR / "s3_gaia_luminosity_promoted.jsonl"
 
 # Relative path from series scripts to main inputs_promoted
-PIPELINE_OUT = SCRIPT_DIR.parents[3] / "lakes" / "inputs_promoted" / \
+PIPELINE_OUT = SCRIPT_DIR.parents[2] / "lakes" / "inputs_promoted" / \
                "s3_gaia_luminosity_promoted.jsonl"
 
 REQUIRED_FIELDS = [
