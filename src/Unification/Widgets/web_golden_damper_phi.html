@@ -1,0 +1,106 @@
+<script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+
+<div style="font-family: Arial, sans-serif; border: 1px solid #333; padding: 20px; border-radius: 8px; background-color: #111; color: white;">
+    <h3 id="phi-title" style="color: #00c8ff; text-align: center; margin-bottom: 5px;">True Phi: Perfect Load Balancing</h3>
+    <p id="phi-subtitle" style="text-align: center; font-size: 13px; color: #aaa; margin-bottom: 20px;">
+        Even spatial distribution. No lattice overlap.
+    </p>
+    
+    <div style="text-align: center; margin-bottom: 15px;">
+        <button onclick="updatePhi('rational')" style="padding: 10px; margin: 5px; cursor: pointer; background: #ff3333; color: white; border: none; border-radius: 4px; font-weight: bold;">Rational 3/8 (135°)</button>
+        <button onclick="updatePhi('near')" style="padding: 10px; margin: 5px; cursor: pointer; background: #ffaa00; color: black; border: none; border-radius: 4px; font-weight: bold;">Near-Phi (137.0°)</button>
+        <button onclick="updatePhi('true')" style="padding: 10px; margin: 5px; cursor: pointer; background: #00c8ff; color: black; border: none; border-radius: 4px; font-weight: bold;">True Phi (137.5°)</button>
+    </div>
+
+    <div id="phi-plot" style="width: 100%; height: 500px; background-color: #0a1118;"></div>
+    
+    <div style="text-align: center; margin-top: 15px; font-size: 10px; color: #555;">
+        Copyright &copy; 2026 Sovereign KishLattice 16pi Initiative
+    </div>
+</div>
+
+<script>
+    const NODES = 1000;
+    const PHI = (1 + Math.sqrt(5)) / 2;
+    const GOLDEN_ANGLE = 2 * Math.PI * (1 - (1 / PHI)); 
+    const RATIONAL_ANGLE = 2 * Math.PI * (3 / 8); 
+    const NEAR_PHI_ANGLE = 2 * Math.PI * (137.0 / 360);
+
+    function generateGrowth(angleStep) {
+        let x = [];
+        let y = [];
+        let colors = [];
+        for(let i = 0; i < NODES; i++) {
+            let r = Math.sqrt(i);
+            let theta = i * angleStep;
+            x.push(r * Math.cos(theta));
+            y.push(r * Math.sin(theta)); // <-- FIXED THE TYPO HERE
+            colors.push(i);
+        }
+        return {x: x, y: y, c: colors};
+    }
+
+    // Initialize with True Phi
+    let initData = generateGrowth(GOLDEN_ANGLE);
+
+    let trace = {
+        x: initData.x, 
+        y: initData.y,
+        type: 'scatter', 
+        mode: 'markers',
+        marker: {
+            size: 8,
+            color: initData.c,
+            colorscale: 'YlOrBr',
+            line: {color: 'black', width: 0.5}
+        },
+        hoverinfo: 'none'
+    };
+
+    let layout = {
+        margin: { t: 10, r: 10, b: 10, l: 10 },
+        xaxis: { visible: false, range: [-35, 35] },
+        yaxis: { visible: false, range: [-35, 35] },
+        showlegend: false,
+        paper_bgcolor: '#0a1118', 
+        plot_bgcolor: '#0a1118'
+    };
+
+    Plotly.newPlot('phi-plot', [trace], layout, {responsive: true, staticPlot: true});
+
+    window.updatePhi = function(mode) {
+        let titleEl = document.getElementById('phi-title');
+        let subEl = document.getElementById('phi-subtitle');
+        let angle, colorScale, titleColor;
+
+        if (mode === 'rational') {
+            angle = RATIONAL_ANGLE;
+            titleColor = '#ff3333';
+            colorScale = 'Reds';
+            titleEl.innerText = "Rational 3/8: Structural Collapse";
+            subEl.innerText = "Mass stacks on 8 weak points. Lattice overload.";
+        } else if (mode === 'near') {
+            angle = NEAR_PHI_ANGLE;
+            titleColor = '#ffaa00';
+            colorScale = 'Portland'; 
+            titleEl.innerText = "Near-Phi: Imbalanced Tension";
+            subEl.innerText = "Forms spiraling gaps, creating structural weakness.";
+        } else {
+            angle = GOLDEN_ANGLE;
+            titleColor = '#00c8ff';
+            colorScale = 'YlOrBr';
+            titleEl.innerText = "True Phi: Perfect Load Balancing";
+            subEl.innerText = "Even spatial distribution. No lattice overlap.";
+        }
+
+        titleEl.style.color = titleColor;
+        let newData = generateGrowth(angle);
+        
+        Plotly.update('phi-plot', {
+            x: [newData.x],
+            y: [newData.y],
+            'marker.color': [newData.c],
+            'marker.colorscale': colorScale
+        }, {}, [0]);
+    };
+</script>

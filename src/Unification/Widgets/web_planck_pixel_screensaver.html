@@ -1,0 +1,98 @@
+<script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+
+<div style="font-family: Arial, sans-serif; border: 1px solid #333; padding: 20px; border-radius: 8px; background-color: #111; color: white;">
+    <h3 id="pixel-title" style="color: #ff3333; text-align: center; margin-bottom: 5px;">Lattice Geometry: 22/7 Glitch (Burn-In)</h3>
+    <p style="text-align: center; font-size: 13px; color: #aaa; margin-bottom: 20px;">
+        Rational numbers force the phase space into a closed loop. True Pi ensures an infinite, non-repeating refresh.
+    </p>
+    
+    <div style="text-align: center; margin-bottom: 15px;">
+        <button onclick="updateLattice('22/7')" style="padding: 10px; margin: 5px; cursor: pointer; background: #ff3333; color: white; border: none; border-radius: 4px; font-weight: bold;">22/7 (Low Res)</button>
+        <button onclick="updateLattice('355/113')" style="padding: 10px; margin: 5px; cursor: pointer; background: #ffaa00; color: black; border: none; border-radius: 4px; font-weight: bold;">355/113 (High Res)</button>
+        <button onclick="updateLattice('pi')" style="padding: 10px; margin: 5px; cursor: pointer; background: #00c8ff; color: black; border: none; border-radius: 4px; font-weight: bold;">True Pi (Irrational)</button>
+    </div>
+
+    <div id="pixel-plot" style="width: 100%; height: 500px; background-color: black;"></div>
+    
+    <div style="text-align: center; margin-top: 15px; font-size: 10px; color: #555;">
+        Copyright &copy; 2026 Sovereign KishLattice 16pi Initiative
+    </div>
+</div>
+
+<script>
+    // --- LATTICE CONSTANTS ---
+    const KINEMATIC_DOF = 16.0;
+    
+    // Generate a dense time array to simulate the "Screen Saver" history
+    let timeUnits = [];
+    for (let t = 0; t <= 200; t += 0.01) { 
+        timeUnits.push(t); 
+    }
+
+    // --- PHYSICS FUNCTION ---
+    function generatePath(piRatio) {
+        let xPath = [];
+        let yPath = [];
+        for(let i=0; i<timeUnits.length; i++) {
+            let t = timeUnits[i];
+            xPath.push(Math.cos(KINEMATIC_DOF * t));
+            yPath.push(Math.sin((KINEMATIC_DOF / piRatio) * t));
+        }
+        return {x: xPath, y: yPath};
+    }
+
+    // --- INITIALIZE PLOT (Starts with 22/7 Burn-in) ---
+    let currentData = generatePath(22.0 / 7.0);
+
+    let trace = {
+        x: currentData.x, 
+        y: currentData.y,
+        type: 'scatter', 
+        mode: 'lines',
+        line: {color: '#ff3333', width: 1},
+        opacity: 0.15, // Low opacity reveals overlap (burn-in) vs solid fill (refresh)
+        hoverinfo: 'none'
+    };
+
+    let layout = {
+        margin: { t: 10, r: 10, b: 10, l: 10 },
+        xaxis: { visible: false, range: [-1.05, 1.05] },
+        yaxis: { visible: false, range: [-1.05, 1.05] },
+        showlegend: false,
+        paper_bgcolor: '#000000', 
+        plot_bgcolor: '#000000'
+    };
+
+    Plotly.newPlot('pixel-plot', [trace], layout, {responsive: true, staticPlot: true});
+
+    // --- INTERACTIVITY ---
+    window.updateLattice = function(mode) {
+        let titleEl = document.getElementById('pixel-title');
+        let ratio, lineColor;
+
+        if (mode === '22/7') {
+            ratio = 22.0 / 7.0;
+            lineColor = '#ff3333';
+            titleEl.innerText = "Lattice Geometry: 22/7 Glitch (Burn-In)";
+            titleEl.style.color = lineColor;
+        } else if (mode === '355/113') {
+            ratio = 355.0 / 113.0;
+            lineColor = '#ffaa00';
+            titleEl.innerText = "Lattice Geometry: 355/113 (Delayed Burn-In)";
+            titleEl.style.color = lineColor;
+        } else {
+            ratio = Math.PI;
+            lineColor = '#00c8ff';
+            titleEl.innerText = "Lattice Geometry: True Pi (Infinite Refresh)";
+            titleEl.style.color = lineColor;
+        }
+
+        let newData = generatePath(ratio);
+        
+        Plotly.update('pixel-plot', {
+            x: [newData.x],
+            y: [newData.y],
+            'line.color': lineColor
+        }, {}, [0]);
+    };
+</script>
