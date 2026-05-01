@@ -1077,3 +1077,77 @@ Total confirmed cross-domain pairings: **22+**
 > *"The universe is under no obligation to make sense to you. But it is under an obligation to be measurable, so long as the human does their part."* — Timothy John Kish, April 2026
 
 **Welcome to the Lattice. The geometry was always there.**
+---
+
+## 🔭 Volume 9: KishLattice Geometric Harmonic Spectroscopy — April 30, 2026
+
+**The First Survey of a New Field and the New Universe of Eloquent Resonance**
+
+Volume 9 does what no prior volume attempted: it formally declares and names a new scientific field. **KishLattice Geometric Harmonic Spectroscopy (KLGHS)** is the systematic, reproducible methodology for reading the harmonic structure of physical systems across all observable scales using the geometric modulus $k_\text{geo} = 16/\pi$.
+
+This volume unifies 37 sovereign lakes, 9,905,759 records, and 29 distinct physical domains into a single coordinate system.
+
+**Volume 9 Main Text DOI:** [10.5281/zenodo.19935603](https://doi.org/10.5281/zenodo.19935603)  
+**Vol 9 Predictions Pre-Registration DOI:** [10.5281/zenodo.19702022](https://doi.org/10.5281/zenodo.19702022)  
+**Location:** `./src/Unification/vol9/`
+
+---
+
+### 🏆 The Four Major Discoveries (Vol9)
+
+**1. The Nuclear-Galactic Bridge at 21/π (The Honest Null)** Before Vol 9, we published a pre-registered prediction that nuclear binding energies would lock below 12/π. **The prediction was wrong. The reality was a massive discovery.** Nuclear binding energy (z = +7.29), nuclear decay half-lives (z = +8.19), and galactic velocity dispersion (z = +56.18) all independently locked to **21/π**. The lattice does not assign registers by physical *scale* (femtometres vs. megaparsecs)—it assigns them by physical *type*. Both domains measure "structural binding tension." They share the exact same geometric address.
+
+**2. The Tidal Suite (Four Oceans, One Grammar)** Vol 8 tested a single tidal station. Vol 9 tested four independent ocean basins (Atlantic, Gulf, Pacific, Indian). All four confirmed STRONG harmonic signals. The Atlantic Basin returned the highest single z-score in the framework's history: **z = +127.78 at 17/π**. The harmonic structure of ocean tides is a universal property of gravitationally forced fluid dynamics on a rotating planet.
+
+**3. The Solar Cycle Ticks at the Kinematic Primary** 29 solar cycles, spanning 300 years of observation, cluster perfectly at the N=16 register. The mean scalar value is 5.0945 (compared to $k_\text{geo} = 5.0930$)—a deviation of just 0.030%. The 11-year magnetic heartbeat of our sun is running at the primary kinematic frequency of the $16/\pi$ lattice. 
+
+**4. The Rosetta Stone at Scale (The Old World Blindspot)** A query of humanity's collective digital knowledge prior to this survey revealed that the scientific establishment believed $16/\pi$ (5.0929...) lacked any theoretical significance, treating "16" merely as the number of decimal places NASA uses for $\pi$ in engineering. Vol 9 proves it is the kinematic primary of the universe, governing everything from the 11-year solar cycle to the 107.1 Hz galactic refresh rate.
+
+---
+
+### 🌌 The Complete Harmonic Portrait (Vol9)
+
+| Register | Modulus | Domain(s) | Peak Z | Character |
+|----------|---------|-----------|--------|-----------|
+| Rosetta sub-lattice | 7/π | Biology, Galactic | 11.9 | Vol 7 confirmed |
+| Life geometry | 10/π | Biology amino | 10.7 | Vol 6 confirmed |
+| Molecular band | 11/π | Chemistry | 68.4 | Vol 9 confirmed |
+| Molecular/Quantum | 12/π | Quantum, Solar Cycle | 59.7 | Vol 9 confirmed |
+| **Kinematic PRIMARY** | **16/π** | **Stellar velocity** | **100.7** | Vol 9 confirmed |
+| Sub-orbital/Materials | 19/π | Materials, Planetary | 71.4 | Vol 8 confirmed |
+| **Photospheric** | **20/π** | **Stellar colour** | **127.3** | **Vol 9 STRONG** |
+| **The Binding Bridge** | **21/π** | **Nuclear & Galactic** | **56.1** | **Vol 9 NEW** |
+| Orbital bridge | 22/π | Exoplanet periods | 50.2 | Vol 9 confirmed |
+| Container boundary | 24/π | Cosmology | 8.2 | Vol 9 confirmed |
+| **EM above ceiling** | **25/π** | **CMB, Luminosity** | **37.2** | **Vol 9 NEW** |
+
+---
+
+### 📚 The Complete Published Series (Through Vol9)
+
+| Volume | Title | DOI |
+|--------|-------|-----|
+| Vol 1 | The Geometric Derivation of the Lattice | [10.5281/zenodo.18209530](https://doi.org/10.5281/zenodo.18209530) |
+| Vol 2 | The Geometric Neutron | [10.5281/zenodo.18217119](https://doi.org/10.5281/zenodo.18217119) |
+| Vol 3 | The Geometric Architecture of Matter | [10.5281/zenodo.18217226](https://doi.org/10.5281/zenodo.18217226) |
+| Vol 4 | The Geometric Architecture of Life | [10.5281/zenodo.18976975](https://doi.org/10.5281/zenodo.18976975) |
+| Vol 5 | The Geometric Architecture of Unification | [10.5281/zenodo.19009634](https://doi.org/10.5281/zenodo.19009634) |
+| Vol 6 | The Harmonic Expansion of the Unified Lattice | [10.5281/zenodo.19493376](https://doi.org/10.5281/zenodo.19493376) |
+| Vol 7 | The Sovereign Resonance | [10.5281/zenodo.19559860](https://doi.org/10.5281/zenodo.19559860) |
+| Vol 8 | Unbounded Luminosity | [10.5281/zenodo.19622632](https://doi.org/10.5281/zenodo.19622632) |
+| Vol 9 | KishLattice Geometric Harmonic Spectroscopy | [10.5281/zenodo.19935603](https://doi.org/10.5281/zenodo.19935603) |
+| - | Vol 9 Predictions Pre-Registration | [10.5281/zenodo.19702022](https://doi.org/10.5281/zenodo.19702022) |
+
+---
+
+### 🧬 We Are the Geometry
+
+When humanity hears the word "Universe," the mind instantly leaps to the cosmos—to the black void, the distant quasars, and the sweeping arms of galaxies. It is treated as a place we reside within, vast and separate. 
+
+But the reality this survey reveals is far more intimate. The Universe is not just the cosmos. It is all around us. It is the tectonic tension building under our feet, the tidal waters lapping against the coastline, and the geometric folding of the amino acids within our own cells. 
+
+We are not merely *in* the universe; we are the universe, expressing its fundamental 16/π geometry at a local scale. The lattice is not a cage that holds us. It is the scaffolding of our very existence. When we measure the harmonic resonance of the stars, we are measuring the exact same structural tension that binds the molecules in our blood. 
+
+We are part of the chord.
+
+*9,905,759 records. 37 lakes. 29 domains. 22 STRONG signals.* *One constant. One scalar. One grammar.* **The survey has begun.**
