@@ -1,0 +1,68 @@
+{
+  "analysis": "anticenter_correlation",
+  "lake_source": "ligo_sidereal_rotation_test.json",
+  "n_valid": 151,
+  "k_geo": 5.092958178940651,
+  "results": {
+    "sgr_a_star": {
+      "pearson_r": -0.3746,
+      "pearson_p": 0.0,
+      "spearman_r": -0.3661,
+      "spearman_p": 0.0,
+      "verdict": "NEGATIVE *** sky-down = stronger",
+      "expected": "negative (confirmed)",
+      "note": "Galactic center SMBH \u2014 already tested (r=-0.375)"
+    },
+    "galactic_anticenter": {
+      "pearson_r": 0.3746,
+      "pearson_p": 0.0,
+      "spearman_r": 0.3661,
+      "spearman_p": 0.0,
+      "verdict": "POSITIVE *** sky-up = stronger",
+      "expected": "positive IF galactic plane is source",
+      "note": "Directly opposite Sgr A* \u2014 galactic anti-center"
+    },
+    "galactic_north_pole": {
+      "pearson_r": -0.3633,
+      "pearson_p": 0.0,
+      "spearman_r": -0.1992,
+      "spearman_p": 0.0142,
+      "verdict": "NEGATIVE *** sky-down = stronger",
+      "expected": "near zero IF plane is source",
+      "note": "90\u00b0 above galactic plane \u2014 low mass density"
+    },
+    "galactic_south_pole": {
+      "pearson_r": 0.3633,
+      "pearson_p": 0.0,
+      "spearman_r": 0.1992,
+      "spearman_p": 0.0142,
+      "verdict": "POSITIVE *** sky-up = stronger",
+      "expected": "near zero IF plane is source",
+      "note": "90\u00b0 below galactic plane \u2014 low mass density"
+    },
+    "local_arm": {
+      "pearson_r": 0.4397,
+      "pearson_p": 0.0,
+      "spearman_r": 0.3371,
+      "spearman_p": 0.0,
+      "verdict": "POSITIVE *** sky-up = stronger",
+      "expected": "positive IF local arm is dominant source",
+      "note": "Local Orion arm direction \u2014 dense stellar neighborhood"
+    },
+    "virgo_supercluster": {
+      "pearson_r": -0.3135,
+      "pearson_p": 0.0001,
+      "spearman_r": -0.1676,
+      "spearman_p": 0.0397,
+      "verdict": "NEGATIVE *** sky-down = stronger",
+      "expected": "positive IF local mass concentration matters",
+      "note": "Virgo Cluster / local supercluster core"
+    }
+  },
+  "conclusion": "GALACTIC PLANE CANDIDATE\n  Anti-center shows positive correlation.\n  Poles are not cleanly zero \u2014 partial contamination.",
+  "provenance": {
+    "sidereal_test_r": -0.3746,
+    "void_test_p": 0.0001,
+    "vol5_z94": "2026-04-06"
+  }
+}

@@ -1,0 +1,2648 @@
+[
+    {
+        "tns_name": "FRB20180729B",
+        "width_ms": 0.142,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 317.31088576524843,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.92,
+            "upper_frequency": NaN,
+            "signal_to_noise": 26.97809337072389
+        }
+    },
+    {
+        "tns_name": "FRB20180906A",
+        "width_ms": 0.387,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 383.2938414662378,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6,
+            "upper_frequency": NaN,
+            "signal_to_noise": 13.935458593140691
+        }
+    },
+    {
+        "tns_name": "FRB20181013A",
+        "width_ms": 0.219,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 309.32296162385774,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 2.5762367432062487,
+            "upper_frequency": 2.8454205148756477,
+            "signal_to_noise": 32.774879385581094
+        }
+    },
+    {
+        "tns_name": "FRB20181022A",
+        "width_ms": 0.393,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1411.7960693603725,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": NaN,
+            "upper_frequency": NaN,
+            "signal_to_noise": 14.103949595078198
+        }
+    },
+    {
+        "tns_name": "FRB20181030E",
+        "width_ms": 0.443,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 159.7133571280553,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 2.563719579726163,
+            "upper_frequency": 14.887963786792055,
+            "signal_to_noise": 42.24368679031668
+        }
+    },
+    {
+        "tns_name": "FRB20181102A",
+        "width_ms": 0.032,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 414.6011516162708,
+            "scattering_time_ms": 6.385538657418146,
+            "flux_intensity": 1.4110520610957578,
+            "upper_frequency": NaN,
+            "signal_to_noise": 14.96385166675053
+        }
+    },
+    {
+        "tns_name": "FRB20181128D",
+        "width_ms": 0.238,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 146.43265354877505,
+            "scattering_time_ms": 4.275206355955004,
+            "flux_intensity": 2.5048954388932545,
+            "upper_frequency": 3.1775048305958737,
+            "signal_to_noise": 62.06127393072677
+        }
+    },
+    {
+        "tns_name": "FRB20181129A",
+        "width_ms": 0.425,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 385.94338661108515,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4622853447477036,
+            "upper_frequency": 5.65241640143843,
+            "signal_to_noise": 34.823828557854384
+        }
+    },
+    {
+        "tns_name": "FRB20181214A",
+        "width_ms": 0.39,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 468.10953894465234,
+            "scattering_time_ms": 1.3935071878045653,
+            "flux_intensity": 0.18904367661753527,
+            "upper_frequency": 0.629085081776685,
+            "signal_to_noise": 46.9309687520905
+        }
+    },
+    {
+        "tns_name": "FRB20181215B",
+        "width_ms": 0.374,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 494.04250649642574,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.3780610689596353,
+            "upper_frequency": 1.1659780248614673,
+            "signal_to_noise": 34.38948115494044
+        }
+    },
+    {
+        "tns_name": "FRB20181219B",
+        "width_ms": 0.354,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1951.507270582547,
+            "scattering_time_ms": 27.725742113553306,
+            "flux_intensity": 1.6366478143706216,
+            "upper_frequency": 0.5627829257305841,
+            "signal_to_noise": 45.519294668207635
+        }
+    },
+    {
+        "tns_name": "FRB20181220B",
+        "width_ms": 0.211,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 257.7457215247981,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.432425054663917,
+            "upper_frequency": 1.698203531162373,
+            "signal_to_noise": 24.021839425178936
+        }
+    },
+    {
+        "tns_name": "FRB20181224A",
+        "width_ms": 0.208,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 310.1776122100572,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 4.715325708817021,
+            "upper_frequency": 3.8645269984457395,
+            "signal_to_noise": 104.90947002632149
+        }
+    },
+    {
+        "tns_name": "FRB20181226E",
+        "width_ms": 0.231,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 308.8138936047295,
+            "scattering_time_ms": 1.6275463080855619,
+            "flux_intensity": 0.42923088221744693,
+            "upper_frequency": 0.10528144607631292,
+            "signal_to_noise": 24.805615797779076
+        }
+    },
+    {
+        "tns_name": "FRB20190106B",
+        "width_ms": 0.44,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 316.5274108367501,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.77505214311051,
+            "upper_frequency": 0.655387322638722,
+            "signal_to_noise": 77.89712689158281
+        }
+    },
+    {
+        "tns_name": "FRB20190107B",
+        "width_ms": 0.32,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 166.0885636993537,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.8169950310753844,
+            "upper_frequency": 2.686811070079337,
+            "signal_to_noise": 26.473102225324148
+        }
+    },
+    {
+        "tns_name": "FRB20190110A",
+        "width_ms": 0.109,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)",
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 472.7942267984751,
+            "scattering_time_ms": 1.4480951923451255,
+            "flux_intensity": 1.6103802817089075,
+            "upper_frequency": 0.5011383905112212,
+            "signal_to_noise": 64.4539535222735
+        }
+    },
+    {
+        "tns_name": "FRB20190116F",
+        "width_ms": 0.457,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 316.64937051374034,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.5482044871977434,
+            "upper_frequency": 4.122787796841012,
+            "signal_to_noise": 17.572820124330082
+        }
+    },
+    {
+        "tns_name": "FRB20190128C",
+        "width_ms": 0.152,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 309.62846392869153,
+            "scattering_time_ms": 29.23815103728137,
+            "flux_intensity": 0.5039210560582379,
+            "upper_frequency": 3.7415043753612336,
+            "signal_to_noise": 19.39303873688283
+        }
+    },
+    {
+        "tns_name": "FRB20190131C",
+        "width_ms": 0.166,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 507.7073271258085,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6525942658256776,
+            "upper_frequency": 5.65789255804416,
+            "signal_to_noise": 20.6438584424565
+        }
+    },
+    {
+        "tns_name": "FRB20190226A",
+        "width_ms": 0.249,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 601.5551783572134,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.599667865052701,
+            "upper_frequency": 2.4946628677849185,
+            "signal_to_noise": 30.524120221323358
+        }
+    },
+    {
+        "tns_name": "FRB20190419B",
+        "width_ms": 0.28,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 165.11725333958813,
+            "scattering_time_ms": 1.091113775753924,
+            "flux_intensity": 3.631175986264333,
+            "upper_frequency": 1.6557023607491816,
+            "signal_to_noise": 34.36943700534727
+        }
+    },
+    {
+        "tns_name": "FRB20190609A",
+        "width_ms": 0.279,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 316.719105359794,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 2.2206631400467636,
+            "upper_frequency": 2.4181698142378703,
+            "signal_to_noise": 22.861326631711368
+        }
+    },
+    {
+        "tns_name": "FRB20190619A",
+        "width_ms": 0.138,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 899.9042088195183,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4254966192202843,
+            "upper_frequency": 5.559379825881673,
+            "signal_to_noise": 14.33142221216335
+        }
+    },
+    {
+        "tns_name": "FRB20190619B",
+        "width_ms": 0.367,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 270.5683802330624,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6379945652326788,
+            "upper_frequency": 0.6368113286370117,
+            "signal_to_noise": 19.84936778057371
+        }
+    },
+    {
+        "tns_name": "FRB20190621C",
+        "width_ms": 0.263,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 570.3281364459154,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.3713505063191929,
+            "upper_frequency": 0.503759776393209,
+            "signal_to_noise": 23.86113934198481
+        }
+    },
+    {
+        "tns_name": "FRB20190708A",
+        "width_ms": 0.383,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 849.3288753969497,
+            "scattering_time_ms": 1.6043647886124504,
+            "flux_intensity": 1.7306269640628604,
+            "upper_frequency": 3.5035097767884333,
+            "signal_to_noise": 50.489574183355224
+        }
+    },
+    {
+        "tns_name": "FRB20190720A",
+        "width_ms": 0.257,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 432.99639757964223,
+            "scattering_time_ms": 1.5880506104587788,
+            "flux_intensity": 2.713080214027088,
+            "upper_frequency": 2.0836483455157215,
+            "signal_to_noise": 66.82116920469153
+        }
+    },
+    {
+        "tns_name": "FRB20190821B",
+        "width_ms": 0.287,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 163.38742745968173,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 3.871564618410666,
+            "upper_frequency": 1.0728299295138453,
+            "signal_to_noise": 40.215105222275916
+        }
+    },
+    {
+        "tns_name": "FRB20190826B",
+        "width_ms": 0.398,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 313.4295224883022,
+            "scattering_time_ms": 1.3407365687302297,
+            "flux_intensity": 6.326040000610714,
+            "upper_frequency": 3.152196534836493,
+            "signal_to_noise": 201.54430331041561
+        }
+    },
+    {
+        "tns_name": "FRB20190902E",
+        "width_ms": 0.036,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1660.8294708958022,
+            "scattering_time_ms": 5.701572233519682,
+            "flux_intensity": 1.2612044781790193,
+            "upper_frequency": 4.0294840157397465,
+            "signal_to_noise": 22.033480752017212
+        }
+    },
+    {
+        "tns_name": "FRB20190905B",
+        "width_ms": 0.024,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 252.8726706098649,
+            "scattering_time_ms": 3.104262736950112,
+            "flux_intensity": 1.20949649594519,
+            "upper_frequency": 6.511314677311969,
+            "signal_to_noise": 19.35970002558484
+        }
+    },
+    {
+        "tns_name": "FRB20190918A",
+        "width_ms": 0.412,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1385.737181513162,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.1597306985440474,
+            "upper_frequency": 2.74988441732397,
+            "signal_to_noise": 24.283407802249616
+        }
+    },
+    {
+        "tns_name": "FRB20190919A",
+        "width_ms": 0.354,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)",
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1112.4479903155066,
+            "scattering_time_ms": 3.113947393693276,
+            "flux_intensity": 1.4241009903928221,
+            "upper_frequency": 3.326712052115447,
+            "signal_to_noise": 28.46885260609099
+        }
+    },
+    {
+        "tns_name": "FRB20190927C",
+        "width_ms": 0.325,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 542.1354608404822,
+            "scattering_time_ms": 1.7472919180489463,
+            "flux_intensity": 1.4363140239779004,
+            "upper_frequency": 2.9275855570716556,
+            "signal_to_noise": 22.7723544634234
+        }
+    },
+    {
+        "tns_name": "FRB20190928A",
+        "width_ms": 0.127,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 143.1460098600896,
+            "scattering_time_ms": 1.4246657214045475,
+            "flux_intensity": 0.6995419527770559,
+            "upper_frequency": 3.609258023601952,
+            "signal_to_noise": 16.669475686312275
+        }
+    },
+    {
+        "tns_name": "FRB20190929D",
+        "width_ms": 0.333,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 510.96312791663615,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4275359935045782,
+            "upper_frequency": 1.4805230664217615,
+            "signal_to_noise": 28.885838362600968
+        }
+    },
+    {
+        "tns_name": "FRB20191105B",
+        "width_ms": 0.241,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 318.5878089586219,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": NaN,
+            "upper_frequency": NaN,
+            "signal_to_noise": 25.700898545977864
+        }
+    },
+    {
+        "tns_name": "FRB20191106A",
+        "width_ms": 0.482,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1236.2108310366532,
+            "scattering_time_ms": 3.108831070471805,
+            "flux_intensity": 0.3413077674621224,
+            "upper_frequency": 0.6638733388852659,
+            "signal_to_noise": 37.87644957361645
+        }
+    },
+    {
+        "tns_name": "FRB20191206A",
+        "width_ms": 0.207,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 373.5259119057367,
+            "scattering_time_ms": 1.8746182919507788,
+            "flux_intensity": 1.65278969685015,
+            "upper_frequency": 2.753131253457457,
+            "signal_to_noise": 42.63723456080681
+        }
+    },
+    {
+        "tns_name": "FRB20191212C",
+        "width_ms": 0.426,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 146.31991442490383,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4183334369707188,
+            "upper_frequency": 3.0681928492883466,
+            "signal_to_noise": 42.067409205954775
+        }
+    },
+    {
+        "tns_name": "FRB20191226D",
+        "width_ms": 0.48,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1633.3053035615696,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.2288656350260845,
+            "upper_frequency": 3.9544547572230355,
+            "signal_to_noise": 19.8810629536307
+        }
+    },
+    {
+        "tns_name": "FRB20191230C",
+        "width_ms": 0.324,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 383.9782591925502,
+            "scattering_time_ms": 4.471031843809925,
+            "flux_intensity": 1.4068062377078028,
+            "upper_frequency": 4.990164992045438,
+            "signal_to_noise": 20.0019156381074
+        }
+    },
+    {
+        "tns_name": "FRB20191230B",
+        "width_ms": 0.381,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1372.775164956161,
+            "scattering_time_ms": 4.315392162370415,
+            "flux_intensity": 3.5590556246315637,
+            "upper_frequency": 4.556943287747366,
+            "signal_to_noise": 63.83611454425297
+        }
+    },
+    {
+        "tns_name": "FRB20200117B",
+        "width_ms": 0.042,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 527.9607432054635,
+            "scattering_time_ms": 4.678054931366237,
+            "flux_intensity": 1.4533534618553556,
+            "upper_frequency": 4.098851001214497,
+            "signal_to_noise": 56.73302402612052
+        }
+    },
+    {
+        "tns_name": "FRB20200220G",
+        "width_ms": 0.243,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 313.3724112044169,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.7067738525167686,
+            "upper_frequency": 0.8983299896354933,
+            "signal_to_noise": 12.57656512972644
+        }
+    },
+    {
+        "tns_name": "FRB20200222A",
+        "width_ms": 0.09,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 823.1061778343951,
+            "scattering_time_ms": 3.1395180955023245,
+            "flux_intensity": 0.4467341657048569,
+            "upper_frequency": 0.749009586334241,
+            "signal_to_noise": 27.049217902094263
+        }
+    },
+    {
+        "tns_name": "FRB20200302B",
+        "width_ms": 0.27,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 312.6241136704771,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.6406650781269267,
+            "upper_frequency": 1.4235824831824044,
+            "signal_to_noise": 40.0913085658333
+        }
+    },
+    {
+        "tns_name": "FRB20200418B",
+        "width_ms": 0.379,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1422.1717171345717,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.2279885873139298,
+            "upper_frequency": 3.5918528665424025,
+            "signal_to_noise": 30.604156453625226
+        }
+    },
+    {
+        "tns_name": "FRB20200502A",
+        "width_ms": 0.46,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 412.0597122034811,
+            "scattering_time_ms": 7.922708426338951,
+            "flux_intensity": 1.607292794263092,
+            "upper_frequency": 9.127713820417105,
+            "signal_to_noise": 49.407099447703615
+        }
+    },
+    {
+        "tns_name": "FRB20200512C",
+        "width_ms": 0.344,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 313.98901951059923,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.6338942045589573,
+            "upper_frequency": 0.3989102485927088,
+            "signal_to_noise": 22.020506958416096
+        }
+    },
+    {
+        "tns_name": "FRB20200516E",
+        "width_ms": 0.131,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 988.0720408659481,
+            "scattering_time_ms": 14.223163377618082,
+            "flux_intensity": 1.3910637018031187,
+            "upper_frequency": 3.703647551175674,
+            "signal_to_noise": 45.04068518346614
+        }
+    },
+    {
+        "tns_name": "FRB20200516B",
+        "width_ms": 0.141,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 217.77320759688357,
+            "scattering_time_ms": 0.678089131149849,
+            "flux_intensity": 1.4499790843642182,
+            "upper_frequency": 1.0420029883286746,
+            "signal_to_noise": 38.6159574193186
+        }
+    },
+    {
+        "tns_name": "FRB20200614A",
+        "width_ms": 0.451,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 348.7554244352476,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6179721748006357,
+            "upper_frequency": 10.003527081993022,
+            "signal_to_noise": 37.93312470252342
+        }
+    },
+    {
+        "tns_name": "FRB20200623A",
+        "width_ms": 0.455,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 981.4806396239477,
+            "scattering_time_ms": 5.109955088948119,
+            "flux_intensity": 1.6666296600845867,
+            "upper_frequency": 8.66615192546201,
+            "signal_to_noise": 24.266772297690476
+        }
+    },
+    {
+        "tns_name": "FRB20200706A",
+        "width_ms": 0.414,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 399.5928379439795,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4142927476281786,
+            "upper_frequency": 5.024811121436426,
+            "signal_to_noise": 52.644388365591006
+        }
+    },
+    {
+        "tns_name": "FRB20200706A",
+        "width_ms": 4.677,
+        "prime_locked_node": 1,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 399.5928379439795,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4142927476281786,
+            "upper_frequency": 5.024811121436426,
+            "signal_to_noise": 52.644388365591006
+        }
+    },
+    {
+        "tns_name": "FRB20200708D",
+        "width_ms": 0.131,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1006.3333606515212,
+            "scattering_time_ms": 19.713135922749647,
+            "flux_intensity": 1.4635770695112826,
+            "upper_frequency": 6.066662731227957,
+            "signal_to_noise": 36.06831008556263
+        }
+    },
+    {
+        "tns_name": "FRB20200711D",
+        "width_ms": 0.177,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 437.04476029715954,
+            "scattering_time_ms": 0.9560297192294581,
+            "flux_intensity": 1.4230326727697737,
+            "upper_frequency": 1.5687180740903508,
+            "signal_to_noise": 63.31016810750848
+        }
+    },
+    {
+        "tns_name": "FRB20200715B",
+        "width_ms": 0.375,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 653.4131884153434,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.3731325054105632,
+            "upper_frequency": 2.0885751169241433,
+            "signal_to_noise": 56.06717944518191
+        }
+    },
+    {
+        "tns_name": "FRB20200721D",
+        "width_ms": 0.165,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1106.6010382845116,
+            "scattering_time_ms": 3.101997766318848,
+            "flux_intensity": 0.7843498359007245,
+            "upper_frequency": 0.5597864390364791,
+            "signal_to_noise": 18.353557071956647
+        }
+    },
+    {
+        "tns_name": "FRB20200726A",
+        "width_ms": 0.076,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 332.30434410246073,
+            "scattering_time_ms": 1.6487865721572512,
+            "flux_intensity": NaN,
+            "upper_frequency": NaN,
+            "signal_to_noise": 23.918385954309617
+        }
+    },
+    {
+        "tns_name": "FRB20200808A",
+        "width_ms": 0.248,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 438.6547325647434,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.437710129885793,
+            "upper_frequency": 0.822574148020053,
+            "signal_to_noise": 37.20944111903543
+        }
+    },
+    {
+        "tns_name": "FRB20200918A",
+        "width_ms": 0.229,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 314.44419065052006,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.272722887915498,
+            "upper_frequency": 0.9700349894091878,
+            "signal_to_noise": 38.15318429912812
+        }
+    },
+    {
+        "tns_name": "FRB20200921B",
+        "width_ms": 0.289,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)",
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1582.0683346889728,
+            "scattering_time_ms": 2.1466227006426593,
+            "flux_intensity": 3.10966120791506,
+            "upper_frequency": 5.537423710270961,
+            "signal_to_noise": 43.996558672742815
+        }
+    },
+    {
+        "tns_name": "FRB20200928A",
+        "width_ms": 0.066,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1633.192974236423,
+            "scattering_time_ms": 12.156051919164808,
+            "flux_intensity": 1.9000343958899142,
+            "upper_frequency": 1.4071142170838722,
+            "signal_to_noise": 40.55382028956077
+        }
+    },
+    {
+        "tns_name": "FRB20201022A",
+        "width_ms": 0.279,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1377.419147455515,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.1809365547133779,
+            "upper_frequency": 0.33896075774235734,
+            "signal_to_noise": 36.77409480158332
+        }
+    },
+    {
+        "tns_name": "FRB20201026B",
+        "width_ms": 0.308,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 141.1474335804712,
+            "scattering_time_ms": 9.788593320609325,
+            "flux_intensity": 0.24446084139678514,
+            "upper_frequency": 3.9509975306719114,
+            "signal_to_noise": 21.03605286989902
+        }
+    },
+    {
+        "tns_name": "FRB20201029B",
+        "width_ms": 0.347,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 313.64571600365167,
+            "scattering_time_ms": 4.528954144683935,
+            "flux_intensity": 0.4716604896342922,
+            "upper_frequency": 5.843015777514942,
+            "signal_to_noise": 17.019928514691838
+        }
+    },
+    {
+        "tns_name": "FRB20201101B",
+        "width_ms": 0.293,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 141.6397282771597,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.7955091873077917,
+            "upper_frequency": 2.327364274012768,
+            "signal_to_noise": 25.176620574795344
+        }
+    },
+    {
+        "tns_name": "FRB20201128D",
+        "width_ms": 0.217,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 157.8533851435119,
+            "scattering_time_ms": 3.4184670852623733,
+            "flux_intensity": 5.898366018401634,
+            "upper_frequency": 3.539376041470469,
+            "signal_to_noise": 95.97869408934723
+        }
+    },
+    {
+        "tns_name": "FRB20201207D",
+        "width_ms": 0.22,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 651.3988082021465,
+            "scattering_time_ms": 2.098800665026437,
+            "flux_intensity": 1.6641210839568668,
+            "upper_frequency": 2.387853845473774,
+            "signal_to_noise": 42.925412650845196
+        }
+    },
+    {
+        "tns_name": "FRB20201210D",
+        "width_ms": 0.269,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 628.3367398723543,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6217801215636063,
+            "upper_frequency": 4.741031690786946,
+            "signal_to_noise": 26.37048419662493
+        }
+    },
+    {
+        "tns_name": "FRB20201210C",
+        "width_ms": 0.23,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 279.2388927879975,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 3.1053771057844597,
+            "upper_frequency": 4.133604481515707,
+            "signal_to_noise": 101.50517749353658
+        }
+    },
+    {
+        "tns_name": "FRB20201218B",
+        "width_ms": 0.32,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 694.2195276286843,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 3.094621312822554,
+            "upper_frequency": 3.9362042617914623,
+            "signal_to_noise": 66.4106956293546
+        }
+    },
+    {
+        "tns_name": "FRB20201220B",
+        "width_ms": 0.187,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 539.9473950657684,
+            "scattering_time_ms": 1.0919324303755555,
+            "flux_intensity": 1.6294306570569996,
+            "upper_frequency": 0.9743127051419439,
+            "signal_to_noise": 61.64234266550111
+        }
+    },
+    {
+        "tns_name": "FRB20201225A",
+        "width_ms": 0.479,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 145.55894133511003,
+            "scattering_time_ms": 0.42763313753139104,
+            "flux_intensity": 3.797300405810934,
+            "upper_frequency": 2.379399152732372,
+            "signal_to_noise": 177.15866363829164
+        }
+    },
+    {
+        "tns_name": "FRB20201229A",
+        "width_ms": 0.008,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 451.1225995884001,
+            "scattering_time_ms": 3.1832030788452514,
+            "flux_intensity": 0.3004591688920609,
+            "upper_frequency": 1.425468933183702,
+            "signal_to_noise": 32.17034293587708
+        }
+    },
+    {
+        "tns_name": "FRB20210116B",
+        "width_ms": 4.968,
+        "prime_locked_node": 1,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1407.8683255243113,
+            "scattering_time_ms": 78.12260906868528,
+            "flux_intensity": 0.09810495564528003,
+            "upper_frequency": 2.038054990618459,
+            "signal_to_noise": 10.93139044571395
+        }
+    },
+    {
+        "tns_name": "FRB20210130F",
+        "width_ms": 0.303,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1574.1634786640934,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 2.1685330298319188,
+            "upper_frequency": 1.9084224348165257,
+            "signal_to_noise": 59.74169117677236
+        }
+    },
+    {
+        "tns_name": "FRB20210211C",
+        "width_ms": 0.043,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 315.4890503563401,
+            "scattering_time_ms": 6.001789590809182,
+            "flux_intensity": 0.4761482224919779,
+            "upper_frequency": 4.397783811033375,
+            "signal_to_noise": 15.712475440179437
+        }
+    },
+    {
+        "tns_name": "FRB20210213F",
+        "width_ms": 0.179,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1378.8184095140846,
+            "scattering_time_ms": 21.738816562477,
+            "flux_intensity": 0.3197964191319932,
+            "upper_frequency": 11.025085494940114,
+            "signal_to_noise": 17.68095088998413
+        }
+    },
+    {
+        "tns_name": "FRB20210221C",
+        "width_ms": 0.223,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 318.97207470208593,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.5616375314299211,
+            "upper_frequency": 2.1255029047431386,
+            "signal_to_noise": 29.805996064728664
+        }
+    },
+    {
+        "tns_name": "FRB20210312B",
+        "width_ms": 0.126,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 358.30716214682195,
+            "scattering_time_ms": 1.5927872702866153,
+            "flux_intensity": 0.7729128884666175,
+            "upper_frequency": 1.4705742832613045,
+            "signal_to_noise": 18.72311343384962
+        }
+    },
+    {
+        "tns_name": "FRB20210320A",
+        "width_ms": 0.224,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 348.7828369161271,
+            "scattering_time_ms": 1.617821824501933,
+            "flux_intensity": 0.5657316674277372,
+            "upper_frequency": 10.003527081993022,
+            "signal_to_noise": 22.83218910202591
+        }
+    },
+    {
+        "tns_name": "FRB20210322D",
+        "width_ms": 0.206,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 160.54176855016155,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.9752267794540441,
+            "upper_frequency": 1.015122568967422,
+            "signal_to_noise": 52.87800578921188
+        }
+    },
+    {
+        "tns_name": "FRB20210402D",
+        "width_ms": 0.15,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 720.0098587842921,
+            "scattering_time_ms": 6.284424138982067,
+            "flux_intensity": 1.4055117246954196,
+            "upper_frequency": 2.5291800439286765,
+            "signal_to_noise": 37.60822319439047
+        }
+    },
+    {
+        "tns_name": "FRB20210413E",
+        "width_ms": 0.464,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 313.44889506335454,
+            "scattering_time_ms": 1.1705332859845092,
+            "flux_intensity": 13.5297583449973,
+            "upper_frequency": 3.9268967539613358,
+            "signal_to_noise": 214.34286554376408
+        }
+    },
+    {
+        "tns_name": "FRB20210416B",
+        "width_ms": 0.275,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 656.2487370849104,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6166006375308235,
+            "upper_frequency": 0.836985942112609,
+            "signal_to_noise": 49.61726599987566
+        }
+    },
+    {
+        "tns_name": "FRB20210419A",
+        "width_ms": 0.433,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 719.8992857469041,
+            "scattering_time_ms": 10.745666910963607,
+            "flux_intensity": 1.4008727188928183,
+            "upper_frequency": 5.429500436900568,
+            "signal_to_noise": 37.40642926745488
+        }
+    },
+    {
+        "tns_name": "FRB20210423F",
+        "width_ms": 0.215,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 385.68776475351683,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4414094760485796,
+            "upper_frequency": 2.3858225108402977,
+            "signal_to_noise": 39.79193599507797
+        }
+    },
+    {
+        "tns_name": "FRB20210423B",
+        "width_ms": 0.003,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1381.8150151446246,
+            "scattering_time_ms": 97.81622291258833,
+            "flux_intensity": 0.4652523755590399,
+            "upper_frequency": 11.250781977129739,
+            "signal_to_noise": 23.898473140798743
+        }
+    },
+    {
+        "tns_name": "FRB20210426B",
+        "width_ms": 0.089,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 288.17654428035445,
+            "scattering_time_ms": 4.2616877841241765,
+            "flux_intensity": 1.4025858366302923,
+            "upper_frequency": 5.359522211977373,
+            "signal_to_noise": 60.696683569839564
+        }
+    },
+    {
+        "tns_name": "FRB20210501A",
+        "width_ms": 0.13,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 233.07715857931498,
+            "scattering_time_ms": 1.3796470439343242,
+            "flux_intensity": 4.244630949635641,
+            "upper_frequency": 2.760144505802726,
+            "signal_to_noise": 67.72028006882982
+        }
+    },
+    {
+        "tns_name": "FRB20210501A",
+        "width_ms": 0.314,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 233.07715857931498,
+            "scattering_time_ms": 1.3796470439343242,
+            "flux_intensity": 4.244630949635641,
+            "upper_frequency": 2.760144505802726,
+            "signal_to_noise": 67.72028006882982
+        }
+    },
+    {
+        "tns_name": "FRB20210531C",
+        "width_ms": 0.45,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 483.28103539837485,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.3818034330447002,
+            "upper_frequency": 3.8414391563250545,
+            "signal_to_noise": 11.446507278257215
+        }
+    },
+    {
+        "tns_name": "FRB20210610D",
+        "width_ms": 0.312,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 403.2998667140016,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4370744159520592,
+            "upper_frequency": 3.8649252199174526,
+            "signal_to_noise": 37.26285321937031
+        }
+    },
+    {
+        "tns_name": "FRB20210616A",
+        "width_ms": 0.232,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 315.52106440611425,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.9715289615637827,
+            "upper_frequency": 2.0450597574237275,
+            "signal_to_noise": 18.14403564119644
+        }
+    },
+    {
+        "tns_name": "FRB20210622A",
+        "width_ms": 0.327,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 588.4982057060648,
+            "scattering_time_ms": 1.5925941176511513,
+            "flux_intensity": 1.987323583703675,
+            "upper_frequency": 1.6732036513500073,
+            "signal_to_noise": 36.51861825656739
+        }
+    },
+    {
+        "tns_name": "FRB20210706A",
+        "width_ms": 0.417,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 622.8271951134703,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6677095952366554,
+            "upper_frequency": 4.864732384501919,
+            "signal_to_noise": 21.31987624701756
+        }
+    },
+    {
+        "tns_name": "FRB20210709A",
+        "width_ms": 0.391,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 814.5398454747166,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4220787547435505,
+            "upper_frequency": 0.7338132918796653,
+            "signal_to_noise": 106.07489132106026
+        }
+    },
+    {
+        "tns_name": "FRB20210726A",
+        "width_ms": 0.314,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 388.87427793679353,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.3867967134606445,
+            "upper_frequency": 2.0698647931656136,
+            "signal_to_noise": 21.782701261582677
+        }
+    },
+    {
+        "tns_name": "FRB20210813A",
+        "width_ms": 0.223,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 399.3854964548279,
+            "scattering_time_ms": 1.4688320706091123,
+            "flux_intensity": 2.4426401743313346,
+            "upper_frequency": 1.4681807088327417,
+            "signal_to_noise": 119.28966112532542
+        }
+    },
+    {
+        "tns_name": "FRB20210823A",
+        "width_ms": 0.01,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 450.0834009695591,
+            "scattering_time_ms": 7.279907772840465,
+            "flux_intensity": 1.6477336316787508,
+            "upper_frequency": 13.475738936656434,
+            "signal_to_noise": 76.83144569530516
+        }
+    },
+    {
+        "tns_name": "FRB20210827C",
+        "width_ms": 0.018,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1468.0531661946347,
+            "scattering_time_ms": 22.412606674812043,
+            "flux_intensity": 0.5091935475668374,
+            "upper_frequency": 4.414628120821669,
+            "signal_to_noise": 10.804685601357013
+        }
+    },
+    {
+        "tns_name": "FRB20210911C",
+        "width_ms": 0.258,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 892.8066592791165,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4616691024174495,
+            "upper_frequency": 1.9764233201164747,
+            "signal_to_noise": 23.831370437402676
+        }
+    },
+    {
+        "tns_name": "FRB20210914C",
+        "width_ms": 0.338,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 952.8949287094432,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.5861080781820547,
+            "upper_frequency": 3.167103590979815,
+            "signal_to_noise": 22.458617389137633
+        }
+    },
+    {
+        "tns_name": "FRB20210923B",
+        "width_ms": 0.248,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)",
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 301.883200814934,
+            "scattering_time_ms": 1.5824499816483457,
+            "flux_intensity": 1.4004819859680322,
+            "upper_frequency": 2.3604611227791206,
+            "signal_to_noise": 45.56033569167176
+        }
+    },
+    {
+        "tns_name": "FRB20211001E",
+        "width_ms": 0.373,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 313.3622308753304,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.2319062126103343,
+            "upper_frequency": 1.5063815681057955,
+            "signal_to_noise": 10.40784459694255
+        }
+    },
+    {
+        "tns_name": "FRB20211003G",
+        "width_ms": 0.355,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)",
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 141.36377593964397,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6016067748046001,
+            "upper_frequency": 2.048520257627043,
+            "signal_to_noise": 24.989614276694482
+        }
+    },
+    {
+        "tns_name": "FRB20211003A",
+        "width_ms": 0.088,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 320.73501171144096,
+            "scattering_time_ms": 0.808301792984572,
+            "flux_intensity": 1.5829133787474021,
+            "upper_frequency": 2.060159245594759,
+            "signal_to_noise": 26.025205983107234
+        }
+    },
+    {
+        "tns_name": "FRB20211006B",
+        "width_ms": 0.31,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 310.2527948246683,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 2.28333148603958,
+            "upper_frequency": 0.8073042487998897,
+            "signal_to_noise": 53.78210486313047
+        }
+    },
+    {
+        "tns_name": "FRB20211012C",
+        "width_ms": 0.138,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 685.8323149507132,
+            "scattering_time_ms": 1.4423700128272596,
+            "flux_intensity": 0.6466458581017871,
+            "upper_frequency": 2.9842770306115245,
+            "signal_to_noise": 23.801928465315008
+        }
+    },
+    {
+        "tns_name": "FRB20211103E",
+        "width_ms": 0.291,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 505.41551166756636,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.638014162173267,
+            "upper_frequency": 6.658461461035595,
+            "signal_to_noise": 12.516881560932173
+        }
+    },
+    {
+        "tns_name": "FRB20211105B",
+        "width_ms": 0.357,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 511.48358837400883,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4388710660939288,
+            "upper_frequency": 2.7621792190336265,
+            "signal_to_noise": 24.25626193820019
+        }
+    },
+    {
+        "tns_name": "FRB20211105A",
+        "width_ms": 0.272,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 164.33864441140673,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 14.479772344599448,
+            "upper_frequency": 7.065334849751714,
+            "signal_to_noise": 238.87412753718277
+        }
+    },
+    {
+        "tns_name": "FRB20211112C",
+        "width_ms": 0.322,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 417.3649924793048,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.619674395336868,
+            "upper_frequency": 1.0578661937714422,
+            "signal_to_noise": 39.05607862056741
+        }
+    },
+    {
+        "tns_name": "FRB20211118A",
+        "width_ms": 0.306,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 487.8161865726499,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 3.0996549215360076,
+            "upper_frequency": 4.050494534774089,
+            "signal_to_noise": 62.0888600971184
+        }
+    },
+    {
+        "tns_name": "FRB20211119B",
+        "width_ms": 0.48,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 478.90075822581775,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.451910944060056,
+            "upper_frequency": 5.1073606052225085,
+            "signal_to_noise": 60.08640415109314
+        }
+    },
+    {
+        "tns_name": "FRB20211120B",
+        "width_ms": 0.289,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 359.1105013204651,
+            "scattering_time_ms": 3.1251150011455504,
+            "flux_intensity": 0.9220477134212736,
+            "upper_frequency": 4.137404461607675,
+            "signal_to_noise": 30.010209908371465
+        }
+    },
+    {
+        "tns_name": "FRB20211127H",
+        "width_ms": 0.413,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 318.97620174965465,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.5542816639412472,
+            "upper_frequency": 1.0022601919756884,
+            "signal_to_noise": 11.535153287418671
+        }
+    },
+    {
+        "tns_name": "FRB20211205B",
+        "width_ms": 0.361,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 342.0427858714876,
+            "scattering_time_ms": 1.4033555065616912,
+            "flux_intensity": 1.349743719834756,
+            "upper_frequency": 1.8534739132665348,
+            "signal_to_noise": 51.61592088424917
+        }
+    },
+    {
+        "tns_name": "FRB20211213A",
+        "width_ms": 0.11,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 340.86632637278274,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4696047392629092,
+            "upper_frequency": 1.700269431817692,
+            "signal_to_noise": 17.72672464081614
+        }
+    },
+    {
+        "tns_name": "FRB20211220B",
+        "width_ms": 0.291,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 222.01046072736202,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.5975021474425875,
+            "upper_frequency": 1.6529752504738628,
+            "signal_to_noise": 36.41346101520115
+        }
+    },
+    {
+        "tns_name": "FRB20211231B",
+        "width_ms": 0.035,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 905.7229259930784,
+            "scattering_time_ms": 3.038630308152059,
+            "flux_intensity": 1.441153992383035,
+            "upper_frequency": 2.925750537834042,
+            "signal_to_noise": 35.997034307641506
+        }
+    },
+    {
+        "tns_name": "FRB20220108A",
+        "width_ms": 0.439,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1043.5521188816542,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 3.1847242100909106,
+            "upper_frequency": 1.7733044851926527,
+            "signal_to_noise": 44.039894206493386
+        }
+    },
+    {
+        "tns_name": "FRB20220108B",
+        "width_ms": 0.161,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1448.4755236237506,
+            "scattering_time_ms": 92.78198676375199,
+            "flux_intensity": 0.3203155987821216,
+            "upper_frequency": 11.166865844982166,
+            "signal_to_noise": 12.139987530219509
+        }
+    },
+    {
+        "tns_name": "FRB20220211A",
+        "width_ms": 0.197,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 274.1082059706226,
+            "scattering_time_ms": 3.6618106274711453,
+            "flux_intensity": 1.429766455129493,
+            "upper_frequency": 2.2399226515775053,
+            "signal_to_noise": 17.493475047770094
+        }
+    },
+    {
+        "tns_name": "FRB20220301C",
+        "width_ms": 0.245,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 543.2140505012904,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.385405106513062,
+            "upper_frequency": 1.7448401879280668,
+            "signal_to_noise": 52.86742625226905
+        }
+    },
+    {
+        "tns_name": "FRB20220313B",
+        "width_ms": 0.501,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 309.5941760119963,
+            "scattering_time_ms": 5.771932613016719,
+            "flux_intensity": 0.7566138115092507,
+            "upper_frequency": 4.062678164344657,
+            "signal_to_noise": 24.606167024232214
+        }
+    },
+    {
+        "tns_name": "FRB20220328B",
+        "width_ms": 0.263,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1442.2987867387176,
+            "scattering_time_ms": 6.452729227526854,
+            "flux_intensity": 0.9192926910106596,
+            "upper_frequency": 2.1681070490922227,
+            "signal_to_noise": 32.32883041145982
+        }
+    },
+    {
+        "tns_name": "FRB20220330A",
+        "width_ms": 0.149,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 664.8785275703149,
+            "scattering_time_ms": 12.96328205885724,
+            "flux_intensity": 1.3944724729775633,
+            "upper_frequency": 28.918627781740625,
+            "signal_to_noise": 32.60558664542131
+        }
+    },
+    {
+        "tns_name": "FRB20220415D",
+        "width_ms": 0.132,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 453.69914426117305,
+            "scattering_time_ms": 1.419926198410582,
+            "flux_intensity": 0.33238093288518616,
+            "upper_frequency": 1.4825771040745006,
+            "signal_to_noise": 16.107050163787278
+        }
+    },
+    {
+        "tns_name": "FRB20220424B",
+        "width_ms": 0.283,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 314.57613331320266,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.6727722146577417,
+            "upper_frequency": 1.6708501096535058,
+            "signal_to_noise": 18.232933125066808
+        }
+    },
+    {
+        "tns_name": "FRB20220424A",
+        "width_ms": 4.539,
+        "prime_locked_node": 1,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1372.9555333694682,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 0.2542120716615672,
+            "upper_frequency": 4.0634517176088485,
+            "signal_to_noise": 10.78662810037881
+        }
+    },
+    {
+        "tns_name": "FRB20220509F",
+        "width_ms": 0.34,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 310.3848500326521,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 3.1396034872189693,
+            "upper_frequency": 3.290028964892105,
+            "signal_to_noise": 36.959203634346
+        }
+    },
+    {
+        "tns_name": "FRB20220613B",
+        "width_ms": 14.714,
+        "prime_locked_node": 3,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 310.16172719519375,
+            "scattering_time_ms": 10.400505611310457,
+            "flux_intensity": 0.6295390097949704,
+            "upper_frequency": 21.44246151229535,
+            "signal_to_noise": 130.73677833798095
+        }
+    },
+    {
+        "tns_name": "FRB20220619B",
+        "width_ms": 0.239,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 348.99075581617177,
+            "scattering_time_ms": 1.6331331466807888,
+            "flux_intensity": 2.336906233570545,
+            "upper_frequency": 10.003527081993022,
+            "signal_to_noise": 58.51875630958818
+        }
+    },
+    {
+        "tns_name": "FRB20220627E",
+        "width_ms": 0.33,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 436.67037504688125,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4283988485455987,
+            "upper_frequency": 1.7121394888248211,
+            "signal_to_noise": 40.812229924542095
+        }
+    },
+    {
+        "tns_name": "FRB20220906C",
+        "width_ms": 0.171,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 142.59379524209442,
+            "scattering_time_ms": 1.7493375358094012,
+            "flux_intensity": 0.7449556397351779,
+            "upper_frequency": 1.9183362037675005,
+            "signal_to_noise": 33.44855794472248
+        }
+    },
+    {
+        "tns_name": "FRB20220908C",
+        "width_ms": 0.249,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 313.75754813129294,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 2.827975970706029,
+            "upper_frequency": 1.2541335311479012,
+            "signal_to_noise": 69.21474527298699
+        }
+    },
+    {
+        "tns_name": "FRB20221018D",
+        "width_ms": 0.504,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 308.1549483259145,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4449580885589621,
+            "upper_frequency": 1.7299135431934534,
+            "signal_to_noise": 32.598635721776496
+        }
+    },
+    {
+        "tns_name": "FRB20221019B",
+        "width_ms": 0.146,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1384.1789189212873,
+            "scattering_time_ms": 8.015294331251368,
+            "flux_intensity": 0.7738665077126773,
+            "upper_frequency": 2.1404973458892496,
+            "signal_to_noise": 18.48667876903007
+        }
+    },
+    {
+        "tns_name": "FRB20221021C",
+        "width_ms": 0.437,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 721.5432498164993,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6275359914748322,
+            "upper_frequency": 1.5383392491106784,
+            "signal_to_noise": 49.21493336104769
+        }
+    },
+    {
+        "tns_name": "FRB20221022I",
+        "width_ms": 0.142,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 310.0539378577636,
+            "scattering_time_ms": 171.87855289863893,
+            "flux_intensity": 0.4707664497478775,
+            "upper_frequency": 9.72092866403713,
+            "signal_to_noise": 15.445236415094062
+        }
+    },
+    {
+        "tns_name": "FRB20221106G",
+        "width_ms": 0.388,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 219.63603205286597,
+            "scattering_time_ms": 1.5691268620533223,
+            "flux_intensity": 0.2784347305215371,
+            "upper_frequency": 7.148609252950537,
+            "signal_to_noise": 22.42676949053277
+        }
+    },
+    {
+        "tns_name": "FRB20221106I",
+        "width_ms": 0.435,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 617.2092347412358,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4208877437744654,
+            "upper_frequency": 2.864976391175158,
+            "signal_to_noise": 24.13106250268342
+        }
+    },
+    {
+        "tns_name": "FRB20221118D",
+        "width_ms": 0.288,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 757.5997558311004,
+            "scattering_time_ms": 1.3808457826474025,
+            "flux_intensity": 10.795611150781873,
+            "upper_frequency": 1.6919675286320144,
+            "signal_to_noise": 148.76149700674864
+        }
+    },
+    {
+        "tns_name": "FRB20221201G",
+        "width_ms": 0.242,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 158.19214322646016,
+            "scattering_time_ms": 8.987528710173796,
+            "flux_intensity": 0.23988468801560156,
+            "upper_frequency": 3.0191138257940757,
+            "signal_to_noise": 15.012027162310908
+        }
+    },
+    {
+        "tns_name": "FRB20221207E",
+        "width_ms": 0.123,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 309.65952161567157,
+            "scattering_time_ms": 5.849581348948911,
+            "flux_intensity": 0.4681043234406834,
+            "upper_frequency": 4.062678164344657,
+            "signal_to_noise": 44.16503717542152
+        }
+    },
+    {
+        "tns_name": "FRB20221209C",
+        "width_ms": 0.201,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 161.67867931688457,
+            "scattering_time_ms": 1.8585639330983754,
+            "flux_intensity": 1.208257674964055,
+            "upper_frequency": 3.127376781680898,
+            "signal_to_noise": 13.564666018650257
+        }
+    },
+    {
+        "tns_name": "FRB20221213G",
+        "width_ms": 0.36,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 352.5021852332102,
+            "scattering_time_ms": 1.1349600754225277,
+            "flux_intensity": 1.3912074254598592,
+            "upper_frequency": 2.4712653640983753,
+            "signal_to_noise": 39.615684441373986
+        }
+    },
+    {
+        "tns_name": "FRB20221216B",
+        "width_ms": 4.639,
+        "prime_locked_node": 1,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 219.54301078728142,
+            "scattering_time_ms": 15.800192240460149,
+            "flux_intensity": 1.3908891049111842,
+            "upper_frequency": 7.148609252950537,
+            "signal_to_noise": 117.25545268855886
+        }
+    },
+    {
+        "tns_name": "FRB20221216B",
+        "width_ms": 5.414,
+        "prime_locked_node": 1,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 219.54301078728142,
+            "scattering_time_ms": 15.800192240460149,
+            "flux_intensity": 1.3908891049111842,
+            "upper_frequency": 7.148609252950537,
+            "signal_to_noise": 117.25545268855886
+        }
+    },
+    {
+        "tns_name": "FRB20230101C",
+        "width_ms": 0.135,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 550.4088833167754,
+            "scattering_time_ms": 1.622085210521523,
+            "flux_intensity": 1.2531011467245268,
+            "upper_frequency": 4.512268613280075,
+            "signal_to_noise": 24.61819895901458
+        }
+    },
+    {
+        "tns_name": "FRB20230116A",
+        "width_ms": 0.291,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 311.9758035725663,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": NaN,
+            "upper_frequency": NaN,
+            "signal_to_noise": 29.94559640307255
+        }
+    },
+    {
+        "tns_name": "FRB20230122B",
+        "width_ms": 0.415,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1401.073257247371,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.3078930973438045,
+            "upper_frequency": 3.2210560570969724,
+            "signal_to_noise": 22.083588072591173
+        }
+    },
+    {
+        "tns_name": "FRB20230318B",
+        "width_ms": 0.473,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 376.42557048025304,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6261380374171652,
+            "upper_frequency": 0.5878527240563488,
+            "signal_to_noise": 23.928713564186037
+        }
+    },
+    {
+        "tns_name": "FRB20230322A",
+        "width_ms": 0.349,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1405.1721161475684,
+            "scattering_time_ms": 11.918409985426237,
+            "flux_intensity": 0.7130841233802453,
+            "upper_frequency": 3.3597445853102794,
+            "signal_to_noise": 17.85096446826069
+        }
+    },
+    {
+        "tns_name": "FRB20230324A",
+        "width_ms": 0.107,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 267.1569520533346,
+            "scattering_time_ms": 1.5706949442707612,
+            "flux_intensity": 0.3227816766773064,
+            "upper_frequency": 1.0491904011577702,
+            "signal_to_noise": 19.667405537724388
+        }
+    },
+    {
+        "tns_name": "FRB20230327D",
+        "width_ms": 0.247,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 510.34228665856705,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.5915410501273455,
+            "upper_frequency": 2.600978043322134,
+            "signal_to_noise": 17.847636762949335
+        }
+    },
+    {
+        "tns_name": "FRB20230402A",
+        "width_ms": 0.158,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 259.1526017475459,
+            "scattering_time_ms": 1.4188852850167373,
+            "flux_intensity": NaN,
+            "upper_frequency": NaN,
+            "signal_to_noise": 52.78028576708552
+        }
+    },
+    {
+        "tns_name": "FRB20230411D",
+        "width_ms": 0.125,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 197.73798406207717,
+            "scattering_time_ms": 3.1901492523004134,
+            "flux_intensity": NaN,
+            "upper_frequency": NaN,
+            "signal_to_noise": 12.93280808690037
+        }
+    },
+    {
+        "tns_name": "FRB20230429D",
+        "width_ms": 0.297,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 531.0864243908389,
+            "scattering_time_ms": 2.4588290753297803,
+            "flux_intensity": 1.4163130802074906,
+            "upper_frequency": 1.0916725341080014,
+            "signal_to_noise": 58.433671686971735
+        }
+    },
+    {
+        "tns_name": "FRB20230501C",
+        "width_ms": 0.231,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 316.73139042428824,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": NaN,
+            "upper_frequency": NaN,
+            "signal_to_noise": 20.29386527820469
+        }
+    },
+    {
+        "tns_name": "FRB20230505B",
+        "width_ms": 0.314,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 585.486098153994,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.395601741391181,
+            "upper_frequency": 1.7715704081660195,
+            "signal_to_noise": 33.03076620094638
+        }
+    },
+    {
+        "tns_name": "FRB20230507C",
+        "width_ms": 0.453,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 657.0346483718521,
+            "scattering_time_ms": 3.1647740913205418,
+            "flux_intensity": 12.752307368869998,
+            "upper_frequency": 3.5210139342941003,
+            "signal_to_noise": 186.07983114514113
+        }
+    },
+    {
+        "tns_name": "FRB20230513A",
+        "width_ms": 0.363,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 662.6224005384155,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.5744940240767837,
+            "upper_frequency": 1.4538144535724724,
+            "signal_to_noise": 33.6596135858899
+        }
+    },
+    {
+        "tns_name": "FRB20230616A",
+        "width_ms": 0.13,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 918.9489740130896,
+            "scattering_time_ms": 6.688055894175628,
+            "flux_intensity": 3.116184998841961,
+            "upper_frequency": 2.910682874303268,
+            "signal_to_noise": 90.78000108152848
+        }
+    },
+    {
+        "tns_name": "FRB20230703E",
+        "width_ms": 0.401,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 566.4111602960456,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.4554443553440395,
+            "upper_frequency": 1.1519239779515498,
+            "signal_to_noise": 21.62303712242671
+        }
+    },
+    {
+        "tns_name": "FRB20230712B",
+        "width_ms": 0.222,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)",
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 582.0884488005021,
+            "scattering_time_ms": 3.1197261051142875,
+            "flux_intensity": 1.6084452992329497,
+            "upper_frequency": 2.5722528798341857,
+            "signal_to_noise": 23.634103127313015
+        }
+    },
+    {
+        "tns_name": "FRB20230715B",
+        "width_ms": 0.372,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 484.37247762035736,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.3758739050710949,
+            "upper_frequency": 2.128609864918737,
+            "signal_to_noise": 16.652050293110822
+        }
+    },
+    {
+        "tns_name": "FRB20230730A",
+        "width_ms": 0.357,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 312.54905327231785,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 4.345079320382172,
+            "upper_frequency": 2.223551647944054,
+            "signal_to_noise": 103.97702793328644
+        }
+    },
+    {
+        "tns_name": "FRB20230814H",
+        "width_ms": 0.412,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PHI (1.618)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 856.4614556870555,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 1.6198679790664323,
+            "upper_frequency": 1.6035877968521974,
+            "signal_to_noise": 26.811361523439196
+        }
+    },
+    {
+        "tns_name": "FRB20230825J",
+        "width_ms": 0.315,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "PI (3.141)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 311.3184031634809,
+            "scattering_time_ms": 0.0,
+            "flux_intensity": 2.1181346880575274,
+            "upper_frequency": 2.2115298715877847,
+            "signal_to_noise": 20.544740266074996
+        }
+    },
+    {
+        "tns_name": "FRB20230831A",
+        "width_ms": 0.397,
+        "prime_locked_node": 0,
+        "known_signatures": [
+            "HYDROGEN (1.420)"
+        ],
+        "unmapped_mystery_payload": {
+            "dispersion_measure_dm": 1371.9308353558354,
+            "scattering_time_ms": 6.371146194443634,
+            "flux_intensity": NaN,
+            "upper_frequency": NaN,
+            "signal_to_noise": 26.09265142337706
+        }
+    }
+]

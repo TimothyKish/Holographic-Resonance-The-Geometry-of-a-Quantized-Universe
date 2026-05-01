@@ -1,0 +1,34 @@
+{"entity_id": "NULL_UNCONSTRAINED_H2O_000", "domain": "nq2_2_unconstrained_null", "molecule": "Water", "measurement_type": "bond_length_angstroms", "value_scrambled": 3302.4376875714242}
+{"entity_id": "NULL_UNCONSTRAINED_H2O_001", "domain": "nq2_2_unconstrained_null", "molecule": "Water", "measurement_type": "bond_angle_degrees", "value_scrambled": 3.2775227941944998}
+{"entity_id": "NULL_UNCONSTRAINED_CO2_002", "domain": "nq2_2_unconstrained_null", "molecule": "Carbon Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.0006057030766145908}
+{"entity_id": "NULL_UNCONSTRAINED_CO2_003", "domain": "nq2_2_unconstrained_null", "molecule": "Carbon Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 1340.4632006263396}
+{"entity_id": "NULL_UNCONSTRAINED_NH3_004", "domain": "nq2_2_unconstrained_null", "molecule": "Ammonia", "measurement_type": "bond_length_angstroms", "value_scrambled": 32208.500746866015}
+{"entity_id": "NULL_UNCONSTRAINED_NH3_005", "domain": "nq2_2_unconstrained_null", "molecule": "Ammonia", "measurement_type": "bond_length_angstroms", "value_scrambled": 4.820599984560697e-05}
+{"entity_id": "NULL_UNCONSTRAINED_NH3_006", "domain": "nq2_2_unconstrained_null", "molecule": "Ammonia", "measurement_type": "bond_angle_degrees", "value_scrambled": 16723.557918166258}
+{"entity_id": "NULL_UNCONSTRAINED_NH3_007", "domain": "nq2_2_unconstrained_null", "molecule": "Ammonia", "measurement_type": "bond_angle_degrees", "value_scrambled": 0.004860324499272957}
+{"entity_id": "NULL_UNCONSTRAINED_CH4_008", "domain": "nq2_2_unconstrained_null", "molecule": "Methane", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.00022823577897382807}
+{"entity_id": "NULL_UNCONSTRAINED_CH4_009", "domain": "nq2_2_unconstrained_null", "molecule": "Methane", "measurement_type": "bond_length_angstroms", "value_scrambled": 26.2750809539229}
+{"entity_id": "NULL_UNCONSTRAINED_CH4_010", "domain": "nq2_2_unconstrained_null", "molecule": "Methane", "measurement_type": "bond_angle_degrees", "value_scrambled": 322.7293014465975}
+{"entity_id": "NULL_UNCONSTRAINED_SO2_011", "domain": "nq2_2_unconstrained_null", "molecule": "Sulfur Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.0007697806284657035}
+{"entity_id": "NULL_UNCONSTRAINED_SO2_012", "domain": "nq2_2_unconstrained_null", "molecule": "Sulfur Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.11812424913469258}
+{"entity_id": "NULL_UNCONSTRAINED_SO2_013", "domain": "nq2_2_unconstrained_null", "molecule": "Sulfur Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 307.7096365842352}
+{"entity_id": "NULL_UNCONSTRAINED_SO2_014", "domain": "nq2_2_unconstrained_null", "molecule": "Sulfur Dioxide", "measurement_type": "bond_angle_degrees", "value_scrambled": 1.3844296197735653}
+{"entity_id": "NULL_UNCONSTRAINED_O3_015", "domain": "nq2_2_unconstrained_null", "molecule": "Ozone", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.0008782325108462846}
+{"entity_id": "NULL_UNCONSTRAINED_O3_016", "domain": "nq2_2_unconstrained_null", "molecule": "Ozone", "measurement_type": "bond_length_angstroms", "value_scrambled": 471.7849325075287}
+{"entity_id": "NULL_UNCONSTRAINED_O3_017", "domain": "nq2_2_unconstrained_null", "molecule": "Ozone", "measurement_type": "bond_angle_degrees", "value_scrambled": 233300.54334288702}
+{"entity_id": "NULL_UNCONSTRAINED_H2CO_018", "domain": "nq2_2_unconstrained_null", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.7042839643443609}
+{"entity_id": "NULL_UNCONSTRAINED_H2CO_019", "domain": "nq2_2_unconstrained_null", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.011657383256449359}
+{"entity_id": "NULL_UNCONSTRAINED_H2CO_020", "domain": "nq2_2_unconstrained_null", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.04014946274774026}
+{"entity_id": "NULL_UNCONSTRAINED_H2CO_021", "domain": "nq2_2_unconstrained_null", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 6.28197137311881}
+{"entity_id": "NULL_UNCONSTRAINED_H2CO_022", "domain": "nq2_2_unconstrained_null", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 422.232951462863}
+{"entity_id": "NULL_UNCONSTRAINED_H2CO_023", "domain": "nq2_2_unconstrained_null", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.03244562987275226}
+{"entity_id": "NULL_UNCONSTRAINED_H2CO_024", "domain": "nq2_2_unconstrained_null", "molecule": "Formaldehyde", "measurement_type": "bond_angle_degrees", "value_scrambled": 1606722.414865903}
+{"entity_id": "NULL_UNCONSTRAINED_H2CO_025", "domain": "nq2_2_unconstrained_null", "molecule": "Formaldehyde", "measurement_type": "bond_angle_degrees", "value_scrambled": 38695.741255132074}
+{"entity_id": "NULL_UNCONSTRAINED_CH5N_026", "domain": "nq2_2_unconstrained_null", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.059674796971197486}
+{"entity_id": "NULL_UNCONSTRAINED_CH5N_027", "domain": "nq2_2_unconstrained_null", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.00032482684423236615}
+{"entity_id": "NULL_UNCONSTRAINED_CH5N_028", "domain": "nq2_2_unconstrained_null", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.0013784097404466375}
+{"entity_id": "NULL_UNCONSTRAINED_CH5N_029", "domain": "nq2_2_unconstrained_null", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.00013702537411861254}
+{"entity_id": "NULL_UNCONSTRAINED_CH5N_030", "domain": "nq2_2_unconstrained_null", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 34.13310598463434}
+{"entity_id": "NULL_UNCONSTRAINED_CH5N_031", "domain": "nq2_2_unconstrained_null", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 299887.21165009943}
+{"entity_id": "NULL_UNCONSTRAINED_CH5N_032", "domain": "nq2_2_unconstrained_null", "molecule": "Methylamine", "measurement_type": "bond_angle_degrees", "value_scrambled": 0.06450004450285156}
+{"entity_id": "NULL_UNCONSTRAINED_CH5N_033", "domain": "nq2_2_unconstrained_null", "molecule": "Methylamine", "measurement_type": "bond_angle_degrees", "value_scrambled": 17.789254143664067}

@@ -1,0 +1,34 @@
+{"entity_id": "NULL_CCCBDB_H2O_000", "domain": "null_molecular_geometry", "molecule": "Water", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.6692542267319443}
+{"entity_id": "NULL_CCCBDB_H2O_001", "domain": "null_molecular_geometry", "molecule": "Water", "measurement_type": "bond_angle_degrees", "value_scrambled": 59.33696666447484}
+{"entity_id": "NULL_CCCBDB_CO2_002", "domain": "null_molecular_geometry", "molecule": "Carbon Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.4914645380165226}
+{"entity_id": "NULL_CCCBDB_CO2_003", "domain": "null_molecular_geometry", "molecule": "Carbon Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.2709363513970673}
+{"entity_id": "NULL_CCCBDB_NH3_004", "domain": "null_molecular_geometry", "molecule": "Ammonia", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.6737344587824813}
+{"entity_id": "NULL_CCCBDB_NH3_005", "domain": "null_molecular_geometry", "molecule": "Ammonia", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.5742432683088097}
+{"entity_id": "NULL_CCCBDB_NH3_006", "domain": "null_molecular_geometry", "molecule": "Ammonia", "measurement_type": "bond_angle_degrees", "value_scrambled": 97.89182312463842}
+{"entity_id": "NULL_CCCBDB_NH3_007", "domain": "null_molecular_geometry", "molecule": "Ammonia", "measurement_type": "bond_angle_degrees", "value_scrambled": 161.83387861773377}
+{"entity_id": "NULL_CCCBDB_CH4_008", "domain": "null_molecular_geometry", "molecule": "Methane", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.3481163288669298}
+{"entity_id": "NULL_CCCBDB_CH4_009", "domain": "null_molecular_geometry", "molecule": "Methane", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.9019258956378249}
+{"entity_id": "NULL_CCCBDB_CH4_010", "domain": "null_molecular_geometry", "molecule": "Methane", "measurement_type": "bond_angle_degrees", "value_scrambled": 50.43102348876057}
+{"entity_id": "NULL_CCCBDB_SO2_011", "domain": "null_molecular_geometry", "molecule": "Sulfur Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.306672022461859}
+{"entity_id": "NULL_CCCBDB_SO2_012", "domain": "null_molecular_geometry", "molecule": "Sulfur Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.909132545471243}
+{"entity_id": "NULL_CCCBDB_SO2_013", "domain": "null_molecular_geometry", "molecule": "Sulfur Dioxide", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.7186467483670844}
+{"entity_id": "NULL_CCCBDB_SO2_014", "domain": "null_molecular_geometry", "molecule": "Sulfur Dioxide", "measurement_type": "bond_angle_degrees", "value_scrambled": 116.66047520995407}
+{"entity_id": "NULL_CCCBDB_O3_015", "domain": "null_molecular_geometry", "molecule": "Ozone", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.6713389362086444}
+{"entity_id": "NULL_CCCBDB_O3_016", "domain": "null_molecular_geometry", "molecule": "Ozone", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.1075315861827653}
+{"entity_id": "NULL_CCCBDB_O3_017", "domain": "null_molecular_geometry", "molecule": "Ozone", "measurement_type": "bond_angle_degrees", "value_scrambled": 121.49603266435071}
+{"entity_id": "NULL_CCCBDB_H2CO_018", "domain": "null_molecular_geometry", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.4776116784732787}
+{"entity_id": "NULL_CCCBDB_H2CO_019", "domain": "null_molecular_geometry", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.151414998921076}
+{"entity_id": "NULL_CCCBDB_H2CO_020", "domain": "null_molecular_geometry", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.7310736896865122}
+{"entity_id": "NULL_CCCBDB_H2CO_021", "domain": "null_molecular_geometry", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.263449320434423}
+{"entity_id": "NULL_CCCBDB_H2CO_022", "domain": "null_molecular_geometry", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.811905550533158}
+{"entity_id": "NULL_CCCBDB_H2CO_023", "domain": "null_molecular_geometry", "molecule": "Formaldehyde", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.686399924903537}
+{"entity_id": "NULL_CCCBDB_H2CO_024", "domain": "null_molecular_geometry", "molecule": "Formaldehyde", "measurement_type": "bond_angle_degrees", "value_scrambled": 138.77506166837958}
+{"entity_id": "NULL_CCCBDB_H2CO_025", "domain": "null_molecular_geometry", "molecule": "Formaldehyde", "measurement_type": "bond_angle_degrees", "value_scrambled": 99.21447957200189}
+{"entity_id": "NULL_CCCBDB_CH5N_026", "domain": "null_molecular_geometry", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.72069924933372}
+{"entity_id": "NULL_CCCBDB_CH5N_027", "domain": "null_molecular_geometry", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 0.6663638647115658}
+{"entity_id": "NULL_CCCBDB_CH5N_028", "domain": "null_molecular_geometry", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 3.4899879341409497}
+{"entity_id": "NULL_CCCBDB_CH5N_029", "domain": "null_molecular_geometry", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.0098809045850827}
+{"entity_id": "NULL_CCCBDB_CH5N_030", "domain": "null_molecular_geometry", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 2.8936762999939853}
+{"entity_id": "NULL_CCCBDB_CH5N_031", "domain": "null_molecular_geometry", "molecule": "Methylamine", "measurement_type": "bond_length_angstroms", "value_scrambled": 1.8066239021968635}
+{"entity_id": "NULL_CCCBDB_CH5N_032", "domain": "null_molecular_geometry", "molecule": "Methylamine", "measurement_type": "bond_angle_degrees", "value_scrambled": 71.52525100869134}
+{"entity_id": "NULL_CCCBDB_CH5N_033", "domain": "null_molecular_geometry", "molecule": "Methylamine", "measurement_type": "bond_angle_degrees", "value_scrambled": 162.20931397750346}

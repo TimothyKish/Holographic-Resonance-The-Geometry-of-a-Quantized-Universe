@@ -1,0 +1,4 @@
+{"name": "Earth Atmosphere", "ar_40_36": 298.56, "status": "OPEN"}
+{"name": "Mars Atmosphere", "ar_40_36": 1900.0, "status": "SEALED"}
+{"name": "Chondrite Meteorite", "ar_40_36": 0.0001, "status": "PRIMORDIAL"}
+{"name": "Titan Atmosphere", "ar_40_36": 1.4, "status": "OPEN_COLD"}

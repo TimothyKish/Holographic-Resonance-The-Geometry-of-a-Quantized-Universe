@@ -1,0 +1,2910 @@
+{
+  "event": "LIGO-O1-quiet",
+  "ghost_f1_hz": 5.092958178940651,
+  "k_geo": 5.092958178940651,
+  "gps_start": 1129200000,
+  "gps_end": 1129459200,
+  "segment_s": 900,
+  "n_segments": 288,
+  "sgr_a": {
+    "ra_deg": 266.4168,
+    "dec_deg": -29.0078,
+    "note": "Sgr A* \u2014 Milky Way SMBH, 4M solar masses"
+  },
+  "L1_site": {
+    "lat": 30.5629,
+    "lon": -90.7742
+  },
+  "H1_site": {
+    "lat": 46.4551,
+    "lon": -119.4079
+  },
+  "protocol": "15-min whitened PSD segments over 3 days. Lomb-Scargle periodogram tests for sidereal modulation.",
+  "provenance": {
+    "ghost_notes_observed": "2026-01-08 Lyra Aurora Kish & Timothy Kish",
+    "krg_doi": "10.5281/zenodo.18245148",
+    "vol5_z94": "2026-04-06"
+  },
+  "segments": [
+    {
+      "segment": 0,
+      "gps_start": 1129200000,
+      "gps_end": 1129200900,
+      "gps_mid": 1129200450.0,
+      "sgr_a_elevation_L1_deg": -80.14,
+      "sgr_a_elevation_H1_deg": -70.47,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0956
+    },
+    {
+      "segment": 1,
+      "gps_start": 1129200900,
+      "gps_end": 1129201800,
+      "gps_mid": 1129201350.0,
+      "sgr_a_elevation_L1_deg": -76.91,
+      "sgr_a_elevation_H1_deg": -68.99,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.096
+    },
+    {
+      "segment": 2,
+      "gps_start": 1129201800,
+      "gps_end": 1129202700,
+      "gps_mid": 1129202250.0,
+      "sgr_a_elevation_L1_deg": -73.68,
+      "sgr_a_elevation_H1_deg": -67.23,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0627
+    },
+    {
+      "segment": 3,
+      "gps_start": 1129202700,
+      "gps_end": 1129203600,
+      "gps_mid": 1129203150.0,
+      "sgr_a_elevation_L1_deg": -70.44,
+      "sgr_a_elevation_H1_deg": -65.25,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.088
+    },
+    {
+      "segment": 4,
+      "gps_start": 1129203600,
+      "gps_end": 1129204500,
+      "gps_mid": 1129204050.0,
+      "sgr_a_elevation_L1_deg": -67.2,
+      "sgr_a_elevation_H1_deg": -63.1,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0136
+    },
+    {
+      "segment": 5,
+      "gps_start": 1129204500,
+      "gps_end": 1129205400,
+      "gps_mid": 1129204950.0,
+      "sgr_a_elevation_L1_deg": -63.97,
+      "sgr_a_elevation_H1_deg": -60.83,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0776
+    },
+    {
+      "segment": 6,
+      "gps_start": 1129205400,
+      "gps_end": 1129206300,
+      "gps_mid": 1129205850.0,
+      "sgr_a_elevation_L1_deg": -60.75,
+      "sgr_a_elevation_H1_deg": -58.46,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.071
+    },
+    {
+      "segment": 7,
+      "gps_start": 1129206300,
+      "gps_end": 1129207200,
+      "gps_mid": 1129206750.0,
+      "sgr_a_elevation_L1_deg": -57.53,
+      "sgr_a_elevation_H1_deg": -56.02,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1271
+    },
+    {
+      "segment": 8,
+      "gps_start": 1129207200,
+      "gps_end": 1129208100,
+      "gps_mid": 1129207650.0,
+      "sgr_a_elevation_L1_deg": -54.32,
+      "sgr_a_elevation_H1_deg": -53.52,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.057
+    },
+    {
+      "segment": 9,
+      "gps_start": 1129208100,
+      "gps_end": 1129209000,
+      "gps_mid": 1129208550.0,
+      "sgr_a_elevation_L1_deg": -51.12,
+      "sgr_a_elevation_H1_deg": -50.99,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0083
+    },
+    {
+      "segment": 10,
+      "gps_start": 1129209000,
+      "gps_end": 1129209900,
+      "gps_mid": 1129209450.0,
+      "sgr_a_elevation_L1_deg": -47.93,
+      "sgr_a_elevation_H1_deg": -48.43,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1482
+    },
+    {
+      "segment": 11,
+      "gps_start": 1129209900,
+      "gps_end": 1129210800,
+      "gps_mid": 1129210350.0,
+      "sgr_a_elevation_L1_deg": -44.76,
+      "sgr_a_elevation_H1_deg": -45.85,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1324
+    },
+    {
+      "segment": 12,
+      "gps_start": 1129210800,
+      "gps_end": 1129211700,
+      "gps_mid": 1129211250.0,
+      "sgr_a_elevation_L1_deg": -41.6,
+      "sgr_a_elevation_H1_deg": -43.27,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0905
+    },
+    {
+      "segment": 13,
+      "gps_start": 1129211700,
+      "gps_end": 1129212600,
+      "gps_mid": 1129212150.0,
+      "sgr_a_elevation_L1_deg": -38.45,
+      "sgr_a_elevation_H1_deg": -40.67,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.045
+    },
+    {
+      "segment": 14,
+      "gps_start": 1129212600,
+      "gps_end": 1129213500,
+      "gps_mid": 1129213050.0,
+      "sgr_a_elevation_L1_deg": -35.33,
+      "sgr_a_elevation_H1_deg": -38.09,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.089
+    },
+    {
+      "segment": 15,
+      "gps_start": 1129213500,
+      "gps_end": 1129214400,
+      "gps_mid": 1129213950.0,
+      "sgr_a_elevation_L1_deg": -32.22,
+      "sgr_a_elevation_H1_deg": -35.51,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1223
+    },
+    {
+      "segment": 16,
+      "gps_start": 1129214400,
+      "gps_end": 1129215300,
+      "gps_mid": 1129214850.0,
+      "sgr_a_elevation_L1_deg": -29.14,
+      "sgr_a_elevation_H1_deg": -32.94,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0602
+    },
+    {
+      "segment": 17,
+      "gps_start": 1129215300,
+      "gps_end": 1129216200,
+      "gps_mid": 1129215750.0,
+      "sgr_a_elevation_L1_deg": -26.08,
+      "sgr_a_elevation_H1_deg": -30.39,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0401
+    },
+    {
+      "segment": 18,
+      "gps_start": 1129216200,
+      "gps_end": 1129217100,
+      "gps_mid": 1129216650.0,
+      "sgr_a_elevation_L1_deg": -23.04,
+      "sgr_a_elevation_H1_deg": -27.87,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0505
+    },
+    {
+      "segment": 19,
+      "gps_start": 1129217100,
+      "gps_end": 1129218000,
+      "gps_mid": 1129217550.0,
+      "sgr_a_elevation_L1_deg": -20.04,
+      "sgr_a_elevation_H1_deg": -25.36,
+      "L1_excess_5093": 2.7539,
+      "H1_excess_5093": 0.9809
+    },
+    {
+      "segment": 20,
+      "gps_start": 1129218000,
+      "gps_end": 1129218900,
+      "gps_mid": 1129218450.0,
+      "sgr_a_elevation_L1_deg": -17.07,
+      "sgr_a_elevation_H1_deg": -22.89,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 0.9992
+    },
+    {
+      "segment": 21,
+      "gps_start": 1129218900,
+      "gps_end": 1129219800,
+      "gps_mid": 1129219350.0,
+      "sgr_a_elevation_L1_deg": -14.13,
+      "sgr_a_elevation_H1_deg": -20.46,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1026
+    },
+    {
+      "segment": 22,
+      "gps_start": 1129219800,
+      "gps_end": 1129220700,
+      "gps_mid": 1129220250.0,
+      "sgr_a_elevation_L1_deg": -11.23,
+      "sgr_a_elevation_H1_deg": -18.06,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0656
+    },
+    {
+      "segment": 23,
+      "gps_start": 1129220700,
+      "gps_end": 1129221600,
+      "gps_mid": 1129221150.0,
+      "sgr_a_elevation_L1_deg": -8.37,
+      "sgr_a_elevation_H1_deg": -15.7,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0655
+    },
+    {
+      "segment": 24,
+      "gps_start": 1129221600,
+      "gps_end": 1129222500,
+      "gps_mid": 1129222050.0,
+      "sgr_a_elevation_L1_deg": -5.56,
+      "sgr_a_elevation_H1_deg": -13.4,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 25,
+      "gps_start": 1129222500,
+      "gps_end": 1129223400,
+      "gps_mid": 1129222950.0,
+      "sgr_a_elevation_L1_deg": -2.79,
+      "sgr_a_elevation_H1_deg": -11.14,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 26,
+      "gps_start": 1129223400,
+      "gps_end": 1129224300,
+      "gps_mid": 1129223850.0,
+      "sgr_a_elevation_L1_deg": -0.09,
+      "sgr_a_elevation_H1_deg": -8.94,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 27,
+      "gps_start": 1129224300,
+      "gps_end": 1129225200,
+      "gps_mid": 1129224750.0,
+      "sgr_a_elevation_L1_deg": 2.56,
+      "sgr_a_elevation_H1_deg": -6.81,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 28,
+      "gps_start": 1129225200,
+      "gps_end": 1129226100,
+      "gps_mid": 1129225650.0,
+      "sgr_a_elevation_L1_deg": 5.14,
+      "sgr_a_elevation_H1_deg": -4.74,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 29,
+      "gps_start": 1129226100,
+      "gps_end": 1129227000,
+      "gps_mid": 1129226550.0,
+      "sgr_a_elevation_L1_deg": 7.64,
+      "sgr_a_elevation_H1_deg": -2.74,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 30,
+      "gps_start": 1129227000,
+      "gps_end": 1129227900,
+      "gps_mid": 1129227450.0,
+      "sgr_a_elevation_L1_deg": 10.07,
+      "sgr_a_elevation_H1_deg": -0.82,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 31,
+      "gps_start": 1129227900,
+      "gps_end": 1129228800,
+      "gps_mid": 1129228350.0,
+      "sgr_a_elevation_L1_deg": 12.41,
+      "sgr_a_elevation_H1_deg": 1.02,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 32,
+      "gps_start": 1129228800,
+      "gps_end": 1129229700,
+      "gps_mid": 1129229250.0,
+      "sgr_a_elevation_L1_deg": 14.65,
+      "sgr_a_elevation_H1_deg": 2.76,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 33,
+      "gps_start": 1129229700,
+      "gps_end": 1129230600,
+      "gps_mid": 1129230150.0,
+      "sgr_a_elevation_L1_deg": 16.79,
+      "sgr_a_elevation_H1_deg": 4.41,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 34,
+      "gps_start": 1129230600,
+      "gps_end": 1129231500,
+      "gps_mid": 1129231050.0,
+      "sgr_a_elevation_L1_deg": 18.81,
+      "sgr_a_elevation_H1_deg": 5.95,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0642
+    },
+    {
+      "segment": 35,
+      "gps_start": 1129231500,
+      "gps_end": 1129232400,
+      "gps_mid": 1129231950.0,
+      "sgr_a_elevation_L1_deg": 20.7,
+      "sgr_a_elevation_H1_deg": 7.39,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1002
+    },
+    {
+      "segment": 36,
+      "gps_start": 1129232400,
+      "gps_end": 1129233300,
+      "gps_mid": 1129232850.0,
+      "sgr_a_elevation_L1_deg": 22.46,
+      "sgr_a_elevation_H1_deg": 8.71,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0759
+    },
+    {
+      "segment": 37,
+      "gps_start": 1129233300,
+      "gps_end": 1129234200,
+      "gps_mid": 1129233750.0,
+      "sgr_a_elevation_L1_deg": 24.07,
+      "sgr_a_elevation_H1_deg": 9.91,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1217
+    },
+    {
+      "segment": 38,
+      "gps_start": 1129234200,
+      "gps_end": 1129235100,
+      "gps_mid": 1129234650.0,
+      "sgr_a_elevation_L1_deg": 25.53,
+      "sgr_a_elevation_H1_deg": 10.99,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1008
+    },
+    {
+      "segment": 39,
+      "gps_start": 1129235100,
+      "gps_end": 1129236000,
+      "gps_mid": 1129235550.0,
+      "sgr_a_elevation_L1_deg": 26.81,
+      "sgr_a_elevation_H1_deg": 11.93,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 0.9922
+    },
+    {
+      "segment": 40,
+      "gps_start": 1129236000,
+      "gps_end": 1129236900,
+      "gps_mid": 1129236450.0,
+      "sgr_a_elevation_L1_deg": 27.91,
+      "sgr_a_elevation_H1_deg": 12.73,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1198
+    },
+    {
+      "segment": 41,
+      "gps_start": 1129236900,
+      "gps_end": 1129237800,
+      "gps_mid": 1129237350.0,
+      "sgr_a_elevation_L1_deg": 28.83,
+      "sgr_a_elevation_H1_deg": 13.39,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.091
+    },
+    {
+      "segment": 42,
+      "gps_start": 1129237800,
+      "gps_end": 1129238700,
+      "gps_mid": 1129238250.0,
+      "sgr_a_elevation_L1_deg": 29.54,
+      "sgr_a_elevation_H1_deg": 13.9,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0681
+    },
+    {
+      "segment": 43,
+      "gps_start": 1129238700,
+      "gps_end": 1129239600,
+      "gps_mid": 1129239150.0,
+      "sgr_a_elevation_L1_deg": 30.05,
+      "sgr_a_elevation_H1_deg": 14.26,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0361
+    },
+    {
+      "segment": 44,
+      "gps_start": 1129239600,
+      "gps_end": 1129240500,
+      "gps_mid": 1129240050.0,
+      "sgr_a_elevation_L1_deg": 30.35,
+      "sgr_a_elevation_H1_deg": 14.48,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 0.9615
+    },
+    {
+      "segment": 45,
+      "gps_start": 1129240500,
+      "gps_end": 1129241400,
+      "gps_mid": 1129240950.0,
+      "sgr_a_elevation_L1_deg": 30.43,
+      "sgr_a_elevation_H1_deg": 14.54,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0687
+    },
+    {
+      "segment": 46,
+      "gps_start": 1129241400,
+      "gps_end": 1129242300,
+      "gps_mid": 1129241850.0,
+      "sgr_a_elevation_L1_deg": 30.3,
+      "sgr_a_elevation_H1_deg": 14.44,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0811
+    },
+    {
+      "segment": 47,
+      "gps_start": 1129242300,
+      "gps_end": 1129243200,
+      "gps_mid": 1129242750.0,
+      "sgr_a_elevation_L1_deg": 29.95,
+      "sgr_a_elevation_H1_deg": 14.19,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0302
+    },
+    {
+      "segment": 48,
+      "gps_start": 1129243200,
+      "gps_end": 1129244100,
+      "gps_mid": 1129243650.0,
+      "sgr_a_elevation_L1_deg": 29.39,
+      "sgr_a_elevation_H1_deg": 13.8,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0122
+    },
+    {
+      "segment": 49,
+      "gps_start": 1129244100,
+      "gps_end": 1129245000,
+      "gps_mid": 1129244550.0,
+      "sgr_a_elevation_L1_deg": 28.63,
+      "sgr_a_elevation_H1_deg": 13.25,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0322
+    },
+    {
+      "segment": 50,
+      "gps_start": 1129245000,
+      "gps_end": 1129245900,
+      "gps_mid": 1129245450.0,
+      "sgr_a_elevation_L1_deg": 27.67,
+      "sgr_a_elevation_H1_deg": 12.55,
+      "L1_excess_5093": 2.6819,
+      "H1_excess_5093": 1.1457
+    },
+    {
+      "segment": 51,
+      "gps_start": 1129245900,
+      "gps_end": 1129246800,
+      "gps_mid": 1129246350.0,
+      "sgr_a_elevation_L1_deg": 26.53,
+      "sgr_a_elevation_H1_deg": 11.72,
+      "L1_excess_5093": 2.9096,
+      "H1_excess_5093": 1.0387
+    },
+    {
+      "segment": 52,
+      "gps_start": 1129246800,
+      "gps_end": 1129247700,
+      "gps_mid": 1129247250.0,
+      "sgr_a_elevation_L1_deg": 25.2,
+      "sgr_a_elevation_H1_deg": 10.75,
+      "L1_excess_5093": 2.849,
+      "H1_excess_5093": 1.1423
+    },
+    {
+      "segment": 53,
+      "gps_start": 1129247700,
+      "gps_end": 1129248600,
+      "gps_mid": 1129248150.0,
+      "sgr_a_elevation_L1_deg": 23.71,
+      "sgr_a_elevation_H1_deg": 9.65,
+      "L1_excess_5093": 3.2093,
+      "H1_excess_5093": 1.0572
+    },
+    {
+      "segment": 54,
+      "gps_start": 1129248600,
+      "gps_end": 1129249500,
+      "gps_mid": 1129249050.0,
+      "sgr_a_elevation_L1_deg": 22.07,
+      "sgr_a_elevation_H1_deg": 8.42,
+      "L1_excess_5093": 3.1043,
+      "H1_excess_5093": 1.1487
+    },
+    {
+      "segment": 55,
+      "gps_start": 1129249500,
+      "gps_end": 1129250400,
+      "gps_mid": 1129249950.0,
+      "sgr_a_elevation_L1_deg": 20.27,
+      "sgr_a_elevation_H1_deg": 7.07,
+      "L1_excess_5093": 3.3372,
+      "H1_excess_5093": 1.0613
+    },
+    {
+      "segment": 56,
+      "gps_start": 1129250400,
+      "gps_end": 1129251300,
+      "gps_mid": 1129250850.0,
+      "sgr_a_elevation_L1_deg": 18.35,
+      "sgr_a_elevation_H1_deg": 5.6,
+      "L1_excess_5093": 3.3237,
+      "H1_excess_5093": 1.0048
+    },
+    {
+      "segment": 57,
+      "gps_start": 1129251300,
+      "gps_end": 1129252200,
+      "gps_mid": 1129251750.0,
+      "sgr_a_elevation_L1_deg": 16.3,
+      "sgr_a_elevation_H1_deg": 4.03,
+      "L1_excess_5093": 3.2122,
+      "H1_excess_5093": 0.9857
+    },
+    {
+      "segment": 58,
+      "gps_start": 1129252200,
+      "gps_end": 1129253100,
+      "gps_mid": 1129252650.0,
+      "sgr_a_elevation_L1_deg": 14.14,
+      "sgr_a_elevation_H1_deg": 2.36,
+      "L1_excess_5093": 3.2712,
+      "H1_excess_5093": 1.1646
+    },
+    {
+      "segment": 59,
+      "gps_start": 1129253100,
+      "gps_end": 1129254000,
+      "gps_mid": 1129253550.0,
+      "sgr_a_elevation_L1_deg": 11.88,
+      "sgr_a_elevation_H1_deg": 0.6,
+      "L1_excess_5093": 3.1953,
+      "H1_excess_5093": 1.121
+    },
+    {
+      "segment": 60,
+      "gps_start": 1129254000,
+      "gps_end": 1129254900,
+      "gps_mid": 1129254450.0,
+      "sgr_a_elevation_L1_deg": 9.52,
+      "sgr_a_elevation_H1_deg": -1.26,
+      "L1_excess_5093": 3.1512,
+      "H1_excess_5093": 0.9803
+    },
+    {
+      "segment": 61,
+      "gps_start": 1129254900,
+      "gps_end": 1129255800,
+      "gps_mid": 1129255350.0,
+      "sgr_a_elevation_L1_deg": 7.07,
+      "sgr_a_elevation_H1_deg": -3.19,
+      "L1_excess_5093": 3.1655,
+      "H1_excess_5093": 1.0061
+    },
+    {
+      "segment": 62,
+      "gps_start": 1129255800,
+      "gps_end": 1129256700,
+      "gps_mid": 1129256250.0,
+      "sgr_a_elevation_L1_deg": 4.55,
+      "sgr_a_elevation_H1_deg": -5.21,
+      "L1_excess_5093": 3.3085,
+      "H1_excess_5093": 1.015
+    },
+    {
+      "segment": 63,
+      "gps_start": 1129256700,
+      "gps_end": 1129257600,
+      "gps_mid": 1129257150.0,
+      "sgr_a_elevation_L1_deg": 1.95,
+      "sgr_a_elevation_H1_deg": -7.29,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0948
+    },
+    {
+      "segment": 64,
+      "gps_start": 1129257600,
+      "gps_end": 1129258500,
+      "gps_mid": 1129258050.0,
+      "sgr_a_elevation_L1_deg": -0.71,
+      "sgr_a_elevation_H1_deg": -9.45,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1135
+    },
+    {
+      "segment": 65,
+      "gps_start": 1129258500,
+      "gps_end": 1129259400,
+      "gps_mid": 1129258950.0,
+      "sgr_a_elevation_L1_deg": -3.43,
+      "sgr_a_elevation_H1_deg": -11.66,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1628
+    },
+    {
+      "segment": 66,
+      "gps_start": 1129259400,
+      "gps_end": 1129260300,
+      "gps_mid": 1129259850.0,
+      "sgr_a_elevation_L1_deg": -6.2,
+      "sgr_a_elevation_H1_deg": -13.93,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0225
+    },
+    {
+      "segment": 67,
+      "gps_start": 1129260300,
+      "gps_end": 1129261200,
+      "gps_mid": 1129260750.0,
+      "sgr_a_elevation_L1_deg": -9.03,
+      "sgr_a_elevation_H1_deg": -16.25,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 68,
+      "gps_start": 1129261200,
+      "gps_end": 1129262100,
+      "gps_mid": 1129261650.0,
+      "sgr_a_elevation_L1_deg": -11.9,
+      "sgr_a_elevation_H1_deg": -18.61,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 69,
+      "gps_start": 1129262100,
+      "gps_end": 1129263000,
+      "gps_mid": 1129262550.0,
+      "sgr_a_elevation_L1_deg": -14.81,
+      "sgr_a_elevation_H1_deg": -21.02,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 70,
+      "gps_start": 1129263000,
+      "gps_end": 1129263900,
+      "gps_mid": 1129263450.0,
+      "sgr_a_elevation_L1_deg": -17.75,
+      "sgr_a_elevation_H1_deg": -23.46,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 71,
+      "gps_start": 1129263900,
+      "gps_end": 1129264800,
+      "gps_mid": 1129264350.0,
+      "sgr_a_elevation_L1_deg": -20.73,
+      "sgr_a_elevation_H1_deg": -25.94,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 72,
+      "gps_start": 1129264800,
+      "gps_end": 1129265700,
+      "gps_mid": 1129265250.0,
+      "sgr_a_elevation_L1_deg": -23.75,
+      "sgr_a_elevation_H1_deg": -28.45,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 73,
+      "gps_start": 1129265700,
+      "gps_end": 1129266600,
+      "gps_mid": 1129266150.0,
+      "sgr_a_elevation_L1_deg": -26.79,
+      "sgr_a_elevation_H1_deg": -30.98,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0785
+    },
+    {
+      "segment": 74,
+      "gps_start": 1129266600,
+      "gps_end": 1129267500,
+      "gps_mid": 1129267050.0,
+      "sgr_a_elevation_L1_deg": -29.85,
+      "sgr_a_elevation_H1_deg": -33.54,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0865
+    },
+    {
+      "segment": 75,
+      "gps_start": 1129267500,
+      "gps_end": 1129268400,
+      "gps_mid": 1129267950.0,
+      "sgr_a_elevation_L1_deg": -32.94,
+      "sgr_a_elevation_H1_deg": -36.1,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0534
+    },
+    {
+      "segment": 76,
+      "gps_start": 1129268400,
+      "gps_end": 1129269300,
+      "gps_mid": 1129268850.0,
+      "sgr_a_elevation_L1_deg": -36.05,
+      "sgr_a_elevation_H1_deg": -38.69,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0289
+    },
+    {
+      "segment": 77,
+      "gps_start": 1129269300,
+      "gps_end": 1129270200,
+      "gps_mid": 1129269750.0,
+      "sgr_a_elevation_L1_deg": -39.18,
+      "sgr_a_elevation_H1_deg": -41.28,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1031
+    },
+    {
+      "segment": 78,
+      "gps_start": 1129270200,
+      "gps_end": 1129271100,
+      "gps_mid": 1129270650.0,
+      "sgr_a_elevation_L1_deg": -42.33,
+      "sgr_a_elevation_H1_deg": -43.87,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0702
+    },
+    {
+      "segment": 79,
+      "gps_start": 1129271100,
+      "gps_end": 1129272000,
+      "gps_mid": 1129271550.0,
+      "sgr_a_elevation_L1_deg": -45.49,
+      "sgr_a_elevation_H1_deg": -46.45,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1186
+    },
+    {
+      "segment": 80,
+      "gps_start": 1129272000,
+      "gps_end": 1129272900,
+      "gps_mid": 1129272450.0,
+      "sgr_a_elevation_L1_deg": -48.67,
+      "sgr_a_elevation_H1_deg": -49.03,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0843
+    },
+    {
+      "segment": 81,
+      "gps_start": 1129272900,
+      "gps_end": 1129273800,
+      "gps_mid": 1129273350.0,
+      "sgr_a_elevation_L1_deg": -51.86,
+      "sgr_a_elevation_H1_deg": -51.58,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0936
+    },
+    {
+      "segment": 82,
+      "gps_start": 1129273800,
+      "gps_end": 1129274700,
+      "gps_mid": 1129274250.0,
+      "sgr_a_elevation_L1_deg": -55.06,
+      "sgr_a_elevation_H1_deg": -54.1,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1356
+    },
+    {
+      "segment": 83,
+      "gps_start": 1129274700,
+      "gps_end": 1129275600,
+      "gps_mid": 1129275150.0,
+      "sgr_a_elevation_L1_deg": -58.27,
+      "sgr_a_elevation_H1_deg": -56.59,
+      "L1_excess_5093": 3.145,
+      "H1_excess_5093": 1.0468
+    },
+    {
+      "segment": 84,
+      "gps_start": 1129275600,
+      "gps_end": 1129276500,
+      "gps_mid": 1129276050.0,
+      "sgr_a_elevation_L1_deg": -61.49,
+      "sgr_a_elevation_H1_deg": -59.01,
+      "L1_excess_5093": 3.0343,
+      "H1_excess_5093": 1.0877
+    },
+    {
+      "segment": 85,
+      "gps_start": 1129276500,
+      "gps_end": 1129277400,
+      "gps_mid": 1129276950.0,
+      "sgr_a_elevation_L1_deg": -64.72,
+      "sgr_a_elevation_H1_deg": -61.36,
+      "L1_excess_5093": 3.1436,
+      "H1_excess_5093": 1.1013
+    },
+    {
+      "segment": 86,
+      "gps_start": 1129277400,
+      "gps_end": 1129278300,
+      "gps_mid": 1129277850.0,
+      "sgr_a_elevation_L1_deg": -67.95,
+      "sgr_a_elevation_H1_deg": -63.61,
+      "L1_excess_5093": 3.3563,
+      "H1_excess_5093": 1.1041
+    },
+    {
+      "segment": 87,
+      "gps_start": 1129278300,
+      "gps_end": 1129279200,
+      "gps_mid": 1129278750.0,
+      "sgr_a_elevation_L1_deg": -71.19,
+      "sgr_a_elevation_H1_deg": -65.72,
+      "L1_excess_5093": 2.8883,
+      "H1_excess_5093": 1.0402
+    },
+    {
+      "segment": 88,
+      "gps_start": 1129279200,
+      "gps_end": 1129280100,
+      "gps_mid": 1129279650.0,
+      "sgr_a_elevation_L1_deg": -74.43,
+      "sgr_a_elevation_H1_deg": -67.66,
+      "L1_excess_5093": 3.3277,
+      "H1_excess_5093": 1.1429
+    },
+    {
+      "segment": 89,
+      "gps_start": 1129280100,
+      "gps_end": 1129281000,
+      "gps_mid": 1129280550.0,
+      "sgr_a_elevation_L1_deg": -77.66,
+      "sgr_a_elevation_H1_deg": -69.36,
+      "L1_excess_5093": 3.126,
+      "H1_excess_5093": 1.0491
+    },
+    {
+      "segment": 90,
+      "gps_start": 1129281000,
+      "gps_end": 1129281900,
+      "gps_mid": 1129281450.0,
+      "sgr_a_elevation_L1_deg": -80.89,
+      "sgr_a_elevation_H1_deg": -70.77,
+      "L1_excess_5093": 3.1319,
+      "H1_excess_5093": 1.1095
+    },
+    {
+      "segment": 91,
+      "gps_start": 1129281900,
+      "gps_end": 1129282800,
+      "gps_mid": 1129282350.0,
+      "sgr_a_elevation_L1_deg": -84.07,
+      "sgr_a_elevation_H1_deg": -71.81,
+      "L1_excess_5093": 3.035,
+      "H1_excess_5093": 1.0149
+    },
+    {
+      "segment": 92,
+      "gps_start": 1129282800,
+      "gps_end": 1129283700,
+      "gps_mid": 1129283250.0,
+      "sgr_a_elevation_L1_deg": -87.09,
+      "sgr_a_elevation_H1_deg": -72.41,
+      "L1_excess_5093": 2.7701,
+      "H1_excess_5093": 1.14
+    },
+    {
+      "segment": 93,
+      "gps_start": 1129283700,
+      "gps_end": 1129284600,
+      "gps_mid": 1129284150.0,
+      "sgr_a_elevation_L1_deg": -88.25,
+      "sgr_a_elevation_H1_deg": -72.54,
+      "L1_excess_5093": 3.2088,
+      "H1_excess_5093": 1.1464
+    },
+    {
+      "segment": 94,
+      "gps_start": 1129284600,
+      "gps_end": 1129285500,
+      "gps_mid": 1129285050.0,
+      "sgr_a_elevation_L1_deg": -85.64,
+      "sgr_a_elevation_H1_deg": -72.17,
+      "L1_excess_5093": 3.2792,
+      "H1_excess_5093": 1.1114
+    },
+    {
+      "segment": 95,
+      "gps_start": 1129285500,
+      "gps_end": 1129286400,
+      "gps_mid": 1129285950.0,
+      "sgr_a_elevation_L1_deg": -82.51,
+      "sgr_a_elevation_H1_deg": -71.34,
+      "L1_excess_5093": 3.3487,
+      "H1_excess_5093": 1.1018
+    },
+    {
+      "segment": 96,
+      "gps_start": 1129286400,
+      "gps_end": 1129287300,
+      "gps_mid": 1129286850.0,
+      "sgr_a_elevation_L1_deg": -79.3,
+      "sgr_a_elevation_H1_deg": -70.11,
+      "L1_excess_5093": 3.3122,
+      "H1_excess_5093": 0.9886
+    },
+    {
+      "segment": 97,
+      "gps_start": 1129287300,
+      "gps_end": 1129288200,
+      "gps_mid": 1129287750.0,
+      "sgr_a_elevation_L1_deg": -76.07,
+      "sgr_a_elevation_H1_deg": -68.55,
+      "L1_excess_5093": 3.1331,
+      "H1_excess_5093": 1.1345
+    },
+    {
+      "segment": 98,
+      "gps_start": 1129288200,
+      "gps_end": 1129289100,
+      "gps_mid": 1129288650.0,
+      "sgr_a_elevation_L1_deg": -72.83,
+      "sgr_a_elevation_H1_deg": -66.73,
+      "L1_excess_5093": 3.3994,
+      "H1_excess_5093": 1.1292
+    },
+    {
+      "segment": 99,
+      "gps_start": 1129289100,
+      "gps_end": 1129290000,
+      "gps_mid": 1129289550.0,
+      "sgr_a_elevation_L1_deg": -69.59,
+      "sgr_a_elevation_H1_deg": -64.7,
+      "L1_excess_5093": 3.1574,
+      "H1_excess_5093": 1.0585
+    },
+    {
+      "segment": 100,
+      "gps_start": 1129290000,
+      "gps_end": 1129290900,
+      "gps_mid": 1129290450.0,
+      "sgr_a_elevation_L1_deg": -66.36,
+      "sgr_a_elevation_H1_deg": -62.51,
+      "L1_excess_5093": 3.8165,
+      "H1_excess_5093": 1.0252
+    },
+    {
+      "segment": 101,
+      "gps_start": 1129290900,
+      "gps_end": 1129291800,
+      "gps_mid": 1129291350.0,
+      "sgr_a_elevation_L1_deg": -63.13,
+      "sgr_a_elevation_H1_deg": -60.21,
+      "L1_excess_5093": 3.8025,
+      "H1_excess_5093": 1.0829
+    },
+    {
+      "segment": 102,
+      "gps_start": 1129291800,
+      "gps_end": 1129292700,
+      "gps_mid": 1129292250.0,
+      "sgr_a_elevation_L1_deg": -59.9,
+      "sgr_a_elevation_H1_deg": -57.82,
+      "L1_excess_5093": 3.6942,
+      "H1_excess_5093": 1.1687
+    },
+    {
+      "segment": 103,
+      "gps_start": 1129292700,
+      "gps_end": 1129293600,
+      "gps_mid": 1129293150.0,
+      "sgr_a_elevation_L1_deg": -56.69,
+      "sgr_a_elevation_H1_deg": -55.37,
+      "L1_excess_5093": 4.2993,
+      "H1_excess_5093": 1.0952
+    },
+    {
+      "segment": 104,
+      "gps_start": 1129293600,
+      "gps_end": 1129294500,
+      "gps_mid": 1129294050.0,
+      "sgr_a_elevation_L1_deg": -53.48,
+      "sgr_a_elevation_H1_deg": -52.86,
+      "L1_excess_5093": 3.5689,
+      "H1_excess_5093": 1.0453
+    },
+    {
+      "segment": 105,
+      "gps_start": 1129294500,
+      "gps_end": 1129295400,
+      "gps_mid": 1129294950.0,
+      "sgr_a_elevation_L1_deg": -50.28,
+      "sgr_a_elevation_H1_deg": -50.32,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 106,
+      "gps_start": 1129295400,
+      "gps_end": 1129296300,
+      "gps_mid": 1129295850.0,
+      "sgr_a_elevation_L1_deg": -47.1,
+      "sgr_a_elevation_H1_deg": -47.76,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.051
+    },
+    {
+      "segment": 107,
+      "gps_start": 1129296300,
+      "gps_end": 1129297200,
+      "gps_mid": 1129296750.0,
+      "sgr_a_elevation_L1_deg": -43.93,
+      "sgr_a_elevation_H1_deg": -45.17,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0629
+    },
+    {
+      "segment": 108,
+      "gps_start": 1129297200,
+      "gps_end": 1129298100,
+      "gps_mid": 1129297650.0,
+      "sgr_a_elevation_L1_deg": -40.77,
+      "sgr_a_elevation_H1_deg": -42.59,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.119
+    },
+    {
+      "segment": 109,
+      "gps_start": 1129298100,
+      "gps_end": 1129299000,
+      "gps_mid": 1129298550.0,
+      "sgr_a_elevation_L1_deg": -37.63,
+      "sgr_a_elevation_H1_deg": -40.0,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.041
+    },
+    {
+      "segment": 110,
+      "gps_start": 1129299000,
+      "gps_end": 1129299900,
+      "gps_mid": 1129299450.0,
+      "sgr_a_elevation_L1_deg": -34.51,
+      "sgr_a_elevation_H1_deg": -37.41,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.011
+    },
+    {
+      "segment": 111,
+      "gps_start": 1129299900,
+      "gps_end": 1129300800,
+      "gps_mid": 1129300350.0,
+      "sgr_a_elevation_L1_deg": -31.41,
+      "sgr_a_elevation_H1_deg": -34.83,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.108
+    },
+    {
+      "segment": 112,
+      "gps_start": 1129300800,
+      "gps_end": 1129301700,
+      "gps_mid": 1129301250.0,
+      "sgr_a_elevation_L1_deg": -28.33,
+      "sgr_a_elevation_H1_deg": -32.27,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 0.9579
+    },
+    {
+      "segment": 113,
+      "gps_start": 1129301700,
+      "gps_end": 1129302600,
+      "gps_mid": 1129302150.0,
+      "sgr_a_elevation_L1_deg": -25.28,
+      "sgr_a_elevation_H1_deg": -29.73,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1147
+    },
+    {
+      "segment": 114,
+      "gps_start": 1129302600,
+      "gps_end": 1129303500,
+      "gps_mid": 1129303050.0,
+      "sgr_a_elevation_L1_deg": -22.25,
+      "sgr_a_elevation_H1_deg": -27.21,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0228
+    },
+    {
+      "segment": 115,
+      "gps_start": 1129303500,
+      "gps_end": 1129304400,
+      "gps_mid": 1129303950.0,
+      "sgr_a_elevation_L1_deg": -19.26,
+      "sgr_a_elevation_H1_deg": -24.71,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0601
+    },
+    {
+      "segment": 116,
+      "gps_start": 1129304400,
+      "gps_end": 1129305300,
+      "gps_mid": 1129304850.0,
+      "sgr_a_elevation_L1_deg": -16.29,
+      "sgr_a_elevation_H1_deg": -22.25,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0192
+    },
+    {
+      "segment": 117,
+      "gps_start": 1129305300,
+      "gps_end": 1129306200,
+      "gps_mid": 1129305750.0,
+      "sgr_a_elevation_L1_deg": -13.36,
+      "sgr_a_elevation_H1_deg": -19.82,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1069
+    },
+    {
+      "segment": 118,
+      "gps_start": 1129306200,
+      "gps_end": 1129307100,
+      "gps_mid": 1129306650.0,
+      "sgr_a_elevation_L1_deg": -10.47,
+      "sgr_a_elevation_H1_deg": -17.44,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.147
+    },
+    {
+      "segment": 119,
+      "gps_start": 1129307100,
+      "gps_end": 1129308000,
+      "gps_mid": 1129307550.0,
+      "sgr_a_elevation_L1_deg": -7.63,
+      "sgr_a_elevation_H1_deg": -15.09,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0573
+    },
+    {
+      "segment": 120,
+      "gps_start": 1129308000,
+      "gps_end": 1129308900,
+      "gps_mid": 1129308450.0,
+      "sgr_a_elevation_L1_deg": -4.83,
+      "sgr_a_elevation_H1_deg": -12.8,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1039
+    },
+    {
+      "segment": 121,
+      "gps_start": 1129308900,
+      "gps_end": 1129309800,
+      "gps_mid": 1129309350.0,
+      "sgr_a_elevation_L1_deg": -2.08,
+      "sgr_a_elevation_H1_deg": -10.56,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0216
+    },
+    {
+      "segment": 122,
+      "gps_start": 1129309800,
+      "gps_end": 1129310700,
+      "gps_mid": 1129310250.0,
+      "sgr_a_elevation_L1_deg": 0.61,
+      "sgr_a_elevation_H1_deg": -8.38,
+      "L1_excess_5093": 1.8043,
+      "H1_excess_5093": 1.0328
+    },
+    {
+      "segment": 123,
+      "gps_start": 1129310700,
+      "gps_end": 1129311600,
+      "gps_mid": 1129311150.0,
+      "sgr_a_elevation_L1_deg": 3.24,
+      "sgr_a_elevation_H1_deg": -6.26,
+      "L1_excess_5093": 2.16,
+      "H1_excess_5093": 1.0983
+    },
+    {
+      "segment": 124,
+      "gps_start": 1129311600,
+      "gps_end": 1129312500,
+      "gps_mid": 1129312050.0,
+      "sgr_a_elevation_L1_deg": 5.8,
+      "sgr_a_elevation_H1_deg": -4.2,
+      "L1_excess_5093": 2.2396,
+      "H1_excess_5093": 1.0858
+    },
+    {
+      "segment": 125,
+      "gps_start": 1129312500,
+      "gps_end": 1129313400,
+      "gps_mid": 1129312950.0,
+      "sgr_a_elevation_L1_deg": 8.29,
+      "sgr_a_elevation_H1_deg": -2.23,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0383
+    },
+    {
+      "segment": 126,
+      "gps_start": 1129313400,
+      "gps_end": 1129314300,
+      "gps_mid": 1129313850.0,
+      "sgr_a_elevation_L1_deg": 10.69,
+      "sgr_a_elevation_H1_deg": -0.33,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1044
+    },
+    {
+      "segment": 127,
+      "gps_start": 1129314300,
+      "gps_end": 1129315200,
+      "gps_mid": 1129314750.0,
+      "sgr_a_elevation_L1_deg": 13.01,
+      "sgr_a_elevation_H1_deg": 1.48,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.07
+    },
+    {
+      "segment": 128,
+      "gps_start": 1129315200,
+      "gps_end": 1129316100,
+      "gps_mid": 1129315650.0,
+      "sgr_a_elevation_L1_deg": 15.22,
+      "sgr_a_elevation_H1_deg": 3.2,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1195
+    },
+    {
+      "segment": 129,
+      "gps_start": 1129316100,
+      "gps_end": 1129317000,
+      "gps_mid": 1129316550.0,
+      "sgr_a_elevation_L1_deg": 17.33,
+      "sgr_a_elevation_H1_deg": 4.82,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1056
+    },
+    {
+      "segment": 130,
+      "gps_start": 1129317000,
+      "gps_end": 1129317900,
+      "gps_mid": 1129317450.0,
+      "sgr_a_elevation_L1_deg": 19.32,
+      "sgr_a_elevation_H1_deg": 6.34,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1558
+    },
+    {
+      "segment": 131,
+      "gps_start": 1129317900,
+      "gps_end": 1129318800,
+      "gps_mid": 1129318350.0,
+      "sgr_a_elevation_L1_deg": 21.18,
+      "sgr_a_elevation_H1_deg": 7.75,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0193
+    },
+    {
+      "segment": 132,
+      "gps_start": 1129318800,
+      "gps_end": 1129319700,
+      "gps_mid": 1129319250.0,
+      "sgr_a_elevation_L1_deg": 22.9,
+      "sgr_a_elevation_H1_deg": 9.04,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.1249
+    },
+    {
+      "segment": 133,
+      "gps_start": 1129319700,
+      "gps_end": 1129320600,
+      "gps_mid": 1129320150.0,
+      "sgr_a_elevation_L1_deg": 24.47,
+      "sgr_a_elevation_H1_deg": 10.21,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 134,
+      "gps_start": 1129320600,
+      "gps_end": 1129321500,
+      "gps_mid": 1129321050.0,
+      "sgr_a_elevation_L1_deg": 25.88,
+      "sgr_a_elevation_H1_deg": 11.24,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 135,
+      "gps_start": 1129321500,
+      "gps_end": 1129322400,
+      "gps_mid": 1129321950.0,
+      "sgr_a_elevation_L1_deg": 27.12,
+      "sgr_a_elevation_H1_deg": 12.15,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 136,
+      "gps_start": 1129322400,
+      "gps_end": 1129323300,
+      "gps_mid": 1129322850.0,
+      "sgr_a_elevation_L1_deg": 28.17,
+      "sgr_a_elevation_H1_deg": 12.91,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 137,
+      "gps_start": 1129323300,
+      "gps_end": 1129324200,
+      "gps_mid": 1129323750.0,
+      "sgr_a_elevation_L1_deg": 29.03,
+      "sgr_a_elevation_H1_deg": 13.54,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 138,
+      "gps_start": 1129324200,
+      "gps_end": 1129325100,
+      "gps_mid": 1129324650.0,
+      "sgr_a_elevation_L1_deg": 29.69,
+      "sgr_a_elevation_H1_deg": 14.01,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 139,
+      "gps_start": 1129325100,
+      "gps_end": 1129326000,
+      "gps_mid": 1129325550.0,
+      "sgr_a_elevation_L1_deg": 30.15,
+      "sgr_a_elevation_H1_deg": 14.34,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 140,
+      "gps_start": 1129326000,
+      "gps_end": 1129326900,
+      "gps_mid": 1129326450.0,
+      "sgr_a_elevation_L1_deg": 30.39,
+      "sgr_a_elevation_H1_deg": 14.51,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 141,
+      "gps_start": 1129326900,
+      "gps_end": 1129327800,
+      "gps_mid": 1129327350.0,
+      "sgr_a_elevation_L1_deg": 30.41,
+      "sgr_a_elevation_H1_deg": 14.53,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 142,
+      "gps_start": 1129327800,
+      "gps_end": 1129328700,
+      "gps_mid": 1129328250.0,
+      "sgr_a_elevation_L1_deg": 30.23,
+      "sgr_a_elevation_H1_deg": 14.39,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 143,
+      "gps_start": 1129328700,
+      "gps_end": 1129329600,
+      "gps_mid": 1129329150.0,
+      "sgr_a_elevation_L1_deg": 29.82,
+      "sgr_a_elevation_H1_deg": 14.1,
+      "L1_excess_5093": 2.5975,
+      "H1_excess_5093": 1.0691
+    },
+    {
+      "segment": 144,
+      "gps_start": 1129329600,
+      "gps_end": 1129330500,
+      "gps_mid": 1129330050.0,
+      "sgr_a_elevation_L1_deg": 29.21,
+      "sgr_a_elevation_H1_deg": 13.67,
+      "L1_excess_5093": 2.273,
+      "H1_excess_5093": 1.0275
+    },
+    {
+      "segment": 145,
+      "gps_start": 1129330500,
+      "gps_end": 1129331400,
+      "gps_mid": 1129330950.0,
+      "sgr_a_elevation_L1_deg": 28.4,
+      "sgr_a_elevation_H1_deg": 13.08,
+      "L1_excess_5093": 2.1703,
+      "H1_excess_5093": 1.0966
+    },
+    {
+      "segment": 146,
+      "gps_start": 1129331400,
+      "gps_end": 1129332300,
+      "gps_mid": 1129331850.0,
+      "sgr_a_elevation_L1_deg": 27.39,
+      "sgr_a_elevation_H1_deg": 12.35,
+      "L1_excess_5093": 2.6775,
+      "H1_excess_5093": 1.0265
+    },
+    {
+      "segment": 147,
+      "gps_start": 1129332300,
+      "gps_end": 1129333200,
+      "gps_mid": 1129332750.0,
+      "sgr_a_elevation_L1_deg": 26.2,
+      "sgr_a_elevation_H1_deg": 11.48,
+      "L1_excess_5093": 2.5456,
+      "H1_excess_5093": 1.1283
+    },
+    {
+      "segment": 148,
+      "gps_start": 1129333200,
+      "gps_end": 1129334100,
+      "gps_mid": 1129333650.0,
+      "sgr_a_elevation_L1_deg": 24.83,
+      "sgr_a_elevation_H1_deg": 10.47,
+      "L1_excess_5093": 2.9042,
+      "H1_excess_5093": 1.1333
+    },
+    {
+      "segment": 149,
+      "gps_start": 1129334100,
+      "gps_end": 1129335000,
+      "gps_mid": 1129334550.0,
+      "sgr_a_elevation_L1_deg": 23.3,
+      "sgr_a_elevation_H1_deg": 9.33,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 0.9675
+    },
+    {
+      "segment": 150,
+      "gps_start": 1129335000,
+      "gps_end": 1129335900,
+      "gps_mid": 1129335450.0,
+      "sgr_a_elevation_L1_deg": 21.61,
+      "sgr_a_elevation_H1_deg": 8.07,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1019
+    },
+    {
+      "segment": 151,
+      "gps_start": 1129335900,
+      "gps_end": 1129336800,
+      "gps_mid": 1129336350.0,
+      "sgr_a_elevation_L1_deg": 19.78,
+      "sgr_a_elevation_H1_deg": 6.69,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1102
+    },
+    {
+      "segment": 152,
+      "gps_start": 1129336800,
+      "gps_end": 1129337700,
+      "gps_mid": 1129337250.0,
+      "sgr_a_elevation_L1_deg": 17.82,
+      "sgr_a_elevation_H1_deg": 5.2,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.167
+    },
+    {
+      "segment": 153,
+      "gps_start": 1129337700,
+      "gps_end": 1129338600,
+      "gps_mid": 1129338150.0,
+      "sgr_a_elevation_L1_deg": 15.75,
+      "sgr_a_elevation_H1_deg": 3.61,
+      "L1_excess_5093": 2.7937,
+      "H1_excess_5093": 1.0878
+    },
+    {
+      "segment": 154,
+      "gps_start": 1129338600,
+      "gps_end": 1129339500,
+      "gps_mid": 1129339050.0,
+      "sgr_a_elevation_L1_deg": 13.56,
+      "sgr_a_elevation_H1_deg": 1.91,
+      "L1_excess_5093": 2.8506,
+      "H1_excess_5093": 1.101
+    },
+    {
+      "segment": 155,
+      "gps_start": 1129339500,
+      "gps_end": 1129340400,
+      "gps_mid": 1129339950.0,
+      "sgr_a_elevation_L1_deg": 11.27,
+      "sgr_a_elevation_H1_deg": 0.12,
+      "L1_excess_5093": 2.9741,
+      "H1_excess_5093": 1.1025
+    },
+    {
+      "segment": 156,
+      "gps_start": 1129340400,
+      "gps_end": 1129341300,
+      "gps_mid": 1129340850.0,
+      "sgr_a_elevation_L1_deg": 8.88,
+      "sgr_a_elevation_H1_deg": -1.76,
+      "L1_excess_5093": 2.244,
+      "H1_excess_5093": 1.0324
+    },
+    {
+      "segment": 157,
+      "gps_start": 1129341300,
+      "gps_end": 1129342200,
+      "gps_mid": 1129341750.0,
+      "sgr_a_elevation_L1_deg": 6.42,
+      "sgr_a_elevation_H1_deg": -3.72,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0978
+    },
+    {
+      "segment": 158,
+      "gps_start": 1129342200,
+      "gps_end": 1129343100,
+      "gps_mid": 1129342650.0,
+      "sgr_a_elevation_L1_deg": 3.87,
+      "sgr_a_elevation_H1_deg": -5.75,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0798
+    },
+    {
+      "segment": 159,
+      "gps_start": 1129343100,
+      "gps_end": 1129344000,
+      "gps_mid": 1129343550.0,
+      "sgr_a_elevation_L1_deg": 1.26,
+      "sgr_a_elevation_H1_deg": -7.85,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 0.9987
+    },
+    {
+      "segment": 160,
+      "gps_start": 1129344000,
+      "gps_end": 1129344900,
+      "gps_mid": 1129344450.0,
+      "sgr_a_elevation_L1_deg": -1.42,
+      "sgr_a_elevation_H1_deg": -10.02,
+      "L1_excess_5093": 3.2933,
+      "H1_excess_5093": 1.0615
+    },
+    {
+      "segment": 161,
+      "gps_start": 1129344900,
+      "gps_end": 1129345800,
+      "gps_mid": 1129345350.0,
+      "sgr_a_elevation_L1_deg": -4.15,
+      "sgr_a_elevation_H1_deg": -12.25,
+      "L1_excess_5093": 2.98,
+      "H1_excess_5093": 1.1609
+    },
+    {
+      "segment": 162,
+      "gps_start": 1129345800,
+      "gps_end": 1129346700,
+      "gps_mid": 1129346250.0,
+      "sgr_a_elevation_L1_deg": -6.94,
+      "sgr_a_elevation_H1_deg": -14.53,
+      "L1_excess_5093": 3.0878,
+      "H1_excess_5093": 1.0582
+    },
+    {
+      "segment": 163,
+      "gps_start": 1129346700,
+      "gps_end": 1129347600,
+      "gps_mid": 1129347150.0,
+      "sgr_a_elevation_L1_deg": -9.78,
+      "sgr_a_elevation_H1_deg": -16.86,
+      "L1_excess_5093": 3.0767,
+      "H1_excess_5093": 1.1126
+    },
+    {
+      "segment": 164,
+      "gps_start": 1129347600,
+      "gps_end": 1129348500,
+      "gps_mid": 1129348050.0,
+      "sgr_a_elevation_L1_deg": -12.66,
+      "sgr_a_elevation_H1_deg": -19.24,
+      "L1_excess_5093": 3.3066,
+      "H1_excess_5093": 1.1271
+    },
+    {
+      "segment": 165,
+      "gps_start": 1129348500,
+      "gps_end": 1129349400,
+      "gps_mid": 1129348950.0,
+      "sgr_a_elevation_L1_deg": -15.57,
+      "sgr_a_elevation_H1_deg": -21.66,
+      "L1_excess_5093": 3.1623,
+      "H1_excess_5093": 1.1764
+    },
+    {
+      "segment": 166,
+      "gps_start": 1129349400,
+      "gps_end": 1129350300,
+      "gps_mid": 1129349850.0,
+      "sgr_a_elevation_L1_deg": -18.53,
+      "sgr_a_elevation_H1_deg": -24.11,
+      "L1_excess_5093": 2.9814,
+      "H1_excess_5093": 1.1411
+    },
+    {
+      "segment": 167,
+      "gps_start": 1129350300,
+      "gps_end": 1129351200,
+      "gps_mid": 1129350750.0,
+      "sgr_a_elevation_L1_deg": -21.52,
+      "sgr_a_elevation_H1_deg": -26.6,
+      "L1_excess_5093": 3.2176,
+      "H1_excess_5093": 0.9404
+    },
+    {
+      "segment": 168,
+      "gps_start": 1129351200,
+      "gps_end": 1129352100,
+      "gps_mid": 1129351650.0,
+      "sgr_a_elevation_L1_deg": -24.54,
+      "sgr_a_elevation_H1_deg": -29.11,
+      "L1_excess_5093": 3.2402,
+      "H1_excess_5093": 1.1182
+    },
+    {
+      "segment": 169,
+      "gps_start": 1129352100,
+      "gps_end": 1129353000,
+      "gps_mid": 1129352550.0,
+      "sgr_a_elevation_L1_deg": -27.59,
+      "sgr_a_elevation_H1_deg": -31.65,
+      "L1_excess_5093": 2.8895,
+      "H1_excess_5093": 1.0587
+    },
+    {
+      "segment": 170,
+      "gps_start": 1129353000,
+      "gps_end": 1129353900,
+      "gps_mid": 1129353450.0,
+      "sgr_a_elevation_L1_deg": -30.66,
+      "sgr_a_elevation_H1_deg": -34.21,
+      "L1_excess_5093": 3.3021,
+      "H1_excess_5093": 1.0667
+    },
+    {
+      "segment": 171,
+      "gps_start": 1129353900,
+      "gps_end": 1129354800,
+      "gps_mid": 1129354350.0,
+      "sgr_a_elevation_L1_deg": -33.75,
+      "sgr_a_elevation_H1_deg": -36.78,
+      "L1_excess_5093": 3.0456,
+      "H1_excess_5093": 1.0121
+    },
+    {
+      "segment": 172,
+      "gps_start": 1129354800,
+      "gps_end": 1129355700,
+      "gps_mid": 1129355250.0,
+      "sgr_a_elevation_L1_deg": -36.87,
+      "sgr_a_elevation_H1_deg": -39.36,
+      "L1_excess_5093": 3.228,
+      "H1_excess_5093": 1.0393
+    },
+    {
+      "segment": 173,
+      "gps_start": 1129355700,
+      "gps_end": 1129356600,
+      "gps_mid": 1129356150.0,
+      "sgr_a_elevation_L1_deg": -40.0,
+      "sgr_a_elevation_H1_deg": -41.95,
+      "L1_excess_5093": 2.9198,
+      "H1_excess_5093": 1.0892
+    },
+    {
+      "segment": 174,
+      "gps_start": 1129356600,
+      "gps_end": 1129357500,
+      "gps_mid": 1129357050.0,
+      "sgr_a_elevation_L1_deg": -43.16,
+      "sgr_a_elevation_H1_deg": -44.54,
+      "L1_excess_5093": 2.9679,
+      "H1_excess_5093": 1.1376
+    },
+    {
+      "segment": 175,
+      "gps_start": 1129357500,
+      "gps_end": 1129358400,
+      "gps_mid": 1129357950.0,
+      "sgr_a_elevation_L1_deg": -46.32,
+      "sgr_a_elevation_H1_deg": -47.13,
+      "L1_excess_5093": 2.8423,
+      "H1_excess_5093": 1.1314
+    },
+    {
+      "segment": 176,
+      "gps_start": 1129358400,
+      "gps_end": 1129359300,
+      "gps_mid": 1129358850.0,
+      "sgr_a_elevation_L1_deg": -49.5,
+      "sgr_a_elevation_H1_deg": -49.7,
+      "L1_excess_5093": 3.3593,
+      "H1_excess_5093": 1.1241
+    },
+    {
+      "segment": 177,
+      "gps_start": 1129359300,
+      "gps_end": 1129360200,
+      "gps_mid": 1129359750.0,
+      "sgr_a_elevation_L1_deg": -52.7,
+      "sgr_a_elevation_H1_deg": -52.24,
+      "L1_excess_5093": 3.3391,
+      "H1_excess_5093": 1.1261
+    },
+    {
+      "segment": 178,
+      "gps_start": 1129360200,
+      "gps_end": 1129361100,
+      "gps_mid": 1129360650.0,
+      "sgr_a_elevation_L1_deg": -55.9,
+      "sgr_a_elevation_H1_deg": -54.76,
+      "L1_excess_5093": 3.109,
+      "H1_excess_5093": 1.1134
+    },
+    {
+      "segment": 179,
+      "gps_start": 1129361100,
+      "gps_end": 1129362000,
+      "gps_mid": 1129361550.0,
+      "sgr_a_elevation_L1_deg": -59.12,
+      "sgr_a_elevation_H1_deg": -57.23,
+      "L1_excess_5093": 2.8163,
+      "H1_excess_5093": 1.0474
+    },
+    {
+      "segment": 180,
+      "gps_start": 1129362000,
+      "gps_end": 1129362900,
+      "gps_mid": 1129362450.0,
+      "sgr_a_elevation_L1_deg": -62.34,
+      "sgr_a_elevation_H1_deg": -59.64,
+      "L1_excess_5093": 2.9714,
+      "H1_excess_5093": 1.1029
+    },
+    {
+      "segment": 181,
+      "gps_start": 1129362900,
+      "gps_end": 1129363800,
+      "gps_mid": 1129363350.0,
+      "sgr_a_elevation_L1_deg": -65.57,
+      "sgr_a_elevation_H1_deg": -61.96,
+      "L1_excess_5093": 3.2889,
+      "H1_excess_5093": 0.9864
+    },
+    {
+      "segment": 182,
+      "gps_start": 1129363800,
+      "gps_end": 1129364700,
+      "gps_mid": 1129364250.0,
+      "sgr_a_elevation_L1_deg": -68.8,
+      "sgr_a_elevation_H1_deg": -64.18,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0226
+    },
+    {
+      "segment": 183,
+      "gps_start": 1129364700,
+      "gps_end": 1129365600,
+      "gps_mid": 1129365150.0,
+      "sgr_a_elevation_L1_deg": -72.04,
+      "sgr_a_elevation_H1_deg": -66.25,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1059
+    },
+    {
+      "segment": 184,
+      "gps_start": 1129365600,
+      "gps_end": 1129366500,
+      "gps_mid": 1129366050.0,
+      "sgr_a_elevation_L1_deg": -75.28,
+      "sgr_a_elevation_H1_deg": -68.13,
+      "L1_excess_5093": 3.0037,
+      "H1_excess_5093": 1.0471
+    },
+    {
+      "segment": 185,
+      "gps_start": 1129366500,
+      "gps_end": 1129367400,
+      "gps_mid": 1129366950.0,
+      "sgr_a_elevation_L1_deg": -78.51,
+      "sgr_a_elevation_H1_deg": -69.76,
+      "L1_excess_5093": 2.9269,
+      "H1_excess_5093": 1.1337
+    },
+    {
+      "segment": 186,
+      "gps_start": 1129367400,
+      "gps_end": 1129368300,
+      "gps_mid": 1129367850.0,
+      "sgr_a_elevation_L1_deg": -81.73,
+      "sgr_a_elevation_H1_deg": -71.08,
+      "L1_excess_5093": 3.0459,
+      "H1_excess_5093": 1.1683
+    },
+    {
+      "segment": 187,
+      "gps_start": 1129368300,
+      "gps_end": 1129369200,
+      "gps_mid": 1129368750.0,
+      "sgr_a_elevation_L1_deg": -84.89,
+      "sgr_a_elevation_H1_deg": -72.01,
+      "L1_excess_5093": 3.104,
+      "H1_excess_5093": 1.0427
+    },
+    {
+      "segment": 188,
+      "gps_start": 1129369200,
+      "gps_end": 1129370100,
+      "gps_mid": 1129369650.0,
+      "sgr_a_elevation_L1_deg": -87.77,
+      "sgr_a_elevation_H1_deg": -72.49,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 0.9855
+    },
+    {
+      "segment": 189,
+      "gps_start": 1129370100,
+      "gps_end": 1129371000,
+      "gps_mid": 1129370550.0,
+      "sgr_a_elevation_L1_deg": -87.72,
+      "sgr_a_elevation_H1_deg": -72.49,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.1136
+    },
+    {
+      "segment": 190,
+      "gps_start": 1129371000,
+      "gps_end": 1129371900,
+      "gps_mid": 1129371450.0,
+      "sgr_a_elevation_L1_deg": -84.84,
+      "sgr_a_elevation_H1_deg": -72.0,
+      "L1_excess_5093": 3.0465,
+      "H1_excess_5093": 1.0794
+    },
+    {
+      "segment": 191,
+      "gps_start": 1129371900,
+      "gps_end": 1129372800,
+      "gps_mid": 1129372350.0,
+      "sgr_a_elevation_L1_deg": -81.67,
+      "sgr_a_elevation_H1_deg": -71.06,
+      "L1_excess_5093": 3.1541,
+      "H1_excess_5093": 0.942
+    },
+    {
+      "segment": 192,
+      "gps_start": 1129372800,
+      "gps_end": 1129373700,
+      "gps_mid": 1129373250.0,
+      "sgr_a_elevation_L1_deg": -78.45,
+      "sgr_a_elevation_H1_deg": -69.73,
+      "L1_excess_5093": 2.9653,
+      "H1_excess_5093": 1.026
+    },
+    {
+      "segment": 193,
+      "gps_start": 1129373700,
+      "gps_end": 1129374600,
+      "gps_mid": 1129374150.0,
+      "sgr_a_elevation_L1_deg": -75.22,
+      "sgr_a_elevation_H1_deg": -68.1,
+      "L1_excess_5093": 2.9593,
+      "H1_excess_5093": 1.0281
+    },
+    {
+      "segment": 194,
+      "gps_start": 1129374600,
+      "gps_end": 1129375500,
+      "gps_mid": 1129375050.0,
+      "sgr_a_elevation_L1_deg": -71.98,
+      "sgr_a_elevation_H1_deg": -66.21,
+      "L1_excess_5093": 4.0995,
+      "H1_excess_5093": 1.1052
+    },
+    {
+      "segment": 195,
+      "gps_start": 1129375500,
+      "gps_end": 1129376400,
+      "gps_mid": 1129375950.0,
+      "sgr_a_elevation_L1_deg": -68.74,
+      "sgr_a_elevation_H1_deg": -64.14,
+      "L1_excess_5093": 4.2081,
+      "H1_excess_5093": 1.1274
+    },
+    {
+      "segment": 196,
+      "gps_start": 1129376400,
+      "gps_end": 1129377300,
+      "gps_mid": 1129376850.0,
+      "sgr_a_elevation_L1_deg": -65.51,
+      "sgr_a_elevation_H1_deg": -61.92,
+      "L1_excess_5093": 3.8534,
+      "H1_excess_5093": 0.9764
+    },
+    {
+      "segment": 197,
+      "gps_start": 1129377300,
+      "gps_end": 1129378200,
+      "gps_mid": 1129377750.0,
+      "sgr_a_elevation_L1_deg": -62.28,
+      "sgr_a_elevation_H1_deg": -59.59,
+      "L1_excess_5093": 3.7373,
+      "H1_excess_5093": 1.0948
+    },
+    {
+      "segment": 198,
+      "gps_start": 1129378200,
+      "gps_end": 1129379100,
+      "gps_mid": 1129378650.0,
+      "sgr_a_elevation_L1_deg": -59.06,
+      "sgr_a_elevation_H1_deg": -57.19,
+      "L1_excess_5093": 4.0065,
+      "H1_excess_5093": 1.0078
+    },
+    {
+      "segment": 199,
+      "gps_start": 1129379100,
+      "gps_end": 1129380000,
+      "gps_mid": 1129379550.0,
+      "sgr_a_elevation_L1_deg": -55.84,
+      "sgr_a_elevation_H1_deg": -54.71,
+      "L1_excess_5093": 4.4423,
+      "H1_excess_5093": 1.0552
+    },
+    {
+      "segment": 200,
+      "gps_start": 1129380000,
+      "gps_end": 1129380900,
+      "gps_mid": 1129380450.0,
+      "sgr_a_elevation_L1_deg": -52.64,
+      "sgr_a_elevation_H1_deg": -52.2,
+      "L1_excess_5093": 3.6152,
+      "H1_excess_5093": 1.0997
+    },
+    {
+      "segment": 201,
+      "gps_start": 1129380900,
+      "gps_end": 1129381800,
+      "gps_mid": 1129381350.0,
+      "sgr_a_elevation_L1_deg": -49.45,
+      "sgr_a_elevation_H1_deg": -49.65,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": 1.0643
+    },
+    {
+      "segment": 202,
+      "gps_start": 1129381800,
+      "gps_end": 1129382700,
+      "gps_mid": 1129382250.0,
+      "sgr_a_elevation_L1_deg": -46.27,
+      "sgr_a_elevation_H1_deg": -47.08,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0467
+    },
+    {
+      "segment": 203,
+      "gps_start": 1129382700,
+      "gps_end": 1129383600,
+      "gps_mid": 1129383150.0,
+      "sgr_a_elevation_L1_deg": -43.1,
+      "sgr_a_elevation_H1_deg": -44.5,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 204,
+      "gps_start": 1129383600,
+      "gps_end": 1129384500,
+      "gps_mid": 1129384050.0,
+      "sgr_a_elevation_L1_deg": -39.95,
+      "sgr_a_elevation_H1_deg": -41.91,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 205,
+      "gps_start": 1129384500,
+      "gps_end": 1129385400,
+      "gps_mid": 1129384950.0,
+      "sgr_a_elevation_L1_deg": -36.81,
+      "sgr_a_elevation_H1_deg": -39.32,
+      "L1_excess_5093": null,
+      "H1_excess_5093": 1.0
+    },
+    {
+      "segment": 206,
+      "gps_start": 1129385400,
+      "gps_end": 1129386300,
+      "gps_mid": 1129385850.0,
+      "sgr_a_elevation_L1_deg": -33.7,
+      "sgr_a_elevation_H1_deg": -36.73,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 207,
+      "gps_start": 1129386300,
+      "gps_end": 1129387200,
+      "gps_mid": 1129386750.0,
+      "sgr_a_elevation_L1_deg": -30.6,
+      "sgr_a_elevation_H1_deg": -34.16,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 208,
+      "gps_start": 1129387200,
+      "gps_end": 1129388100,
+      "gps_mid": 1129387650.0,
+      "sgr_a_elevation_L1_deg": -27.53,
+      "sgr_a_elevation_H1_deg": -31.6,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 209,
+      "gps_start": 1129388100,
+      "gps_end": 1129389000,
+      "gps_mid": 1129388550.0,
+      "sgr_a_elevation_L1_deg": -24.48,
+      "sgr_a_elevation_H1_deg": -29.07,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 210,
+      "gps_start": 1129389000,
+      "gps_end": 1129389900,
+      "gps_mid": 1129389450.0,
+      "sgr_a_elevation_L1_deg": -21.47,
+      "sgr_a_elevation_H1_deg": -26.55,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 211,
+      "gps_start": 1129389900,
+      "gps_end": 1129390800,
+      "gps_mid": 1129390350.0,
+      "sgr_a_elevation_L1_deg": -18.48,
+      "sgr_a_elevation_H1_deg": -24.07,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 212,
+      "gps_start": 1129390800,
+      "gps_end": 1129391700,
+      "gps_mid": 1129391250.0,
+      "sgr_a_elevation_L1_deg": -15.52,
+      "sgr_a_elevation_H1_deg": -21.61,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 213,
+      "gps_start": 1129391700,
+      "gps_end": 1129392600,
+      "gps_mid": 1129392150.0,
+      "sgr_a_elevation_L1_deg": -12.6,
+      "sgr_a_elevation_H1_deg": -19.19,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 214,
+      "gps_start": 1129392600,
+      "gps_end": 1129393500,
+      "gps_mid": 1129393050.0,
+      "sgr_a_elevation_L1_deg": -9.72,
+      "sgr_a_elevation_H1_deg": -16.82,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 215,
+      "gps_start": 1129393500,
+      "gps_end": 1129394400,
+      "gps_mid": 1129393950.0,
+      "sgr_a_elevation_L1_deg": -6.89,
+      "sgr_a_elevation_H1_deg": -14.49,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 216,
+      "gps_start": 1129394400,
+      "gps_end": 1129395300,
+      "gps_mid": 1129394850.0,
+      "sgr_a_elevation_L1_deg": -4.1,
+      "sgr_a_elevation_H1_deg": -12.21,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 217,
+      "gps_start": 1129395300,
+      "gps_end": 1129396200,
+      "gps_mid": 1129395750.0,
+      "sgr_a_elevation_L1_deg": -1.37,
+      "sgr_a_elevation_H1_deg": -9.98,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 218,
+      "gps_start": 1129396200,
+      "gps_end": 1129397100,
+      "gps_mid": 1129396650.0,
+      "sgr_a_elevation_L1_deg": 1.31,
+      "sgr_a_elevation_H1_deg": -7.81,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 219,
+      "gps_start": 1129397100,
+      "gps_end": 1129398000,
+      "gps_mid": 1129397550.0,
+      "sgr_a_elevation_L1_deg": 3.92,
+      "sgr_a_elevation_H1_deg": -5.71,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 220,
+      "gps_start": 1129398000,
+      "gps_end": 1129398900,
+      "gps_mid": 1129398450.0,
+      "sgr_a_elevation_L1_deg": 6.46,
+      "sgr_a_elevation_H1_deg": -3.68,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 221,
+      "gps_start": 1129398900,
+      "gps_end": 1129399800,
+      "gps_mid": 1129399350.0,
+      "sgr_a_elevation_L1_deg": 8.93,
+      "sgr_a_elevation_H1_deg": -1.72,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 222,
+      "gps_start": 1129399800,
+      "gps_end": 1129400700,
+      "gps_mid": 1129400250.0,
+      "sgr_a_elevation_L1_deg": 11.31,
+      "sgr_a_elevation_H1_deg": 0.15,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 223,
+      "gps_start": 1129400700,
+      "gps_end": 1129401600,
+      "gps_mid": 1129401150.0,
+      "sgr_a_elevation_L1_deg": 13.6,
+      "sgr_a_elevation_H1_deg": 1.94,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 224,
+      "gps_start": 1129401600,
+      "gps_end": 1129402500,
+      "gps_mid": 1129402050.0,
+      "sgr_a_elevation_L1_deg": 15.78,
+      "sgr_a_elevation_H1_deg": 3.64,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 225,
+      "gps_start": 1129402500,
+      "gps_end": 1129403400,
+      "gps_mid": 1129402950.0,
+      "sgr_a_elevation_L1_deg": 17.86,
+      "sgr_a_elevation_H1_deg": 5.23,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 226,
+      "gps_start": 1129403400,
+      "gps_end": 1129404300,
+      "gps_mid": 1129403850.0,
+      "sgr_a_elevation_L1_deg": 19.82,
+      "sgr_a_elevation_H1_deg": 6.72,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 227,
+      "gps_start": 1129404300,
+      "gps_end": 1129405200,
+      "gps_mid": 1129404750.0,
+      "sgr_a_elevation_L1_deg": 21.64,
+      "sgr_a_elevation_H1_deg": 8.1,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 228,
+      "gps_start": 1129405200,
+      "gps_end": 1129406100,
+      "gps_mid": 1129405650.0,
+      "sgr_a_elevation_L1_deg": 23.33,
+      "sgr_a_elevation_H1_deg": 9.36,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 229,
+      "gps_start": 1129406100,
+      "gps_end": 1129407000,
+      "gps_mid": 1129406550.0,
+      "sgr_a_elevation_L1_deg": 24.85,
+      "sgr_a_elevation_H1_deg": 10.49,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 230,
+      "gps_start": 1129407000,
+      "gps_end": 1129407900,
+      "gps_mid": 1129407450.0,
+      "sgr_a_elevation_L1_deg": 26.22,
+      "sgr_a_elevation_H1_deg": 11.49,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 231,
+      "gps_start": 1129407900,
+      "gps_end": 1129408800,
+      "gps_mid": 1129408350.0,
+      "sgr_a_elevation_L1_deg": 27.41,
+      "sgr_a_elevation_H1_deg": 12.36,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 232,
+      "gps_start": 1129408800,
+      "gps_end": 1129409700,
+      "gps_mid": 1129409250.0,
+      "sgr_a_elevation_L1_deg": 28.42,
+      "sgr_a_elevation_H1_deg": 13.09,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 233,
+      "gps_start": 1129409700,
+      "gps_end": 1129410600,
+      "gps_mid": 1129410150.0,
+      "sgr_a_elevation_L1_deg": 29.23,
+      "sgr_a_elevation_H1_deg": 13.68,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 234,
+      "gps_start": 1129410600,
+      "gps_end": 1129411500,
+      "gps_mid": 1129411050.0,
+      "sgr_a_elevation_L1_deg": 29.83,
+      "sgr_a_elevation_H1_deg": 14.11,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 235,
+      "gps_start": 1129411500,
+      "gps_end": 1129412400,
+      "gps_mid": 1129411950.0,
+      "sgr_a_elevation_L1_deg": 30.23,
+      "sgr_a_elevation_H1_deg": 14.4,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 236,
+      "gps_start": 1129412400,
+      "gps_end": 1129413300,
+      "gps_mid": 1129412850.0,
+      "sgr_a_elevation_L1_deg": 30.42,
+      "sgr_a_elevation_H1_deg": 14.53,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 237,
+      "gps_start": 1129413300,
+      "gps_end": 1129414200,
+      "gps_mid": 1129413750.0,
+      "sgr_a_elevation_L1_deg": 30.39,
+      "sgr_a_elevation_H1_deg": 14.51,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 238,
+      "gps_start": 1129414200,
+      "gps_end": 1129415100,
+      "gps_mid": 1129414650.0,
+      "sgr_a_elevation_L1_deg": 30.14,
+      "sgr_a_elevation_H1_deg": 14.33,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 239,
+      "gps_start": 1129415100,
+      "gps_end": 1129416000,
+      "gps_mid": 1129415550.0,
+      "sgr_a_elevation_L1_deg": 29.68,
+      "sgr_a_elevation_H1_deg": 14.0,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 240,
+      "gps_start": 1129416000,
+      "gps_end": 1129416900,
+      "gps_mid": 1129416450.0,
+      "sgr_a_elevation_L1_deg": 29.02,
+      "sgr_a_elevation_H1_deg": 13.53,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 241,
+      "gps_start": 1129416900,
+      "gps_end": 1129417800,
+      "gps_mid": 1129417350.0,
+      "sgr_a_elevation_L1_deg": 28.15,
+      "sgr_a_elevation_H1_deg": 12.9,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 242,
+      "gps_start": 1129417800,
+      "gps_end": 1129418700,
+      "gps_mid": 1129418250.0,
+      "sgr_a_elevation_L1_deg": 27.1,
+      "sgr_a_elevation_H1_deg": 12.13,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 243,
+      "gps_start": 1129418700,
+      "gps_end": 1129419600,
+      "gps_mid": 1129419150.0,
+      "sgr_a_elevation_L1_deg": 25.85,
+      "sgr_a_elevation_H1_deg": 11.23,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 244,
+      "gps_start": 1129419600,
+      "gps_end": 1129420500,
+      "gps_mid": 1129420050.0,
+      "sgr_a_elevation_L1_deg": 24.44,
+      "sgr_a_elevation_H1_deg": 10.19,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 245,
+      "gps_start": 1129420500,
+      "gps_end": 1129421400,
+      "gps_mid": 1129420950.0,
+      "sgr_a_elevation_L1_deg": 22.87,
+      "sgr_a_elevation_H1_deg": 9.02,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 246,
+      "gps_start": 1129421400,
+      "gps_end": 1129422300,
+      "gps_mid": 1129421850.0,
+      "sgr_a_elevation_L1_deg": 21.14,
+      "sgr_a_elevation_H1_deg": 7.72,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 247,
+      "gps_start": 1129422300,
+      "gps_end": 1129423200,
+      "gps_mid": 1129422750.0,
+      "sgr_a_elevation_L1_deg": 19.28,
+      "sgr_a_elevation_H1_deg": 6.31,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 248,
+      "gps_start": 1129423200,
+      "gps_end": 1129424100,
+      "gps_mid": 1129423650.0,
+      "sgr_a_elevation_L1_deg": 17.29,
+      "sgr_a_elevation_H1_deg": 4.79,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 249,
+      "gps_start": 1129424100,
+      "gps_end": 1129425000,
+      "gps_mid": 1129424550.0,
+      "sgr_a_elevation_L1_deg": 15.18,
+      "sgr_a_elevation_H1_deg": 3.17,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 250,
+      "gps_start": 1129425000,
+      "gps_end": 1129425900,
+      "gps_mid": 1129425450.0,
+      "sgr_a_elevation_L1_deg": 12.97,
+      "sgr_a_elevation_H1_deg": 1.45,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 251,
+      "gps_start": 1129425900,
+      "gps_end": 1129426800,
+      "gps_mid": 1129426350.0,
+      "sgr_a_elevation_L1_deg": 10.65,
+      "sgr_a_elevation_H1_deg": -0.36,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 252,
+      "gps_start": 1129426800,
+      "gps_end": 1129427700,
+      "gps_mid": 1129427250.0,
+      "sgr_a_elevation_L1_deg": 8.24,
+      "sgr_a_elevation_H1_deg": -2.26,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 253,
+      "gps_start": 1129427700,
+      "gps_end": 1129428600,
+      "gps_mid": 1129428150.0,
+      "sgr_a_elevation_L1_deg": 5.76,
+      "sgr_a_elevation_H1_deg": -4.24,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 254,
+      "gps_start": 1129428600,
+      "gps_end": 1129429500,
+      "gps_mid": 1129429050.0,
+      "sgr_a_elevation_L1_deg": 3.19,
+      "sgr_a_elevation_H1_deg": -6.29,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 255,
+      "gps_start": 1129429500,
+      "gps_end": 1129430400,
+      "gps_mid": 1129429950.0,
+      "sgr_a_elevation_L1_deg": 0.56,
+      "sgr_a_elevation_H1_deg": -8.41,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 256,
+      "gps_start": 1129430400,
+      "gps_end": 1129431300,
+      "gps_mid": 1129430850.0,
+      "sgr_a_elevation_L1_deg": -2.13,
+      "sgr_a_elevation_H1_deg": -10.6,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 257,
+      "gps_start": 1129431300,
+      "gps_end": 1129432200,
+      "gps_mid": 1129431750.0,
+      "sgr_a_elevation_L1_deg": -4.88,
+      "sgr_a_elevation_H1_deg": -12.84,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 258,
+      "gps_start": 1129432200,
+      "gps_end": 1129433100,
+      "gps_mid": 1129432650.0,
+      "sgr_a_elevation_L1_deg": -7.68,
+      "sgr_a_elevation_H1_deg": -15.14,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 259,
+      "gps_start": 1129433100,
+      "gps_end": 1129434000,
+      "gps_mid": 1129433550.0,
+      "sgr_a_elevation_L1_deg": -10.53,
+      "sgr_a_elevation_H1_deg": -17.48,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 260,
+      "gps_start": 1129434000,
+      "gps_end": 1129434900,
+      "gps_mid": 1129434450.0,
+      "sgr_a_elevation_L1_deg": -13.42,
+      "sgr_a_elevation_H1_deg": -19.87,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 261,
+      "gps_start": 1129434900,
+      "gps_end": 1129435800,
+      "gps_mid": 1129435350.0,
+      "sgr_a_elevation_L1_deg": -16.35,
+      "sgr_a_elevation_H1_deg": -22.3,
+      "L1_excess_5093": null,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 262,
+      "gps_start": 1129435800,
+      "gps_end": 1129436700,
+      "gps_mid": 1129436250.0,
+      "sgr_a_elevation_L1_deg": -19.31,
+      "sgr_a_elevation_H1_deg": -24.76,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 263,
+      "gps_start": 1129436700,
+      "gps_end": 1129437600,
+      "gps_mid": 1129437150.0,
+      "sgr_a_elevation_L1_deg": -22.31,
+      "sgr_a_elevation_H1_deg": -27.25,
+      "L1_excess_5093": 2.9869,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 264,
+      "gps_start": 1129437600,
+      "gps_end": 1129438500,
+      "gps_mid": 1129438050.0,
+      "sgr_a_elevation_L1_deg": -25.34,
+      "sgr_a_elevation_H1_deg": -29.77,
+      "L1_excess_5093": 2.66,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 265,
+      "gps_start": 1129438500,
+      "gps_end": 1129439400,
+      "gps_mid": 1129438950.0,
+      "sgr_a_elevation_L1_deg": -28.39,
+      "sgr_a_elevation_H1_deg": -32.32,
+      "L1_excess_5093": 3.0015,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 266,
+      "gps_start": 1129439400,
+      "gps_end": 1129440300,
+      "gps_mid": 1129439850.0,
+      "sgr_a_elevation_L1_deg": -31.47,
+      "sgr_a_elevation_H1_deg": -34.88,
+      "L1_excess_5093": 2.9116,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 267,
+      "gps_start": 1129440300,
+      "gps_end": 1129441200,
+      "gps_mid": 1129440750.0,
+      "sgr_a_elevation_L1_deg": -34.57,
+      "sgr_a_elevation_H1_deg": -37.46,
+      "L1_excess_5093": 2.8464,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 268,
+      "gps_start": 1129441200,
+      "gps_end": 1129442100,
+      "gps_mid": 1129441650.0,
+      "sgr_a_elevation_L1_deg": -37.69,
+      "sgr_a_elevation_H1_deg": -40.04,
+      "L1_excess_5093": 2.8823,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 269,
+      "gps_start": 1129442100,
+      "gps_end": 1129443000,
+      "gps_mid": 1129442550.0,
+      "sgr_a_elevation_L1_deg": -40.83,
+      "sgr_a_elevation_H1_deg": -42.63,
+      "L1_excess_5093": 3.2441,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 270,
+      "gps_start": 1129443000,
+      "gps_end": 1129443900,
+      "gps_mid": 1129443450.0,
+      "sgr_a_elevation_L1_deg": -43.98,
+      "sgr_a_elevation_H1_deg": -45.22,
+      "L1_excess_5093": 2.9418,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 271,
+      "gps_start": 1129443900,
+      "gps_end": 1129444800,
+      "gps_mid": 1129444350.0,
+      "sgr_a_elevation_L1_deg": -47.16,
+      "sgr_a_elevation_H1_deg": -47.8,
+      "L1_excess_5093": 3.062,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 272,
+      "gps_start": 1129444800,
+      "gps_end": 1129445700,
+      "gps_mid": 1129445250.0,
+      "sgr_a_elevation_L1_deg": -50.34,
+      "sgr_a_elevation_H1_deg": -50.37,
+      "L1_excess_5093": 2.8872,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 273,
+      "gps_start": 1129445700,
+      "gps_end": 1129446600,
+      "gps_mid": 1129446150.0,
+      "sgr_a_elevation_L1_deg": -53.54,
+      "sgr_a_elevation_H1_deg": -52.91,
+      "L1_excess_5093": 3.284,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 274,
+      "gps_start": 1129446600,
+      "gps_end": 1129447500,
+      "gps_mid": 1129447050.0,
+      "sgr_a_elevation_L1_deg": -56.74,
+      "sgr_a_elevation_H1_deg": -55.41,
+      "L1_excess_5093": 2.7746,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 275,
+      "gps_start": 1129447500,
+      "gps_end": 1129448400,
+      "gps_mid": 1129447950.0,
+      "sgr_a_elevation_L1_deg": -59.96,
+      "sgr_a_elevation_H1_deg": -57.87,
+      "L1_excess_5093": 2.9212,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 276,
+      "gps_start": 1129448400,
+      "gps_end": 1129449300,
+      "gps_mid": 1129448850.0,
+      "sgr_a_elevation_L1_deg": -63.18,
+      "sgr_a_elevation_H1_deg": -60.26,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 277,
+      "gps_start": 1129449300,
+      "gps_end": 1129450200,
+      "gps_mid": 1129449750.0,
+      "sgr_a_elevation_L1_deg": -66.41,
+      "sgr_a_elevation_H1_deg": -62.55,
+      "L1_excess_5093": 1.0,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 278,
+      "gps_start": 1129450200,
+      "gps_end": 1129451100,
+      "gps_mid": 1129450650.0,
+      "sgr_a_elevation_L1_deg": -69.65,
+      "sgr_a_elevation_H1_deg": -64.74,
+      "L1_excess_5093": 3.2077,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 279,
+      "gps_start": 1129451100,
+      "gps_end": 1129452000,
+      "gps_mid": 1129451550.0,
+      "sgr_a_elevation_L1_deg": -72.89,
+      "sgr_a_elevation_H1_deg": -66.76,
+      "L1_excess_5093": 2.9768,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 280,
+      "gps_start": 1129452000,
+      "gps_end": 1129452900,
+      "gps_mid": 1129452450.0,
+      "sgr_a_elevation_L1_deg": -76.12,
+      "sgr_a_elevation_H1_deg": -68.58,
+      "L1_excess_5093": 3.0909,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 281,
+      "gps_start": 1129452900,
+      "gps_end": 1129453800,
+      "gps_mid": 1129453350.0,
+      "sgr_a_elevation_L1_deg": -79.35,
+      "sgr_a_elevation_H1_deg": -70.14,
+      "L1_excess_5093": 3.0417,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 282,
+      "gps_start": 1129453800,
+      "gps_end": 1129454700,
+      "gps_mid": 1129454250.0,
+      "sgr_a_elevation_L1_deg": -82.56,
+      "sgr_a_elevation_H1_deg": -71.36,
+      "L1_excess_5093": 2.9481,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 283,
+      "gps_start": 1129454700,
+      "gps_end": 1129455600,
+      "gps_mid": 1129455150.0,
+      "sgr_a_elevation_L1_deg": -85.7,
+      "sgr_a_elevation_H1_deg": -72.18,
+      "L1_excess_5093": 3.0071,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 284,
+      "gps_start": 1129455600,
+      "gps_end": 1129456500,
+      "gps_mid": 1129456050.0,
+      "sgr_a_elevation_L1_deg": -88.27,
+      "sgr_a_elevation_H1_deg": -72.54,
+      "L1_excess_5093": 2.8361,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 285,
+      "gps_start": 1129456500,
+      "gps_end": 1129457400,
+      "gps_mid": 1129456950.0,
+      "sgr_a_elevation_L1_deg": -87.04,
+      "sgr_a_elevation_H1_deg": -72.41,
+      "L1_excess_5093": 2.8237,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 286,
+      "gps_start": 1129457400,
+      "gps_end": 1129458300,
+      "gps_mid": 1129457850.0,
+      "sgr_a_elevation_L1_deg": -84.02,
+      "sgr_a_elevation_H1_deg": -71.79,
+      "L1_excess_5093": 3.0468,
+      "H1_excess_5093": null
+    },
+    {
+      "segment": 287,
+      "gps_start": 1129458300,
+      "gps_end": 1129459200,
+      "gps_mid": 1129458750.0,
+      "sgr_a_elevation_L1_deg": -80.83,
+      "sgr_a_elevation_H1_deg": -70.74,
+      "L1_excess_5093": 3.0187,
+      "H1_excess_5093": null
+    }
+  ]
+}

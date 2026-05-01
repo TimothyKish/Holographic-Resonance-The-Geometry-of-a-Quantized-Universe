@@ -1,0 +1,57 @@
+{
+  "unify": {
+    "__modulus_note__": "Sweep values are exact: N/pi for N=15,16,17. Central value 16/pi = k_geo = 5.092958...",
+
+    "klc_mapping": {
+      "mode": "identity",
+      "description": "KLC = KLS for initial unification. Can be changed to 'normalized' or 'anchored' later."
+    },
+
+    "modulus_sweep": {
+      "enabled": true,
+      "values": [
+        4.774648292756860,
+        5.092958178940651,
+        5.411268065124442
+      ],
+      "labels": [
+        "15/pi",
+        "16/pi",
+        "17/pi"
+      ]
+    },
+
+    "cross_domain_pinch": {
+      "enabled": true,
+      "domains": [
+        "biology_amino",
+        "biology_chirality",
+        "chemistry",
+        "materials",
+        "frb"
+      ]
+    },
+
+    "null_domains": {
+      "enabled": true,
+      "paths": [
+        "lakes/synthetic/chaos_null_chemistry.jsonl",
+        "lakes/synthetic/chaos_null_materials.jsonl",
+        "lakes/synthetic/chaos_null_frb.jsonl",
+        "lakes/synthetic/chaos_null_biology_amino.jsonl",
+        "lakes/synthetic/chaos_null_biology_chirality.jsonl",
+        "lakes/synthetic/scramble_null_chemistry.jsonl",
+        "lakes/synthetic/scramble_null_materials.jsonl",
+        "lakes/synthetic/scramble_null_frb.jsonl",
+        "lakes/synthetic/scramble_null_biology_amino.jsonl",
+        "lakes/synthetic/scramble_null_biology_chirality.jsonl"
+      ]
+    },
+
+    "output": {
+      "unified_lake":   "lakes/unified/unified_master.jsonl",
+      "pinch_table":    "lakes/unified/pinch_table.json",
+      "sweep_results":  "lakes/unified/sweep_results.json"
+    }
+  }
+}
