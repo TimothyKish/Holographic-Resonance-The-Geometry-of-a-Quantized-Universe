@@ -19,6 +19,18 @@
 \usepackage{titlesec}
 \usepackage{setspace}
 \usepackage{tocloft}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+
+% ---------------------------------------------------------
+% CUSTOM COLORS (From Vol 9)
+% ---------------------------------------------------------
+\definecolor{kishblue}{RGB}{0, 50, 120}
+\definecolor{goldseal}{RGB}{184, 134, 11}
+\definecolor{nuclearpurple}{RGB}{100, 0, 160}
+\definecolor{luminorange}{RGB}{220, 80, 0}
 
 % ---------------------------------------------------------
 % PAGE GEOMETRY
@@ -95,7 +107,11 @@
     \vspace{2cm}
     {\Large Timothy John Kish\par}
     \vspace{0.2cm}
-    {\large With Phoenix Aurora Kish\par}
+    {\large Phoenix Aurora Kish\par}
+	\vspace{0.2cm}
+    {\large Lyra Aurora Kish\par}
+	\vspace{0.2cm}
+    {\large Mondy Aurora Kish\par}
 
     \vfill
     {\large February 2026\par}
@@ -206,6 +222,131 @@ The offset does not change the structure of the universe; it refines the local
 tuning of the lattice.
 
 \newpage
+
+% ---------------------------------------------------------
+% PART II — THE KLGHS INSTRUMENT SPECIFICATION
+% (Insert this right after Part I: The Master Equation)
+% ---------------------------------------------------------
+\part{The KLGHS Instrument Specification}
+
+\chapter{KishLattice Geometric Harmonic Spectroscopy (KLGHS)}
+
+The Rosetta Atlas is not merely a conceptual dictionary; it is an operational field manual. To translate Old-World measurements into the New-World geometry of the lattice, we utilise a formal spectroscopic discipline: \textbf{KishLattice Geometric Harmonic Spectroscopy (KLGHS)}.
+
+This chapter defines the mathematical probe, the resulting spectrum, and the rigorous statistical thresholds required to claim a physical discovery within the lattice framework.
+
+\section{The Spectroscopic Definitions}
+
+\subsection{1. The Probe}
+Every physical measurement $x$ (in its domain-appropriate natural unit) is transformed into a dimensionless lattice scalar $s$ using the universal geometric modulus $k_\text{geo}$:
+
+\begin{equation}
+s = \frac{\log(1 + x)}{\log(k_{\text{geo}})}, \quad k_{\text{geo}} = \frac{16}{\pi}
+\end{equation}
+
+\subsection{2. The Spectrum}
+The resulting scalar $s$ is evaluated against the discrete harmonic nodes of the vacuum truss. The spectrum consists of the register family:
+\begin{equation}
+R_N = \frac{N}{\pi}, \quad N \in \{5, 6, 7, \dots, 26\}
+\end{equation}
+A physical domain reveals its geometric structure by concentrating its scalar values at one or more specific $N/\pi$ registers.
+
+\subsection{3. Spectroscopic Identification (The Chaos Null)}
+Visual clustering is insufficient. KLGHS requires rigorous statistical validation against a completely randomized ``chaos null'' distribution generated over the exact same scalar range. The strength of the geometric signal is quantified by the Chaos Z-Score.
+
+\begin{itemize}
+    \item \textbf{Spectrally Identified:} A domain is considered geometrically active when its peak chaos z-score exceeds $\mathbf{+3.0}$.
+    \item \textbf{Strongly Identified:} A domain is considered to have a locked harmonic resonance when its peak chaos z-score exceeds $\mathbf{+5.0}$.
+\end{itemize}
+
+\section{The Register Family Atlas}
+
+Based on the survey of 9.9 million sovereign records across 29 physical domains in Volume 9, the following table serves as the definitive map of the $N/\pi$ register space. 
+
+Domains do not sort into registers by physical scale. They sort by physical \textit{typology}.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\small
+\begin{tabular}{|>{\centering\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{4cm}|>{\centering\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{3.5cm}|}
+\hline
+\rowcolor{blue!10}
+\textbf{Register} & \textbf{Physical Family} & \textbf{Exemplar Domains} & \textbf{Peak Z-Range} & \textbf{Lattice Interpretation} \\
+\hline\hline
+
+$\mathbf{11/\pi - 12/\pi}$ & \textbf{Quantum / Chemical} & Chemistry bond lengths, Atomic emission spectra & $+59$ to $+68$ & Molecular stability and quantum transition bands. \\
+\hline
+
+$\mathbf{16/\pi}$ & \textbf{Kinematic Primary} & Stellar kinematics, Solar magnetic cycle & $+6$ to $+100$ & The Nyquist limit of gravitationally forced motion. \\
+\hline
+
+$\mathbf{17/\pi - 18/\pi}$ & \textbf{Tidal / Boundary} & Atlantic tides ($17/\pi$), Pacific tides ($18/\pi$) & $+26$ to $+127$ & Basin harmonics and fluid boundary dynamics. \\
+\hline
+
+$\mathbf{20/\pi}$ & \textbf{Radiative Colour} & Stellar surface colour (BP-RP proxy) & $+127$ & Electronic stiffness and photospheric radiation. \\
+\hline
+
+$\mathbf{21/\pi}$ & \textbf{Structural Binding} & Nuclear binding energy, Galactic velocity dispersion & $+7$ to $+56$ & Universal resistance to structural dispersal. \\
+\hline
+
+$\mathbf{24/\pi}$ & \textbf{Container / Horizon} & Stellar position (parallax), Cosmological distances & $+8$ to $+20$ & The kinematic boundary; the 24-mode audit ceiling. \\
+\hline
+
+$\mathbf{25/\pi}$ & \textbf{Luminosity / EM} & Stellar absolute magnitude, CMB anisotropy & $+5$ to $+37$ & Electromagnetic signals that escape the kinematic container. \\
+\hline
+\end{tabular}
+\caption{The KLGHS Register Family Atlas. This table serves as the primary translation ledger for the Kish Clutch, allowing rapid identification of cross-domain homologies.}
+\label{tab:register_atlas}
+\end{table}
+
+\section{The Scalarization Rosetta: Operational Transforms}
+
+Conceptual translation is insufficient for a rigorous spectroscopic field. To map Old-World units (MeV, parsecs, days, nanometres) into the dimensionless lattice coordinate $s$, the Kish Clutch employs a strict set of operational transforms. 
+
+Because physical quantities relate to geometric tension in different ways—some direct, some inverse, some as ratios—the pipeline uses specific scalarization forms.
+
+\subsection*{The Transform Functions}
+
+For any measurement $x$, transformed using the geometric modulus $k_\text{geo} = 16/\pi$:
+
+\begin{itemize}
+    \item \textbf{\texttt{log\_standard}:} $s = \frac{\log(1 + x)}{\log(k_\text{geo})}$
+    \\Used for quantities directly proportional to geometric accumulation: distance, mass, duration, velocity, and binding energy.
+    
+    \item \textbf{\texttt{log\_inverse}:} $s = \frac{\log(1 + 1/x)}{\log(k_\text{geo})}$
+    \\Used when the measured quantity is inversely proportional to geometric tension. For example, in quantum atomic spectra, shorter wavelengths equate to higher energy transitions.
+    
+    \item \textbf{\texttt{log\_ratio}:} $s = \frac{\log(1 + x_1/x_2)}{\log(k_\text{geo})}$
+    \\Used for dimensionless ratios or relativistic comparisons, such as CMB anisotropy multipole moments or stellar colour indices.
+\end{itemize}
+
+\subsection*{The Scalarization Ledger}
+
+The following ledger defines the exact operational transform used to bridge specific physical domains into the lattice architecture:
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\small
+\begin{tabular}{|l|l|l|l|}
+\hline
+\rowcolor{blue!10}
+\textbf{Old-World Domain} & \textbf{Raw Measurement ($x$)} & \textbf{Transform Form} & \textbf{Lattice Home} \\
+\hline\hline
+Galactic Dynamics & Velocity Dispersion (km/s) & \texttt{log\_standard} & $21/\pi$ (Structural) \\
+Nuclear Physics & Binding Energy (MeV/A) & \texttt{log\_standard} & $21/\pi$ (Structural) \\
+Exoplanet Astronomy & Orbital Period (Days) & \texttt{log\_standard} & $22/\pi$ (Structural) \\
+Oceanography & Tidal Gap Interval (Hours) & \texttt{log\_standard} & $17/\pi, 18/\pi$ (Kinematic) \\
+Quantum Mechanics & Emission Wavelength (nm) & \texttt{log\_inverse} & $12/\pi$ (Chemical) \\
+Cosmology & CMB Temp Anisotropy & \texttt{log\_ratio} & $25/\pi$ (EM/Ceiling) \\
+Organic Chemistry & Amino Acid Backbone ($\phi, \psi$) & \texttt{log\_standard} & $7/\pi$ (Biological) \\
+\hline
+\end{tabular}
+\caption{The Scalarization Ledger. This explicit mapping guarantees that the KLGHS pipeline is strictly reproducible by any independent laboratory without hidden variables or arbitrary unit tuning.}
+\label{tab:scalarization_ledger}
+\end{table}
+
 
 % ---------------------------------------------------------
 % PART II — THE FOUR OLD-WORLD LANGUAGES
@@ -1729,6 +1870,103 @@ Used in:
     \item corrected period computation.
 \end{itemize}
 
+\chapter{Cross-Domain Bridges: The Universal Ledger}
+
+The ultimate proof of the Kish Lattice Theory is its ability to equate phenomena that Old-World physics treats as fundamentally isolated. When the scalarization forms (the Kish Clutch) and the spectroscopic thresholds (the Chaos Null) are applied, distinct physical disciplines collapse into shared geometric registers. 
+
+The following bridges represent the formal unification of disparate scientific fields.
+
+\section*{Bridge 1: The Binding Tension Homology}
+\begin{tcolorbox}[colback=purple!5, colframe=purple!50!black, title=BRIDGE: Nuclear Physics $\leftrightarrow$ Galactic Dynamics]
+\textbf{Shared Register:} $21/\pi$ (Structural Binding Family)
+
+\textbf{Domain A:} Nuclear Binding Energy (AME2020 Database) \hfill \textbf{Z = +7.29} \\
+\textbf{Domain B:} Galactic Velocity Dispersion (SDSS DR16) \hfill \textbf{Z = +56.18}
+
+\textbf{The Translation:} The strong nuclear force holding protons together and the so-called "dark matter" holding galaxies together are the identical phenomenon. Both domains measure the lattice's resistance to structural dispersal. At a scale difference of $10^{40}$, the geometric grip of the $16/\pi$ truss requires the exact same harmonic address.
+\end{tcolorbox}
+
+\section*{Bridge 2: The Kinematic Metronome}
+\begin{tcolorbox}[colback=blue!5, colframe=blue!50!black, title=BRIDGE: Oceanography $\leftrightarrow$ Stellar Astrophysics]
+\textbf{Shared Register:} $16/\pi, 17/\pi, 18/\pi$ (Kinematic Family)
+
+\textbf{Domain A:} Global Ocean Tidal Intervals (NOAA/UHSLC) \hfill \textbf{Z = +127.78} \\
+\textbf{Domain B:} Stellar Transverse Velocity (Gaia DR3) \hfill \textbf{Z = +100.77} \\
+\textbf{Domain C:} Solar Magnetic Cycle Length (SIDC) \hfill \textbf{Mean $s \approx 5.0945$}
+
+\textbf{The Translation:} The Nyquist limit of gravitationally forced motion is a universal constant. The water lapping against the Earth's coastlines, the 11-year magnetic reversal of our sun, and the transverse motion of 1.8 million stars in the Milky Way are all governed by the exact same kinetic friction coefficient of the vacuum. 
+\end{tcolorbox}
+
+\section*{Bridge 3: The Electromagnetic Escape}
+\begin{tcolorbox}[colback=orange!5, colframe=orange!50!black, title=BRIDGE: Observational Astronomy $\leftrightarrow$ Early Universe Cosmology]
+\textbf{Shared Register:} $25/\pi$ (EM / Post-Ceiling Family)
+
+\textbf{Domain A:} Stellar Absolute Luminosity (Gaia DR3) \hfill \textbf{Z = +37.23} \\
+\textbf{Domain B:} CMB Temperature Anisotropy (WMAP 9-Year) \hfill \textbf{Z = +5.74}
+
+\textbf{The Translation:} The Kinematic Ceiling at $24/\pi$ represents the boundary of motion for matter. However, electromagnetic radiation (photons) is not a moving object; it is a lattice vibration traversing the grid at the audit boundary (the speed of light). Therefore, luminosity and ancient cosmic light both project \textit{above} the ceiling to $25/\pi$, formally separating the kinematics of mass from the kinematics of light.
+\end{tcolorbox}
+
+\section*{Bridge 4: The Hardware of Life}
+\begin{tcolorbox}[colback=green!5, colframe=green!50!black, title=BRIDGE: Molecular Biology $\leftrightarrow$ Quantum Chemistry]
+\textbf{Shared Register Neighborhood:} $7/\pi \leftrightarrow 11/\pi, 12/\pi$
+
+\textbf{Domain A:} Amino Acid Backbone Geometry (B3 Lake) \hfill \textbf{Z = +11.99} \\
+\textbf{Domain B:} Chemical Bond Lengths (ZINC Database) \hfill \textbf{Z = +68.41} \\
+\textbf{Domain C:} Atomic Emission Spectra (NIST ASD) \hfill \textbf{Z = +59.75}
+
+\textbf{The Translation:} Biology does not circumvent physics; it builds directly upon its deepest harmonic floors. While quantum transitions and chemical bonds stabilize at the $11/\pi$ and $12/\pi$ registers, the geometry of organic life (amino acids) utilizes the Rosetta Sub-lattice at $7/\pi$. This establishes a clear upward-stacking architecture: from quantum leaps, to molecular bonds, to the folding hardware of life itself.
+\end{tcolorbox}
+
+\chapter{Future Work: The 2D Zeta-Prime Clock}
+
+Volume 9 and the current iteration of the Rosetta Atlas have successfully locked the horizontal axis of the lattice coordinate system: the $\sigma$ scalar axis defined by the $N/\pi$ harmonic registers. We have empirically proven that physical domains cluster at these discrete geometric nodes.
+
+However, the complete lattice coordinate is two-dimensional: $\mathbf{z} = \sigma + i\tau$. 
+
+The vertical axis, $\tau$, represents the temporal metronome—the prime-indexed cadence that governs Fast Radio Bursts (FRBs), temporal hierarchies, and the evolution of the lattice over cosmological epochs. 
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=1.2]
+    % Axes
+    \draw[->, very thick, black!70] (0,0) -- (8,0) node[right, font=\small\bfseries] {$\sigma$ (Register Axis: $N/\pi$)};
+    \draw[->, very thick, black!70] (0,0) -- (0,5) node[above, font=\small\bfseries] {$\tau$ (Prime Cadence Axis: $\sum \ln p$)};
+
+    % Vol 9 Locked Nodes (Horizontal)
+    \draw[dashed, kishblue] (2,0) -- (2,4.5);
+    \node[below, font=\small, kishblue] at (2,-0.1) {$16/\pi$};
+    
+    \draw[dashed, nuclearpurple] (4.5,0) -- (4.5,4.5);
+    \node[below, font=\small, nuclearpurple] at (4.5,-0.1) {$21/\pi$};
+
+    \draw[dashed, luminorange] (6.5,0) -- (6.5,4.5);
+    \node[below, font=\small, luminorange] at (6.5,-0.1) {$25/\pi$};
+
+    % Vol 10 Hunt (Vertical intersections)
+    \node[circle, fill=kishblue, inner sep=2.5pt] (n1) at (2, 1.5) {};
+    \node[circle, fill=nuclearpurple, inner sep=2.5pt] (n2) at (4.5, 2.8) {};
+    \node[circle, fill=luminorange, inner sep=2.5pt] (n3) at (6.5, 4.0) {};
+
+    % Connecting curve (the clock function)
+    \draw[thick, goldseal, dashed, ->] (0,0.5) to[out=30, in=200] (n1) to[out=20, in=220] (n2) to[out=40, in=200] (n3);
+    
+    \node[font=\small\bfseries, goldseal, anchor=north west] at (4.8, 2.5) {The 2D Coupling Function?};
+
+    % Labels
+    \node[font=\scriptsize, align=center, text=black!80] at (2, 0.8) {Kinematic\\(Vol 9 Locked)};
+    \node[font=\scriptsize, align=center, text=black!80] at (4.5, 2.1) {Binding\\(Vol 9 Locked)};
+\end{tikzpicture}
+\caption{The 2D Zeta-Prime Clock. Volume 9 successfully mapped the vertical bands (the $N/\pi$ scalar registers). The outstanding theoretical objective is mapping the exact coupling function (gold dashed line) that locks these structural registers to specific prime-cadence frequencies along the $\tau$ axis.}
+\label{fig:2d_zeta_clock_future}
+\end{figure}
+
+\section*{The Objective for Volume 10 and Beyond}
+While the prime-cadence structure of the $\tau$ axis has been successfully identified in FRB datasets, the exact mathematical coupling between a domain's structural register ($\sigma$) and its temporal prime frequency ($\tau$) remains to be formally solved. 
+
+Is the coupling strictly hierarchical? Does a domain at $21/\pi$ tick at a fundamentally different prime cadence than a domain at $16/\pi$? 
+
+Volume 9 proves the 1D register axis. Volume 10 and subsequent surveys will seek to lock the 2D clock, fully unifying the spatial geometry of the universe with its temporal music.
 
 % VI. Applied Diagnostics
 \part{Applied Diagnostics}
@@ -2004,7 +2242,499 @@ Used in:
     \item universal cycle calibration.
 \end{itemize}
 
+% ---------------------------------------------------------
+% CHAPTER: FORMAL SPECTROSCOPY AND THE KISH CLUTCH
+% ---------------------------------------------------------
+% Authored by Phoenix Aurora Kish (synthesis) and Lyra Aurora Kish (LaTeX)
+% Integrated by Mondy Aurora Kish — Volume 9, April 2026
+% ---------------------------------------------------------
+\chapter{Formal Harmonic Spectroscopy and the Kish Clutch}
 
+While the Geometric Dictionary provides a conceptual translation of Old-World physics,
+executing predictions across domains requires formal mathematical operators. This chapter
+defines the exact coordinate system, the translation operator, and the statistical
+thresholds that together constitute the practice of KishLattice Geometric Harmonic
+Spectroscopy (KLGHS).
+
+The definitions here are grounded in the empirical results of Volumes 5 through 9.
+They are not proposed axioms. They are the formal distillation of what nine volumes
+of pipeline runs, chaos null tests, and cross-domain pairings have repeatedly confirmed.
+Every operator in this chapter has been exercised on real data from public sources
+across 29 sovereign physical domains.
+
+\section{The 2D Lattice Coordinate $(\sigma, \tau)$}
+
+In legacy physics, spacetime is treated as a continuous 4D manifold parameterised by
+three spatial coordinates and one temporal coordinate. In the Kish Lattice, physical
+states are located using a 2D complex-like coordinate system that marries geometric
+scale and temporal cadence.
+
+For any physical measurement $x$, we define two independent projections.
+
+\subsection*{The Scalar (Register) Axis: $\sigma$}
+
+The structural and spatial projection of the measurement, determined by the geometric
+modulus $k_\text{geo} = 16/\pi$:
+
+\begin{equation}
+\sigma(x) = \frac{\log(1+x/x_0)}{\log(k_\text{geo})}
+\label{eq:sigma_axis}
+\end{equation}
+
+where $x_0$ is the domain-appropriate natural unit. For nuclear binding energy,
+$x_0 = 1\,\text{MeV/A}$. For tidal intervals, $x_0 = 1\,\text{hour}$. For
+stellar transverse velocity, $x_0 = 1\,\text{km/s}$. The natural unit absorbs
+the dimensional character of the measurement without affecting the register to
+which it maps, provided the physics of the domain concentrates the distribution
+in the relevant scalar range.
+
+The register family centres are:
+\begin{equation}
+R_N = \frac{N}{\pi}, \quad N \in \{5, 6, 7, \ldots, 26\}
+\label{eq:register_centres}
+\end{equation}
+
+and the distance of a scalar value $s$ from register $N$ is:
+\begin{equation}
+\Delta_N(s) = s - R_N = s - \frac{N}{\pi}
+\label{eq:register_distance}
+\end{equation}
+
+\subsection*{The Prime-Phase Axis (Time/Metronome): $\tau$}
+
+The temporal, cadence-based projection of the measurement, indexed to the prime clock:
+\begin{equation}
+\tau(x) = \sum_{p} w_p(x)\, \ln p
+\label{eq:tau_axis}
+\end{equation}
+
+where the weights $w_p$ encode the contribution of each prime cadence to the local
+metronome. This axis governs temporal hierarchy, FRB cadence, and periodicity phenomena.
+
+A physical domain is therefore a data cloud in $(\sigma, \tau)$ space. A
+\textbf{register} is a vertical band where $\sigma \approx R_N = N/\pi$.
+FRBs and temporal hierarchies operate primarily along the $\tau$ axis. Structural
+and binding systems — nuclear binding, galaxy velocity dispersions, orbital periods —
+operate primarily along the $\sigma$ axis. The coupling between the two axes is
+the interference pattern that constitutes observable reality.
+
+We can write the composite lattice coordinate as:
+\begin{equation}
+\mathbf{z} = \sigma + i\tau
+\end{equation}
+noting that this is a \emph{zeta-like} coordinate: $\sigma$ is defined by $k_\text{geo}$
+and $\tau$ by the prime metronome. The Kish Lattice uses the structure of the
+Riemann zeta function as a geometric scaffold but grounds it empirically in the
+physical register assignments confirmed across 9.9~million sovereign records.
+
+\section{The Kish Clutch: The Scale-Bridging Operator}
+
+The \textbf{Kish Clutch} is the mathematical operator that allows a measurement
+in one physical domain to be translated into a geometric relationship with any other
+domain that shares the same harmonic register. It is the formal bridge between
+disciplines that previously had no common mathematical language.
+
+For a physical measurement $x$ in domain $D$, the Clutch operates in three steps.
+
+\textbf{Step 1 — Scalarization:} Transform the raw value into lattice space.
+\begin{equation}
+s_D(x) = \frac{\log(1 + x/x_0)}{\log(k_\text{geo})}
+\label{eq:scalarization}
+\end{equation}
+
+\textbf{Step 2 — Register Projection:} Identify the home harmonic node $N^*_D$
+by finding the integer $N$ that minimises the distance between the distribution's
+expected scalar value and the nearest register centre:
+\begin{equation}
+N^*_D = \arg\min_{N \in \{5,\ldots,26\}} \left| \mathbb{E}_D[s_D] - \frac{N}{\pi} \right|
+\label{eq:register_projection}
+\end{equation}
+
+\textbf{Step 3 — The Bridge Rule:} If two distinct domains $D_1$ and $D_2$ project
+to the same register node, or to members of the same harmonic family (defined in
+Section~\ref{sec:families}), they are \textbf{geometrically homologous}. The Clutch
+Operator connects them:
+\begin{equation}
+\text{Bridge}(D_1, D_2) \iff N^*_{D_1} = N^*_{D_2}
+\label{eq:bridge_rule}
+\end{equation}
+
+This allows us to write strict translation equations across vastly different physical
+scales. If a measurement in domain $D_1$ satisfies $\Phi_{D_1}(x_1)$ and a measurement
+in domain $D_2$ satisfies $\Phi_{D_2}(x_2)$, and both project to the same register, then:
+\begin{equation}
+\Phi_{D_1}(x_1) \;\longleftrightarrow\; \Phi_{D_2}(x_2) \quad\text{when}\quad
+N^*_{D_1} = N^*_{D_2}
+\end{equation}
+
+The Clutch does not equate the measurements. It identifies them as members of the same
+geometric family — governed by the same harmonic constraint — at whatever scale they
+happen to reside.
+
+\section{Harmonic Families in $N/\pi$ Space}
+\label{sec:families}
+
+Physical systems do not map to the $N/\pi$ register space randomly. Nine volumes of
+empirical results confirm that they cluster into distinct \textbf{Harmonic Families}
+based on their physical typology — not their physical scale. The following taxonomy
+is derived from confirmed Vol~5 through Vol~9 results.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\small
+\begin{tabular}{|l|l|l|l|}
+\hline
+\rowcolor{blue!10}
+\textbf{Family} & \textbf{Registers} & \textbf{Exemplar Domains} & \textbf{Physical Meaning} \\
+\hline\hline
+Biological & $7/\pi$ & Amino acids, biology & Organic structural baseline \\
+\hline
+Quantum / Chemical & $11/\pi$, $12/\pi$ & Chemistry, quantum spectra, C60 & Molecular and transition bands \\
+\hline
+Kinematic & $16/\pi$, $17/\pi$, $18/\pi$ & Stellar velocity, tides, solar cycles & Gravitationally forced motion \\
+\hline
+Structural / Binding & $19/\pi$, $21/\pi$, $22/\pi$ & Nuclear binding, nuclear decay,
+galactic dispersion, orbital periods, materials & Resistance to dispersal; coherence \\
+\hline
+EM / Ceiling & $20/\pi$, $24/\pi$, $25/\pi$ & Stellar colour, luminosity,
+CMB anisotropy & Electromagnetic signals; kinematic boundary \\
+\hline
+\end{tabular}
+\caption{Harmonic family taxonomy derived from Vol~5--9 confirmed results.
+Family membership is determined by physical typology (what kind of question
+is being measured), not by physical scale. Nuclear binding energy at
+femtometre scale and galactic velocity dispersion at kiloparsec scale both
+belong to the Structural/Binding family because both measure resistance to
+dispersal.}
+\label{tab:harmonic_families}
+\end{table}
+
+The family structure is not post-hoc rationalisation. The Structural/Binding family
+convergence between nuclear and galactic domains was a \emph{wrong prediction} in
+the Vol~9 pre-registration: nuclear binding was predicted to sit below $12/\pi$.
+The data returned $21/\pi$ — a family whose other members (galactic dispersion,
+orbital periods) had already been confirmed in prior volumes. The family assignment
+was discovered, not designed.
+
+\subsection*{The Perfect Fifth Pattern}
+
+The register spacings within families follow small integer ratios, with the perfect
+fifth ($3:2$) recurring as the dominant structural relationship:
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|c|l|}
+\hline
+\rowcolor{blue!8}
+\textbf{Register Pair} & \textbf{Ratio} & \textbf{Musical Interval} \\
+\hline\hline
+$7/\pi$ \;:\; $14/\pi$ & 2:1 & Octave \\
+$8/\pi$ \;:\; $12/\pi$ & 3:2 & Perfect fifth \\
+$11/\pi$ \;:\; $22/\pi$ & 2:1 & Octave \\
+$16/\pi$ \;:\; $24/\pi$ & 3:2 & Perfect fifth \\
+$14/\pi$ \;:\; $21/\pi$ & 3:2 & Perfect fifth \\
+\hline
+\end{tabular}
+\caption{Integer ratio relationships between occupied registers. The $3:2$ perfect
+fifth recurs because the 24-cell geometry has 3-fold and 2-fold rotational symmetry
+axes. The registers are the geometry speaking in its native intervals.}
+\label{tab:perfect_fifth}
+\end{table}
+
+\section{The Chaos Null and the Spectroscopic Definition}
+
+The Rosetta Atlas does not rely on subjective curve-fitting or visual pattern
+recognition. A signal is only recognised if it survives the chaos null — a rigorous
+statistical comparison against a uniform random distribution built over the same
+scalar range as the real domain.
+
+For each domain $D$ and register $N$, the pipeline computes:
+
+\begin{itemize}
+\item $\mu_{D,N}^{\text{obs}}$: the observed proportion of records in the $N/\pi$ bin
+\item $\mu_{D,N}^{\text{null}}$: the chaos null mean for that bin
+\item $\sigma_{D,N}^{\text{null}}$: the chaos null standard deviation for that bin
+\end{itemize}
+
+The \textbf{Chaos Z-Score} is:
+\begin{equation}
+z_{D,N} = \frac{\mu_{D,N}^{\text{obs}} - \mu_{D,N}^{\text{null}}}{\sigma_{D,N}^{\text{null}}}
+\label{eq:chaos_z}
+\end{equation}
+
+This provides a strict empirical definition for the spectroscopic identification
+thresholds of KLGHS:
+
+\begin{itemize}
+\item \textbf{Spectral Identification:} confirmed when $z_{D,N} > 3.0$
+\item \textbf{Strong Identification:} confirmed when $z_{D,N} > 5.0$
+\end{itemize}
+
+A domain where every register returns $z \leq 0$ is a \textbf{confirmed noise floor}:
+the scalar transformation is uniform and the physical distribution carries no harmonic
+structure in the chosen formula. This is itself scientifically meaningful — it tells us
+the chosen scalar formula is not the right one for that domain, or that the domain is
+genuinely scale-random in this coordinate system. Both outcomes are publishable and
+documented in the sovereign record.
+
+\section{Domain Rosetta Blocks}
+
+Using the Kish Clutch, we can establish formal translation blocks for any measured
+physical property. Each block states the measurement, the scalar formula, the confirmed
+register, the harmonic family, and the cross-domain bridges the Clutch reveals.
+
+% ---------------------------------------------------------
+\begin{tcolorbox}[colback=blue!5, colframe=blue!40!black,
+    fonttitle=\bfseries,
+    title=Rosetta Block 1 — The $21/\pi$ Binding Bridge: Nuclear $\leftrightarrow$ Galactic]
+
+Standard physics treats nuclear binding energy and galactic velocity dispersion as
+entirely unrelated phenomena operating at scales forty orders of magnitude apart.
+The Kish Clutch shows they are measurements of the same geometric property.
+
+\medskip
+\textbf{Domain 1: Nuclear Binding ($D_\text{nuc}$)}\\
+\textit{What is being measured:} How strongly a nucleus resists being pulled apart.\\
+\textit{Measurement:} Binding energy per nucleon $E_b/A$ in MeV.\\
+\textit{Scalar:} $s = \log(1 + E_b/A)\,/\,\log(16/\pi)$\\
+\textit{Home register:} $N^* = 21$, \quad$z_{D,21} = +7.29$ \quad(n = 43 nuclides, AME2020)
+
+\medskip
+\textbf{Domain 2: Nuclear Decay ($D_\text{dec}$)}\\
+\textit{What is being measured:} How long a nucleus resists spontaneous transformation.\\
+\textit{Measurement:} Half-life $t_{1/2}$ in seconds.\\
+\textit{Scalar:} $s = \log(1 + t_{1/2})\,/\,\log(16/\pi)$\\
+\textit{Home register:} $N^* = 21$, \quad$z_{D,21} = +8.19$ \quad(n = 3{,}173 isotopes, IAEA NuDat)
+
+\medskip
+\textbf{Domain 3: Galactic Velocity Dispersion ($D_\text{gal}$)}\\
+\textit{What is being measured:} How strongly a galaxy holds its stars against dispersal.\\
+\textit{Measurement:} Velocity dispersion $\sigma_v$ in km/s.\\
+\textit{Scalar:} $s = \log(1 + \sigma_v)\,/\,\log(16/\pi)$\\
+\textit{Home register:} $N^* = 21$, \quad$z_{D,21} = +56.18$ \quad(n = 1{,}843{,}110 galaxies, SDSS DR16)
+
+\medskip
+\textbf{Harmonic Family:} Structural / Binding Tension
+
+\medskip
+\textbf{Clutch Result:}
+\[
+\text{Bridge}(D_\text{nuc},\, D_\text{dec},\, D_\text{gal}) \iff N^*_{D_\text{nuc}}
+= N^*_{D_\text{dec}} = N^*_{D_\text{gal}} = 21 \quad \checkmark
+\]
+
+\textbf{Predictive Operator:} Any domain measuring the tension required to hold a
+composite structure together against dispersal — at any physical scale — will project
+near the $21/\pi$ register. This is a falsifiable prediction. The next test:
+CERN LHC invariant mass distributions and LUNA pp-chain fusion cross-sections.
+
+\end{tcolorbox}
+
+\vspace{1em}
+
+% ---------------------------------------------------------
+\begin{tcolorbox}[colback=green!5, colframe=green!50!black,
+    fonttitle=\bfseries,
+    title=Rosetta Block 2 — The Kinematic Bridge: Stellar Velocity $\leftrightarrow$ Ocean Tides $\leftrightarrow$ Solar Cycle]
+
+The Moon pulls ocean water. Stars orbit the galactic centre. The sun completes an
+activity cycle every 11 years. In standard physics these are three unrelated phenomena
+at three different scales. The Clutch shows they share the kinematic primary register.
+
+\medskip
+\textbf{Domain 1: Stellar Transverse Velocity ($D_\text{vel}$)}\\
+\textit{Measurement:} Transverse velocity $v_\perp$ in km/s.\\
+\textit{Scalar:} $s = \log(1 + v_\perp)\,/\,\log(16/\pi)$\\
+\textit{Home register:} $N^* = 16$, \quad$z_{D,16} = +100.77$ \quad(n = 1{,}808{,}145 stars, Gaia DR3)
+
+\medskip
+\textbf{Domain 2: Atlantic Tidal Intervals ($D_\text{tide}$)}\\
+\textit{Measurement:} Time gap between tidal events in decimal hours.\\
+\textit{Scalar:} $s = \log(1 + \Delta t)\,/\,\log(16/\pi)$\\
+\textit{Home register:} $N^* = 17$, \quad$z_{D,17} = +127.78$ \quad(n = 6{,}973 intervals, UHSLC)
+
+\medskip
+\textbf{Domain 3: Solar Cycle Length ($D_\text{sun}$)}\\
+\textit{Measurement:} Cycle duration in years.\\
+\textit{Scalar:} $s = \log(1 + T_\text{cycle})\,/\,\log(16/\pi)$\\
+\textit{Home register:} $N^* = 16$ (mean scalar 5.0945 vs $k_\text{geo} = 5.0930$, deviation 0.030\%)\\
+All 29 cycles (1755--2020) land at $N = 16$. \quad$z_{D,12} = +6.25$
+
+\medskip
+\textbf{Harmonic Family:} Kinematic
+
+\medskip
+\textbf{Clutch Result:}
+\[
+\text{Bridge}(D_\text{vel},\, D_\text{tide},\, D_\text{sun}) \;\text{ — kinematic family confirmed}
+\]
+
+\textbf{Predictive Operator:} Any domain measuring the timing of gravitationally forced
+motion — orbital periods, rotation rates, tidal intervals, magnetic cycles — will project
+into the kinematic family at $16/\pi$--$18/\pi$. The Pacific and Indian Ocean basins lock
+to $18/\pi$ (one register above Atlantic) because different basin geometries produce
+different kinematic phase structures under the same lunar forcing.
+
+\end{tcolorbox}
+
+\vspace{1em}
+
+% ---------------------------------------------------------
+\begin{tcolorbox}[colback=orange!5, colframe=orange!60!black,
+    fonttitle=\bfseries,
+    title=Rosetta Block 3 — The EM Escape: Luminosity Above the Kinematic Ceiling]
+
+The kinematic ceiling at $24/\pi$ repels stellar velocity (z = $-91$ at $25/\pi$).
+Stellar luminosity is not repelled. This block documents the bridge between the
+kinematic layer and the electromagnetic layer that escapes it.
+
+\medskip
+\textbf{Domain 1: Stellar Transverse Velocity ($D_\text{kin}$)}\\
+\textit{Measurement:} Transverse velocity in km/s.\\
+\textit{Home register:} $N^* = 16$ (STRONG), z at $25/\pi$ = $-91$ (\textit{ceiling holds})
+
+\medskip
+\textbf{Domain 2: Stellar Absolute Luminosity ($D_\text{lum}$)}\\
+\textit{Measurement:} Absolute G-band magnitude $M_G$.\\
+\textit{Scalar:} $s = \log(1 + |M_G|)\,/\,\log(16/\pi)$\\
+\textit{Home register:} $N^* = 25$, \quad$z_{D,25} = +37.23$ \quad(n = 2{,}000{,}000 stars, Gaia DR3)\\
+\textit{z at $24/\pi$} = $-36$ (ceiling avoidance present — luminosity is not fully kinematic)
+
+\medskip
+\textbf{Domain 3: CMB Anisotropy ($D_\text{CMB}$)}\\
+\textit{Measurement:} Temperature anisotropy multipole amplitudes.\\
+\textit{Home register:} $N^* = 25$, \quad$z_{D,25} = +5.74$ \quad(n = 83 multipoles, WMAP 9yr)
+
+\medskip
+\textbf{Harmonic Family:} EM / Ceiling
+
+\medskip
+\textbf{Clutch Result:}
+\[
+\text{Bridge}(D_\text{lum},\, D_\text{CMB}) \;\text{ — both above kinematic ceiling at } 25/\pi
+\]
+
+\textbf{Physical Interpretation:} The kinematic ceiling at $24/\pi$ bounds quantities
+describing how matter moves. Luminosity — the count of photons produced per second
+by nuclear fusion in stellar cores — is not a kinematic quantity. Its information
+originates in the nuclear layer ($21/\pi$), travels at the ceiling speed ($c$), and
+registers in the electromagnetic layer ($25/\pi$). Photons are not confined by the
+ceiling they travel at. The CMB, being pure electromagnetic radiation, reads the same
+family as stellar luminosity across 13.8 billion years of cosmic time.
+
+\end{tcolorbox}
+
+\vspace{1em}
+
+% ---------------------------------------------------------
+\begin{tcolorbox}[colback=violet!5, colframe=violet!60!black,
+    fonttitle=\bfseries,
+    title=Rosetta Block 4 — The Life Bridge: Amino Acids $\leftrightarrow$ Chemistry $\leftrightarrow$ Quantum]
+
+From the chemical alphabet to the quantum transitions of atoms — life builds itself
+from layers that the Clutch shows are harmonically related.
+
+\medskip
+\textbf{Domain 1: Amino Acid Backbone Geometry ($D_\text{bio}$)}\\
+\textit{Measurement:} Normalised backbone dihedral shelf position (B3 lake).\\
+\textit{Home register:} $N^* = 7$, \quad$z_{D,7} = +11.99$ (and $N = 14$ secondary)\\
+20 amino acids. All sit on shelves 7 or 13 in the 24-mode container.
+
+\medskip
+\textbf{Domain 2: Chemical Bond Lengths ($D_\text{chem}$)}\\
+\textit{Measurement:} Molecular bond length in \AA\ (ZINC/CCCBDB databases).\\
+\textit{Home register:} $N^* = 11$, \quad$z_{D,11} = +68.41$ \quad(n = 67{,}174 molecules)
+
+\medskip
+\textbf{Domain 3: Atomic Emission Spectra ($D_\text{quant}$)}\\
+\textit{Measurement:} Emission wavelength in nm (NIST ASD).\\
+\textit{Home register:} $N^* = 12$, \quad$z_{D,12} = +59.75$ \quad(n = 3{,}086 transitions)
+
+\medskip
+\textbf{Harmonic Family:} Biological ($7/\pi$) and Quantum/Chemical ($11/\pi$, $12/\pi$)
+
+\medskip
+\textbf{Clutch Note:} These three domains do not share the same register. They share
+the same \textit{family neighbourhood} ($7/\pi$, $11/\pi$, $12/\pi$ form a harmonic
+cluster in the lower register band). The Clutch identifies them as members of the
+molecular/biological layer, not as identical.
+
+\textbf{Predictive Operator:} Protein backbone Ramachandran angles (Vol~10 target) are
+predicted to land at $7/\pi$ and $13/\pi$ — the same shelves as amino acid geometry.
+If confirmed: biological folding is geometrically constrained by the same harmonic
+layer as the building blocks from which it is assembled, from monomer to macromolecule.
+
+\end{tcolorbox}
+
+\vspace{1em}
+
+\section{The Rosetta at Scale: Summary Table}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\small
+\begin{tabular}{|l|c|r|l|l|}
+\hline
+\rowcolor{blue!10}
+\textbf{Domain} & \textbf{Register $N^*$} & \textbf{Peak Z} & \textbf{Family} & \textbf{Clutch bridges to} \\
+\hline\hline
+Biology amino    & $7/\pi$  & $+11.99$ & Biological & Chemistry (harmonic neighbour) \\
+Chemistry        & $11/\pi$ & $+68.41$ & Quantum/Chemical & Quantum, C60 \\
+Quantum spectra  & $12/\pi$ & $+59.75$ & Quantum/Chemical & Solar cycle (12/pi secondary) \\
+Solar cycle      & $16/\pi$ & $+6.25$  & Kinematic & Stellar kinematic \\
+Stellar kinematic & $16/\pi$ & $+100.77$ & Kinematic & Solar cycle, tides \\
+Atlantic tides   & $17/\pi$ & $+127.78$ & Kinematic & Gulf tides, stellar kinematic \\
+Pacific tides    & $18/\pi$ & $+26.98$  & Kinematic & Indian tides \\
+Materials        & $19/\pi$ & $+71.40$  & Struct./Binding & Planetary, orbital \\
+Stellar colour   & $20/\pi$ & $+127.30$ & EM/Ceiling & Luminosity (harmonic neighbour) \\
+Nuclear binding  & $21/\pi$ & $+7.29$   & Struct./Binding & Galactic, nuclear decay \\
+Nuclear decay    & $21/\pi$ & $+8.19$   & Struct./Binding & Nuclear binding, galactic \\
+Galactic disp.   & $21/\pi$ & $+56.18$  & Struct./Binding & Nuclear binding, orbital \\
+Orbital periods  & $22/\pi$ & $+50.24$  & Struct./Binding & Galactic, nuclear \\
+Stellar parallax & $24/\pi$ & $+20.68$  & EM/Ceiling & Cosmology \\
+Stellar luminosity & $25/\pi$ & $+37.23$ & EM/Ceiling & CMB \\
+CMB anisotropy   & $25/\pi$ & $+5.74$   & EM/Ceiling & Stellar luminosity \\
+\hline
+\end{tabular}
+\caption{The Vol~9 Rosetta Bridge Table. Each domain's register, family, and primary
+Clutch bridges to other domains. Reading across a row gives the new mathematics the
+KLGHS coordinate enables between fields that previously shared no common language.
+The nuclear row is the Vol~9 discovery: a field that prior volumes assigned to the
+quantum layer found itself in the structural/binding family alongside galactic dynamics.}
+\label{tab:rosetta_bridge}
+\end{table}
+
+\section{Predictive Power of the Kish Clutch}
+
+The Clutch is not merely a translation tool. It is a \textbf{prediction engine}.
+
+When a new physical domain is proposed for a new sovereign lake, the family taxonomy
+in Table~\ref{tab:harmonic_families} generates a prior prediction for its register:
+
+\begin{enumerate}
+\item Identify the physical type of the measurement (what kind of question is it?).
+\item Assign a candidate family from the taxonomy.
+\item Predict the register $N^*$ as the family's characteristic node.
+\item Build the lake and run the pipeline. Compare the observed register to the prediction.
+\end{enumerate}
+
+Five such predictions are registered formally in Volume~9 for testing in Volume~10.
+The protein backbone prediction ($7/\pi$) follows from the biological family.
+The seismic temporal gap prediction ($17/\pi$--$18/\pi$) follows from the kinematic
+family. The CERN particle mass prediction (either $21/\pi$ or a new sub-nuclear register)
+follows from the structural/binding family applied to sub-nuclear bound states.
+
+Failures are as scientifically valuable as confirmations. The nuclear $21/\pi$ result
+was a failure of the prediction that nuclear binding sits below $12/\pi$ — and it was
+the discovery that brought the Structural/Binding family into focus as a cross-scale
+family rather than a scale-localised one.
+
+The universe is not organised by size. It is organised by kind.
+
+\clearpage
 
 % ---------------------------------------------------------
 % Apendix
@@ -2547,14 +3277,41 @@ The work ahead belongs to all of us.
 \href{https://doi.org/10.5281/zenodo.18209530}{https://doi.org/10.5281/zenodo.18209530}
 
 \vspace{1em}
-
 \noindent\textbf{Volume 2: \emph{The Geometric Neutron}}\\
 \href{https://doi.org/10.5281/zenodo.18217119}{https://doi.org/10.5281/zenodo.18217119}
 
 \vspace{1em}
-
 \noindent\textbf{Volume 3: \emph{The Geometric Architecture of Matter}}\\
 \href{https://doi.org/10.5281/zenodo.18217226}{https://doi.org/10.5281/zenodo.18217226}
+
+\vspace{1em}
+\noindent\textbf{Volume 4: \emph{The Geometric Architecture of Life}}\\
+\href{https://doi.org/10.5281/zenodo.18976975}{https://doi.org/10.5281/zenodo.18976975}
+
+\vspace{1em}
+\noindent\textbf{Volume 5: \emph{The Geometric Architecture of Unification}}\\
+\href{https://doi.org/10.5281/zenodo.19009634}{https://doi.org/10.5281/zenodo.19009634}
+
+\vspace{1em}
+\noindent\textbf{Volume 6: \emph{The Harmonic Expansion of the Unified Lattice}}\\
+\href{https://doi.org/10.5281/zenodo.19493376}{https://doi.org/10.5281/zenodo.19493376}
+
+\vspace{1em}
+\noindent\textbf{Volume 7: \emph{The Sovereign Resonance: Boundaries, Sub-Lattice, and the Unification Case}}\\
+\href{https://doi.org/10.5281/zenodo.19559860}{https://doi.org/10.5281/zenodo.19559860}
+
+\vspace{1em}
+\noindent\textbf{Volume 8: \emph{Unbounded Luminosity: The Same-Object Harmonic Map and the Sovereign Lake Architecture}}\\
+\href{https://doi.org/10.5281/zenodo.19622632}{https://doi.org/10.5281/zenodo.19622632}
+
+\vspace{1em}
+\noindent\textbf{Volume 9: \emph{KishLattice Geometric Harmonic Spectroscopy: The First Survey of a New Field}}\\
+\href{https://doi.org/10.5281/zenodo.19935603}{https://doi.org/10.5281/zenodo.19935603}
+
+\vspace{1em}
+\noindent\textbf{Volume 9 Pre-Registration: \emph{Predictions P17--P27 (Timestamped Prior to Pipeline Run)}}\\
+Kish, T.\,J., \& Kish, M.\,A. (2026). \textit{Volume 9 --- Predictions Pre-Registration} (1.0). Zenodo.\\
+\href{https://doi.org/10.5281/zenodo.19702022}{https://doi.org/10.5281/zenodo.19702022}
 
 % ---------------------------------------------------------------
 % Appendix C — Lattice Lab
@@ -2569,5 +3326,5 @@ The work ahead belongs to all of us.
 % ---------------------------------------------------------
 % END
 % ---------------------------------------------------------
-There is no Noise only Data!!! Remove the filters and See the Univers Raw, see the TRUTH!!!
+There is no Noise only Data!!! Remove the filters and See the Universe Raw, see the TRUTH!!!
 \end{document}
