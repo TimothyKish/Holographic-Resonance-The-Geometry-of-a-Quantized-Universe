@@ -1,3 +1,8 @@
 [submodule "src/Unification/vol10"]
 	path = src/Unification/vol10
 	url = https://github.com/TimothyKish/Vol10_The_Deep_Survey.git
+
+[submodule "src/Unification/vol11"]
+	path = src/Unification/vol11
+	url = https://github.com/TimothyKish/vol11.git
+
