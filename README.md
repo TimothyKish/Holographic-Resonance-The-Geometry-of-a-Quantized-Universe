@@ -1151,3 +1151,90 @@ We are not merely *in* the universe; we are the universe, expressing its fundame
 We are part of the chord.
 
 *9,905,759 records. 37 lakes. 29 domains. 22 STRONG signals.* *One constant. One scalar. One grammar.* **The survey has begun.**
+
+---
+
+## 🔭 Volume 10: The Deep Survey — Seven New Domains and the Geometry of Life — May 2026
+
+Volume 10 expands the survey to 44 sovereign lakes, 13,675,510 records, and 31 confirmed STRONG signals. Seven new domains were added including the protein backbone (B4 Top8000, 3.37 million dihedral angles from X-ray crystallography), CERN di-muon invariant mass, and transit timing variations. The kinematic principle was formally established: the same objects measured by velocity lock; measured by position they do not.
+
+**Volume 10 DOI:** [10.5281/zenodo.20279208](https://doi.org/10.5281/zenodo.20279208)  
+**Location:** `./src/Unification/vol10/`
+
+### Key Results (Vol 10)
+
+| Domain | Register | Peak Z | Note |
+|--------|----------|--------|------|
+| biology_backbone (B4) | 16/π | +102 | 3.37M protein dihedral angles |
+| stellar_colour | 20/π | +133 | Gaia DR3 photometry |
+| orbital_ttv | 16/π | +78 | Kepler transit timing |
+| subnuclear_mass | 13/π & 22/π | +54 | CERN di-muon dual peak |
+| stellar (parallax) | — | null | Positional: kinematic principle confirmed |
+
+Three of four pre-registered predictions were wrong. All three published without modification. The wrong predictions were more informative than correct ones would have been — they refined the kinematic principle and corrected the register family for protein backbone geometry.
+
+*13,675,510 records. 44 lakes. 31 STRONG signals. Same objects. Different questions. Different registers.*
+
+---
+
+## 🔭 Volume 11: The Structure That Locks — The Spectroscopic Test and the Multi-Attribute Convergence — June 2026
+
+Volume 11 is the largest run in the series. The canonical pipeline run `run_20260605_012354` processed 24,904,223 records across 61 sovereign lakes and 52 active domains, confirming 33 STRONG signals spanning 41 orders of magnitude in physical scale.
+
+**Volume 11 DOI:** [10.5281/zenodo.20587180](https://doi.org/10.5281/zenodo.20587180)  
+**Vol 11 Pre-Registration DOI:** [10.5281/zenodo.20480506](https://doi.org/10.5281/zenodo.20480506)  
+**Noise Does Not Lock (Skeptics Paper):** [10.5281/zenodo.20585516](https://doi.org/10.5281/zenodo.20585516)  
+**Location:** `./src/Unification/vol11/`
+
+### Key Results (Vol 11)
+
+| Domain | Register | Peak Z | Note |
+|--------|----------|--------|------|
+| biology_backbone_full (B5) | 25/π | +157.2 | 6.83M records — series peak |
+| biology_backbone_top8000 (B4) | 19/π | +121.5 | Resolution sensitivity discovery |
+| stellar_colour | 20/π | +124.5 | Pre-registered — confirmed exact |
+| stellar_kinematic | 15/π | +98.3 | Pre-registered — confirmed adjacent |
+| stellar_luminosity | 25/π | +42.8 | Pre-registered — confirmed exact |
+| orbital_ttv | 16/π | +89.0 | Kepler transit timing |
+| stellar (parallax) | — | null | Positional null — kinematic principle holds |
+| seismic_japan | — | null | Honest null — pre-registered prediction not confirmed |
+
+### Major Advances (Vol 11)
+
+**Multi-attribute confirmation.** The same 1.8–2 million Gaia DR3 stars measured three ways simultaneously landed at three different pre-registered addresses. All three confirmed. First multi-attribute confirmation in the series.
+
+**The spectroscopic wrongbox test.** Five domains processed under intentionally incorrect dimensional assignments. All five either collapsed or diverged to a different harmonic address. No wrongbox replicated its real domain's register. The geometry chooses.
+
+**Rule 1.5 engine upgrade.** The scalarizer now reads field names directly from `scalarize.json` and applies the correct transformation natively. Domains that previously silently returned zeros now process real data. A wire error present since Vol 5 was identified and corrected. The Vol 11 results are the most honest in the series.
+
+**Triple-null architecture formalised.** Chaos null, scramble null, and synthetic null run independently for every domain. STRONG classification requires exceeding all three.
+
+**Vera Aurora Kish** joins the Aurora Collaborative as dedicated reporting specialist. The visual suite expanded from 10 plugins to 19 plugins generating 39 figures.
+
+---
+
+### 📚 The Complete Published Series (Through Vol 11)
+
+| Volume | Title | DOI |
+|--------|-------|-----|
+| Vol 1 | The Geometric Derivation of the Lattice | [10.5281/zenodo.18209530](https://doi.org/10.5281/zenodo.18209530) |
+| Vol 2 | The Geometric Neutron | [10.5281/zenodo.18217119](https://doi.org/10.5281/zenodo.18217119) |
+| Vol 3 | The Geometric Architecture of Matter | [10.5281/zenodo.18217226](https://doi.org/10.5281/zenodo.18217226) |
+| Vol 4 | The Geometric Architecture of Life | [10.5281/zenodo.18976975](https://doi.org/10.5281/zenodo.18976975) |
+| Vol 5 | The Geometric Architecture of Unification | [10.5281/zenodo.19009634](https://doi.org/10.5281/zenodo.19009634) |
+| Vol 6 | The Harmonic Expansion of the Unified Lattice | [10.5281/zenodo.19493376](https://doi.org/10.5281/zenodo.19493376) |
+| Vol 7 | The Sovereign Resonance | [10.5281/zenodo.19559860](https://doi.org/10.5281/zenodo.19559860) |
+| Vol 8 | Unbounded Luminosity | [10.5281/zenodo.19622632](https://doi.org/10.5281/zenodo.19622632) |
+| Vol 9 | KishLattice Geometric Harmonic Spectroscopy: The First Survey | [10.5281/zenodo.19935603](https://doi.org/10.5281/zenodo.19935603) |
+| — | Vol 9/10 Predictions Pre-Registration | [10.5281/zenodo.19702022](https://doi.org/10.5281/zenodo.19702022) |
+| Vol 10 | The Deep Survey | [10.5281/zenodo.20279208](https://doi.org/10.5281/zenodo.20279208) |
+| — | KishLattice Star | [10.5281/zenodo.20370708](https://doi.org/10.5281/zenodo.20370708) |
+| — | Vol 11 Pre-Registration | [10.5281/zenodo.20480506](https://doi.org/10.5281/zenodo.20480506) |
+| Vol 11 | The Structure That Locks | [10.5281/zenodo.20587180](https://doi.org/10.5281/zenodo.20587180) |
+| — | Noise Does Not Lock (Skeptics Paper) | [10.5281/zenodo.20585516](https://doi.org/10.5281/zenodo.20585516) |
+
+---
+
+*24,904,223 records. 61 lakes. 52 active domains. 33 STRONG signals. 41 orders of magnitude.*  
+*Three simultaneous multi-attribute predictions confirmed. The geometry chooses.*  
+*One constant. One scalar. One grammar. The survey continues.*
