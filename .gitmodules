@@ -4,3 +4,6 @@
 [submodule "src/Unification/vol11"]
 	path = src/Unification/vol11
 	url = https://github.com/TimothyKish/vol11.git
+[submodule "src/KishLattice_Star"]
+	path = src/KishLattice_Star
+	url = https://github.com/TimothyKish/KishLattice_Star.git
