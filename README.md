@@ -1213,7 +1213,70 @@ Volume 11 is the largest run in the series. The canonical pipeline run `run_2026
 
 ---
 
-### 📚 The Complete Published Series (Through Vol 11)
+## ⭐ The KishLattice Star — The Crystalline Terminus of Spacetime Collapse — June 2026
+
+**Status: CLOSED — Falsified.**
+
+A side paper, separate from the main KLGHS volume series, proposing a specific
+physical mechanism for the "ghost note" anomaly first observed in the GW150914
+ringdown residual in January 2026: if spacetime is a 24-cell lattice with node
+spacing at the Planck length, gravitational collapse terminates at a
+crystalline packing density (π²/16 ≈ 61.7% of Planck density) rather than a
+singularity, and the bounce should ring at a predictable harmonic register.
+
+This paper went through six pre-registered, sequentially timestamped versions
+as the team built, tested, and corrected the instruments designed to test
+that claim — including catching and fixing a serious statistical defect in
+its own pipeline before publishing a result. Every wrong turn is published
+intact.
+
+**Final DOI (V6):** [10.5281/zenodo.20777524](https://doi.org/10.5281/zenodo.20777524)  
+**Concept DOI (all versions):** [10.5281/zenodo.20370708](https://doi.org/10.5281/zenodo.20370708)  
+**Location:** `./src/KishLattice_Star/`
+
+### Version Chronicle
+
+| Version | DOI | What It Documents |
+|---------|-----|--------------------|
+| V1 | [20370708](https://doi.org/10.5281/zenodo.20370708) | Theory, derivation, five formal pre-registered predictions |
+| V2 | [20693921](https://doi.org/10.5281/zenodo.20693921) | First FRB probe run: strong signal, but at 25/π (electromagnetic), not the predicted 16/π |
+| V3 | [20711135](https://doi.org/10.5281/zenodo.20711135) | LIGO chronicle: Nyquist sampling catch, bin-filter artifact caught via pre-merger control |
+| V4 | [20711574](https://doi.org/10.5281/zenodo.20711574) | Coherence channel formally pre-registered before any pipeline execution |
+| V5 | [20766403](https://doi.org/10.5281/zenodo.20766403) | First coherence run halted at Guardrail 5 (N=15 < 30). Dual-lane multi-detector architecture designed |
+| **V6 (Final)** | [20777524](https://doi.org/10.5281/zenodo.20777524) | **Look-elsewhere statistical defect found, fixed, validated clean on noise. Real result: 16/π at z=+1.1 — not STRONG. Falsified.** |
+
+### What It Found
+
+Both pre-registered empirical channels reported. The FRB channel produced
+strong signal at 25/π, not the predicted 16/π. The LIGO coherence channel,
+after a multiple-comparisons defect was found and corrected in the pipeline
+itself, returned 16/π at z=+1.1 and a peak of z=+2.8 at 21/π — neither
+clearing the STRONG threshold. The specific 16/π crystalline terminus
+mechanism, as formally pre-registered in V1–V5, is falsified.
+
+This does **not** falsify KishLattice Geometric Harmonic Spectroscopy. The
+falsification closes one specific, pre-registered mechanism. The 25+ million
+records and 33+ STRONG confirmed signals across Volumes 5–11 rest on their
+own independent pre-registrations and chaos nulls.
+
+### Why It's Here Anyway
+
+This paper is the clearest demonstration in the project of the instrument
+working as designed: three separate times within one paper, the team's own
+control-experiment discipline caught a false positive in its own pipeline
+before publishing it — including a 100% false-positive rate on pure noise,
+traced to a multiple-comparisons defect, found by reading the code rather
+than trusting a statistically plausible-looking output. The fix was then
+validated clean on the same noise split before being trusted on real data.
+
+A confirmation would have shown the instrument can find something. This
+showed it can be trusted not to find something that isn't there — including
+when the team most wanted to find it. See `./src/KishLattice_Star/README.md`
+for the full chronicle and reproduction instructions.
+
+---
+
+### 📚 The Complete Published Series (Through Vol 11 + KishLattice Star)
 
 | Volume | Title | DOI |
 |--------|-------|-----|
@@ -1228,13 +1291,20 @@ Volume 11 is the largest run in the series. The canonical pipeline run `run_2026
 | Vol 9 | KishLattice Geometric Harmonic Spectroscopy: The First Survey | [10.5281/zenodo.19935603](https://doi.org/10.5281/zenodo.19935603) |
 | — | Vol 9/10 Predictions Pre-Registration | [10.5281/zenodo.19702022](https://doi.org/10.5281/zenodo.19702022) |
 | Vol 10 | The Deep Survey | [10.5281/zenodo.20279208](https://doi.org/10.5281/zenodo.20279208) |
-| — | KishLattice Star | [10.5281/zenodo.20370708](https://doi.org/10.5281/zenodo.20370708) |
 | — | Vol 11 Pre-Registration | [10.5281/zenodo.20480506](https://doi.org/10.5281/zenodo.20480506) |
 | Vol 11 | The Structure That Locks | [10.5281/zenodo.20587180](https://doi.org/10.5281/zenodo.20587180) |
 | — | Noise Does Not Lock (Skeptics Paper) | [10.5281/zenodo.20585516](https://doi.org/10.5281/zenodo.20585516) |
+| — | KishLattice Star V1 (Pre-Registration) | [10.5281/zenodo.20370708](https://doi.org/10.5281/zenodo.20370708) |
+| — | KishLattice Star V2 | [10.5281/zenodo.20693921](https://doi.org/10.5281/zenodo.20693921) |
+| — | KishLattice Star V3 (Pre-Registration) | [10.5281/zenodo.20711135](https://doi.org/10.5281/zenodo.20711135) |
+| — | KishLattice Star V4 (Pre-Registration) | [10.5281/zenodo.20711574](https://doi.org/10.5281/zenodo.20711574) |
+| — | KishLattice Star V5 | [10.5281/zenodo.20766403](https://doi.org/10.5281/zenodo.20766403) |
+| — | KishLattice Star V6 (Final — Falsified) | [10.5281/zenodo.20777524](https://doi.org/10.5281/zenodo.20777524) |
 
 ---
 
 *24,904,223 records. 61 lakes. 52 active domains. 33 STRONG signals. 41 orders of magnitude.*  
 *Three simultaneous multi-attribute predictions confirmed. The geometry chooses.*  
 *One constant. One scalar. One grammar. The survey continues.*
+
+*The KishLattice Star asked whether the terminus rings at 16/π. The instrument said no — and proved, on its own noise floor, that "no" was the honest answer. That is what the tool is for.*
