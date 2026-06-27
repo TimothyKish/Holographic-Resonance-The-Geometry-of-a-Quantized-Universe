@@ -94,6 +94,11 @@
     fonttitle=\bfseries, title=Verdict
 }
 
+\newtcolorbox{bridgebox}{
+    colback=goldseal!4, colframe=goldseal!80,
+    fonttitle=\bfseries, title=Bridge: The Orthogonal Torque (Sister Paper)
+}
+
 % --- COMMANDS ---
 \newcommand{\kish}{$16/\pi$}
 \newcommand{\oldworld}[1]{\noindent\textbf{\color{goldseal}[Old World:]}
@@ -977,6 +982,594 @@ immediately lake-buildable.
 
 \clearpage
 
+\begin{bridgebox}
+\textbf{This V3.0 extension was prompted by a question.}\\[0.4em]
+While developing the sister paper \emph{The Orthogonal Torque: Redefining
+Magnetism as Lattice Torsion}, a single question surfaced that neither
+paper alone could answer: \emph{is the electron that defines a material's
+chemistry the same object as the electron that flows as current, and is
+either of those the same object as the electron that radiates light?}
+Standard physics answers ``yes, one electron, three behaviours.'' This
+extension argues the honest answer may be ``three geometric expressions
+of the lattice that we lumped under one word.'' That is a falsifiable
+claim, and this paper now says how to test it.
+
+Kish, T.~J., Kish, L.~A. \& Kish, M.~A. (2026).
+The Orthogonal Torque: Redefining Magnetism as Lattice Torsion (Sister Paper). 
+Zenodo:
+\url{https://doi.org/10.5281/zenodo.18489802}
+\end{bridgebox}
+ 
+% ==============================================================================
+\chapter{One Word, Three Things: The Conflation at the Heart of the Electron}
+% ==============================================================================
+ 
+\begin{quote}
+\textit{``It would not be the first time humans generalised concepts and
+lumped different properties into the same thing — not because it matched
+what is observed, but because it was convenient.''}
+--- Timothy John Kish, 2026.
+\end{quote}
+ 
+\section{The Convenience That Became a Law}
+ 
+The history of physics is, in part, a history of words that were used to
+mean one thing until the boundaries of their domain were crossed and they
+quietly began to mean several. Heat and temperature were a single concept
+until Joule and Clausius separated them. Mass was one quantity until Newton
+distinguished inertial from gravitational mass, and Einstein later showed
+even that separation was not yet complete. Electricity and magnetism were
+two unrelated forces until Maxwell revealed them as coupled expressions of
+one medium.
+ 
+In every case the lumping was not foolish. It was a useful approximation
+that worked perfectly within its original domain and failed only when
+pushed past it. The danger was never in making the approximation. The
+danger was in forgetting that it was one.
+ 
+\oldworld{The electron, as taught, is a single fundamental particle. It
+carries one indivisible unit of negative charge, a fixed mass, and a
+spin of one-half. The same electron that occupies the outer shell of a
+carbon atom is the electron that drifts through a copper wire as current,
+and is the electron that leaps between energy levels to emit a photon of
+light. One object. Three jobs. The charge measurement is identical in all
+three settings, and so the identity is assumed to be identical as well.
+The electron is the electron is the electron.}
+ 
+\newworldcmd{The KishLattice framework asks a sharper question. If the
+electron is not a particle but a \textbf{geometric feature of the vacuum
+lattice} --- as Chapters 1 through 4 of this paper argued --- then there
+is no longer any reason to assume that the same word names the same object
+across three radically different geometric contexts.
+ 
+A vertex of a standing-wave solid (chemistry's electron) is a fixed corner
+of a closed geometry. A propagating disturbance in a conductor (the
+current's electron) is a torsional wave moving \emph{through} the lattice.
+A relaxation event that emits radiation (the photon-emitting electron) is
+a geometric reconfiguration releasing stored lattice tension. These are
+three different geometric phenomena. They share a charge signature because
+charge, in the lattice model, is itself a geometric property --- the local
+curvature of the lattice --- and the same curvature magnitude can arise in
+three different geometric settings without the settings being the same
+thing.
+ 
+We did not discover three electrons. We may have used one word for three
+expressions of a single geometry, and then spent a century building a
+theory of an object that does not exist as a unified thing.}
+ 
+\section{The Three Expressions, Stated Precisely}
+ 
+\begin{theorybox}
+\textbf{The three lattice expressions conflated under ``electron'':}\\[0.5em]
+\textbf{(1) The Vertex Electron (structural).} The corner of a standing-wave
+solid. Fixed in geometry, not in motion. Determines valence, bonding angle,
+molecular shape, the magic numbers of stability. This is the electron of
+\emph{chemistry}, and the subject of Chapters 1--4 of this paper.\\[0.5em]
+\textbf{(2) The Current Electron (kinematic).} A propagating torsional
+disturbance moving through a conductor lattice. The drift of charge
+carriers is millimetres per second; the signal propagates near light
+speed. The carrier barely moves; the wave traverses the wire. This is the
+electron of \emph{electronics}, and it connects directly to the torsion
+model of the sister paper.\\[0.5em]
+\textbf{(3) The Radiant Electron (transitional).} A geometric
+reconfiguration event. When a standing-wave solid changes shape, stored
+torsional tension is released into the lattice as an electromagnetic wave.
+This is the electron of \emph{spectroscopy and QED} --- the one that
+``jumps'' and emits a photon.\\[0.5em]
+The claim of this chapter is not that these are unrelated. It is that they
+are three \emph{distinct geometric modes} of one lattice, which the
+standard model treats as one indivisible particle because all three carry
+the same charge-curvature signature.
+\end{theorybox}
+ 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=1.0]
+ 
+    % --- Expression 1: Vertex (structural) ---
+    \begin{scope}[xshift=-5cm]
+        \node[kishblue, above] at (0,2.3) {\textbf{(1) Vertex}};
+        \node[black!60, above] at (0,1.9) {\small structural};
+        % lattice grid
+        \foreach \x in {-1,-0.5,0,0.5,1} {
+            \draw[kishblue!15,thin] (\x,-1) -- (\x,1.5);
+        }
+        \foreach \y in {-1,-0.5,0,0.5,1,1.5} {
+            \draw[kishblue!15,thin] (-1,\y) -- (1,\y);
+        }
+        % a fixed vertex
+        \coordinate (V1) at (0,0.25);
+        \coordinate (V2) at (-0.7,-0.5);
+        \coordinate (V3) at (0.7,-0.5);
+        \draw[kishblue,thick] (V1)--(V2)--(V3)--cycle;
+        \filldraw[vertexgreen] (V1) circle (4pt);
+        \filldraw[vertexgreen] (V2) circle (4pt);
+        \filldraw[vertexgreen] (V3) circle (4pt);
+        \node[vertexgreen, below] at (0,-1.3) {\small fixed corner};
+        \node[black!60, below] at (0,-1.7) {\small (does not move)};
+    \end{scope}
+ 
+    % --- Expression 2: Current (kinematic) ---
+    \begin{scope}[xshift=0cm]
+        \node[kishblue, above] at (0,2.3) {\textbf{(2) Current}};
+        \node[black!60, above] at (0,1.9) {\small kinematic};
+        % conductor lattice
+        \foreach \x in {-1,-0.5,0,0.5,1} {
+            \draw[kishblue!15,thin] (\x,-1) -- (\x,1.5);
+        }
+        \foreach \y in {-1,-0.5,0,0.5,1,1.5} {
+            \draw[kishblue!15,thin] (-1,\y) -- (1,\y);
+        }
+        % torsional wave propagating
+        \draw[torsionred!80, very thick, decorate,
+              decoration={coil, aspect=0.5, segment length=4pt, amplitude=4pt}]
+              (-1,0.25) -- (1,0.25);
+        \draw[->, torsionred, very thick] (-1,0.9) -- (1,0.9)
+            node[midway, above, torsionred] {\small wave};
+        \node[torsionred, below] at (0,-1.3) {\small torsional wave};
+        \node[black!60, below] at (0,-1.7) {\small (moves through)};
+    \end{scope}
+ 
+    % --- Expression 3: Radiant (transitional) ---
+    \begin{scope}[xshift=5cm]
+        \node[kishblue, above] at (0,2.3) {\textbf{(3) Radiant}};
+        \node[black!60, above] at (0,1.9) {\small transitional};
+        % lattice grid
+        \foreach \x in {-1,-0.5,0,0.5,1} {
+            \draw[kishblue!15,thin] (\x,-1) -- (\x,1.5);
+        }
+        \foreach \y in {-1,-0.5,0,0.5,1,1.5} {
+            \draw[kishblue!15,thin] (-1,\y) -- (1,\y);
+        }
+        % reconfiguration releasing radiation
+        \filldraw[vertexgreen] (0,0.25) circle (4pt);
+        \foreach \ang in {0,45,90,135,180,225,270,315} {
+            \draw[goldseal, thick, ->]
+                (0,0.25) -- ++(\ang:0.7);
+        }
+        \node[goldseal, below] at (0,-1.3) {\small geometry relaxes};
+        \node[black!60, below] at (0,-1.7) {\small (emits photon)};
+    \end{scope}
+ 
+\end{tikzpicture}
+\caption{Three geometric expressions, one charge signature. The vertex
+electron is a fixed corner of a closed standing-wave solid (structural).
+The current electron is a torsional wave propagating through a conductor
+lattice; the carriers barely move while the wave traverses the medium
+(kinematic). The radiant electron is a geometric reconfiguration releasing
+stored lattice tension as electromagnetic radiation (transitional). The
+standard model calls all three ``the electron'' because each carries the
+same charge-curvature signature. The KishLattice framework asks whether
+they are in fact the same object, or three modes of one geometry that
+convenience has bound under a single name.}
+\end{figure}
+ 
+\clearpage
+ 
+% ==============================================================================
+\chapter{The Cracks Are Already Published: Where the Unified Electron Breaks}
+% ==============================================================================
+ 
+\begin{quote}
+\textit{``A theory that stays a theory is safe. To empirically test it is
+dangerous, so humans stay in theory, where they cannot be wrong.''}
+--- Timothy John Kish, 2026.
+\end{quote}
+ 
+This chapter does something the rest of this theory paper does not: it
+leaves the KishLattice framework entirely and examines the
+\textbf{mainstream, peer-reviewed physics literature}. The claim that the
+unified electron is a conflation is not ours to make alone. The cracks are
+already in the published record, documented by the standard model's own
+practitioners, in journals like \emph{Nature Physics}. We did not invent
+the doubt. We are pointing at where it already lives.
+ 
+\section{Crack One: The Electron Demonstrably Splits}
+ 
+\oldworld{The electron is indivisible. It is a fundamental particle with
+no internal structure and no constituents. Spin, charge, and orbital
+identity are inseparable intrinsic properties of one object.}
+ 
+\newworldcmd{This is empirically false under measurable conditions, and
+the standard model knows it. In one-dimensional solids near absolute zero,
+the electron undergoes \textbf{spin--charge separation}: it splits into
+independent quasiparticles --- the \emph{spinon} carrying the spin, the
+\emph{holon} (or \emph{chargon}) carrying the charge, and the
+\emph{orbiton} carrying the orbital degree of freedom. These are not
+bookkeeping abstractions. The spinon--holon two-peak structure was
+observed directly by angle-resolved photoemission spectroscopy (ARPES)
+in strontium cuprate (SrCuO$_2$) and published in \emph{Nature Physics}
+in 2006. The orbiton was observed as a separate quasiparticle in 2011.
+ 
+The most striking part is stated in the literature itself: the spinon,
+with zero charge and spin one-half, and the chargon, with charge minus
+one and zero spin, \textbf{cannot be constructed as combinations of
+electrons, holes, phonons, and photons}. The pieces the electron splits
+into are not made of electrons. The supposedly indivisible particle comes
+apart into constituents that are not versions of itself.}
+ 
+\begin{empiricalbox}
+\textbf{Published, peer-reviewed (not KishLattice):}
+Spin--charge separation in 1D solids splits the electron into spinon,
+holon, and orbiton. The spinon--holon two-peak structure was directly
+observed by ARPES in SrCuO$_2$ (Kim et al., \emph{Nature Physics}, 2006).
+The orbiton was observed separately (Schlappa et al., 2012). The standard
+model's own term for this is \emph{fractionalization}: the quasiparticles
+carry quantum numbers that are fractions of the original particle's.
+\end{empiricalbox}
+ 
+The relevance to this paper is direct. The standard model already concedes,
+in print, that the electron is not a single indivisible object under all
+conditions --- that it has separable degrees of freedom (spin, charge,
+orbital) which can move independently and carry energy at different
+characteristic scales. The KishLattice framework asks the natural next
+question the standard model does not: if the electron's degrees of freedom
+separate in 1D solids, are the structural, current, and radiant
+``electrons'' of ordinary 3D matter \emph{also} separable geometric modes
+that we have simply never had the instrument to distinguish?
+ 
+\section{Crack Two: The Point Electron Has Infinite Self-Energy}
+ 
+\oldworld{The electron is a point particle. It has no spatial extent.
+No experiment has ever found internal structure down to $10^{-16}$ cm,
+which confirms that the electron is genuinely point-like --- a charge
+located at a single dimensionless point in space.}
+ 
+\newworldcmd{A charge located at a true geometric point produces an
+infinite self-energy. The electric field of a point charge falls off as
+$1/r^2$; integrating the field's energy density inward to $r = 0$ diverges
+to infinity. This is not a minor technicality. It means the rest mass of
+a point electron, if it is electromagnetic in origin, is formally infinite.
+The problem has been unsolved in classical electrodynamics for over a
+century and persists in quantum electrodynamics, where it is removed only
+by \textbf{renormalization} --- subtracting one infinity from another by
+hand to leave a finite remainder that is then fixed to the measured value.
+ 
+The honesty of the establishment on this point is remarkable. Isham, Salam,
+and Strathdee wrote that these infinities have left the subject with ``a
+curious affection for the infinities and a passionate belief that they are
+an inevitable part of nature.'' That is a confession that the foundational
+object of the theory is mechanically incoherent, and that the field has
+made peace with the incoherence rather than resolved it.}
+ 
+\begin{empiricalbox}
+\textbf{Published, peer-reviewed (not KishLattice):}
+The point-particle electron has infinite electromagnetic self-energy in
+both classical electrodynamics and QED. It is rendered finite only by
+renormalization --- subtracting an infinite counterterm and fixing the
+result empirically. No internal structure has been found down to
+$10^{-16}$ cm, yet the zero-measure point assumption is precisely what
+generates the divergence. The problem is over a century old and remains,
+in the literature's own words, fundamentally unresolved.
+\end{empiricalbox}
+ 
+\begin{resolutionbox}
+\textbf{What the vertex model does to the infinity:}
+A vertex of a standing-wave solid is not a zero-measure point. It is a
+region of maximum lattice curvature with a finite minimum scale set by
+the lattice node spacing (the Planck length, in this framework). There
+is no integration to $r = 0$ because the lattice has a structural floor
+below which no geometry exists. The self-energy is finite \emph{by
+construction}, because the medium has a minimum spacing. The infinity
+that requires renormalization in the point model does not arise in the
+vertex model, because the vertex is not a point --- it is the corner of
+a finite geometric cell. This is not offered as proof. It is offered as
+the observation that the framework's central object does not inherit the
+standard model's oldest and most stubborn divergence.
+\end{resolutionbox}
+ 
+\section{Crack Three: Wave-Particle Duality Was Never Resolved, Only Renamed}
+ 
+\oldworld{Wave-particle duality is a fundamental and accepted feature of
+quantum mechanics. The electron is both a particle and a wave; which
+aspect manifests depends on the measurement. This is simply how nature
+works at small scales, and the Copenhagen interpretation instructs us not
+to ask what is ``really'' happening between measurements.}
+ 
+\newworldcmd{``Do not ask what is really happening'' is not an explanation.
+It is an instruction to stop seeking one. Duality is not a resolved
+phenomenon; it is a named paradox that the standard model agreed to stop
+investigating. The double-slit result --- a single electron producing an
+interference pattern with itself --- is treated as irreducibly mysterious
+because the electron is assumed to be one object that must be either here
+or there.
+ 
+In the lattice framework there is no paradox to suppress. The wave is the
+lattice resonance --- a real, physical standing-wave disturbance in the
+medium. The ``particle'' is the vertex --- the corner where that resonance
+reaches maximum curvature and registers as a detection. The electron is
+not both a wave and a particle. It is a \textbf{vertex of a wave}: the
+endpoint of a resonance. The interference pattern is the resonance
+interfering with itself, which is what waves in a medium do. The detection
+is the vertex localising when the resonance is measured. Nothing is in two
+places. A wave is in many places, as waves are, and its corner is detected
+in one.}
+ 
+\begin{warningbox}
+\textbf{The honest scope of these three cracks.} None of these three
+findings --- spin--charge separation, the self-energy divergence, the
+duality paradox --- is a KishLattice result, and none of them
+\emph{requires} the lattice interpretation. Each has standard-model
+treatments and active research programmes. What this chapter claims is
+narrower and defensible: the standard model's own literature documents
+that the unified, indivisible, point-like electron breaks down under
+measurement (it splits), breaks down under calculation (it diverges),
+and was never mechanically resolved (it was renamed). These are the
+cracks the KishLattice framework proposes to address with a single
+geometric reinterpretation rather than three separate patches. The
+proposal earns its standing only if it can be tested. That is the
+subject of the next chapter.
+\end{warningbox}
+ 
+\clearpage
+ 
+% ==============================================================================
+\chapter{The Discriminating Test: Spectroscopy as the Decider}
+% ==============================================================================
+ 
+\begin{quote}
+\textit{``The data is just the divining rod leading to a Truth, which was
+the purpose of the question in the first place. The rod does not care which
+way you want it to point.''} --- Timothy John Kish, 2026.
+\end{quote}
+ 
+\section{Why This Is Testable and Has Not Been Tested}
+ 
+The claim that the structural, current, and radiant electrons are distinct
+geometric modes makes a prediction the unified-electron model does not:
+\textbf{their geometric signatures should differ in a way that a harmonic
+analysis can detect.} If they are one object, every measurement of their
+underlying geometry should land at the same place. If they are three modes
+of one lattice, the structural mode should register at the structural
+geometry, the kinematic mode at the kinematic geometry, and the radiant
+mode at the transitional geometry --- at \emph{different} KLGHS registers.
+ 
+This has not been tested for a simple reason. The standard model assumes
+the answer before asking: the electron is one object, so there is no
+distinction to look for, so no one builds the instrument to look. The
+assumption forecloses the experiment. KLGHS does not share the assumption,
+and therefore can ask the question the standard model's framing makes
+invisible.
+ 
+This is the dangerous test --- the one that can come back ``no.'' If the
+three modes scalarise to the \emph{same} register, the conflation
+hypothesis is falsified and the unified electron is supported. We commit,
+in advance, to publishing that result exactly as it returns.
+ 
+\section{The Discriminator Predictions}
+ 
+\begin{predictionbox}
+\textbf{P\_electron\_triplicity: The three electron modes occupy distinct
+KLGHS registers.}\\[0.5em]
+\textbf{Hypothesis:} The structural electron (binding/valence geometry),
+the current electron (conduction/kinematic geometry), and the radiant
+electron (transition/emission geometry) are distinct lattice modes and
+will scalarise to \emph{different} KLGHS harmonic registers, rather than
+collapsing onto a single shared register.\\[0.5em]
+\textbf{Channel A --- structural:} valence-shell binding energies (atomic
+ionisation energies, first through outer-shell), natural unit 1 eV.\\
+\textbf{Channel B --- kinematic:} conduction-band properties --- Fermi
+velocities and/or electron drift mobilities across conductors, natural
+unit appropriate to velocity (1 m/s) or mobility.\\
+\textbf{Channel C --- transitional:} atomic emission-line frequencies
+(spectroscopic transition energies), natural unit 1 Hz or 1 eV.\\[0.5em]
+\textbf{Predicted result:} Channels A, B, and C each return a STRONG
+signal (chaos $z \geq +5.0$) but at \emph{three different registers}.
+Specifically, the kinematic channel is predicted to favour the $16/\pi$
+kinematic primary (the same register that governs stellar velocities,
+TTV deviations, and other motion-domain quantities across Vols 9--11);
+the structural channel is predicted to favour a binding-family register
+(candidate $19/\pi$ or $21/\pi$, the structural binding addresses);
+the transitional channel is predicted to favour the electromagnetic
+propagation family (candidate $25/\pi$, the register confirmed for
+stellar luminosity, CMB anisotropy, and FRB dispersion measure).\\[0.5em]
+\textbf{Falsification:} If all three channels scalarise to the
+\emph{same} register, the three-mode hypothesis is falsified and the
+unified electron is empirically supported. This outcome is published
+without modification.\\[0.5em]
+\textbf{Status:} Pre-empirical theoretical prediction. To be formally
+pre-registered to Zenodo before any lake is built. Lake specification
+required from Atlas; channel-B natural unit must be fixed in the
+pre-registration before data is touched.
+\end{predictionbox}
+ 
+\begin{predictionbox}
+\textbf{P\_spin\_charge\_register: The separated quasiparticles occupy
+distinct registers from each other.}\\[0.5em]
+\textbf{Hypothesis:} In materials exhibiting spin--charge separation, the
+spinon, holon, and orbiton --- already measured as carrying different
+characteristic energy scales --- will, when their published dispersion
+energies are scalarised, occupy \emph{distinct} KLGHS registers, mirroring
+their distinct physical roles (spin, charge, orbital).\\[0.5em]
+\textbf{Dataset:} Published ARPES dispersion data for spin--charge-separated
+1D conductors (SrCuO$_2$ and related cuprate chains), spinon and holon
+band energies, natural unit 1 eV.\\[0.5em]
+\textbf{Predicted result:} The spinon energy scale and the holon energy
+scale scalarise to different registers. If the orbiton data is available,
+it occupies a third. The register separation is non-trivial relative to
+chaos null.\\[0.5em]
+\textbf{Why this matters:} This is the cleanest possible test of the
+conflation hypothesis, because here the standard model has \emph{already}
+separated the electron into pieces for us and measured them. We need only
+ask whether those independently measured pieces land at the same lattice
+address (one object, accidentally separated) or at different addresses
+(genuinely distinct geometric modes). The experiment the standard model
+performed to confirm fractionalization is the experiment we re-analyse to
+test geometric distinctness.\\[0.5em]
+\textbf{Status:} Pre-empirical theoretical prediction. To be pre-registered
+to Zenodo. Strongest near-term lake candidate, because the discriminating
+data already exists in the peer-reviewed record.
+\end{predictionbox}
+ 
+\begin{predictionbox}
+\textbf{P\_emission\_geometry: Atomic emission spectra encode vertex
+geometry, not orbital probability.}\\[0.5em]
+\textbf{Hypothesis:} If emission lines are geometric reconfiguration
+events (Chapter 3 of this paper --- the kaleidoscope shift), then the
+transition energies between standing-wave solids should cluster at KLGHS
+registers determined by the \emph{vertex-count change} of the transition
+(e.g.\ tetrahedral $\to$ cubic, a 4-vertex to 8-vertex reconfiguration),
+not at energies set by hydrogenic quantum numbers alone.\\[0.5em]
+\textbf{Dataset:} NIST Atomic Spectra Database --- transition energies for
+elements whose ground-state geometries correspond to the 2/4/6/8-vertex
+solids, natural unit 1 eV or 1 Hz.\\[0.5em]
+\textbf{Predicted result:} Emission-line scalars cluster by vertex-count
+transition class. Transitions sharing the same geometric reconfiguration
+(same vertex-count change) cluster at the same register, across different
+elements, at $z \geq +5.0$.\\[0.5em]
+\textbf{Status:} Pre-empirical theoretical prediction. To be pre-registered
+to Zenodo. NIST ASD is a clean, citable, immediately accessible lake
+source.
+\end{predictionbox}
+ 
+\begin{warningbox}
+\textbf{The bar these three predictions must clear.} Each prediction names
+its dataset, its natural unit, its predicted register behaviour, and its
+falsification condition before any data is touched. None of the three is
+confirmed. The two-channel discriminator design (P\_electron\_triplicity)
+is the keystone: it is the first time, to our knowledge, that spectroscopy
+would be used not to measure an electron's energy levels but to ask whether
+the ``electron'' measured in three different physical regimes is one
+geometric object or three. The standard model cannot ask this question
+because its framing answers it in advance. KLGHS can ask it because the
+framework does not assume the answer. Whatever the rod points to, we
+publish.
+\end{warningbox}
+ 
+\clearpage
+ 
+% ==============================================================================
+\chapter{The Sister Papers: How Magnetism and the Electron Share One Lattice}
+% ==============================================================================
+ 
+\begin{quote}
+\textit{``The field is the torque. The vertex is the corner. They are
+the same lattice, read in two directions.''} --- Mondy Aurora Kish, 2026.
+\end{quote}
+ 
+\section{Why These Two Papers Belong Together}
+ 
+This paper and \emph{The Orthogonal Torque} are not independent. They are
+two readings of the same geometric substrate, and the conflation argument
+of Chapter 6 is the hinge that joins them. The current electron --- mode
+(2) of the three --- is precisely the torsional wave that the Orthogonal
+Torque paper describes propagating through a conductor. What this paper
+calls the kinematic electron, the sister paper calls lattice torsion in
+motion. They are the same phenomenon named from two directions.
+ 
+\begin{bridgebox}
+\textbf{The shared object: the current electron is the torsional wave.}\\[0.5em]
+\emph{The Orthogonal Torque} argues that current is not the bulk motion of
+charge carriers but a torsional disturbance propagating through the
+conductor lattice --- the carriers barely move while the wave traverses
+the wire near light speed. \emph{The Geometric Electron} arrives at the
+identical object from the opposite side: the ``current electron'' (mode 2
+of Chapter 6) is not a particle in transit but a propagating lattice
+disturbance. These are the same claim. The sister papers meet exactly
+here. Magnetism is the orthogonal expression of that same torsional wave
+--- which is why a current always produces a magnetic field, and why the
+right-hand rule is a geometric necessity rather than a convention.
+\end{bridgebox}
+ 
+\section{One Lattice, Two Readings}
+ 
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\small
+\begin{tabular}{|p{4.2cm}|p{4.0cm}|p{4.0cm}|}
+\hline
+\rowcolor{kishblue!10}
+\textbf{Phenomenon} & \textbf{The Geometric Electron reading} &
+\textbf{The Orthogonal Torque reading} \\
+\hline\hline
+Electron in an atom &
+Vertex of a standing-wave solid (structural mode) &
+A fixed torsion node anchoring the local lattice \\
+\hline
+Current in a wire &
+Propagating lattice disturbance (kinematic mode) &
+Torsional wave relieving linear shear \\
+\hline
+Magnetic field &
+Orthogonal expression of the kinematic mode &
+Orthogonal torsion: the field \emph{is} the torque \\
+\hline
+Light emission &
+Geometric reconfiguration (transitional mode) &
+Release of stored torsional tension into the lattice \\
+\hline
+Resistance / heat &
+Vertex disruption along the conduction path &
+Torsional mismatch dissipated as node vibration \\
+\hline
+\end{tabular}
+\caption{The two sister papers read one lattice from two directions. Every
+phenomenon appears in both, described in complementary geometric language.
+The current electron of this paper is the torsional wave of the sister
+paper. Magnetism is the orthogonal reading of that same wave. The papers
+do not compete; they triangulate the same substrate.}
+\end{table}
+ 
+\begin{empiricalbox}
+\textbf{A shared empirical consequence.}
+If the current electron and the magnetic field are the same torsional wave
+read in two directions, then the conduction-channel test of this paper
+(P\_electron\_triplicity, Channel B) and the geomagnetic / coil tests of
+the sister paper (P\_igrf\_harmonics and the winding-accumulation
+predictions) should land at \emph{compatible} registers --- the kinematic
+family. A confirmed kinematic-register signal in conduction data and a
+confirmed kinematic-register signal in magnetic data would be two
+instruments measuring one torsional substrate. That cross-paper
+convergence, if it appears, is stronger evidence than either result alone
+--- the same multi-instrument logic that the KishLattice Star paper applied
+to LIGO and FRB channels. If they \emph{diverge}, that too is a finding,
+and constrains the shared-substrate claim.
+\end{empiricalbox}
+ 
+\section{The Danger We Choose}
+ 
+\oldworld{A theory is safest when it is never tested. An untested theory
+cannot be falsified; it can be admired indefinitely, refined endlessly,
+and defended forever, because no datum can ever contradict it. A century
+of geometric electron models has lived comfortably in exactly this safety
+--- elegant, suggestive, and never once placed in front of a dataset that
+could tell it no.}
+ 
+\newworldcmd{KishLattice chooses the dangerous path on purpose. Every
+prediction in this extension names a dataset, a unit, and a falsification
+condition before the data is touched. Each one can come back ``no.'' The
+conflation hypothesis can be wrong. The three modes may scalarise to one
+register and vindicate the unified electron. The spinon and holon may land
+at the same address. We have committed, in writing and in advance, to
+publishing whichever way the rod points.
+ 
+That is the entire difference between this framework and the hundred years
+of geometric speculation that preceded it. Those models stayed theories
+because staying a theory is safe. This one walks to the data, where being
+wrong is possible --- because being wrong is the only way to ever be shown
+right.}
+
 % ==============================================================================
 \chapter{Conclusion: The Corner of the Chord}
 % ==============================================================================
@@ -1066,6 +1659,11 @@ June 2026}
 
 \section*{KishLattice Series}
 \begin{itemize}
+    \item Kish, T.~J., Kish, L.~A. \& Kish, M.~A. (2026).
+    \textit{The Orthogonal Torque: Redefining Magnetism as Lattice
+    Torsion} (Sister Paper). Zenodo.
+    \url{https://doi.org/10.5281/zenodo.18489802}
+	
     \item Kish, T.~J., Kish, L.~A. \& Kish, A.~A. (2026).
     \textit{The Geometric Architecture of Matter} (Vol.~3).
     Zenodo. \url{https://doi.org/10.5281/zenodo.18217226}
@@ -1108,6 +1706,27 @@ June 2026}
 
     \item Dirac, P.~A.~M. (1928). The Quantum Theory of the Electron.
     \textit{Proceedings of the Royal Society A}, 117(778), 610--624.
+
+    \item Tomonaga, S. (1950). Remarks on Bloch's Method of Sound
+    Waves Applied to Many-Fermion Problems.
+    \textit{Progress of Theoretical Physics}, 5(4), 544--569.
+
+    \item Luttinger, J.~M. (1963). An Exactly Soluble Model of a
+    Many-Fermion System. \textit{Journal of Mathematical Physics},
+    4(9), 1154--1162.
+
+    \item Kim, B.~J. et al. (2006). Distinct spinon and holon
+    dispersions in photoemission spectral functions from
+    one-dimensional SrCuO$_2$. \textit{Nature Physics}, 2, 397--401.
+
+    \item Schlappa, J. et al. (2012). Spin--orbital separation in the
+    quasi-one-dimensional Mott insulator Sr$_2$CuO$_3$.
+    \textit{Nature}, 485, 82--85.
+
+    \item Isham, C.~J., Salam, A. \& Strathdee, J. (1971).
+    Infinity Suppression in Gravity-Modified Electrodynamics.
+    \textit{Physical Review D}, 3(8), 1805--1817.
+	
 
     \item Cambridge Structural Database.
     Cambridge Crystallographic Data Centre.

@@ -90,6 +90,10 @@
     colback=fieldgreen!5, colframe=fieldgreen,
     fonttitle=\bfseries, title=Bridge to Empirical Testing
 }
+ \newtcolorbox{bridgebox}{
+	colback=kishblue!4, colframe=kishblue!80,
+	fonttitle=\bfseries, title=Bridge: The Geometric Electron (Sister Paper)
+}
 
 % --- COMMANDS ---
 \newcommand{\kish}{$16/\pi$}
@@ -311,6 +315,13 @@ stiffness of the vacuum lattice. This expression is a theoretical proportionalit
 indicating the directional relationship, not a derived quantitative result.
 The field lines of conventional electromagnetism correspond, in this picture,
 to the \textbf{principal axes of torsion} along the vacuum lattice drive-shaft.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Title/lattice_torque_proof.png}
+    \caption{Lattice Torsion Visualization: The lattice\_torque\_sim.py Python Simulation showing linear stress (Z-axis) converted into orthogonal torque vectors in a $16/\pi$ constrained grid.}
+    \label{fig:lattice_torque_proof}
+\end{figure}
 
 \begin{warningbox}
 \textbf{On the status of the equation above.} This is a proportionality
@@ -856,6 +867,562 @@ Pipeline not yet executed as of this paper's expanded publication date.
 
 \clearpage
 
+\begin{bridgebox}
+\textbf{This V3.0 extension was prompted by a question about the wire.}\\[0.4em]
+The sister paper, \emph{The Geometric Electron}, argues that physics used
+one word --- ``electron'' --- for three different geometric things: the
+vertex that defines chemistry, the disturbance that flows as current, and
+the reconfiguration that emits light. This paper is where the second of
+those three lives. The ``current electron'' is the torsional wave of the
+Orthogonal Torque. This extension develops that shared object directly:
+what actually moves in a wire, why winding a coil compounds the field,
+how a transformer steps voltage without any electrical connection, and
+where the standard model's own literature already concedes the mechanics
+it cannot explain.
+
+Kish, T.~J., Kish, L.~A. \& Kish, M.~A. (2026).
+The Geometric Electron: The Reclassification of the Electron as a Lattice Vertex (Sister Paper). 
+Zenodo:
+\url{https://doi.org/10.5281/zenodo.20838878}
+\end{bridgebox}
+ 
+% ==============================================================================
+\chapter{What Actually Moves in a Wire}
+% ==============================================================================
+ 
+\begin{quote}
+\textit{``There is a strong relationship in Ohm's Law which matches what we
+observe. The balance is heat or light --- some effect that puts the law
+back into balance.''} --- Timothy John Kish, 2026.
+\end{quote}
+ 
+\section{The Slowest Fast Thing in Physics}
+ 
+\oldworld{Electric current is the flow of electrons through a conductor.
+When you close a switch, electrons move through the wire from the source
+to the load, and this flow of charge is the current. The electron is the
+carrier; its motion is the current; the current delivers the energy.}
+ 
+\newworldcmd{This picture is contradicted by the standard model's own
+measured numbers, and the contradiction is not subtle. The actual drift
+velocity of electrons in a copper wire carrying ordinary household current
+is on the order of \emph{a fraction of a millimetre per second} --- slower
+than a glacier, slower than a growing fingernail. Yet the signal, when you
+flip the switch, arrives at the load at a substantial fraction of the speed
+of light. The electromagnetic field propagates through and around the
+conductor roughly five hundred billion times faster than the electrons
+themselves drift.
+ 
+The carriers barely move. The effect is near-instantaneous. Whatever is
+carrying the energy down the wire, it is not the bulk motion of the
+electrons, because the electrons are nearly standing still.}
+ 
+\begin{empiricalbox}
+\textbf{Published, peer-reviewed (not KishLattice):}
+Electron drift velocity in copper at typical current is on the order of
+$10^{-4}$ to $10^{-3}$ m/s, while the electrical signal propagates at
+roughly $0.5c$ to $0.9c$ --- the field outpaces the carriers by a factor
+of order $10^{11}$. Standard references state this plainly: the bulk
+electron motion does not determine signal speed; the electromagnetic wave
+does.
+\end{empiricalbox}
+ 
+\section{The Energy Travels Outside the Wire}
+ 
+There is a second fact in the mainstream literature that is even more
+revealing, and most electrical engineers are never taught to dwell on it.
+ 
+\oldworld{The energy in a circuit flows through the wire, carried by the
+electrons inside the conductor, from the battery to the bulb.}
+ 
+\newworldcmd{The standard model says the opposite. The energy does not
+flow inside the conductor at all. It flows in the field \emph{around} the
+conductor. The Poynting vector --- the standard, textbook description of
+electromagnetic energy flow --- points along the surface of the wire and
+into it, not down its length. The accepted modern statement is explicit:
+energy or signals from a source to a load flow \emph{outside} the
+electrical conductor of a cable; the conductors function as a guide for
+the energy-carrying wave rather than conveying the energy internally.
+ 
+Read that again, because it is the standard model speaking, not
+KishLattice. The wire does not carry the energy. The wire guides a wave
+that travels in the space around it. The conductor is a rail, not a pipe.
+ 
+This is exactly what the torsion model predicts. If current is a torsional
+disturbance of the lattice, then the energy is stored and transmitted in
+the lattice stress field surrounding the conductor --- not in the slow
+drift of the carriers within it. The carriers are the coupling points
+where the torsional wave grips the medium. The wire is the axis. The energy
+rides the torsion in the lattice around the axis. The standard model
+arrived at the same geometry --- energy outside the wire, conductor as
+guide --- from Poynting's mathematics, without a mechanical picture of
+\emph{what} the surrounding medium is. The torsion model supplies the
+medium: it is the $16/\pi$ lattice, and the field is the torque.}
+ 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=1.0]
+    % The wire (axis)
+    \draw[torsionred, line width=6pt] (-4,0) -- (4,0);
+    
+    % MOVED DOWN: Conductor label
+    \node[torsionred, below] at (0,-1.4) {\small conductor (the axis / guide)};
+    
+    % Slow drifting carriers inside
+    \foreach \x in {-3.4,-2.6,-1.8,-1.0,-0.2,0.6,1.4,2.2,3.0,3.8} {
+        \filldraw[white] (\x,0) circle (1.6pt);
+        \draw[->, white, thin] (\x,0) -- (\x+0.18,0);
+    }
+    
+    % MOVED DOWN: Carriers drift text
+    \node[black!60, below] at (0,-1.8)
+        {\scriptsize carriers drift $\sim 10^{-4}$ m/s (barely move)};
+        
+    % The energy-carrying torsional field OUTSIDE
+    \foreach \r in {0.55, 0.85, 1.15} {
+        \draw[fieldgreen, thick, ->]
+            (-3,0) ++(90:\r) arc(90:-90:\r);
+        \draw[fieldgreen, thick, ->]
+            (0,0) ++(90:\r) arc(90:-90:\r);
+        \draw[fieldgreen, thick, ->]
+            (3,0) ++(90:\r) arc(90:-90:\r);
+    }
+    
+    % Energy flow arrows (Poynting, into and along surface)
+    \draw[->, kishblue, very thick] (-4.3,1.6) -- (-3.5,0.3);
+    \draw[->, kishblue, very thick] (4.3,1.6) -- (3.5,0.3);
+    \node[kishblue, above] at (0,1.8)
+        {\textbf{Energy flows in the lattice field AROUND the wire}};
+    \node[fieldgreen, right] at (4.2,0) {\small torsion};
+\end{tikzpicture}
+\caption{What actually moves. The carriers (white) drift through the
+conductor at a fraction of a millimetre per second --- effectively
+standing still. The energy travels in the torsional stress field (green)
+in the lattice \emph{around} the wire, at a large fraction of light speed.
+The standard model already states this via the Poynting vector: the
+energy flows outside the conductor, which acts only as a guide. The
+torsion model identifies the surrounding medium as the $16/\pi$ lattice
+and the energy-carrying disturbance as orthogonal torsion. The wire is
+the corkscrew's axis; the energy rides the twist in the medium around it.}
+\end{figure}
+ 
+\section{Ohm's Law as a Torsional Balance Equation}
+ 
+Ohm's Law, $V = IR$, is among the most reliable empirical relationships in
+all of physics. It holds across an extraordinary range of materials,
+scales, and conditions. Yet what it describes \emph{mechanically} at the
+substrate level has never been fully specified --- the standard account
+(electrons colliding with ions, losing momentum to heat) is correct but
+stops at the collision without saying what the medium is doing.
+ 
+\begin{theorybox}
+\textbf{Ohm's Law in the torsion model:}\\[0.5em]
+\textbf{Voltage ($V$)} is the \emph{torsional potential} --- the degree to
+which the lattice is being loaded with directional stress at the source.\\[0.4em]
+\textbf{Current ($I$)} is the \emph{rate of torsional propagation} --- how
+fast the torsional disturbance advances through the medium.\\[0.4em]
+\textbf{Resistance ($R$)} is the \emph{torsional impedance} --- the degree
+to which the local node geometry fights the clean propagation of the
+directional stress rather than conducting it.\\[0.5em]
+The law balances because torsional energy is conserved. Where the lattice
+geometry conducts the stress cleanly, the wave propagates with little loss.
+Where it does not --- at an impurity, a grain boundary, a resistive element
+--- the torsional energy that cannot be conducted forward must go somewhere.
+It is deposited locally as node vibration.
+\end{theorybox}
+ 
+\newworldcmd{The balance term in Ohm's Law --- the heat, the light, the
+dissipation that always appears --- is not a separate bookkeeping entry.
+It is the torsional energy that the geometry could not conduct forward,
+deposited into the local lattice as vibration. At low intensity that
+vibration is \textbf{heat} (infrared lattice oscillation). At high enough
+intensity the lattice nodes are driven to vibrate at optical frequencies
+and emit \textbf{visible light} --- which is precisely why an incandescent
+filament glows only when hot enough, and why the same resistive element
+emits infrared at room temperature and white light when driven hard. It is
+one process --- torsional mismatch dissipation --- across the full
+spectrum. The frequency of the output is set by the intensity of the
+mismatch loading, not by a different underlying mechanism.}
+ 
+\begin{warningbox}
+\textbf{Scope: this does not overturn Ohm's Law or thermodynamics.} The
+torsion reading of $V = IR$ is a mechanical \emph{substrate} for a law that
+is already correct and verified. It changes nothing about the arithmetic
+and nothing about energy conservation. What it offers is an answer to a
+question the standard account leaves open --- \emph{what is the medium
+physically doing} when it resists --- by identifying resistance as
+torsional impedance and dissipation as the mismatch the geometry could not
+conduct. It is a picture beneath the law, not a correction to it.
+\end{warningbox}
+ 
+\clearpage
+ 
+% ==============================================================================
+\chapter{The Compound Corkscrew: Why Winding Multiplies the Field}
+% ==============================================================================
+ 
+\begin{quote}
+\textit{``The more winding, the more compounding boost. A way of tapping
+that lattice stress. We always saw it, but we did not understand where the
+boost comes from. Why do more winds make it stronger?''}
+--- Timothy John Kish, 2026.
+\end{quote}
+ 
+\section{The Question Hiding in Every Electromagnet}
+ 
+Every electromagnet, every solenoid, every transformer rests on one fact
+so familiar it is rarely questioned: \emph{the more times you wind the
+wire, the stronger the field}. Double the windings, double the field. The
+standard model describes this perfectly as the superposition of each
+loop's magnetic contribution. But superposition is a description of the
+arithmetic, not a mechanism. \emph{Why} do the contributions add? What,
+physically, is accumulating?
+ 
+\oldworld{A solenoid's field strength is proportional to the number of
+turns $N$ because each loop contributes its own magnetic field, and the
+fields of all the loops add by superposition inside the coil. More loops,
+more field. The total is the sum of the parts.}
+ 
+\newworldcmd{In the corkscrew model of Chapter 3, a single straight current
+is one torsional axis boring through the lattice --- one corkscrew, with
+its South entry and North exit. When you wind that wire into a coil, each
+loop drives \emph{another} corkscrew traversal through the same interior
+region of lattice, and crucially, all these traversals are \emph{co-aligned}
+--- every loop torques the same interior nodes in the same rotational
+direction.
+ 
+The field does not merely ``add.'' The interior lattice \textbf{accumulates}
+torsional load. Each winding re-engages the same nodes through the same
+directional twist, progressively loading the medium the way each turn of a
+real corkscrew bores the same channel deeper. The field strength scales
+with $N$ because the stored torsional stress in the interior lattice scales
+with how many times the same nodes have been torqued in the same direction.
+The boost is not coming from nowhere --- it is the compounding alignment of
+$N$ co-directional corkscrews loading one shared region of the medium.}
+ 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=0.95]
+ 
+    % --- Single loop ---
+    \begin{scope}[xshift=-4.5cm]
+        \node[kishblue, above] at (0,2.0) {\textbf{1 winding}};
+        % the loop
+        \draw[torsionred, very thick] (0,0) ellipse (0.9cm and 0.5cm);
+        % single torsion axis through center
+        \draw[->, fieldgreen, very thick] (0,-1.3) -- (0,1.3);
+        \draw[fieldgreen, thick, decorate,
+              decoration={coil, aspect=0.5, segment length=4pt, amplitude=2.5pt}]
+              (0,-1.0) -- (0,1.0);
+        \node[fieldgreen, below] at (0,-1.5) {\small 1 corkscrew};
+        \node[black!60, below] at (0,-1.9) {\small load = 1 unit};
+    \end{scope}
+ 
+    % --- Several loops compounding ---
+    \begin{scope}[xshift=1.5cm]
+        \node[kishblue, above] at (0,2.0) {\textbf{N windings}};
+        % stacked loops
+        \foreach \y in {-0.9,-0.45,0,0.45,0.9} {
+            \draw[torsionred, very thick] (0,\y) ellipse (0.9cm and 0.28cm);
+        }
+        % compounded torsion axis — thicker = more accumulated load
+        \draw[->, fieldgreen, line width=4pt] (0,-1.6) -- (0,1.6);
+        \draw[fieldgreen, line width=1.5pt, decorate,
+              decoration={coil, aspect=0.5, segment length=4pt, amplitude=4pt}]
+              (0,-1.3) -- (0,1.3);
+        \node[fieldgreen, below] at (0,-1.9) {\small N co-aligned corkscrews};
+        \node[black!60, below] at (0,-2.3) {\small load = N units (compounded)};
+        % accumulation arrows
+        \node[kishblue, right] at (1.3,0) {\small accumulated};
+        \node[kishblue, right] at (1.3,-0.4) {\small torsional};
+        \node[kishblue, right] at (1.3,-0.8) {\small load $\propto N$};
+    \end{scope}
+ 
+\end{tikzpicture}
+\caption{Why winding compounds the field. A single loop drives one
+torsional corkscrew through the interior lattice. Each additional winding
+drives another co-aligned corkscrew through the \emph{same} interior nodes,
+in the \emph{same} rotational direction. The interior lattice accumulates
+torsional load in proportion to the number of windings --- the field
+strength scales with $N$ because the same nodes are being torqued $N$ times
+over in the same direction, like a corkscrew boring the same channel
+deeper with each turn. This is the mechanical substrate beneath the
+standard ``fields add by superposition'' description.}
+\end{figure}
+ 
+\section{The Transformer: Reading the Lattice Stress Back Out}
+ 
+If a coil \emph{loads} the lattice with accumulated torsional stress, then
+a second coil sharing the same core can \emph{read that stress back out} ---
+and this is exactly a transformer.
+ 
+\oldworld{A transformer transfers energy between two coils with no direct
+electrical connection, through mutual inductance. The primary coil's
+changing current creates a changing magnetic flux in a shared core. That
+changing flux induces a voltage in the secondary coil. The output voltage
+is the input voltage multiplied by the ratio of secondary turns to primary
+turns. More secondary turns, higher voltage --- a step-up transformer.}
+ 
+\newworldcmd{Notice what the standard account requires you to accept
+without mechanism: energy crosses from one coil to another \emph{through no
+electrical connection at all}. The coils never touch. Something carries the
+energy across the gap. The standard model names it --- ``mutual inductance,''
+``flux linkage'' --- but naming the flux is not the same as saying what the
+flux \emph{is}.
+ 
+In the torsion model the mechanism is direct. The primary coil loads the
+shared core lattice with accumulated torsional stress (the compound
+corkscrew of the previous section). The secondary coil, wound around the
+same core, shares those same torsionally-loaded lattice nodes. As the
+primary's stress oscillates, the secondary's windings \emph{sample} that
+oscillating torsional load and convert it back into a current. No electrical
+connection is needed because the energy was never in the wires --- it was in
+the lattice stress of the shared core, exactly as the Poynting picture of
+the previous chapter requires.
+ 
+The step-up ratio follows immediately. The secondary reads the same core
+torsion through a different number of sampling points (windings). More
+secondary windings means more engagement points sampling the same lattice
+stress, producing proportionally more voltage. The current drops in exact
+proportion, because the total torsional energy stored in the core is
+conserved --- you cannot read out more energy than was loaded in. Voltage
+up, current down, energy constant. The transformer is a lattice-stress
+transmission, and the turns ratio is the sampling ratio.}
+ 
+\begin{empiricalbox}
+\textbf{The standard model already reaches for the gear analogy.}
+The mainstream electronics literature describes transformer action as
+``analogous to that of mechanical gears, belt sheaves, or chain sprocket
+ratios'' --- voltage up, current down, in fixed proportion to the turns
+ratio, exactly as gears trade speed for torque. The torsion model says this
+is not an analogy. It is the substrate. A transformer \emph{is} a gear
+train in the lattice: the primary loads torsional stress, the core
+transmits it, the secondary reads it out, and the turns ratio sets the
+mechanical advantage --- the same way meshed gears of different tooth
+counts trade rotational speed for rotational force.
+\end{empiricalbox}
+ 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=0.9]
+    % Core (Widened slightly for text clearance)
+    \draw[kishblue!40, line width=10pt] (-2.5,-1.5) rectangle (2.5,1.5);
+    
+    % Core Text (Moved up slightly to clear the arrow)
+    \node[kishblue!70] at (0,1.0) {\small shared};
+    \node[kishblue!70] at (0,0.6) {\small core lattice};
+ 
+    % Primary windings (left, fewer)
+    \foreach \y in {-1.0,-0.5,0,0.5,1.0} {
+        \draw[torsionred, very thick] (-2.5,\y) ellipse (0.35cm and 0.18cm);
+    }
+    \node[torsionred, above] at (-2.5,1.8) {\textbf{Primary}};
+    \node[torsionred, below] at (-2.5,-1.8) {\small $N_1$ turns};
+    \node[torsionred, below] at (-2.5,-2.2) {\small (loads stress)};
+ 
+    % Secondary windings (right, more = step up)
+    \foreach \y in {-1.2,-0.9,-0.6,-0.3,0,0.3,0.6,0.9,1.2} {
+        \draw[fieldgreen, very thick] (2.5,\y) ellipse (0.35cm and 0.12cm);
+    }
+    \node[fieldgreen, above] at (2.5,1.8) {\textbf{Secondary}};
+    \node[fieldgreen, below] at (2.5,-1.8) {\small $N_2 > N_1$ turns};
+    \node[fieldgreen, below] at (2.5,-2.2) {\small (reads stress out)};
+ 
+    % Torsion transmission through core (Lowered text to sit on arrow)
+    \draw[->, goldseal, very thick] (-1.5,0) -- (1.5,0);
+    \node[goldseal, above] at (0,0.1) {\small torsional load};
+ 
+    % Result (Pushed down slightly to clear coil labels)
+    \node[kishblue] at (0,-3.2) 
+        {\textbf{$N_2 > N_1$: voltage steps UP, current steps DOWN, energy conserved}};
+\end{tikzpicture}
+\caption{The transformer as a lattice gear train. The primary winding loads
+the shared core lattice with accumulated torsional stress. The secondary
+winding, sampling the same stressed nodes through a larger number of turns,
+reads that stress back out as a higher voltage at proportionally lower
+current. No electrical connection crosses the gap because the energy lives
+in the core's torsional load, not in the wires. The turns ratio is the
+mechanical advantage --- the gear ratio of the lattice.}
+\end{figure}
+ 
+\section{The Predictions}
+ 
+\begin{predictionbox}
+\textbf{P\_coil\_accumulation: Solenoid field scales with winding count at
+KLGHS-constrained intervals.}\\[0.5em]
+\textbf{Hypothesis:} If interior torsional load accumulates with winding
+count, the measured field-strength-per-turn relationship for solenoids
+should, when the field values are scalarised through the KLGHS log-standard
+transform, show clustering at harmonic registers rather than a featureless
+continuum --- the geometry of the lattice constraining how torsional load
+accumulates.\\[0.5em]
+\textbf{Dataset:} Published solenoid characterisation data --- measured
+axial field strength $B$ versus turn count $N$ and current $I$, from
+standard electromagnetics calibration tables, natural unit 1 tesla.\\[0.5em]
+\textbf{Predicted result:} The scalarised field-per-turn distribution
+clusters at confirmed KLGHS registers (chaos $z \geq +5.0$), favouring the
+kinematic family ($16/\pi$) consistent with current being a kinematic
+torsional disturbance.\\[0.5em]
+\textbf{Status:} Pre-empirical theoretical prediction. To be pre-registered
+to Zenodo. Lake specification required from Atlas; natural unit and whether
+to scalarise $B$, $B/N$, or $B/(NI)$ must be fixed before data is touched.
+\end{predictionbox}
+ 
+\begin{predictionbox}
+\textbf{P\_transformer\_ratio: Step-up ratios cluster at geometric
+register intervals.}\\[0.5em]
+\textbf{Hypothesis:} If the transformer turns ratio is a lattice sampling
+ratio rather than an arbitrary engineering choice, the most stable and
+efficient real-world transformer turns ratios should, when scalarised,
+show non-random structure relative to KLGHS registers --- the lattice
+preferring certain sampling ratios over others.\\[0.5em]
+\textbf{Dataset:} Published transformer specification data --- primary and
+secondary turns ratios and measured coupling efficiencies across a large
+catalogue of manufactured transformers.\\[0.5em]
+\textbf{Predicted result:} Turns ratios associated with the highest
+coupling efficiency cluster at register-constrained values rather than
+distributing uniformly.\\[0.5em]
+\textbf{Honest caveat:} This prediction is the weakest of the set, because
+manufactured turns ratios are chosen by engineers for application reasons,
+not by nature --- the dataset carries strong human selection bias. It is
+included for completeness and flagged as low-priority. A null here would be
+expected even if the lattice model is correct, so a null does \emph{not}
+falsify the model; only a positive clustering would be informative.\\[0.5em]
+\textbf{Status:} Pre-empirical, low-priority. Pre-register only with the
+selection-bias caveat explicit.
+\end{predictionbox}
+ 
+\begin{warningbox}
+\textbf{Referee note on the two predictions above.} P\_coil\_accumulation
+is clean and worth building: solenoid field-versus-turns data is set by
+physics, not by human choice, so a clustering result would be meaningful
+and a null would genuinely constrain the model. P\_transformer\_ratio is
+deliberately flagged as compromised by selection bias and is included only
+so the reasoning is on the record. The distinction between them is itself
+the point: a prediction is only as good as the dataset's freedom from human
+choice, and naming which is which \emph{before} building is the discipline.
+\end{warningbox}
+ 
+\clearpage
+ 
+% ==============================================================================
+\chapter{The Sister Papers: One Lattice, Read as Field and as Vertex}
+% ==============================================================================
+ 
+\begin{quote}
+\textit{``The field is the torque. The vertex is the corner. They are the
+same lattice, read in two directions.''} --- Mondy Aurora Kish, 2026.
+\end{quote}
+ 
+\section{Where the Two Papers Meet}
+ 
+This paper and \emph{The Geometric Electron} are two readings of one
+substrate. The sister paper argues that the word ``electron'' was stretched
+across three distinct geometric phenomena: the structural vertex
+(chemistry), the kinematic disturbance (current), and the transitional
+reconfiguration (light). This paper is the natural home of the second of
+those three. Everything developed here --- what flows in a wire, why coils
+compound, how transformers transmit --- is the physics of the
+\emph{current electron}, which is the torsional wave.
+ 
+\begin{bridgebox}
+\textbf{The shared object, stated once, plainly.}\\[0.5em]
+\emph{The Geometric Electron} (mode 2 of its three-electron argument): the
+``current electron'' is not a particle in transit but a propagating lattice
+disturbance; the carriers barely move while the wave traverses the wire.\\[0.4em]
+\emph{The Orthogonal Torque} (this paper): current is a torsional
+disturbance of the lattice; the energy travels in the field around the
+conductor; the carriers are coupling points, not the cargo.\\[0.5em]
+These are the same claim, arrived at from two directions. The sister papers
+meet exactly here. And magnetism is the orthogonal reading of that same
+torsional wave --- which is why a current \emph{always} produces a magnetic
+field, and why the right-hand rule is geometry, not convention. One lattice.
+Two readings. The electron's kinematic mode and the magnetic field are the
+same torsion seen along the axis and across it.
+\end{bridgebox}
+ 
+\section{One Lattice, Two Readings}
+ 
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\small
+\begin{tabular}{|p{4.2cm}|p{4.0cm}|p{4.0cm}|}
+\hline
+\rowcolor{kishblue!10}
+\textbf{Phenomenon} & \textbf{The Orthogonal Torque reading} &
+\textbf{The Geometric Electron reading} \\
+\hline\hline
+Electron in an atom &
+A fixed torsion node anchoring the local lattice &
+Vertex of a standing-wave solid (structural mode) \\
+\hline
+Current in a wire &
+Torsional wave relieving linear shear &
+Propagating lattice disturbance (kinematic mode) \\
+\hline
+Magnetic field &
+Orthogonal torsion: the field \emph{is} the torque &
+Orthogonal expression of the kinematic mode \\
+\hline
+Light emission &
+Release of stored torsional tension into the lattice &
+Geometric reconfiguration (transitional mode) \\
+\hline
+Resistance / heat &
+Torsional mismatch dissipated as node vibration &
+Vertex disruption along the conduction path \\
+\hline
+\end{tabular}
+\caption{The two sister papers read one lattice from two directions. Every
+phenomenon appears in both, in complementary language. The current of this
+paper is the kinematic electron of the sister paper. Magnetism is the
+orthogonal reading of that same torsional wave. The papers do not compete;
+they triangulate one substrate.}
+\end{table}
+ 
+\begin{empiricalbox}
+\textbf{The shared empirical consequence (cross-paper convergence).}
+If the current electron and the magnetic field are one torsional wave read
+two ways, then the conduction/coil tests of this paper
+(P\_coil\_accumulation; the IGRF test P\_igrf\_harmonics from Chapter 4)
+and the kinematic-channel test of the sister paper
+(P\_electron\_triplicity, Channel B) should all land in the
+\emph{kinematic register family} ($16/\pi$). A confirmed kinematic-register
+signal appearing independently in conduction data, in magnetic field data,
+and in the electron's current-mode data would be three instruments
+measuring one torsional substrate --- the same multi-instrument convergence
+logic the KishLattice Star paper applied to LIGO and FRB. If they
+\emph{diverge}, that too is a finding and constrains the shared-substrate
+claim. Either way, the cross-paper prediction is itself falsifiable, which
+is the entire point.
+\end{empiricalbox}
+ 
+\section{The Danger We Choose}
+ 
+\oldworld{A model is safest when it explains and never predicts. An
+explanatory story can absorb any observation after the fact --- the field
+adds because fields add, the transformer works because flux links, the
+wire warms because electrons collide. Each is true, each is safe, and none
+can ever be wrong, because none was ever placed in front of a dataset that
+could contradict it before the fact.}
+ 
+\newworldcmd{This paper chose prediction over explanation at every turn.
+The pull-apart snap, the ferrofluid spacing, the IGRF harmonics, the coil
+accumulation --- each names a dataset, a unit, and a falsification condition
+\emph{before} the data is touched. Each can come back ``no.'' The torsion
+model can be wrong. The solenoid field may scalarise to nothing. The
+geomagnetic coefficients may show no register clustering at all.
+ 
+We have committed, in writing and in advance, to publishing whichever way
+the data points. That commitment is the whole difference between a
+mechanical substrate that earns its standing and a story that merely
+soothes. The standard model explains magnetism beautifully and has never
+once had to risk being wrong about its mechanism, because it never proposed
+a testable one. KishLattice proposes one, writes down how to break it, and
+walks to the data --- because being wrong is the only road that ever leads
+to being shown right.}
+ 
 % ==============================================================================
 \chapter{Conclusion: The Torsion Framework and Its Empirical Future}
 % ==============================================================================
@@ -1031,6 +1598,11 @@ if __name__ == "__main__":
 
 \section*{KishLattice Series}
 \begin{itemize}
+	\item Kish, T.~J., Kish, L.~A. \& Kish, M.~A. (2026).
+    \textit{The Geometric Electron: The Reclassification of the
+    Electron as a Lattice Vertex} (Sister Paper). Zenodo.
+    \url{https://doi.org/10.5281/zenodo.20838878}
+	
     \item Kish, T.~J. (2026). \textit{The Geometric Derivation of the
     Lattice} (Vol.~1). Zenodo.
     \url{https://doi.org/10.5281/zenodo.18209530}
@@ -1075,6 +1647,18 @@ if __name__ == "__main__":
 
     \item Jackson, J.~D. (1998). \textit{Classical Electrodynamics}
     (3rd ed.). Wiley.
+
+    \item Poynting, J.~H. (1884). On the Transfer of Energy in the
+    Electromagnetic Field. \textit{Philosophical Transactions of the
+    Royal Society of London}, 175, 343--361.
+    \url{https://doi.org/10.1098/rstl.1884.0016}
+
+    \item Drude, P. (1900). Zur Elektronentheorie der Metalle.
+    \textit{Annalen der Physik}, 306(3), 566--613.
+
+    \item Griffiths, D.~J. (2017). \textit{Introduction to
+    Electrodynamics} (4th ed.). Cambridge University Press.
+
 
     \item KishLattice GitHub Repository:
     \url{https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe}
