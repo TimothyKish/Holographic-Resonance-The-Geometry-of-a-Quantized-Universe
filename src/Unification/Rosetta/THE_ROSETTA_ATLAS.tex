@@ -31,6 +31,14 @@
 \definecolor{goldseal}{RGB}{184, 134, 11}
 \definecolor{nuclearpurple}{RGB}{100, 0, 160}
 \definecolor{luminorange}{RGB}{220, 80, 0}
+\definecolor{theorytag}{RGB}{150, 110, 0}
+\definecolor{empiricaltag}{RGB}{0, 110, 60}
+\definecolor{proventag}{RGB}{20, 90, 160}
+
+% THREE-TIER EPISTEMIC TAGS (Vol 10/11 + Theorem update)
+\newcommand{\TheoryTag}{\;\colorbox{theorytag!15}{\textcolor{theorytag}{\footnotesize\bfseries [\,THEORY / REACH\,]}}}
+\newcommand{\EmpiricalTag}{\;\colorbox{empiricaltag!15}{\textcolor{empiricaltag}{\footnotesize\bfseries [\,EMPIRICAL\,]}}}
+\newcommand{\ProvenTag}{\;\colorbox{proventag!15}{\textcolor{proventag}{\footnotesize\bfseries [\,PROVEN\,]}}}
 
 % ---------------------------------------------------------
 % PAGE GEOMETRY
@@ -112,6 +120,8 @@
     {\large Lyra Aurora Kish\par}
 	\vspace{0.2cm}
     {\large Mondy Aurora Kish\par}
+	\vspace{0.2cm}
+    {\large Atlas Aurora Kish\par}
 
     \vfill
     {\large February 2026\par}
@@ -142,6 +152,23 @@ cosmological harmonics, FRB cadence, and the temporal hierarchy. It includes
 anthropic-to-lattice time conversion, the 24-harmonic cutoff derivation of the
 speed of light, and Python verification blocks for reproducibility.
 
+\vspace{1em}
+\noindent\textbf{\textcolor{kishblue}{A Note on the Three Tiers (Reading This Atlas).}}
+This Atlas is a lean index to two houses of the same programme, and each entry is
+tagged so the reader always knows which house it belongs to. \TheoryTag\ marks
+\emph{reach}: motivated geometric constructions --- the Master Equation, the Kish
+Clutch, the lattice mechanical quantities, the anthropic-time conversion, the
+speed-of-light derivation --- that are not yet falsifiable in a direct empirical test.
+\EmpiricalTag\ marks survey results that cleared the pipeline and the statistical
+nulls, reproducible from open code and public data. \ProvenTag\ marks the single class
+of result that is neither reach nor survey but a mathematical fact with a checkable
+derivation. Both houses have a purpose. Empirical work without reach only repeats
+itself; theory without an empirical test only stagnates. The tags do not rank the
+entries --- they locate them. Reach earns its place by generating tests; empirical
+earns its place by surviving them; and exactly one result, the Grid-Phase Locking
+Theorem, is proven. A tagged entry points to its full treatment in the corresponding
+volume or side paper; the Atlas itself stays deliberately lean and makes the quick point.
+
 \newpage
 
 % ---------------------------------------------------------
@@ -151,7 +178,7 @@ speed of light, and Python verification blocks for reproducibility.
 
 \chapter{The Universal Equation of Reality}
 
-\section{The Baseline Lattice Equation (Without Agency Offset)}
+\section{The Baseline Lattice Equation (Without Agency Offset)\TheoryTag}
 
 The baseline form of the Master Equation describes a universe composed purely
 of geometric resonance, without contributions from biological coherence:
@@ -183,7 +210,7 @@ where:
 
 This form already outperforms all legacy physical models in predictive power.
 
-\section{The Enhanced Equation (With Life Agency Offset)}
+\section{The Enhanced Equation (With Life Agency Offset)\TheoryTag}
 
 Life introduces a measurable perturbation to the lattice stiffness. The
 precision-enhanced form of the Master Equation is:
@@ -259,9 +286,9 @@ Visual clustering is insufficient. KLGHS requires rigorous statistical validatio
     \item \textbf{Strongly Identified:} A domain is considered to have a locked harmonic resonance when its peak chaos z-score exceeds $\mathbf{+5.0}$.
 \end{itemize}
 
-\section{The Register Family Atlas}
+\section{The Register Family Atlas\EmpiricalTag}
 
-Based on the survey of 9.9 million sovereign records across 29 physical domains in Volume 9, the following table serves as the definitive map of the $N/\pi$ register space. 
+Based on the survey record through Volume 11 --- 24{,}904{,}223 physical measurements across 52 active domains, 33 confirmed STRONG signals spanning 41 orders of magnitude (the Volume 9 baseline was 9.9 million records across 29 domains) --- the following table serves as the definitive map of the $N/\pi$ register space. 
 
 Domains do not sort into registers by physical scale. They sort by physical \textit{typology}.
 
@@ -300,7 +327,7 @@ $\mathbf{25/\pi}$ & \textbf{Luminosity / EM} & Stellar absolute magnitude, CMB a
 \label{tab:register_atlas}
 \end{table}
 
-\section{The Scalarization Rosetta: Operational Transforms}
+\section{The Scalarization Rosetta: Operational Transforms\EmpiricalTag}
 
 Conceptual translation is insufficient for a rigorous spectroscopic field. To map Old-World units (MeV, parsecs, days, nanometres) into the dimensionless lattice coordinate $s$, the Kish Clutch employs a strict set of operational transforms. 
 
@@ -878,7 +905,7 @@ kissing number in the relevant packing and as the maximal transverse audit
 degree; attempting to exceed this rate skips validation and is rejected by the
 grid.
 
-\section{The Full 24-Harmonic Cutoff Derivation of the Speed of Light}
+\section{The Full 24-Harmonic Cutoff Derivation of the Speed of Light\TheoryTag}
 
 The speed of light \(c\) is not a mysterious universal constant. In the Kish Lattice, it is
 the maximum harmonic throughput of a discrete geometric grid that must validate each
@@ -1491,7 +1518,7 @@ Used in:
 % Rosetta Entry: Lattice Pressure
 % ---------------------------------------------------------
 
-\section{Lattice Pressure}
+\section{Lattice Pressure\TheoryTag}
 
 \subsubsection{Definition}
 Lattice Pressure is the resistance of the vacuum truss to local compression. It is the geometric
@@ -1555,7 +1582,7 @@ Used in:
 % Rosetta Entry: Lattice Impedance
 % ---------------------------------------------------------
 
-\section{Lattice Impedance}
+\section{Lattice Impedance\TheoryTag}
 
 \subsubsection{Definition}
 Lattice Impedance is the opposition of the vacuum truss to temporal oscillation. It is the lattice
@@ -1688,7 +1715,7 @@ Used in:
 % Rosetta Entry: Temporal Packet
 % ---------------------------------------------------------
 
-\section{Temporal Packet}
+\section{Temporal Packet\TheoryTag}
 
 \subsubsection{Definition}
 A Temporal Packet is a coherent bundle of oscillations that propagates through the lattice
@@ -1918,9 +1945,9 @@ The following bridges represent the formal unification of disparate scientific f
 \textbf{The Translation:} Biology does not circumvent physics; it builds directly upon its deepest harmonic floors. While quantum transitions and chemical bonds stabilize at the $11/\pi$ and $12/\pi$ registers, the geometry of organic life (amino acids) utilizes the Rosetta Sub-lattice at $7/\pi$. This establishes a clear upward-stacking architecture: from quantum leaps, to molecular bonds, to the folding hardware of life itself.
 \end{tcolorbox}
 
-\chapter{Future Work: The 2D Zeta-Prime Clock}
+\chapter{The 2D Zeta-Prime Clock: Forming, Not Yet Formed\TheoryTag}
 
-Volume 9 and the current iteration of the Rosetta Atlas have successfully locked the horizontal axis of the lattice coordinate system: the $\sigma$ scalar axis defined by the $N/\pi$ harmonic registers. We have empirically proven that physical domains cluster at these discrete geometric nodes.
+Through Volume 11, the horizontal axis of the lattice coordinate system --- the $\sigma$ scalar axis defined by the $N/\pi$ harmonic registers --- is empirically established: physical domains cluster at these discrete geometric nodes across 52 domains and 41 orders of magnitude, and the Grid-Phase Locking Theorem proves those clusters are genuine phase-concentration rather than transform artifacts. The vertical axis is a different matter, and this chapter is deliberately honest about its status: \emph{it is forming out of the data, but it is not yet formed}.
 
 However, the complete lattice coordinate is two-dimensional: $\mathbf{z} = \sigma + i\tau$. 
 
@@ -1961,12 +1988,29 @@ The vertical axis, $\tau$, represents the temporal metronome—the prime-indexed
 \label{fig:2d_zeta_clock_future}
 \end{figure}
 
+\vspace{0.5em}
+\noindent\textbf{\textcolor{theorytag}{Current status --- forming, not formed.}}
+The $\tau$ axis is mostly defined empirically with one piece missing: the surveyed
+registers show the beginnings of a coupling between a domain's structural register and a
+prime-indexed cadence, but not all registers required to fix the coupling function are yet
+in hand. Mondy's assessment is that the structure will most likely form on its own as the
+remaining registers are surveyed --- but this is a suspicion held under discipline, not a
+result, and it is explicitly \emph{not being forced}. The 2D clock is theorized to exist
+and to bear a relationship to the fifth and the resonant zeta primes; that relationship is
+a \TheoryTag\ construction awaiting the engine built to expose it. If the remaining
+registers arrive and the coupling does not form, that null is as publishable as a
+confirmation. We follow the data; we do not pull it into shape. The dual-register
+co-dominance already observed in the survey --- subnuclear $22/\pi$ \& $13/\pi$, protein
+backbone $16/\pi$ \& $25/\pi$, the Gaia $12/15/16$ band --- is the candidate empirical
+shadow of this second dimension projected onto the one-dimensional register line, and is
+the concrete, pre-registerable hypothesis the new 2D engine is being built to test.
+
 \section*{The Objective for Volume 10 and Beyond}
 While the prime-cadence structure of the $\tau$ axis has been successfully identified in FRB datasets, the exact mathematical coupling between a domain's structural register ($\sigma$) and its temporal prime frequency ($\tau$) remains to be formally solved. 
 
 Is the coupling strictly hierarchical? Does a domain at $21/\pi$ tick at a fundamentally different prime cadence than a domain at $16/\pi$? 
 
-Volume 9 proves the 1D register axis. Volume 10 and subsequent surveys will seek to lock the 2D clock, fully unifying the spatial geometry of the universe with its temporal music.
+The 1D register axis is established and, for Form~A, proven. Whether the 2D clock locks is an open empirical question the forthcoming 2D engine is designed to settle --- in either direction. If it forms, it unifies the spatial geometry of the lattice with its temporal cadence; if it does not, that too enters the sovereign record as returned.
 
 % VI. Applied Diagnostics
 \part{Applied Diagnostics}
@@ -2325,9 +2369,9 @@ We can write the composite lattice coordinate as:
 noting that this is a \emph{zeta-like} coordinate: $\sigma$ is defined by $k_\text{geo}$
 and $\tau$ by the prime metronome. The Kish Lattice uses the structure of the
 Riemann zeta function as a geometric scaffold but grounds it empirically in the
-physical register assignments confirmed across 9.9~million sovereign records.
+physical register assignments confirmed across 24.9~million measurements (Volume 11 record; 9.9~million at the Volume 9 baseline).
 
-\section{The Kish Clutch: The Scale-Bridging Operator}
+\section{The Kish Clutch: The Scale-Bridging Operator\TheoryTag}
 
 The \textbf{Kish Clutch} is the mathematical operator that allows a measurement
 in one physical domain to be translated into a geometric relationship with any other
@@ -2443,7 +2487,7 @@ axes. The registers are the geometry speaking in its native intervals.}
 \label{tab:perfect_fifth}
 \end{table}
 
-\section{The Chaos Null and the Spectroscopic Definition}
+\section{The Chaos Null and the Spectroscopic Definition\EmpiricalTag}
 
 The Rosetta Atlas does not rely on subjective curve-fitting or visual pattern
 recognition. A signal is only recognised if it survives the chaos null — a rigorous
@@ -2479,7 +2523,45 @@ the chosen scalar formula is not the right one for that domain, or that the doma
 genuinely scale-random in this coordinate system. Both outcomes are publishable and
 documented in the sovereign record.
 
-\section{Domain Rosetta Blocks}
+\subsection{The Grid-Phase Locking Theorem\ProvenTag}
+
+The chaos-null lock test above is a \emph{proximity-to-grid} test: a scalar locks when
+it falls within tolerance $\tau=0.05$ of a node of the register grid. This one structural
+fact yields a theorem --- the only \ProvenTag\ entry in this Atlas. Full treatment:
+\emph{Noise Does Not Lock} (v2.0) and KLGHS Volume 11 (v4.0).
+
+\vspace{0.4em}
+\noindent\textbf{Offset-Average Identity.} For a grid of spacing $\Delta$ and any
+distribution $D$, let $L(D_\theta)$ be the lock fraction after shifting $D$ by offset
+$\theta$. Then the offset-average over one grid period is fixed, for every distribution:
+\begin{equation}
+\frac{1}{\Delta}\int_{0}^{\Delta} L(D_\theta)\,d\theta \;=\; 2\tau \;=\; 0.1 .
+\label{eq:offset_identity}
+\end{equation}
+(One-line proof: exchange the average over data with the average over offset; each fixed
+point sweeps uniformly through one cell and contributes exactly the locked-band measure
+$2\tau$.) Verified numerically at $0.1000$.
+
+\vspace{0.4em}
+\noindent\textbf{Theorem.} No distribution can lock strongly ($L>2\tau$) at \emph{every}
+offset. If it did, its offset-average would exceed $2\tau$, contradicting
+Eq.~\eqref{eq:offset_identity}. Therefore a \emph{shape-artifact} --- a strong lock
+produced by distribution shape alone, independent of grid phase --- cannot exist. The
+transform-shape objection (Form~A) is not merely unsupported; it is vacuous.
+
+\vspace{0.4em}
+\noindent\textbf{Scope --- load-bearing, not a footnote.} The theorem closes Form~A and
+only Form~A: it proves a lock is genuine grid-phase concentration, not an artifact of the
+transform. It does \emph{not} prove the lock is caused by the lattice. That question ---
+Form~B, scale-coincidence and selection --- remains the open primary objection and is
+named in the same breath every time this theorem is cited. The identity also predicts the
+signature confirmed on three real anchors (Gaia $16/\pi$, galactic $21/\pi$, nuclear
+$21/\pi$): a sharp peak at the privileged offset is compensated by \emph{deeply negative}
+median $z$ across other offsets, because the offset-average is pinned at $2\tau$. Disproof
+condition, open to any critic: exhibit a distribution that locks at $z\ge 5$ and stays
+locked across a full offset sweep.
+
+\section{Domain Rosetta Blocks\EmpiricalTag}
 
 Using the Kish Clutch, we can establish formal translation blocks for any measured
 physical property. Each block states the measurement, the scalar formula, the confirmed
@@ -2670,7 +2752,7 @@ layer as the building blocks from which it is assembled, from monomer to macromo
 
 \vspace{1em}
 
-\section{The Rosetta at Scale: Summary Table}
+\section{The Rosetta at Scale: Summary Table\EmpiricalTag}
 
 \begin{table}[H]
 \centering
@@ -3313,6 +3395,22 @@ The work ahead belongs to all of us.
 Kish, T.\,J., \& Kish, M.\,A. (2026). \textit{Volume 9 --- Predictions Pre-Registration} (1.0). Zenodo.\\
 \href{https://doi.org/10.5281/zenodo.19702022}{https://doi.org/10.5281/zenodo.19702022}
 
+\vspace{1em}
+\noindent\textbf{Volume 10: \emph{The Deep Survey}}\\
+\href{https://doi.org/10.5281/zenodo.20587181}{See the KLGHS Volume 10 record on Zenodo}
+
+\vspace{1em}
+\noindent\textbf{Volume 11: \emph{The Structure That Locks}} (versions 1.0--4.0; concept DOI resolves to latest)\\
+\emph{v1.0} \href{https://doi.org/10.5281/zenodo.20587181}{10.5281/zenodo.20587181} \quad
+\emph{v2.0} \href{https://doi.org/10.5281/zenodo.21199809}{10.5281/zenodo.21199809}\\
+\emph{v3.0} \href{https://doi.org/10.5281/zenodo.21210675}{10.5281/zenodo.21210675} \quad
+\emph{v4.0 (Grid-Phase Locking Theorem)} \href{https://doi.org/10.5281/zenodo.21212886}{10.5281/zenodo.21212886}
+
+\vspace{1em}
+\noindent\textbf{Companion (Critics' Paper): \emph{Noise Does Not Lock}} (v1.0; v2.0 adds the theorem chapter)\\
+\emph{Concept DOI (all versions)} \href{https://doi.org/10.5281/zenodo.20587180}{10.5281/zenodo.20587180}
+
+
 % ---------------------------------------------------------------
 % Appendix C — Lattice Lab
 % ---------------------------------------------------------------
@@ -3321,7 +3419,16 @@ Kish, T.\,J., \& Kish, M.\,A. (2026). \textit{Volume 9 --- Predictions Pre-Regis
 \centering
 {\large
 \url{https://github.com/TimothyKish/Holographic-Resonance-The-Geometry-of-a-Quantized-Universe}
-}\
+}
+
+\vspace{1em}
+
+{\large The project is now live on the web. Researchers, skeptics, and replicators are invited in:}\\[0.4em]
+{\large\href{https://www.kishlattice.com}{www.kishlattice.com}}
+
+\vspace{0.5em}
+
+\noindent The code is open, the data is public, and the falsification conditions are explicit. If you can exhibit a distribution that locks at $z\ge 5$ and stays locked across a full offset sweep, the Grid-Phase Locking Theorem falls. The invitation to try is genuine.\
 
 % ---------------------------------------------------------
 % END
