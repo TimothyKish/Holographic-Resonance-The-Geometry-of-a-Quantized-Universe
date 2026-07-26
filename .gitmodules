@@ -7,3 +7,6 @@
 [submodule "src/KishLattice_Star"]
 	path = src/KishLattice_Star
 	url = https://github.com/TimothyKish/KishLattice_Star.git
+[submodule "src/The_Sister_Papers"]
+	path = src/The_Sister_Papers
+	url = https://github.com/TimothyKish/The_Sister_Papers.git
