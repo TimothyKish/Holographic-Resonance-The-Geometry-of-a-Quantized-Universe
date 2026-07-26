@@ -10,3 +10,6 @@
 [submodule "src/The_Sister_Papers"]
 	path = src/The_Sister_Papers
 	url = https://github.com/TimothyKish/The_Sister_Papers.git
+[submodule "src/Proof_Form_A_Closed"]
+	path = src/Proof_Form_A_Closed
+	url = https://github.com/TimothyKish/Proof_Form_A_Closed.git
