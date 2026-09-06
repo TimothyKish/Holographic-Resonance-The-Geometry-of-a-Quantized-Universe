@@ -13,3 +13,6 @@
 [submodule "src/Proof_Form_A_Closed"]
 	path = src/Proof_Form_A_Closed
 	url = https://github.com/TimothyKish/Proof_Form_A_Closed.git
+[submodule "src/vol12"]
+	path = src/vol12
+	url = https://github.com/TimothyKish/vol12.git
