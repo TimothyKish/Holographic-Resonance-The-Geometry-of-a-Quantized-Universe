@@ -743,6 +743,168 @@ All drag, resonance, slipstream, and collapse phenomena trace back to this modul
 Offset--$\pi$ tests (15/$\pi$, 16/$\pi$, 17/$\pi$) empirically confirm that only 16/$\pi$ produces universal stability.
 
 
+
+% ==============================================================================
+% DROP-IN: THE LATTICE ENERGY EQUATION AND THE DERIVATION OF f
+% Insert after the section "Resonance, Drag, and Slipstream" (the slipstream
+% material), where f as the slipstream factor is discussed qualitatively. This
+% section supplies the quantitative definition, ported from Volume 13 Chapter 5.
+% Matches Atlas voice: declarative subsections, \TheoryTag / \ProvenTag,
+% plain \[...\] display math.
+% ==============================================================================
+\section{The Lattice Energy Equation and the Derivation of $f$\ProvenTag}
+
+Earlier forms of this Atlas carried the Lattice Energy of a mass $m$ at radius
+$r$ as
+\[
+E_{\text{lat}} = \left(\frac{16}{\pi}\right)\!\left(\frac{m}{r^2}\right) f,
+\]
+with $f$ named --- but not defined --- as the ``slipstream factor.'' Volume~13
+closed this gap by derivation rather than assertion. That derivation is ported
+here as the canonical definition, and the ambiguity is retired.
+
+\subsection{The Problem $f$ Posed}
+
+A dimensional audit fixes the requirement: $E_{\text{lat}}$ is an energy only if
+$f$ carries dimensions $[L^4][T^{-2}]$. But the word ``slipstream,'' used
+everywhere else in this Atlas, denotes a \emph{dimensionless} drag factor bounded
+on $[0,1]$. The two readings are incompatible, and a third --- $f$ as a stand-in
+for the gravitational constant --- fails because the pure number $16/\pi$ cannot
+carry the dimensions of $G$. As long as $f$ absorbed whatever the equation
+required, the Master Equation's energy form was underdetermined.
+
+\subsection{The One Postulate That Resolves It}
+
+Dimensional analysis alone cannot fix the radial power: since $\ell_{\text{cell}}/r$
+is dimensionless, $f = \ell_{\text{cell}}^2 c^2 (\ell_{\text{cell}}/r)^n$ satisfies
+the dimensions for every $n$. A geometric principle is required, and the lattice
+already supplies it.
+
+\begin{quote}
+\textbf{Postulate.} The lattice bulk is four-dimensional in space. This is stated
+throughout the corpus --- the mapping of a 4D hypercube onto a cyclic time loop ---
+it is embodied in the 24-cell, a four-dimensional regular polytope, and it is
+already used in the mode count $N_{\text{total}} = d^2 = 4^2 = 16$ that produces
+the modulus itself.
+\end{quote}
+
+\subsection{The Derivation, by Gauss's Law in Four Dimensions}
+
+For a point source of strength $Q$ in $d$ spatial dimensions, flux conservation
+through the enclosing $(d{-}1)$-sphere gives the field, and its integral gives the
+potential:
+\[
+E(r) = \frac{Q}{\Omega_{d-1}\,r^{\,d-1}},
+\qquad
+V(r) = \frac{Q}{(d-2)\,\Omega_{d-1}}\cdot\frac{1}{r^{\,d-2}}
+\quad (d \neq 2),
+\]
+where $\Omega_{d-1}$ is the surface measure of the unit $(d{-}1)$-sphere. For the
+four-dimensional bulk, $d=4$ and $\Omega_3 = 2\pi^2$:
+\[
+V(r) = \frac{Q}{4\pi^2\,r^2}.
+\]
+\textbf{The potential of a point source in four spatial dimensions falls as
+$1/r^2$} --- exactly the form of the Lattice Energy equation. The radial power is
+$n=0$, derived rather than assumed. With the source strength set by the lattice
+scale, $Q = \kappa\,m\,\ell_{\text{cell}}^2 c^2$, the interaction energy is
+\[
+E_{\text{lat}} = m\,V(r)
+= \frac{\kappa}{4\pi^2}\;m c^2 \left(\frac{\ell_{\text{cell}}}{r}\right)^2,
+\]
+and matching the Atlas coefficient $16/\pi$ fixes the dimensionless coupling:
+\[
+\frac{\kappa}{4\pi^2} = \frac{16}{\pi}
+\qquad\Longrightarrow\qquad
+\boxed{\;\kappa = 64\pi = 4\,N_{\text{total}}\,\Phi_{\text{cycle}}\;}
+\]
+--- four times the metric-component count times the cyclic phase.
+
+\subsection{The Canonical Form}
+
+The Lattice Energy equation is therefore, with $f$ now defined:
+\[
+\boxed{\;
+E_{\text{lat}}
+= \frac{16}{\pi}\,m c^2 \left(\frac{\ell_{\text{cell}}}{r}\right)^2,
+\qquad
+f = \ell_{\text{cell}}^2\,c^2\;
+\;}
+\]
+The name ``slipstream factor'' attaches properly to the separate,
+phenomenological drag term $F(d,T)$ that modulates resonant motion --- not to
+$f$, which is the geometric carrier derived above.
+
+\subsection{The Cost, Stated Plainly\TheoryTag}
+
+The derivation is honest only if its price is stated as clearly as its result.
+We observe \emph{three} spatial dimensions, and both gravity and electrostatics
+fall as $1/r$, not $1/r^2$. \textbf{A $1/r^2$ lattice energy therefore cannot be
+the interaction measured at ordinary scales.} It can only be a bulk quantity
+whose projection onto the three-dimensional boundary recovers $1/r$ --- and that
+bulk-to-boundary projection is the framework's central open problem. The
+holographic language of the corpus gestures at it; it does not yet perform it.
+
+The framework has thus traded a \emph{vague} gap for a \emph{precise} one: from an
+undefined $f$ and an unfixed radial power, to a derived $f = \ell_{\text{cell}}^2 c^2$,
+a derived $n=0$, a derived coupling $\kappa = 64\pi$, and one well-posed open
+question a competent theorist can attack.
+
+\subsection{$\ell_{\text{cell}}$ Is a Postulate, Not a Result\TheoryTag}
+
+Every input to the modulus is dimensionless: the mode count $N_{\text{total}}=16$,
+the cyclic phase $\Phi_{\text{cycle}}=\pi$, the 24-cell packing. \textbf{No length
+can be derived from dimensionless inputs.} The cell spacing $\ell_{\text{cell}}$
+is therefore imported, not derived --- it is set to the Planck length by postulate,
+which brings $\hbar$, $G$, and $c$ in from outside the framework. This is not a
+defect peculiar to the lattice; every discrete-spacetime programme faces it. It
+must be stated as a postulate, and it is now stated as one.
+
+% ------------------------------------------------------------------------------
+\section{Errata Against Earlier Atlas Forms\ProvenTag}
+
+The derivation above supersedes three earlier statements in this Atlas. They are
+recorded rather than silently overwritten, in keeping with the programme's
+practice of publishing its corrections.
+
+\subsection{Erratum RA--1: The Newtonian Analogy}
+
+Earlier text described the Lattice Energy as ``mirroring Newton's $F = Gm/r^2$.''
+This is withdrawn. $Gm/r^2$ is a field with the dimensions of acceleration,
+compared against an energy; gravitational potential energy scales as $1/r$, not
+$1/r^2$; and $G$ carries dimensions while $16/\pi$ is a pure number, making the
+stated substitution dimensionally impossible. The Lattice Energy is a
+four-dimensional point-source potential, not a gravitational analogue, and
+$16/\pi$ does not replace $G$.
+
+\subsection{Erratum RA--2: The Unit-Dependent Cell Spacing}
+
+The chain $c = \ell_{\text{cell}} f_{24}$ with $f_{24}$ fixed to a laboratory
+frequency implies a cell spacing of order $10^7$~m, in conflict with the Planck
+identification by roughly forty-two orders of magnitude. That chain privileges the
+second --- a caesium-hyperfine human convention --- and is therefore
+unit-dependent. It is withdrawn. The relation $c = \ell_{\text{cell}} f_{24}$
+remains a valid \emph{factorisation} of $c$ once $\ell_{\text{cell}}$ is fixed by
+postulate, but it does not by itself \emph{derive} the value of $c$: one equation
+in two unknowns fixes neither.
+
+\subsection{Erratum RA--3: ``Only $16/\pi$ Produces Universal Stability''}
+
+Earlier text asserted that offset-$\pi$ tests confirm ``only $16/\pi$ produces
+universal stability.'' This overstates the empirical record and is corrected. The
+degeneracy result of Volume~12 established that the register index and the modulus
+enter the lock statistic only through their product, so a modulus scan and a
+register scan trace the same one-parameter family --- the data can identify a
+preferred product, not a preferred coordinate. And the first clean modulus sweep
+against tens of thousands of alternatives, on amino-acid bond lengths in
+Volume~13, found $16/\pi$ \emph{not} privileged: a randomly chosen modulus matched
+or beat it in the majority of cases. \textbf{The specific value $16/\pi$ rests on
+the geometric derivation --- the mode count $N_{\text{total}}/\Phi_{\text{cycle}}
+= 16/\pi$ --- not on an empirical demonstration that it uniquely produces
+stability.} That derivation is the claim; the empirical uniqueness assertion is
+withdrawn.
+
+
 \subsection{Temporal Hierarchy}
 
 The lattice supports a hierarchy of temporal scales:
